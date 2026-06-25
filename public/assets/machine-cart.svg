@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" role="img" aria-labelledby="title">
+  <title id="title">商用推车式高压清洗机示意图</title>
+  <defs>
+    <linearGradient id="metal" x1="0" x2="1">
+      <stop offset="0" stop-color="#dce7ec"/>
+      <stop offset=".55" stop-color="#8a99a6"/>
+      <stop offset="1" stop-color="#ecf4f8"/>
+    </linearGradient>
+    <linearGradient id="redWheel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff4d4f"/>
+      <stop offset="1" stop-color="#a80f1a"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="410" cy="485" rx="340" ry="34" fill="#0b1118" opacity=".18"/>
+  <g fill="none" stroke="url(#metal)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M138 393h510"/>
+    <path d="M206 392 290 164h311"/>
+    <path d="M603 164 668 393"/>
+    <path d="M290 164c-20-90 24-135 82-105"/>
+    <path d="M601 163c16-83 68-101 111-53"/>
+  </g>
+  <path d="M265 232h317l52 99H212z" fill="#dce6eb" stroke="#6d7884" stroke-width="10"/>
+  <path d="M295 256h244l22 43H279z" fill="#f8fafc"/>
+  <text x="325" y="289" fill="#d72432" font-family="Arial, sans-serif" font-size="34" font-weight="900">G150TL</text>
+  <rect x="252" y="323" width="192" height="80" rx="16" fill="#222c35"/>
+  <rect x="450" y="320" width="126" height="90" rx="14" fill="#e7eef3"/>
+  <rect x="463" y="335" width="92" height="34" rx="6" fill="#334155"/>
+  <path d="M205 366h118" stroke="#c18b1b" stroke-width="34" stroke-linecap="round"/>
+  <path d="M180 344h94" stroke="#d6a33a" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="182" cy="429" r="52" fill="url(#redWheel)" stroke="#161b22" stroke-width="13"/>
+  <circle cx="182" cy="429" r="18" fill="#f9fafb"/>
+  <circle cx="629" cy="429" r="58" fill="url(#redWheel)" stroke="#161b22" stroke-width="13"/>
+  <circle cx="629" cy="429" r="20" fill="#f9fafb"/>
+  <g stroke="#fff" stroke-width="8" opacity=".55">
+    <path d="M629 371v116"/>
+    <path d="m588 388 82 82"/>
+    <path d="M571 429h116"/>
+    <path d="m588 470 82-82"/>
+  </g>
+</svg>

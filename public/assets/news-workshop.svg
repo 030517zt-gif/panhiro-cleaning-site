@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="title">
+  <title id="title">车间配置示意图</title>
+  <rect width="900" height="540" fill="#f1f5f8"/>
+  <path d="M0 355h900v185H0z" fill="#d6dde4"/>
+  <path d="M80 110h740v270H80z" fill="#fff"/>
+  <path d="M132 158h188v160H132zm256 0h188v160H388zm256 0h124v160H644z" fill="#26313c"/>
+  <path d="M157 336h580" stroke="#8a96a3" stroke-width="30" stroke-linecap="round"/>
+  <path d="M210 268h170l38 68H172z" fill="#e7eef3" stroke="#2d3844" stroke-width="8"/>
+  <circle cx="190" cy="356" r="36" fill="#db2835"/>
+  <circle cx="420" cy="356" r="36" fill="#db2835"/>
+</svg>

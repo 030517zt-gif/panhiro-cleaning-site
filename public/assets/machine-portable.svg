@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" role="img" aria-labelledby="title">
+  <title id="title">便携式高压清洗机示意图</title>
+  <defs>
+    <linearGradient id="body" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef6fb"/>
+      <stop offset="0.55" stop-color="#b8c8d6"/>
+      <stop offset="1" stop-color="#738190"/>
+    </linearGradient>
+    <linearGradient id="pump" x1="0" x2="1">
+      <stop offset="0" stop-color="#0e1217"/>
+      <stop offset="1" stop-color="#29313b"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#06101a" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <ellipse cx="410" cy="480" rx="310" ry="36" fill="#0b1118" opacity=".18"/>
+  <g filter="url(#shadow)">
+    <path d="M232 166h356c45 0 78 35 72 78l-28 184c-5 31-33 55-66 55H220c-43 0-76-36-70-78l26-183c5-32 29-56 56-56z" fill="url(#body)"/>
+    <path d="M246 157c8-62 38-93 91-93h134c54 0 88 31 99 93h-55c-9-28-25-41-50-41H348c-25 0-41 13-49 41z" fill="#f5fbff"/>
+    <path d="M256 285h190c15 0 26 12 24 27l-17 99H224l15-103c2-13 9-23 17-23z" fill="#202a34"/>
+    <path d="M466 303h120l-13 74H454z" fill="#fff"/>
+    <path d="M491 328h55l-4 20h-55z" fill="#2f8ed8"/>
+    <path d="M246 411h218l-6 25H239z" fill="#6a7580"/>
+    <g fill="url(#pump)">
+      <rect x="127" y="326" width="115" height="88" rx="14"/>
+      <circle cx="150" cy="344" r="11" fill="#b4c2cc"/>
+      <circle cx="183" cy="344" r="11" fill="#b4c2cc"/>
+      <circle cx="216" cy="344" r="11" fill="#b4c2cc"/>
+      <circle cx="150" cy="381" r="11" fill="#b4c2cc"/>
+      <circle cx="183" cy="381" r="11" fill="#b4c2cc"/>
+      <circle cx="216" cy="381" r="11" fill="#b4c2cc"/>
+    </g>
+    <circle cx="271" cy="257" r="32" fill="#dce9ef" stroke="#637080" stroke-width="10"/>
+    <rect x="424" y="215" width="52" height="48" rx="4" fill="#13202a"/>
+    <rect x="432" y="223" width="22" height="32" rx="2" fill="#16a34a"/>
+    <rect x="456" y="223" width="12" height="32" rx="2" fill="#db2835"/>
+    <path d="M585 251h65c16 0 29 13 29 29s-13 29-29 29h-77z" fill="#27313c"/>
+    <path d="M617 282h122" stroke="#9da8b3" stroke-width="20" stroke-linecap="round"/>
+    <path d="M727 282h52" stroke="#151b22" stroke-width="24" stroke-linecap="round"/>
+    <text x="500" y="395" fill="#e1333e" font-family="Arial, sans-serif" font-size="62" font-weight="900">V1</text>
+  </g>
+</svg>

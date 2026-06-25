@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 96" role="img" aria-labelledby="title">
+  <title id="title">JETWELL 清洁装备</title>
+  <defs>
+    <linearGradient id="logoBlue" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#37b7ff"/>
+      <stop offset="1" stop-color="#0b6ec8"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="14" width="72" height="68" rx="10" fill="url(#logoBlue)"/>
+  <path d="M24 60c18-1 27-10 39-28 3 19-2 34-15 44-8 5-18 4-24-2z" fill="#fff"/>
+  <path d="M35 34h30l-7 10H28z" fill="#101824"/>
+  <text x="98" y="46" fill="#fff" font-family="Arial, sans-serif" font-size="34" font-weight="900" letter-spacing="2">JETWELL</text>
+  <text x="100" y="72" fill="#9fb3c8" font-family="Arial, sans-serif" font-size="16" font-weight="700">CLEANING EQUIPMENT</text>
+</svg>

@@ -1,0 +1,9 @@
+name = "panhiro-cleaning-site"
+compatibility_date = "2026-06-24"
+pages_build_output_dir = "public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cleaning_site"
+database_id = "7a33be61-2fcc-4c8d-bec7-b9e7159964a0"
+preview_database_id = "7a33be61-2fcc-4c8d-bec7-b9e7159964a0"

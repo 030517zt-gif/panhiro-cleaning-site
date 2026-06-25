@@ -1,0 +1,17 @@
+{
+  "name": "panhiro-cloudflare-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "preview:static": "python -m http.server 5173 -d public",
+    "deploy": "wrangler pages deploy public --project-name panhiro-cleaning-site",
+    "db:init:local": "wrangler d1 execute cleaning_site --local --file=./migrations/0001_init.sql",
+    "db:init:remote": "wrangler d1 execute cleaning_site --remote --file=./migrations/0001_init.sql",
+    "check": "node --check public/app.js && node --check public/admin.js && node --check public/subpage.js && node --check public/subpage-data.js && node --check functions/api/products/index.js && node --check functions/api/products/[id].js && node --check functions/api/news/index.js && node --check functions/api/news/[id].js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.22.0"
+  }
+}

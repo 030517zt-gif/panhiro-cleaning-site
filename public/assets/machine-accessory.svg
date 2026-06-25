@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" role="img" aria-labelledby="title">
+  <title id="title">高压清洗机配件示意图</title>
+  <defs>
+    <linearGradient id="hose" x1="0" x2="1">
+      <stop offset="0" stop-color="#101820"/>
+      <stop offset="1" stop-color="#4a5663"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="410" cy="485" rx="300" ry="32" fill="#0b1118" opacity=".16"/>
+  <path d="M176 342c0-98 75-178 168-178s168 80 168 178-75 178-168 178-168-80-168-178z" fill="none" stroke="url(#hose)" stroke-width="46"/>
+  <path d="M246 342c0-58 44-104 98-104s98 46 98 104-44 104-98 104-98-46-98-104z" fill="none" stroke="#6c7784" stroke-width="28"/>
+  <path d="M486 246h180c30 0 54 24 54 54v31h-91l-42-40H486z" fill="#121922"/>
+  <path d="M622 331h94v42h-94z" fill="#28313b"/>
+  <path d="M716 352h52" stroke="#d5a436" stroke-width="24" stroke-linecap="round"/>
+  <path d="M760 352h34" stroke="#111820" stroke-width="18" stroke-linecap="round"/>
+  <path d="M511 290h85l30 78h-52l-16-42h-47z" fill="#d5a436"/>
+  <rect x="119" y="147" width="186" height="64" rx="32" fill="#e8f0f4"/>
+  <rect x="263" y="166" width="250" height="28" rx="14" fill="#8a96a3"/>
+  <circle cx="133" cy="332" r="38" fill="#eef5f8" stroke="#111820" stroke-width="12"/>
+  <circle cx="133" cy="332" r="15" fill="#2f8ed8"/>
+</svg>

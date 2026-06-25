@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="title">
+  <title id="title">生产线示意图</title>
+  <rect width="900" height="540" fill="#111820"/>
+  <path d="M0 390h900v150H0z" fill="#202a34"/>
+  <path d="M70 115h760v210H70z" fill="#2d3844"/>
+  <path d="M110 150h190v130H110zm240 0h190v130H350zm240 0h190v130H590z" fill="#dce7ec"/>
+  <path d="M140 250h620" stroke="#37b7ff" stroke-width="18" stroke-linecap="round"/>
+  <path d="M160 355h540" stroke="#8d9aa6" stroke-width="38" stroke-linecap="round"/>
+  <circle cx="220" cy="355" r="42" fill="#111820" stroke="#d72432" stroke-width="10"/>
+  <circle cx="500" cy="355" r="42" fill="#111820" stroke="#d72432" stroke-width="10"/>
+  <circle cx="680" cy="355" r="42" fill="#111820" stroke="#d72432" stroke-width="10"/>
+</svg>

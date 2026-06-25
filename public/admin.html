@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>后台管理中心 | Panhiro 高压清洗设备</title>
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href="/assets/panhiro-logo-site.png" type="image/png" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page="admin">
+    <main class="admin-shell">
+      <aside class="admin-side">
+        <a class="brand admin-brand" href="/index.html">
+          <img src="/assets/panhiro-logo-hd.png" alt="Panhiro" />
+        </a>
+        <div class="admin-side-copy">
+          <span>CONTENT STUDIO</span>
+          <p>面向员工使用的产品与新闻发布中心，统一管理图片、文案、分类和发布状态。</p>
+        </div>
+        <nav>
+          <button type="button" class="active" data-admin-tab="products">产品发布台</button>
+          <button type="button" data-admin-tab="news">新闻发布台</button>
+          <a href="/index.html">返回官网首页</a>
+        </nav>
+        <div class="admin-side-note">
+          <strong>当前说明</strong>
+          <p>本地预览模式会保存到浏览器。部署到 Cloudflare 后，会自动写入线上数据库。</p>
+        </div>
+      </aside>
+
+      <section class="admin-main">
+        <div class="admin-top">
+          <div>
+            <p class="eyebrow">CMS CONTROL</p>
+            <h1>Panhiro 内容后台</h1>
+            <p class="admin-lead">这里不是技术后台，而是给发布人员直接使用的工作台。上传图片、编辑产品词条、写文章、设为首页展示，都在一个清晰界面里完成。</p>
+          </div>
+          <div class="token-panel">
+            <label class="token-box">
+              <span>管理员 Token</span>
+              <input type="password" data-token-input placeholder="部署后填写 Cloudflare ADMIN_TOKEN" />
+            </label>
+            <p class="token-tip">没有配置 Token 时，仍可先在本地预览和练习发布流程。</p>
+          </div>
+        </div>
+
+        <p class="admin-status" data-admin-status>正在读取内容...</p>
+        <section class="admin-overview" data-admin-overview></section>
+
+        <section class="admin-panel active" data-panel="products">
+          <div class="admin-panel-head">
+            <div>
+              <p class="eyebrow">PRODUCT STUDIO</p>
+              <h2>产品发布台</h2>
+            </div>
+            <div class="admin-primary-actions">
+              <button class="btn ghost light" type="button" data-product-create>新建产品</button>
+            </div>
+          </div>
+
+          <div class="studio-layout">
+            <form class="admin-form studio-editor" data-product-form>
+              <input type="hidden" name="id" />
+              <input type="hidden" name="slug" />
+              <input type="hidden" name="image_url" />
+
+              <div class="studio-form-head">
+                <div>
+                  <span class="studio-kicker">PRODUCT EDITOR</span>
+                  <h3 data-product-form-title>新建产品</h3>
+                  <p data-product-form-subtitle>填写产品名称、分类、图片、规格词条和展示状态，系统会自动生成页面地址。</p>
+                </div>
+                <div class="studio-form-badges">
+                  <span class="admin-chip">自动生成链接</span>
+                  <span class="admin-chip">支持图片上传</span>
+                  <span class="admin-chip">词条自定义</span>
+                </div>
+              </div>
+
+              <section class="editor-section">
+                <div class="section-headline">
+                  <div>
+                    <strong>基础信息</strong>
+                    <p>员工只需要填写看得懂的业务字段。</p>
+                  </div>
+                </div>
+                <div class="editor-grid">
+                  <label class="field-span-2">
+                    <span>产品名称</span>
+                    <input name="name" required placeholder="例如：220V Portable Household High Pressure Washer" />
+                  </label>
+                  <label>
+                    <span>产品分类</span>
+                    <input name="category" list="product-categories" required placeholder="可直接输入新的分类名称" />
+                  </label>
+                  <label>
+                    <span>一句话卖点</span>
+                    <input name="tagline" required placeholder="例如：适合家用和门店轻商用的便携高压清洗机" />
+                  </label>
+                  <label class="field-span-2">
+                    <span>详细介绍</span>
+                    <textarea name="description" rows="6" required placeholder="用客户能看懂的话描述用途、优势、适用场景和合作价值。"></textarea>
+                  </label>
+                </div>
+              </section>
+
+              <section class="editor-section">
+                <div class="section-headline">
+                  <div>
+                    <strong>产品图片</strong>
+                    <p>把图片拖进来、点一下上传，或者粘贴现成链接都可以，操作尽量像发素材一样简单。</p>
+                  </div>
+                </div>
+                <div class="image-input-grid">
+                  <div class="image-picker upload-stack">
+                    <div class="upload-dropzone" data-product-dropzone>
+                      <input type="file" accept="image/*" data-product-image-file />
+                      <span class="dropzone-kicker">PRODUCT IMAGE</span>
+                      <strong>拖拽图片到这里，或点按钮上传</strong>
+                      <p>支持常见图片格式，上传后会立刻在右侧预览。</p>
+                      <div class="upload-actions">
+                        <button class="btn dark" type="button" data-product-image-pick>选择图片</button>
+                        <span class="upload-file-name" data-product-image-name>还没有选择文件</span>
+                      </div>
+                    </div>
+                    <label>
+                      <span>或者填写图片链接</span>
+                      <input type="url" data-product-image-url placeholder="/assets/cnryce/example.jpg 或 https://..." />
+                    </label>
+                  </div>
+                  <div class="image-preview-card">
+                    <span>图片预览</span>
+                    <div class="image-preview-frame">
+                      <img data-product-image-preview alt="产品图片预览" />
+                    </div>
+                    <div class="image-preview-actions">
+                      <button class="admin-mini-button" type="button" data-product-image-clear>清空图片</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="editor-section">
+                <div class="section-headline">
+                  <div>
+                    <strong>规格词条</strong>
+                    <p>每个产品都可以用自己的词条，不再要求员工写 JSON。先点常用词条，再按产品情况补充就行。</p>
+                  </div>
+                  <button class="admin-mini-button" type="button" data-product-add-spec>新增词条</button>
+                </div>
+                <div class="spec-suggestion-row" data-product-spec-suggestions></div>
+                <div class="spec-builder" data-product-spec-rows></div>
+              </section>
+
+              <section class="editor-section">
+                <div class="section-headline">
+                  <div>
+                    <strong>展示与发布</strong>
+                    <p>控制排序、首页展示和是否对外发布。</p>
+                  </div>
+                </div>
+                <div class="editor-grid compact-grid">
+                  <label>
+                    <span>排序序号</span>
+                    <input name="sort_order" type="number" value="0" placeholder="数字越小越靠前" />
+                  </label>
+                  <label class="switch-field">
+                    <input name="is_featured" type="checkbox" />
+                    <div>
+                      <strong>首页重点展示</strong>
+                      <p>勾选后可进入首页重点产品区。</p>
+                    </div>
+                  </label>
+                  <label class="switch-field">
+                    <input name="published" type="checkbox" checked />
+                    <div>
+                      <strong>立即发布</strong>
+                      <p>关闭后只保存草稿，不对外显示。</p>
+                    </div>
+                  </label>
+                </div>
+              </section>
+
+              <div class="form-actions studio-actions">
+                <button class="btn primary" type="submit">保存产品</button>
+                <button class="btn ghost light" type="reset" data-product-reset>清空当前表单</button>
+              </div>
+            </form>
+
+            <aside class="content-library">
+              <div class="content-library-head">
+                <div>
+                  <span class="studio-kicker">PRODUCT LIBRARY</span>
+                  <h3>产品库</h3>
+                  <p>新建、草稿、已发布和首页重点产品都在这里集中管理，编辑时不会再挤在右边一条里。</p>
+                </div>
+                <span class="library-count" data-product-count></span>
+              </div>
+              <div class="library-toolbar">
+                <label class="admin-search wide-search">
+                  <span>搜索产品</span>
+                  <input type="search" data-product-search placeholder="按名称、分类、卖点搜索" />
+                </label>
+                <div class="filter-pills" data-product-filters>
+                  <button type="button" class="active" data-product-filter="all">全部</button>
+                  <button type="button" data-product-filter="published">已发布</button>
+                  <button type="button" data-product-filter="draft">草稿</button>
+                  <button type="button" data-product-filter="featured">首页重点</button>
+                </div>
+              </div>
+              <div class="admin-table content-list" data-product-admin-list></div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="admin-panel" data-panel="news">
+          <div class="admin-panel-head">
+            <div>
+              <p class="eyebrow">NEWS STUDIO</p>
+              <h2>新闻发布台</h2>
+            </div>
+            <div class="admin-primary-actions">
+              <button class="btn ghost light" type="button" data-news-create>新建文章</button>
+            </div>
+          </div>
+
+          <div class="studio-layout">
+            <form class="admin-form studio-editor" data-news-form>
+              <input type="hidden" name="id" />
+              <input type="hidden" name="slug" />
+              <input type="hidden" name="image_url" />
+
+              <div class="studio-form-head">
+                <div>
+                  <span class="studio-kicker">NEWS EDITOR</span>
+                  <h3 data-news-form-title>新建文章</h3>
+                  <p data-news-form-subtitle>标题、分类、封面、摘要、正文都用自然语言填写，系统自动整理成文章页。</p>
+                </div>
+                <div class="studio-form-badges">
+                  <span class="admin-chip">自动摘要辅助</span>
+                  <span class="admin-chip">文章专属页面</span>
+                  <span class="admin-chip">封面可上传</span>
+                </div>
+              </div>
+
+              <section class="editor-section">
+                <div class="section-headline">
+                  <div>
+                    <strong>文章基础信息</strong>
+                    <p>让发布人员先把客户看到的内容填完整。</p>
+                  </div>
+                </div>
+                <div class="editor-grid">
+                  <label class="field-span-2">
+                    <span>文章标题</span>
+                    <input name="title" required placeholder="例如：Panhiro 完成新一批高压清洗机交付准备" />
+                  </label>
+                  <label>
+                    <span>文章分类</span>
+                    <input name="category" list="news-categories" required placeholder="可直接输入新分类" />
+                  </label>
+                  <label>
+                    <span>发布日期</span>
+                    <input name="published_at" type="date" required />
+                  </label>
+                  <label class="field-span-2">
+                    <span>摘要</span>
+                    <textarea name="excerpt" rows="4" placeholder="这里是新闻列表页和文章页顶部会看到的摘要。留空时系统会按正文自动生成。"></textarea>
+                  </label>
+                  <label class="field-span-2">
+                    <span>正文内容</span>
+                    <textarea class="content-editor" name="content" rows="14" required placeholder="建议分段输入正文内容。每一段之间空一行，文章页会自动整理排版。"></textarea>
+                  </label>
+                </div>
+                <div class="admin-inline-actions">
+                  <button type="button" class="admin-mini-button" data-generate-excerpt>根据正文自动生成摘要</button>
+                </div>
+              </section>
+
+              <section class="editor-section">
+                <div class="section-headline">
+                  <div>
+                    <strong>文章封面</strong>
+                    <p>支持拖拽上传本地图片，或者粘贴外部链接，减少来回找上传入口。</p>
+                  </div>
+                </div>
+                <div class="image-input-grid">
+                  <div class="image-picker upload-stack">
+                    <div class="upload-dropzone" data-news-dropzone>
+                      <input type="file" accept="image/*" data-news-image-file />
+                      <span class="dropzone-kicker">NEWS COVER</span>
+                      <strong>拖拽封面到这里，或点按钮上传</strong>
+                      <p>上传后会直接在右侧看到封面效果，方便员工确认。</p>
+                      <div class="upload-actions">
+                        <button class="btn dark" type="button" data-news-image-pick>选择封面</button>
+                        <span class="upload-file-name" data-news-image-name>还没有选择文件</span>
+                      </div>
+                    </div>
+                    <label>
+                      <span>或者填写封面链接</span>
+                      <input type="url" data-news-image-url placeholder="/assets/news-cover.jpg 或 https://..." />
+                    </label>
+                  </div>
+                  <div class="image-preview-card">
+                    <span>封面预览</span>
+                    <div class="image-preview-frame cover-preview">
+                      <img data-news-image-preview alt="文章封面预览" />
+                    </div>
+                    <div class="image-preview-actions">
+                      <button class="admin-mini-button" type="button" data-news-image-clear>清空封面</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="editor-section">
+                <div class="section-headline">
+                  <div>
+                    <strong>发布状态</strong>
+                    <p>草稿和正式发布可以直接切换。</p>
+                  </div>
+                </div>
+                <div class="editor-grid compact-grid">
+                  <label class="switch-field">
+                    <input name="published" type="checkbox" checked />
+                    <div>
+                      <strong>立即发布</strong>
+                      <p>关闭后保存为草稿，不会在前台显示。</p>
+                    </div>
+                  </label>
+                </div>
+              </section>
+
+              <div class="form-actions studio-actions">
+                <button class="btn primary" type="submit">保存文章</button>
+                <button class="btn ghost light" type="reset" data-news-reset>清空当前表单</button>
+              </div>
+            </form>
+
+            <aside class="content-library">
+              <div class="content-library-head">
+                <div>
+                  <span class="studio-kicker">NEWS LIBRARY</span>
+                  <h3>文章库</h3>
+                  <p>文章不再只是右侧一列，统一按状态和时间整理，方便员工快速继续编辑和发布。</p>
+                </div>
+                <span class="library-count" data-news-count></span>
+              </div>
+              <div class="library-toolbar">
+                <label class="admin-search wide-search">
+                  <span>搜索文章</span>
+                  <input type="search" data-news-search placeholder="按标题、分类、日期搜索" />
+                </label>
+                <div class="filter-pills" data-news-filters>
+                  <button type="button" class="active" data-news-filter="all">全部</button>
+                  <button type="button" data-news-filter="published">已发布</button>
+                  <button type="button" data-news-filter="draft">草稿</button>
+                </div>
+              </div>
+              <div class="admin-table content-list" data-news-admin-list></div>
+            </aside>
+          </div>
+        </section>
+      </section>
+
+      <datalist id="product-categories">
+        <option>Washing Machine</option>
+        <option>car washing series</option>
+        <option>Car Washing T Series</option>
+        <option>Industrial Series</option>
+        <option>Permanent Magnet Series</option>
+        <option>Vacuum Cleaner</option>
+        <option>Washer Plunger Pumps</option>
+        <option>Washer Pressure Pipe</option>
+        <option>Spray Gun For Cleaning</option>
+        <option>Foam Gun</option>
+        <option>Washer Adapter</option>
+      </datalist>
+
+      <datalist id="news-categories">
+        <option>公司动态</option>
+        <option>产品资讯</option>
+        <option>企业实力</option>
+      </datalist>
+    </main>
+
+    <script src="/admin.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+.wrangler/
+.playwright-cli/
+.codex-cnryce-check/
+.codex-panhiro-check/
+output/
+node_modules/
+*.log

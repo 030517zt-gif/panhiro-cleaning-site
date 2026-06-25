@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="title">
+  <title id="title">测试中心示意图</title>
+  <rect width="900" height="540" fill="#101824"/>
+  <path d="M94 98h712v344H94z" fill="#1d2732" stroke="#42505e" stroke-width="14"/>
+  <circle cx="267" cy="270" r="100" fill="#2e3a47"/>
+  <path d="M267 270 318 207" stroke="#37b7ff" stroke-width="14" stroke-linecap="round"/>
+  <path d="M197 328a100 100 0 1 1 140 0" fill="none" stroke="#dce7ec" stroke-width="18" stroke-linecap="round"/>
+  <path d="M467 190h220v42H467zm0 90h280v42H467zm0 90h180v42H467z" fill="#dce7ec"/>
+  <circle cx="730" cy="210" r="22" fill="#16a34a"/>
+  <circle cx="790" cy="300" r="22" fill="#db2835"/>
+</svg>
