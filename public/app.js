@@ -23,6 +23,121 @@ const CATEGORY_ALIASES = {
   "RY Series": "Industrial Series",
   "PW Series": "Permanent Magnet Series"
 };
+const PRODUCT_CATEGORY_ZH = {
+  "Washing Machine": "清洗机",
+  "car washing series": "洗车机系列",
+  "Car Washing T Series": "T 系列洗车机",
+  "Industrial Series": "工业系列",
+  "Permanent Magnet Series": "永磁系列",
+  "RY Series": "工业系列",
+  "PW Series": "永磁系列",
+  "Vacuum Cleaner": "吸尘器",
+  "Washer Plunger Pumps": "清洗机柱塞泵",
+  "Washer Pressure Pipe": "清洗机高压管",
+  "Spray Gun For Cleaning": "清洗喷枪",
+  "Foam Gun": "泡沫枪",
+  "Washer Adapter": "清洗机转接头"
+};
+const PRODUCT_TERM_TRANSLATIONS = [
+  ["high pressure drain pipe cleaner machine", "高压管道疏通清洗机"],
+  ["high pressure car washer machine", "高压洗车机"],
+  ["high pressure cleaning machine", "高压清洗机"],
+  ["high pressure washer pump head", "高压清洗机泵头"],
+  ["washer plunger pump", "清洗机柱塞泵"],
+  ["triplex plunger pump", "三缸柱塞泵"],
+  ["commercial pressure washer", "商用高压清洗机"],
+  ["industrial pressure washer", "工业高压清洗机"],
+  ["portable commercial high pressure washer", "便携商用高压清洗机"],
+  ["portable household high pressure washer", "便携家用高压清洗机"],
+  ["household high quality induction motor electric high pressure car washer", "家用高品质感应电机电动高压洗车机"],
+  ["hand held electric high pressure water cleaner", "手持式电动高压清洗机"],
+  ["handheld commercial high pressure washer", "手持商用高压清洗机"],
+  ["handheld high pressure jet spray cleaner", "手持高压喷射清洗机"],
+  ["handheld high power industrial vacuum cleaner", "手持大功率工业吸尘器"],
+  ["industrial vacuum cleaner", "工业吸尘器"],
+  ["vacuum cleaner", "吸尘器"],
+  ["woodworking dust collector", "木工集尘器"],
+  ["dust collector", "集尘器"],
+  ["foam blaster", "泡沫喷壶"],
+  ["foam spray gun", "泡沫喷枪",
+  ],
+  ["foam gun", "泡沫枪"],
+  ["water spray gun", "水枪"],
+  ["spray gun", "喷枪"],
+  ["high pressure gun", "高压喷枪"],
+  ["adjustable foam gun", "可调泡沫枪"],
+  ["adjustable water spray gun", "可调水枪"],
+  ["high pressure hose", "高压软管"],
+  ["sewer cleaning hose", "管道疏通软管"],
+  ["hydraulic hose", "液压软管"],
+  ["garden hose", "花园水管"],
+  ["rubberized water hose", "包胶水管"],
+  ["hose extension", "延长软管"],
+  ["quick connector", "快接头"],
+  ["threaded pipe fittings", "螺纹管件"],
+  ["hose adapter", "软管转接头"],
+  ["pressure washer hose adapter", "清洗机软管转接头"],
+  ["washer adapter", "清洗机转接头"],
+  ["connector", "接头"],
+  ["adapter", "转接头"],
+  ["pump head", "泵头"],
+  ["pump", "泵"],
+  ["high pressure washer", "高压清洗机"],
+  ["pressure washer", "高压清洗机"],
+  ["car washer", "洗车机"],
+  ["car washing", "洗车"],
+  ["high pressure", "高压"],
+  ["cleaning machine", "清洗机"],
+  ["cleaner machine", "清洗机"],
+  ["cleaner", "清洁设备"],
+  ["washing equipment", "清洗设备"],
+  ["washing machine", "清洗机"],
+  ["portable", "便携式"],
+  ["handheld", "手持式"],
+  ["hand-held", "手持式"],
+  ["commercial", "商用"],
+  ["industrial", "工业"],
+  ["household", "家用"],
+  ["electric", "电动"],
+  ["gasoline", "汽油"],
+  ["diesel", "柴油"],
+  ["automatic", "自动"],
+  ["permanent magnet", "永磁"],
+  ["induction motor", "感应电机"],
+  ["copper winding", "铜线电机"],
+  ["all copper wire", "全铜线"],
+  ["brass", "黄铜"],
+  ["stainless steel", "不锈钢"],
+  ["flexible", "柔性"],
+  ["heavy duty", "重型"],
+  ["heavy-duty", "重型"],
+  ["new design", "新款设计"],
+  ["new model", "新款"],
+  ["technology", "技术型"],
+  ["professional", "专业"],
+  ["small size", "小型"],
+  ["small", "小型"],
+  ["multi-functional", "多功能"],
+  ["multi functional", "多功能"],
+  ["fully automatic shutdown", "全自动停机"],
+  ["automatic shutdown", "自动停机"],
+  ["pure copper", "纯铜"],
+  ["cold water", "冷水"],
+  ["water cleaning", "水清洁"],
+  ["cleaning washer", "清洗机"],
+  ["for car bike home cleaning", "适用于汽车、摩托车和家庭清洁"],
+  ["for car bike and car washer", "适用于汽车、摩托车和洗车场景"],
+  ["for car shop watering garden", "适用于洗车店和花园浇灌"],
+  ["for homeuse", "家用"],
+  ["homeuse", "家用"],
+  ["taizhou factory", "台州工厂"]
+];
+const SPEC_LABELS_ZH = {
+  Category: "分类",
+  Power: "功率",
+  Pressure: "压力",
+  Flow: "流量"
+};
 const NEWS_CATEGORY_LABELS = {
   en: {
     "公司动态": "Company News",
@@ -145,6 +260,60 @@ function displayTagline(product) {
 
 function categoryLabel(category) {
   return CATEGORY_LABELS[category] || category;
+}
+
+function hasChinese(value) {
+  return /[\u4e00-\u9fff]/.test(String(value || ""));
+}
+
+function productCategoryLabel(category) {
+  if (state.lang !== "zh") return categoryLabel(category);
+  return PRODUCT_CATEGORY_ZH[category] || PRODUCT_CATEGORY_ZH[categoryLabel(category)] || category;
+}
+
+function translateProductCopy(value) {
+  let text = String(value || "");
+  if (!text || hasChinese(text)) return text;
+  PRODUCT_TERM_TRANSLATIONS.forEach(([source, target]) => {
+    text = text.replace(new RegExp(source.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi"), target);
+  });
+  return text
+    .replace(/\bfor\b/gi, "适用于")
+    .replace(/\bwith\b/gi, "配备")
+    .replace(/\band\b/gi, "和")
+    .replace(/\bnew\b/gi, "新款")
+    .replace(/\s+/g, " ")
+    .replace(/\s*([，。；：、])\s*/g, "$1")
+    .trim();
+}
+
+function localizeSpecs(specs) {
+  if (state.lang !== "zh") return specs;
+  return Object.fromEntries(Object.entries(specs).map(([key, value]) => [
+    SPEC_LABELS_ZH[key] || translateProductCopy(key),
+    translateProductCopy(value)
+  ]));
+}
+
+function localizeProduct(product) {
+  if (state.lang !== "zh") {
+    return {
+      ...product,
+      category: categoryLabel(product.category),
+      tagline: displayTagline(product),
+      specs: product.specs
+    };
+  }
+  return {
+    ...product,
+    name: translateProductCopy(product.name),
+    category: productCategoryLabel(product.category),
+    tagline: /CNRYCE product catalog/i.test(product.tagline || "")
+      ? categoryTagline(product.category)
+      : translateProductCopy(product.tagline || categoryTagline(product.category)),
+    description: translateProductCopy(product.description),
+    specs: localizeSpecs(product.specs)
+  };
 }
 
 function canonicalCategory(category) {
@@ -440,7 +609,8 @@ async function loadContent() {
 }
 
 function productCard(product) {
-  const specs = Object.entries(product.specs)
+  const localized = localizeProduct(product);
+  const specs = Object.entries(localized.specs)
     .slice(0, 4)
     .map(([key, value]) => `<span>${escapeHTML(key)}：${escapeHTML(value)}</span>`)
     .join("");
@@ -449,12 +619,12 @@ function productCard(product) {
   return `
     <a class="product-card" href="${href}" data-product-id="${escapeHTML(product.id)}">
       <div class="product-visual">
-        <img src="${escapeHTML(product.image_url)}" alt="${escapeHTML(product.name)}" loading="lazy" />
+        <img src="${escapeHTML(product.image_url)}" alt="${escapeHTML(localized.name)}" loading="lazy" />
       </div>
       <div class="product-body">
-        <span class="tag">${escapeHTML(categoryLabel(product.category))}</span>
-        <h3>${escapeHTML(product.name)}</h3>
-        <p>${escapeHTML(displayTagline(product))}</p>
+        <span class="tag">${escapeHTML(localized.category)}</span>
+        <h3>${escapeHTML(localized.name)}</h3>
+        <p>${escapeHTML(localized.tagline)}</p>
         <div class="spec-list">${specs}</div>
       </div>
     </a>
@@ -524,7 +694,7 @@ function productMatchesCategory(product, category) {
 function renderTabs(container, products, onChange, initial = "全部") {
   if (!container) return;
   container.innerHTML = uniqueCategories(products)
-    .map((category) => `<button type="button" class="${category === initial ? "active" : ""}" data-category="${escapeHTML(category)}">${escapeHTML(category === "全部" ? (state.lang === "en" ? "All" : "全部") : categoryLabel(category))}</button>`)
+    .map((category) => `<button type="button" class="${category === initial ? "active" : ""}" data-category="${escapeHTML(category)}">${escapeHTML(category === "全部" ? (state.lang === "en" ? "All" : "全部") : productCategoryLabel(category))}</button>`)
     .join("");
   container.addEventListener("click", (event) => {
     const button = event.target.closest("button");

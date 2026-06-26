@@ -12,6 +12,103 @@ const aliases = {
 };
 const requested = aliases[params.get("page")] || params.get("page") || FALLBACK_PAGE;
 const legacyProductPages = new Set(["products", "vk-y1", "vk-1010-p4", "vk-1011", "ph-0885", "ph-0995", "p4-p5"]);
+const PRODUCT_CATEGORY_ZH = {
+  "Washing Machine": "清洗机",
+  "car washing series": "洗车机系列",
+  "Car Washing T Series": "T 系列洗车机",
+  "Industrial Series": "工业系列",
+  "Permanent Magnet Series": "永磁系列",
+  "RY Series": "工业系列",
+  "PW Series": "永磁系列",
+  "Vacuum Cleaner": "吸尘器",
+  "Washer Plunger Pumps": "清洗机柱塞泵",
+  "Washer Pressure Pipe": "清洗机高压管",
+  "Spray Gun For Cleaning": "清洗喷枪",
+  "Foam Gun": "泡沫枪",
+  "Washer Adapter": "清洗机转接头"
+};
+const PRODUCT_TERM_TRANSLATIONS = [
+  ["high pressure drain pipe cleaner machine", "高压管道疏通清洗机"],
+  ["high pressure car washer machine", "高压洗车机"],
+  ["high pressure cleaning machine", "高压清洗机"],
+  ["high pressure washer pump head", "高压清洗机泵头"],
+  ["washer plunger pump", "清洗机柱塞泵"],
+  ["triplex plunger pump", "三缸柱塞泵"],
+  ["commercial pressure washer", "商用高压清洗机"],
+  ["industrial pressure washer", "工业高压清洗机"],
+  ["portable commercial high pressure washer", "便携商用高压清洗机"],
+  ["portable household high pressure washer", "便携家用高压清洗机"],
+  ["handheld commercial high pressure washer", "手持商用高压清洗机"],
+  ["handheld high pressure jet spray cleaner", "手持高压喷射清洗机"],
+  ["handheld high power industrial vacuum cleaner", "手持大功率工业吸尘器"],
+  ["industrial vacuum cleaner", "工业吸尘器"],
+  ["vacuum cleaner", "吸尘器"],
+  ["woodworking dust collector", "木工集尘器"],
+  ["dust collector", "集尘器"],
+  ["foam blaster", "泡沫喷壶"],
+  ["foam spray gun", "泡沫喷枪"],
+  ["foam gun", "泡沫枪"],
+  ["water spray gun", "水枪"],
+  ["spray gun", "喷枪"],
+  ["high pressure gun", "高压喷枪"],
+  ["high pressure hose", "高压软管"],
+  ["sewer cleaning hose", "管道疏通软管"],
+  ["hydraulic hose", "液压软管"],
+  ["garden hose", "花园水管"],
+  ["quick connector", "快接头"],
+  ["threaded pipe fittings", "螺纹管件"],
+  ["hose adapter", "软管转接头"],
+  ["washer adapter", "清洗机转接头"],
+  ["connector", "接头"],
+  ["adapter", "转接头"],
+  ["pump head", "泵头"],
+  ["pump", "泵"],
+  ["high pressure washer", "高压清洗机"],
+  ["pressure washer", "高压清洗机"],
+  ["car washer", "洗车机"],
+  ["high pressure", "高压"],
+  ["cleaning machine", "清洗机"],
+  ["cleaner machine", "清洗机"],
+  ["cleaner", "清洁设备"],
+  ["washing equipment", "清洗设备"],
+  ["washing machine", "清洗机"],
+  ["portable", "便携式"],
+  ["handheld", "手持式"],
+  ["hand-held", "手持式"],
+  ["commercial", "商用"],
+  ["industrial", "工业"],
+  ["household", "家用"],
+  ["electric", "电动"],
+  ["gasoline", "汽油"],
+  ["diesel", "柴油"],
+  ["automatic", "自动"],
+  ["permanent magnet", "永磁"],
+  ["induction motor", "感应电机"],
+  ["copper winding", "铜线电机"],
+  ["brass", "黄铜"],
+  ["stainless steel", "不锈钢"],
+  ["flexible", "柔性"],
+  ["heavy duty", "重型"],
+  ["heavy-duty", "重型"],
+  ["new design", "新款设计"],
+  ["new model", "新款"],
+  ["professional", "专业"],
+  ["small size", "小型"],
+  ["multi-functional", "多功能"],
+  ["fully automatic shutdown", "全自动停机"],
+  ["automatic shutdown", "自动停机"],
+  ["pure copper", "纯铜"],
+  ["cold water", "冷水"],
+  ["water cleaning", "水清洁"],
+  ["cleaning washer", "清洗机"],
+  ["taizhou factory", "台州工厂"]
+];
+const SPEC_LABELS_ZH = {
+  Category: "分类",
+  Power: "功率",
+  Pressure: "压力",
+  Flow: "流量"
+};
 
 if (legacyProductPages.has(requested)) {
   window.location.replace("/product.html");
@@ -75,6 +172,60 @@ function categoryLabel(category) {
     "RY Series": "Industrial Series",
     "PW Series": "Permanent Magnet Series"
   }[category] || category;
+}
+
+function hasChinese(value) {
+  return /[\u4e00-\u9fff]/.test(String(value || ""));
+}
+
+function productCategoryLabel(category) {
+  if (lang !== "zh") return categoryLabel(category);
+  return PRODUCT_CATEGORY_ZH[category] || PRODUCT_CATEGORY_ZH[categoryLabel(category)] || category;
+}
+
+function translateProductCopy(value) {
+  let text = String(value || "");
+  if (!text || hasChinese(text)) return text;
+  PRODUCT_TERM_TRANSLATIONS.forEach(([source, target]) => {
+    text = text.replace(new RegExp(source.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi"), target);
+  });
+  return text
+    .replace(/\bfor\b/gi, "适用于")
+    .replace(/\bwith\b/gi, "配备")
+    .replace(/\band\b/gi, "和")
+    .replace(/\bnew\b/gi, "新款")
+    .replace(/\s+/g, " ")
+    .replace(/\s*([，。；：、])\s*/g, "$1")
+    .trim();
+}
+
+function localizeSpecs(specs) {
+  if (lang !== "zh") return specs;
+  return Object.fromEntries(Object.entries(specs).map(([key, value]) => [
+    SPEC_LABELS_ZH[key] || translateProductCopy(key),
+    translateProductCopy(value)
+  ]));
+}
+
+function localizeProduct(product) {
+  if (lang !== "zh") {
+    return {
+      ...product,
+      category: categoryLabel(product.category),
+      tagline: displayTagline(product),
+      specs: product.specs
+    };
+  }
+  return {
+    ...product,
+    name: translateProductCopy(product.name),
+    category: productCategoryLabel(product.category),
+    tagline: /CNRYCE product catalog/i.test(product.tagline || "")
+      ? categoryTagline(product.category)
+      : translateProductCopy(product.tagline || categoryTagline(product.category)),
+    description: translateProductCopy(product.description),
+    specs: localizeSpecs(product.specs)
+  };
 }
 
 function categoryTagline(category) {
@@ -312,20 +463,21 @@ function localizeSubpage(pageKey, source) {
 
 const pageKey = SUBPAGES[requested] ? requested : currentProduct || currentArticle ? requested : FALLBACK_PAGE;
 const article = currentArticle ? localizeNews(currentArticle) : null;
+const productDetail = currentProduct ? localizeProduct(currentProduct) : null;
 const data = currentProduct
   ? {
       group: lang === "en" ? "Product Center" : "产品中心",
-      title: currentProduct.name,
-      summary: displayTagline(currentProduct),
-      code: categoryLabel(currentProduct.category),
+      title: productDetail.name,
+      summary: productDetail.tagline,
+      code: productDetail.category,
       image: currentProduct.image_url,
-      imageAlt: currentProduct.name,
-      sectionTitle: currentProduct.name,
-      description: currentProduct.description,
-      points: Object.entries(currentProduct.specs).map(([key, value]) => `${key}: ${value}`),
+      imageAlt: productDetail.name,
+      sectionTitle: productDetail.name,
+      description: productDetail.description,
+      points: Object.entries(productDetail.specs).map(([key, value]) => `${key}: ${value}`),
       cards: lang === "en"
         ? [
-            ["01", categoryLabel(currentProduct.category), "This product has been imported according to the reference site category structure and the image has been downloaded to the local asset directory."],
+            ["01", productDetail.category, "This product has been imported according to the reference site category structure and the image has been downloaded to the local asset directory."],
             ["02", "Product Files", "Detailed specifications, application scenarios, packaging information and inquiry notes can continue to be managed from the admin panel."],
             ["03", "Contact", "For quotations or product files, please contact sales@panhiro.net."]
           ]
