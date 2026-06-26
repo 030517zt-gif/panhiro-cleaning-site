@@ -13,13 +13,20 @@ const state = {
   productQuery: "",
   newsQuery: "",
   productFilter: "all",
-  newsFilter: "all"
+  newsFilter: "all",
+  activePanel: "products",
+  dirty: {
+    products: false,
+    news: false
+  },
+  lastSavedAt: ""
 };
 
 const isStaticPreview = location.protocol === "file:" || ["5173", "5174"].includes(location.port);
 
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
+let toastTimer = null;
 const PRODUCT_SPEC_TEMPLATES = {
   "Washing Machine": ["Model", "Power", "Pressure", "Flow", "Voltage", "Application"],
   "car washing series": ["Model", "Power", "Pressure", "Flow", "Hose Length", "Application"],
@@ -108,9 +115,133 @@ function matchesQuery(value, query) {
 
 function status(message, tone = "info") {
   const box = $("[data-admin-status]");
-  if (!box) return;
-  box.textContent = message;
-  box.dataset.tone = tone;
+  if (box) {
+    box.textContent = message;
+    box.dataset.tone = tone;
+  }
+  updateCommandBar(message, tone);
+  notify(message, tone);
+}
+
+function statusHTML(markup, tone = "info") {
+  const box = $("[data-admin-status]");
+  if (box) {
+    box.innerHTML = markup;
+    box.dataset.tone = tone;
+  }
+  const text = box ? box.textContent.trim() : markup.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  updateCommandBar(text, tone);
+  notify(text, tone);
+}
+
+function relativeTime(value) {
+  if (!value) return "尚未保存";
+  const seconds = Math.max(0, Math.round((Date.now() - new Date(value).getTime()) / 1000));
+  if (seconds < 10) return "刚刚";
+  if (seconds < 60) return `${seconds} 秒前`;
+  const minutes = Math.round(seconds / 60);
+  if (minutes < 60) return `${minutes} 分钟前`;
+  return new Date(value).toLocaleString("zh-CN", { hour12: false });
+}
+
+function currentPanelLabel() {
+  return state.activePanel === "news" ? "新闻中心" : "产品中心";
+}
+
+function updateCommandBar(message = "", tone = "info") {
+  const bar = $("[data-admin-command]");
+  if (!bar) return;
+  const mode = state.apiAvailable ? "D1 数据库" : "本地预览";
+  const dirty = state.dirty[state.activePanel];
+  bar.dataset.tone = dirty ? "warning" : tone;
+  bar.innerHTML = `
+    <div class="command-copy">
+      <span>${currentPanelLabel()} / ${mode}</span>
+      <strong>${dirty ? "有未保存修改" : message || "准备就绪"}</strong>
+    </div>
+    <div class="command-meta">
+      <span>${state.lastSavedAt ? `上次保存 ${relativeTime(state.lastSavedAt)}` : "等待首次保存"}</span>
+      <a href="/index.html" target="_blank" rel="noopener">预览官网</a>
+    </div>
+  `;
+}
+
+function setDirty(panel, dirty = true) {
+  state.dirty[panel] = dirty;
+  updateCommandBar();
+}
+
+function markSaved() {
+  state.lastSavedAt = new Date().toISOString();
+  setDirty(state.activePanel, false);
+}
+
+function notify(message, tone = "info") {
+  if (!message) return;
+  let toast = $("[data-admin-toast]");
+  if (!toast) {
+    toast = document.createElement("div");
+    toast.className = "admin-toast";
+    toast.setAttribute("data-admin-toast", "");
+    toast.setAttribute("role", "status");
+    toast.setAttribute("aria-live", "polite");
+    document.body.append(toast);
+  }
+  toast.textContent = message;
+  toast.dataset.tone = tone;
+  toast.classList.add("is-visible");
+  window.clearTimeout(toastTimer);
+  toastTimer = window.setTimeout(() => {
+    toast.classList.remove("is-visible");
+  }, tone === "error" ? 6800 : 4200);
+}
+
+function friendlyError(error) {
+  const message = String(error?.message || error || "");
+  if (message.includes("ADMIN_TOKEN is not configured")) {
+    return "后台管理员 Token 还没有在 Cloudflare 配置。请先设置 ADMIN_TOKEN，或者本地开发时在 .dev.vars 里配置 ADMIN_TOKEN。";
+  }
+  if (message.includes("Unauthorized")) {
+    return "管理员 Token 不正确，内容没有保存。请重新输入正确 Token 后再提交。";
+  }
+  if (message.includes("Failed to fetch")) {
+    return "请求没有发出去，请检查局域网服务是否还在运行。";
+  }
+  return message || "操作失败，请稍后再试。";
+}
+
+function setFormBusy(form, busy, label = "Saving...") {
+  const button = form?.querySelector("button[type='submit']");
+  if (!button) return;
+  if (!button.dataset.idleLabel) button.dataset.idleLabel = button.textContent;
+  button.disabled = busy;
+  button.classList.toggle("is-busy", busy);
+  button.textContent = busy ? label : button.dataset.idleLabel;
+}
+
+function recordUrl(item) {
+  return `/subpage.html?page=${encodeURIComponent(item.slug || item.id)}`;
+}
+
+function showSavedStatus(type, item, isUpdate, isRemote) {
+  const label = type === "product" ? "产品" : "文章";
+  const action = isUpdate ? "已更新" : "已创建";
+  const mode = isRemote ? "已写入 Cloudflare D1 数据库" : "已保存到当前浏览器预览";
+  const href = recordUrl(item);
+  markSaved();
+  statusHTML(
+    `<strong>${label}${action}，${mode}。</strong><a href="${escapeHTML(href)}" target="_blank" rel="noopener">打开详情页</a>`,
+    "success"
+  );
+}
+
+function readImageAsDataUrl(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onerror = () => reject(new Error("Image read failed. Please choose the file again."));
+    reader.onload = () => resolve(String(reader.result || ""));
+    reader.readAsDataURL(file);
+  });
 }
 
 async function api(path, options = {}) {
@@ -175,16 +306,21 @@ function renderOverview() {
   const featuredProducts = state.products.filter((item) => item.is_featured).length;
   const totalNews = state.news.length;
   const publishedNews = state.news.filter((item) => item.published).length;
+  const draftProducts = state.products.filter((item) => !item.published).length;
+  const draftNews = state.news.filter((item) => !item.published).length;
+  updateNavBadges({ totalProducts, totalNews });
   root.innerHTML = [
     overviewCard("内容总量", `${totalProducts + totalNews}`, "产品与动态合计"),
-    overviewCard("产品数量", `${totalProducts}`, `${featuredProducts} 个首页展示`),
-    overviewCard("新闻数量", `${totalNews}`, `${publishedNews} 条已发布`),
-    overviewCard("运行模式", state.apiAvailable ? "Cloudflare D1" : "Local Preview", state.apiAvailable ? "线上数据库" : "浏览器本地存储")
+    overviewCard("产品数量", `${totalProducts}`, `${featuredProducts} 个首页展示 / ${draftProducts} 个草稿`),
+    overviewCard("新闻数量", `${totalNews}`, `${publishedNews} 条已发布 / ${draftNews} 个草稿`),
+    overviewCard("运行模式", state.apiAvailable ? "Cloudflare D1" : "Local Preview", state.apiAvailable ? "线上数据库已连接" : "浏览器本地存储")
   ].join("");
+  updateCommandBar();
 }
 
 function productItem(item) {
   const updatedLabel = new Date(item.updated_at || Date.now()).toISOString().slice(0, 10);
+  const href = recordUrl(item);
   return `
     <div class="admin-item" data-record-id="${escapeHTML(item.id)}">
       <img src="${escapeHTML(item.image_url)}" alt="${escapeHTML(item.name)}" />
@@ -201,6 +337,7 @@ function productItem(item) {
       </div>
       <div class="admin-actions">
         <button type="button" data-edit-product="${escapeHTML(item.id)}">继续编辑</button>
+        <a href="${escapeHTML(href)}" target="_blank" rel="noopener">预览</a>
         <button type="button" class="danger" data-delete-product="${escapeHTML(item.id)}">删除</button>
       </div>
     </div>
@@ -209,6 +346,7 @@ function productItem(item) {
 
 function newsItem(item) {
   const updatedLabel = new Date(item.updated_at || item.published_at || Date.now()).toISOString().slice(0, 10);
+  const href = recordUrl(item);
   return `
     <div class="admin-item" data-record-id="${escapeHTML(item.id)}">
       <img src="${escapeHTML(item.image_url)}" alt="${escapeHTML(item.title)}" />
@@ -224,6 +362,7 @@ function newsItem(item) {
       </div>
       <div class="admin-actions">
         <button type="button" data-edit-news="${escapeHTML(item.id)}">继续编辑</button>
+        <a href="${escapeHTML(href)}" target="_blank" rel="noopener">预览</a>
         <button type="button" class="danger" data-delete-news="${escapeHTML(item.id)}">删除</button>
       </div>
     </div>
@@ -458,15 +597,18 @@ function syncImageInput(form, options) {
     syncUploadName(fileName, value ? label : "");
   };
 
-  const readFile = (file) => {
+  const readFile = async (file) => {
     if (!file) return;
-    const reader = new FileReader();
-    reader.onload = () => {
-      const dataUrl = String(reader.result || "");
+    syncUploadName(fileName, `Reading: ${file.name}`);
+    try {
+      const dataUrl = await readImageAsDataUrl(file);
       if (urlInput) urlInput.value = dataUrl;
       applyValue(dataUrl, file.name || fallbackLabel);
-    };
-    reader.readAsDataURL(file);
+      status("图片已选择，预览已更新。点击保存后才会正式写入内容。", "success");
+    } catch (error) {
+      applyValue("", fallbackLabel);
+      status(friendlyError(error), "error");
+    }
   };
 
   if (urlInput) {
@@ -477,8 +619,8 @@ function syncImageInput(form, options) {
   }
 
   if (fileInput) {
-    fileInput.addEventListener("change", () => {
-      readFile(fileInput.files?.[0]);
+    fileInput.addEventListener("change", async () => {
+      await readFile(fileInput.files?.[0]);
     });
   }
 
@@ -496,10 +638,10 @@ function syncImageInput(form, options) {
   dropzone?.addEventListener("dragleave", () => {
     dropzone.classList.remove("is-dragover");
   });
-  dropzone?.addEventListener("drop", (event) => {
+  dropzone?.addEventListener("drop", async (event) => {
     event.preventDefault();
     dropzone.classList.remove("is-dragover");
-    readFile(event.dataTransfer?.files?.[0]);
+    await readFile(event.dataTransfer?.files?.[0]);
   });
 }
 
@@ -510,6 +652,7 @@ function setupProductEditor() {
   const create = $("[data-product-create]");
   if (!form || !specRows) return;
 
+  form.noValidate = true;
   form.dataset.slugPrefix = "product";
   renderSpecRows(specRows, {});
   attachAutoSlug(form, "[name='name']", "[name='slug']");
@@ -575,32 +718,41 @@ function setupProductEditor() {
     };
 
     if (!payload.name || !payload.slug || !payload.category || !payload.tagline || !payload.description || !payload.image_url) {
-      status("请先把产品名称、分类、卖点、描述和图片补完整。", "error");
+      status("产品没有保存：请补全产品名称、分类、卖点、详细介绍和图片。", "error");
       return;
     }
 
     const id = form.id.value;
+    const isUpdate = Boolean(id);
+    let savedProduct = null;
+    setFormBusy(form, true);
+    status(isUpdate ? "正在保存产品修改..." : "正在创建新产品...");
     try {
       if (state.apiAvailable) {
-        if (!localStorage.getItem(keys.token)) throw new Error("请先填写管理员 Token。");
-        await api(id ? `/api/products/${id}` : "/api/products", {
+        if (!localStorage.getItem(keys.token)) throw new Error("请先输入管理员 Token，系统还没有发出保存请求。");
+        const result = await api(id ? `/api/products/${id}` : "/api/products", {
           method: id ? "PUT" : "POST",
           body: JSON.stringify(payload)
         });
+        savedProduct = normalizeProduct(result.product || { ...payload, id });
         await loadContent();
       } else {
         if (id) {
           state.products = state.products.map((item) => (String(item.id) === String(id) ? { ...item, ...payload } : item));
+          savedProduct = state.products.find((item) => String(item.id) === String(id));
         } else {
-          state.products.push({ ...payload, id: Date.now() });
+          savedProduct = { ...payload, id: Date.now() };
+          state.products.push(savedProduct);
         }
         persistLocal();
         render();
       }
       fillProductForm(null);
-      status("产品已保存。");
+      showSavedStatus("product", savedProduct || { ...payload, id }, isUpdate, state.apiAvailable);
     } catch (error) {
-      status(error.message, "error");
+      status(friendlyError(error), "error");
+    } finally {
+      setFormBusy(form, false);
     }
   });
 
@@ -614,6 +766,7 @@ function setupNewsEditor() {
   const create = $("[data-news-create]");
   if (!form) return;
 
+  form.noValidate = true;
   form.dataset.slugPrefix = "news";
   attachAutoSlug(form, "[name='title']", "[name='slug']");
   syncImageInput(form, {
@@ -657,7 +810,7 @@ function setupNewsEditor() {
     };
 
     if (!payload.title || !payload.slug || !payload.category || !payload.content || !payload.image_url || !payload.published_at) {
-      status("请先把标题、分类、正文、封面和日期补完整。", "error");
+      status("文章没有保存：请补全标题、分类、正文、封面图和发布日期。", "error");
       return;
     }
     if (!payload.excerpt) {
@@ -666,27 +819,36 @@ function setupNewsEditor() {
     }
 
     const id = form.id.value;
+    const isUpdate = Boolean(id);
+    let savedNews = null;
+    setFormBusy(form, true);
+    status(isUpdate ? "正在保存文章修改..." : "正在创建新文章...");
     try {
       if (state.apiAvailable) {
-        if (!localStorage.getItem(keys.token)) throw new Error("请先填写管理员 Token。");
-        await api(id ? `/api/news/${id}` : "/api/news", {
+        if (!localStorage.getItem(keys.token)) throw new Error("请先输入管理员 Token，系统还没有发出保存请求。");
+        const result = await api(id ? `/api/news/${id}` : "/api/news", {
           method: id ? "PUT" : "POST",
           body: JSON.stringify(payload)
         });
+        savedNews = normalizeNews(result.news || { ...payload, id });
         await loadContent();
       } else {
         if (id) {
           state.news = state.news.map((item) => (String(item.id) === String(id) ? { ...item, ...payload } : item));
+          savedNews = state.news.find((item) => String(item.id) === String(id));
         } else {
-          state.news.push({ ...payload, id: Date.now() });
+          savedNews = { ...payload, id: Date.now() };
+          state.news.push(savedNews);
         }
         persistLocal();
         render();
       }
       fillNewsForm(null);
-      status("文章已保存。");
+      showSavedStatus("news", savedNews || { ...payload, id }, isUpdate, state.apiAvailable);
     } catch (error) {
-      status(error.message, "error");
+      status(friendlyError(error), "error");
+    } finally {
+      setFormBusy(form, false);
     }
   });
 
@@ -710,7 +872,7 @@ function deleteProduct(id) {
       }
       status("产品已删除。");
     } catch (error) {
-      status(error.message, "error");
+      status(friendlyError(error), "error");
     }
   })();
 }
@@ -730,16 +892,72 @@ function deleteNews(id) {
       }
       status("文章已删除。");
     } catch (error) {
-      status(error.message, "error");
+      status(friendlyError(error), "error");
     }
   })();
+}
+
+function setupProChrome() {
+  document.body.classList.add("admin-pro");
+  const main = $(".admin-main");
+  if (main && !$("[data-admin-command]")) {
+    const command = document.createElement("section");
+    command.className = "admin-command";
+    command.setAttribute("data-admin-command", "");
+    main.insertBefore(command, main.firstElementChild?.nextSibling || main.firstChild);
+  }
+  updateCommandBar("准备就绪");
+}
+
+function updateNavBadges({ totalProducts, totalNews }) {
+  const productTab = $("[data-admin-tab='products']");
+  const newsTab = $("[data-admin-tab='news']");
+  if (productTab) productTab.innerHTML = `<span>产品发布台</span><b>${totalProducts}</b>`;
+  if (newsTab) newsTab.innerHTML = `<span>新闻发布台</span><b>${totalNews}</b>`;
+}
+
+function setupFormIntelligence() {
+  const configs = [
+    { panel: "products", formSelector: "[data-product-form]" },
+    { panel: "news", formSelector: "[data-news-form]" }
+  ];
+
+  configs.forEach(({ panel, formSelector }) => {
+    const form = $(formSelector);
+    if (!form) return;
+    form.addEventListener("input", (event) => {
+      if (event.target.matches("[data-token-input]")) return;
+      setDirty(panel, true);
+    });
+    form.addEventListener("change", () => setDirty(panel, true));
+
+    $$("textarea", form).forEach((textarea) => {
+      const counter = document.createElement("small");
+      counter.className = "field-counter";
+      textarea.insertAdjacentElement("afterend", counter);
+      const update = () => {
+        const length = textarea.value.trim().length;
+        counter.textContent = length ? `${length} 字` : "等待输入";
+      };
+      textarea.addEventListener("input", update);
+      update();
+    });
+  });
+
+  window.addEventListener("beforeunload", (event) => {
+    if (!state.dirty.products && !state.dirty.news) return;
+    event.preventDefault();
+    event.returnValue = "";
+  });
 }
 
 function setupTabs() {
   $$("[data-admin-tab]").forEach((button) => {
     button.addEventListener("click", () => {
+      state.activePanel = button.dataset.adminTab;
       $$("[data-admin-tab]").forEach((item) => item.classList.toggle("active", item === button));
       $$(".admin-panel").forEach((panel) => panel.classList.toggle("active", panel.dataset.panel === button.dataset.adminTab));
+      updateCommandBar();
     });
   });
 }
@@ -747,9 +965,29 @@ function setupTabs() {
 function setupToken() {
   const input = $("[data-token-input]");
   if (!input) return;
+  let tokenStatus = $("[data-token-status]");
+  if (!tokenStatus) {
+    tokenStatus = document.createElement("p");
+    tokenStatus.className = "token-status";
+    tokenStatus.setAttribute("data-token-status", "");
+    input.closest(".token-panel")?.append(tokenStatus);
+  }
+  let tokenTimer = null;
+  const setTokenStatus = (message, tone = "info", shouldNotify = false) => {
+    tokenStatus.textContent = message;
+    tokenStatus.dataset.tone = tone;
+    if (shouldNotify) notify(message, tone);
+  };
   input.value = localStorage.getItem(keys.token) || "";
+  setTokenStatus(input.value ? "管理员 Token 已保存在当前浏览器。" : "尚未填写管理员 Token，提交到 D1 时会被拦截。", input.value ? "success" : "error");
   input.addEventListener("input", () => {
-    localStorage.setItem(keys.token, input.value.trim());
+    const value = input.value.trim();
+    localStorage.setItem(keys.token, value);
+    window.clearTimeout(tokenTimer);
+    setTokenStatus(value ? "正在保存管理员 Token..." : "管理员 Token 已清空，提交会失败。", value ? "info" : "error");
+    tokenTimer = window.setTimeout(() => {
+      setTokenStatus(value ? "管理员 Token 已保存到当前浏览器。" : "管理员 Token 已清空，提交会失败。", value ? "success" : "error", true);
+    }, 450);
   });
 }
 
@@ -811,10 +1049,12 @@ function initDefaults() {
   fillNewsForm(null);
 }
 
+setupProChrome();
 setupTabs();
 setupToken();
 setupProductEditor();
 setupNewsEditor();
+setupFormIntelligence();
 setupSearch();
 setupFilters();
 setupListActions();

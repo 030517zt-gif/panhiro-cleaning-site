@@ -48,6 +48,28 @@ function readLocal(key, fallback) {
   }
 }
 
+async function readJson(path) {
+  const response = await fetch(path, { cache: "no-store" });
+  if (!response.ok) throw new Error(`Request failed: ${response.status}`);
+  return response.json();
+}
+
+async function loadManagedContent() {
+  const isStaticPreview = location.protocol === "file:" || ["5173", "5174"].includes(location.port);
+  const [productsResult, newsResult] = isStaticPreview
+    ? [{ status: "rejected" }, { status: "rejected" }]
+    : await Promise.allSettled([readJson("/api/products"), readJson("/api/news")]);
+
+  return {
+    products: productsResult.status === "fulfilled"
+      ? productsResult.value.products
+      : readLocal(storeKeys.products, DEFAULT_PRODUCTS),
+    news: newsResult.status === "fulfilled"
+      ? newsResult.value.news
+      : readLocal(storeKeys.news, DEFAULT_NEWS)
+  };
+}
+
 function categoryLabel(category) {
   return {
     "RY Series": "Industrial Series",
@@ -111,11 +133,18 @@ function setMeta(selector, value) {
   if (element && value) element.setAttribute("content", value);
 }
 
-const products = readLocal(storeKeys.products, DEFAULT_PRODUCTS).map((product) => ({
+const managedContent = await loadManagedContent();
+const products = managedContent.products.map((product) => ({
   ...product,
-  specs: parseSpecs(product.specs)
-}));
-const newsPosts = readLocal(storeKeys.news, DEFAULT_NEWS);
+  specs: parseSpecs(product.specs),
+  published: Number(product.published ?? 1)
+})).filter((product) => product.published);
+const newsPosts = managedContent.news
+  .map((post) => ({
+    ...post,
+    published: Number(post.published ?? 1)
+  }))
+  .filter((post) => post.published);
 const currentProduct = products.find((product) => product.slug === requested || String(product.id) === requested);
 const currentArticle = newsPosts.find((post) => post.slug === requested || String(post.id) === requested);
 
@@ -633,8 +662,8 @@ function renderContact(root) {
       <section class="contact-detail-page">
         <div class="contact-detail-head">
           <p class="eyebrow">${lang === "en" ? "FULL CONTACT ACCESS" : "完整咨询入口"}</p>
-          <h2>${lang === "en" ? "Email, phone, WeCom and Douyin store access in one page" : "邮箱、电话、企业微信、抖音店铺，一页完成沟通"}</h2>
-          <p>${lang === "en" ? "Please email sales@panhiro.net or panchen@panhiro.net first with the model, quantity, market and configuration request. You can also call directly, scan the code for WeCom, or visit the Douyin store." : "优先发送邮件到 sales@panhiro.net 或 panchen@panhiro.net，写清型号、数量、市场和配置需求；也可以直接电话联系、扫码添加企业微信，或进入抖音店铺咨询。"}</p>
+          <h2>${lang === "en" ? "Email, phone and WeCom access in one page" : "邮箱、电话、企业微信，一页完成沟通"}</h2>
+          <p>${lang === "en" ? "Please email sales@panhiro.net or panchen@panhiro.net first with the model, quantity, market and configuration request. You can also call directly or scan the code for WeCom." : "优先发送邮件到 sales@panhiro.net 或 panchen@panhiro.net，写清型号、数量、市场和配置需求；也可以直接电话联系，或扫码添加企业微信。"}</p>
         </div>
         <div class="contact-detail-layout">
           <form class="contact-detail-form" data-inquiry-form>
@@ -684,14 +713,14 @@ function renderContact(root) {
               <p>${lang === "en" ? "Best for urgent confirmation of product files, quotation direction, sample discussion or service issues." : "适合急需确认产品资料、报价方向、样机沟通或售后问题。"}</p>
             </article>
             <article class="contact-channel-card">
+              <span>${lang === "en" ? "Direct Email" : "邮箱"}</span>
+              <a href="mailto:panchen@panhiro.net">panchen@panhiro.net</a>
+              <p>${lang === "en" ? "Send product models, quantities, target market, voltage, plug type and customization needs to this mailbox." : "请把型号、数量、目标市场、电压、插头类型和定制需求发送到这个邮箱。"}</p>
+            </article>
+            <article class="contact-channel-card qr-card">
               <span>${lang === "en" ? "WeCom" : "企业微信"}</span>
               <img src="/assets/contact-wecom-qr.jpg" alt="${lang === "en" ? "WeCom QR code" : "企业微信二维码"}" />
               <p>${lang === "en" ? "Scan to add WeCom and send product models, quantities, photos or videos." : "扫码添加企业微信，发送型号、数量、图片或视频资料。"}</p>
-            </article>
-            <article class="contact-channel-card">
-              <span>${lang === "en" ? "Douyin Store" : "抖音店铺"}</span>
-              <img src="/assets/contact-douyin-qr.jpg" alt="${lang === "en" ? "Douyin store QR code" : "抖音店铺二维码"}" />
-              <p>${lang === "en" ? "Scan to enter the Douyin store, review product displays and start an online inquiry." : "扫码进入抖音店铺，查看产品展示并发起在线咨询。"}</p>
             </article>
           </div>
         </div>

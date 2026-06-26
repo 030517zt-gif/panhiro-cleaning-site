@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler pages dev public",
+    "dev:lan": "wrangler pages dev public --ip 0.0.0.0 --port 8788",
     "preview:static": "python -m http.server 5173 -d public",
     "deploy": "wrangler pages deploy public --project-name panhiro-cleaning-site",
     "db:init:local": "wrangler d1 execute cleaning_site --local --file=./migrations/0001_init.sql",
