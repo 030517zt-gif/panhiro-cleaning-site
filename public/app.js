@@ -79,6 +79,7 @@ const NEWS_TRANSLATIONS = {
     }
   }
 };
+const DEFAULT_NEWS_BY_SLUG = new Map(DEFAULT_NEWS.map((post) => [post.slug, post]));
 
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
@@ -154,9 +155,19 @@ function newsCategoryLabel(category) {
   return NEWS_CATEGORY_LABELS[state.lang]?.[category] || category;
 }
 
+function sameManagedText(current, original) {
+  return String(current ?? "").trim() === String(original ?? "").trim();
+}
+
+function usesDefaultNewsCopy(post) {
+  const original = DEFAULT_NEWS_BY_SLUG.get(post.slug);
+  if (!original) return false;
+  return ["title", "category", "excerpt", "content"].every((key) => sameManagedText(post[key], original[key]));
+}
+
 function localizeNews(post) {
   const translated = NEWS_TRANSLATIONS[post.slug];
-  if (!translated) {
+  if (!translated || !usesDefaultNewsCopy(post)) {
     return {
       ...post,
       category: newsCategoryLabel(post.category)

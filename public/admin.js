@@ -645,6 +645,127 @@ function syncImageInput(form, options) {
   });
 }
 
+function stripArticleImageMarkers(value) {
+  return String(value || "")
+    .replace(/^\s*\[\[panhiro-image:\{.*\}\]\]\s*$/gm, " ")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+function insertTextAtCursor(textarea, text) {
+  const start = textarea.selectionStart ?? textarea.value.length;
+  const end = textarea.selectionEnd ?? textarea.value.length;
+  const before = textarea.value.slice(0, start).replace(/\s*$/, "");
+  const after = textarea.value.slice(end).replace(/^\s*/, "");
+  const cleanText = text.trim();
+  textarea.value = `${before}${before ? "\n\n" : ""}${cleanText}${after ? `\n\n${after}` : ""}`;
+  const cursor = `${before}${before ? "\n\n" : ""}${cleanText}`.length;
+  textarea.focus();
+  textarea.setSelectionRange(cursor, cursor);
+  textarea.dispatchEvent(new Event("input", { bubbles: true }));
+}
+
+function ensureNewsImageTool(form) {
+  if ($("[data-news-inline-image-tool]", form)) return;
+  const contentField = form.content?.closest("label");
+  if (!contentField) return;
+  const tool = document.createElement("div");
+  tool.className = "article-image-tool field-span-2";
+  tool.setAttribute("data-news-inline-image-tool", "");
+  tool.innerHTML = `
+    <div>
+      <strong>正文图片</strong>
+      <p>先把光标放在正文里想插入图片的位置，再选择图片大小并插入。图片会跟随文章一起保存。</p>
+    </div>
+    <input type="file" accept="image/*" data-news-inline-image-file />
+    <div class="article-image-controls">
+      <label>
+        <span>图片链接或本地图片</span>
+        <input type="url" data-news-inline-image-url placeholder="/assets/article-image.jpg 或 https://..." />
+      </label>
+      <label>
+        <span>预设大小</span>
+        <select data-news-inline-image-size>
+          <option value="large">大图 90%</option>
+          <option value="full">通栏 100%</option>
+          <option value="medium">中图 70%</option>
+          <option value="small">小图 45%</option>
+        </select>
+      </label>
+      <label>
+        <span>自定义宽度</span>
+        <input type="number" min="25" max="100" step="5" data-news-inline-image-width placeholder="25-100，可留空" />
+      </label>
+      <label>
+        <span>图片说明</span>
+        <input type="text" data-news-inline-image-caption placeholder="可选，会显示在图片下方" />
+      </label>
+    </div>
+    <div class="admin-inline-actions">
+      <button type="button" class="admin-mini-button" data-news-inline-image-pick>选择正文图片</button>
+      <button type="button" class="admin-mini-button primary-mini" data-news-inline-image-insert>插入到正文位置</button>
+      <span class="upload-file-name" data-news-inline-image-name>还没有选择正文图片</span>
+    </div>
+  `;
+  contentField.insertAdjacentElement("afterend", tool);
+}
+
+function setupNewsInlineImageTool(form) {
+  ensureNewsImageTool(form);
+  const tool = $("[data-news-inline-image-tool]", form);
+  const textarea = form.content;
+  if (!tool || !textarea) return;
+
+  const fileInput = $("[data-news-inline-image-file]", tool);
+  const urlInput = $("[data-news-inline-image-url]", tool);
+  const sizeInput = $("[data-news-inline-image-size]", tool);
+  const widthInput = $("[data-news-inline-image-width]", tool);
+  const captionInput = $("[data-news-inline-image-caption]", tool);
+  const fileName = $("[data-news-inline-image-name]", tool);
+  const allowedSizes = new Set(["small", "medium", "large", "full"]);
+
+  $("[data-news-inline-image-pick]", tool)?.addEventListener("click", () => fileInput?.click());
+  fileInput?.addEventListener("change", async () => {
+    const file = fileInput.files?.[0];
+    if (!file) return;
+    syncUploadName(fileName, `Reading: ${file.name}`);
+    try {
+      const dataUrl = await readImageAsDataUrl(file);
+      urlInput.value = dataUrl;
+      syncUploadName(fileName, file.name);
+      status("正文图片已准备好，点击“插入到正文位置”即可放入文章。", "success");
+    } catch (error) {
+      syncUploadName(fileName, "");
+      status(friendlyError(error), "error");
+    }
+  });
+
+  $("[data-news-inline-image-insert]", tool)?.addEventListener("click", () => {
+    const src = urlInput.value.trim();
+    if (!src) {
+      status("请先选择正文图片，或填写图片链接。", "error");
+      return;
+    }
+    const rawWidth = Number(widthInput.value || 0);
+    const width = rawWidth ? Math.min(100, Math.max(25, rawWidth)) : "";
+    const size = allowedSizes.has(sizeInput.value) ? sizeInput.value : "large";
+    const marker = `[[panhiro-image:${JSON.stringify({
+      src,
+      size,
+      width,
+      caption: captionInput.value.trim()
+    })}]]`;
+    insertTextAtCursor(textarea, marker);
+    urlInput.value = "";
+    if (fileInput) fileInput.value = "";
+    if (widthInput) widthInput.value = "";
+    if (captionInput) captionInput.value = "";
+    syncUploadName(fileName, "已插入正文");
+    setDirty("news", true);
+    status("正文图片已插入。保存文章后，详情页会按这个位置显示图片。", "success");
+  });
+}
+
 function setupProductEditor() {
   const form = $("[data-product-form]");
   const specRows = $("[data-product-spec-rows]");
@@ -769,6 +890,7 @@ function setupNewsEditor() {
   form.noValidate = true;
   form.dataset.slugPrefix = "news";
   attachAutoSlug(form, "[name='title']", "[name='slug']");
+  setupNewsInlineImageTool(form);
   syncImageInput(form, {
     fileSelector: "[data-news-image-file]",
     urlSelector: "[data-news-image-url]",
@@ -784,7 +906,7 @@ function setupNewsEditor() {
   create?.addEventListener("click", () => fillNewsForm(null));
 
   $("[data-generate-excerpt]")?.addEventListener("click", () => {
-    const content = form.content.value.trim();
+    const content = stripArticleImageMarkers(form.content.value);
     if (!content) return;
     const paragraphs = content
       .split(/\n+/)
@@ -814,7 +936,7 @@ function setupNewsEditor() {
       return;
     }
     if (!payload.excerpt) {
-      const plain = payload.content.replace(/\s+/g, " ").trim();
+      const plain = stripArticleImageMarkers(payload.content).replace(/\s+/g, " ").trim();
       payload.excerpt = plain.length > 180 ? `${plain.slice(0, 180).replace(/\s+\S*$/, "")}...` : plain;
     }
 

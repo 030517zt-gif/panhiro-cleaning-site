@@ -168,6 +168,7 @@ const newsTranslations = {
     content: "This industrial ecosystem makes sourcing key components, developing samples, assembling, testing and batch delivery easier to coordinate. Panhiro keeps strengthening quality management and response capability while improving modern operations and digital management."
   }
 };
+const defaultNewsBySlug = new Map(DEFAULT_NEWS.map((post) => [post.slug, post]));
 
 const subpageTranslations = {
   "company-profile": {
@@ -296,7 +297,11 @@ const subpageTranslations = {
 function localizeNews(post) {
   if (lang !== "en") return post;
   const translated = newsTranslations[post.slug];
-  return translated ? { ...post, ...translated } : post;
+  const original = defaultNewsBySlug.get(post.slug);
+  const usesDefaultCopy = original && ["title", "category", "excerpt", "content"].every((key) => {
+    return String(post[key] ?? "").trim() === String(original[key] ?? "").trim();
+  });
+  return translated && usesDefaultCopy ? { ...post, ...translated } : post;
 }
 
 function localizeSubpage(pageKey, source) {
@@ -597,13 +602,51 @@ function renderStrength(root) {
   );
 }
 
+function parseArticleImageBlock(block) {
+  const match = String(block || "").trim().match(/^\[\[panhiro-image:(\{.*\})\]\]$/);
+  if (!match) return null;
+  try {
+    const data = JSON.parse(match[1]);
+    if (!data.src) return null;
+    const allowedSizes = new Set(["small", "medium", "large", "full"]);
+    const width = Number(data.width || 0);
+    return {
+      src: String(data.src),
+      size: allowedSizes.has(data.size) ? data.size : "large",
+      width: width ? Math.min(100, Math.max(25, width)) : "",
+      caption: String(data.caption || "")
+    };
+  } catch {
+    return null;
+  }
+}
+
+function articleImageMarkup(image, index) {
+  const widthStyle = image.width ? ` style="max-width: ${image.width}%"` : "";
+  return `
+    <figure class="article-inline-image article-inline-image--${escapeHTML(image.size)}"${widthStyle}>
+      <img src="${escapeHTML(image.src)}" alt="${escapeHTML(image.caption || `${article.title} image ${index + 1}`)}" loading="lazy" />
+      ${image.caption ? `<figcaption>${escapeHTML(image.caption)}</figcaption>` : ""}
+    </figure>
+  `;
+}
+
+function renderArticleContent(content, fallback) {
+  const blocks = String(content || fallback || "")
+    .split(/\n{2,}/)
+    .map((block) => block.trim())
+    .filter(Boolean);
+
+  return blocks.map((block, index) => {
+    const image = parseArticleImageBlock(block);
+    if (image) return articleImageMarkup(image, index);
+    return `<p>${escapeHTML(block).replace(/\n/g, "<br />")}</p>`;
+  }).join("");
+}
+
 function renderNewsArticle(root) {
   if (!article) return;
-  const paragraphs = String(article.content || article.excerpt)
-    .split(/\n+/)
-    .filter(Boolean)
-    .map((paragraph) => `<p>${escapeHTML(paragraph)}</p>`)
-    .join("");
+  const paragraphs = renderArticleContent(article.content, article.excerpt);
 
   root.insertAdjacentHTML(
     "beforeend",
