@@ -665,7 +665,7 @@ function insertTextAtCursor(textarea, text) {
   textarea.dispatchEvent(new Event("input", { bubbles: true }));
 }
 
-function ensureNewsImageTool(form) {
+function ensureNewsMediaWorkbench(form) {
   if ($("[data-news-inline-image-tool]", form)) return;
   const contentField = form.content?.closest("label");
   if (!contentField) return;
@@ -710,8 +710,8 @@ function ensureNewsImageTool(form) {
   contentField.insertAdjacentElement("afterend", tool);
 }
 
-function setupNewsInlineImageTool(form) {
-  ensureNewsImageTool(form);
+function setupNewsMediaWorkbench(form) {
+  ensureNewsMediaWorkbench(form);
   const tool = $("[data-news-inline-image-tool]", form);
   const textarea = form.content;
   if (!tool || !textarea) return;
@@ -763,6 +763,332 @@ function setupNewsInlineImageTool(form) {
     syncUploadName(fileName, "已插入正文");
     setDirty("news", true);
     status("正文图片已插入。保存文章后，详情页会按这个位置显示图片。", "success");
+  });
+}
+
+function mediaId() {
+  return `media-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+}
+
+function normalizeNewsMediaItem(item) {
+  const allowedSizes = new Set(["small", "medium", "large", "full"]);
+  const width = Number(item.width || 0);
+  return {
+    id: item.id || mediaId(),
+    src: String(item.src || ""),
+    name: String(item.name || "Article image"),
+    size: allowedSizes.has(item.size) ? item.size : "large",
+    width: width ? Math.min(100, Math.max(25, width)) : "",
+    caption: String(item.caption || ""),
+    position: String(item.position || "cursor")
+  };
+}
+
+function getNewsMediaItems(form) {
+  if (!form._newsMediaItems) form._newsMediaItems = [];
+  return form._newsMediaItems;
+}
+
+function extractNewsImageMarkers(value) {
+  const images = [];
+  const pattern = /^\s*\[\[panhiro-image:(\{.*\})\]\]\s*$/gm;
+  let match = pattern.exec(String(value || ""));
+  while (match) {
+    try {
+      const parsed = JSON.parse(match[1]);
+      if (parsed.src) images.push(normalizeNewsMediaItem(parsed));
+    } catch {
+      // Ignore manually edited or broken image markers.
+    }
+    match = pattern.exec(String(value || ""));
+  }
+  return images;
+}
+
+function pushNewsMediaItem(form, item) {
+  const normalized = normalizeNewsMediaItem(item);
+  if (!normalized.src) return null;
+  const items = getNewsMediaItems(form);
+  const existing = items.find((entry) => entry.src === normalized.src);
+  if (existing) {
+    Object.assign(existing, { ...normalized, id: existing.id });
+    return existing;
+  }
+  items.push(normalized);
+  return normalized;
+}
+
+function seedNewsMediaFromForm(form) {
+  let changed = false;
+  if (form.image_url?.value) {
+    changed = Boolean(pushNewsMediaItem(form, {
+      src: form.image_url.value,
+      name: "Current cover image",
+      size: "large"
+    })) || changed;
+  }
+  extractNewsImageMarkers(form.content?.value).forEach((item) => {
+    changed = Boolean(pushNewsMediaItem(form, item)) || changed;
+  });
+  if (changed) renderNewsMediaLibrary(form);
+}
+
+function setNewsCoverImage(form, src, label = "Article cover") {
+  const urlInput = $("[data-news-image-url]", form);
+  const preview = $("[data-news-image-preview]");
+  const imageName = $("[data-news-image-name]");
+  form.image_url.value = src || "";
+  if (urlInput) urlInput.value = src || "";
+  setImagePreview(preview, src || "", label);
+  syncUploadName(imageName, src ? label : "");
+  setDirty("news", true);
+}
+
+function mediaMarker(item) {
+  return `[[panhiro-image:${JSON.stringify({
+    src: item.src,
+    size: item.size,
+    width: item.width,
+    caption: item.caption
+  })}]]`;
+}
+
+function isArticleImageMarker(block) {
+  return /^\s*\[\[panhiro-image:(\{.*\})\]\]\s*$/.test(String(block || ""));
+}
+
+function articleBlocks(value) {
+  return String(value || "")
+    .split(/\n{2,}/)
+    .map((block) => block.trim())
+    .filter(Boolean);
+}
+
+function paragraphBlocks(value) {
+  return articleBlocks(value).filter((block) => !isArticleImageMarker(block));
+}
+
+function mediaPositionOptions(value, selected = "cursor") {
+  const paragraphCount = paragraphBlocks(value).length;
+  const base = [
+    ["cursor", "光标当前位置"],
+    ["start", "文章开头"],
+    ["end", "文章结尾"]
+  ];
+  for (let index = 1; index <= paragraphCount; index += 1) {
+    base.push([`after-${index}`, `第 ${index} 段之后`]);
+  }
+  return base
+    .map(([value, label]) => `<option value="${escapeHTML(value)}"${selected === value ? " selected" : ""}>${escapeHTML(label)}</option>`)
+    .join("");
+}
+
+function insertMediaByPosition(form, item) {
+  const marker = mediaMarker(item);
+  const position = item.position || "cursor";
+  if (position === "cursor") {
+    insertTextAtCursor(form.content, marker);
+    return;
+  }
+
+  const blocks = articleBlocks(form.content.value);
+  if (position === "start") {
+    blocks.unshift(marker);
+  } else if (position === "end" || !blocks.length) {
+    blocks.push(marker);
+  } else {
+    const afterMatch = position.match(/^after-(\d+)$/);
+    const targetParagraph = afterMatch ? Number(afterMatch[1]) : 0;
+    let seenParagraphs = 0;
+    let insertIndex = blocks.length;
+    for (let index = 0; index < blocks.length; index += 1) {
+      if (isArticleImageMarker(blocks[index])) continue;
+      seenParagraphs += 1;
+      if (seenParagraphs === targetParagraph) {
+        insertIndex = index + 1;
+        break;
+      }
+    }
+    blocks.splice(insertIndex, 0, marker);
+  }
+
+  form.content.value = blocks.join("\n\n");
+  form.content.dispatchEvent(new Event("input", { bubbles: true }));
+}
+
+function ensureNewsImageTool(form) {
+  if ($("[data-news-inline-image-tool]", form)) return;
+  const contentField = form.content?.closest("label");
+  if (!contentField) return;
+  const tool = document.createElement("div");
+  tool.className = "article-image-tool media-workbench field-span-2";
+  tool.setAttribute("data-news-inline-image-tool", "");
+  tool.innerHTML = `
+    <div class="media-workbench-head">
+      <div>
+        <strong>文章图片工作台</strong>
+        <p>一次上传多张图片。每张图都可以设为封面，也可以插入到正文光标所在位置，并单独设置显示大小。</p>
+      </div>
+      <button type="button" class="admin-mini-button primary-mini" data-news-media-pick>多图上传</button>
+    </div>
+    <input type="file" accept="image/*" multiple data-news-media-files />
+    <div class="media-url-row">
+      <label>
+        <span>图片链接</span>
+        <input type="url" data-news-media-url placeholder="/assets/article-image.jpg 或 https://..." />
+      </label>
+      <button type="button" class="admin-mini-button" data-news-media-add-url>加入图片库</button>
+    </div>
+    <div class="media-dropzone" data-news-media-dropzone>
+      <span>拖入多张图片，或点击“多图上传”</span>
+    </div>
+    <div class="media-library" data-news-media-list></div>
+  `;
+  contentField.insertAdjacentElement("afterend", tool);
+}
+
+function mediaCardMarkup(item, isCover, positionOptions) {
+  return `
+    <article class="media-asset-card${isCover ? " is-cover" : ""}" data-media-id="${escapeHTML(item.id)}">
+      <img src="${escapeHTML(item.src)}" alt="${escapeHTML(item.caption || item.name)}" />
+      <div class="media-asset-body">
+        <div class="media-asset-title">
+          <strong>${escapeHTML(item.name)}</strong>
+          ${isCover ? "<span>当前封面</span>" : ""}
+        </div>
+        <div class="media-asset-fields">
+          <label>
+            <span>插入位置</span>
+            <select data-media-position>
+              ${positionOptions}
+            </select>
+          </label>
+          <label>
+            <span>大小</span>
+            <select data-media-size>
+              <option value="large"${item.size === "large" ? " selected" : ""}>大图 90%</option>
+              <option value="full"${item.size === "full" ? " selected" : ""}>通栏 100%</option>
+              <option value="medium"${item.size === "medium" ? " selected" : ""}>中图 70%</option>
+              <option value="small"${item.size === "small" ? " selected" : ""}>小图 45%</option>
+            </select>
+          </label>
+          <label>
+            <span>自定义宽度</span>
+            <input type="number" min="25" max="100" step="5" data-media-width value="${escapeHTML(item.width)}" placeholder="25-100" />
+          </label>
+          <label>
+            <span>说明</span>
+            <input type="text" data-media-caption value="${escapeHTML(item.caption)}" placeholder="可选" />
+          </label>
+        </div>
+        <div class="media-asset-actions">
+          <button type="button" class="admin-mini-button" data-media-set-cover>设为封面</button>
+          <button type="button" class="admin-mini-button primary-mini" data-media-insert>按位置插入正文</button>
+          <button type="button" class="admin-mini-button danger-mini" data-media-remove>移除</button>
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+function renderNewsMediaLibrary(form) {
+  const list = $("[data-news-media-list]", form);
+  if (!list) return;
+  const items = getNewsMediaItems(form);
+  list.innerHTML = items.length
+    ? items.map((item) => mediaCardMarkup(item, item.src === form.image_url.value, mediaPositionOptions(form.content.value, item.position))).join("")
+    : `<div class="media-empty">还没有图片。上传多张图片后，可以分别设为封面或插入正文。</div>`;
+}
+
+async function addNewsMediaFiles(form, files) {
+  const list = Array.from(files || []).filter((file) => file?.type?.startsWith("image/"));
+  if (!list.length) return;
+  status(`正在读取 ${list.length} 张图片...`);
+  for (const file of list) {
+    const dataUrl = await readImageAsDataUrl(file);
+    pushNewsMediaItem(form, { src: dataUrl, name: file.name, size: "large" });
+  }
+  renderNewsMediaLibrary(form);
+  status(`${list.length} 张图片已加入图片库。`, "success");
+}
+
+function setupNewsInlineImageTool(form) {
+  ensureNewsImageTool(form);
+  const tool = $("[data-news-inline-image-tool]", form);
+  if (!tool || !form.content) return;
+
+  const fileInput = $("[data-news-media-files]", tool);
+  const urlInput = $("[data-news-media-url]", tool);
+  const dropzone = $("[data-news-media-dropzone]", tool);
+
+  seedNewsMediaFromForm(form);
+  renderNewsMediaLibrary(form);
+
+  tool.addEventListener("pointerenter", () => seedNewsMediaFromForm(form));
+  $("[data-news-media-pick]", tool)?.addEventListener("click", () => fileInput?.click());
+  fileInput?.addEventListener("change", async () => {
+    await addNewsMediaFiles(form, fileInput.files);
+    fileInput.value = "";
+  });
+
+  $("[data-news-media-add-url]", tool)?.addEventListener("click", () => {
+    const src = urlInput.value.trim();
+    if (!src) {
+      status("请先填写图片链接。", "error");
+      return;
+    }
+    pushNewsMediaItem(form, { src, name: src.split("/").pop() || "Linked image", size: "large" });
+    urlInput.value = "";
+    renderNewsMediaLibrary(form);
+    status("图片链接已加入图片库。", "success");
+  });
+
+  dropzone?.addEventListener("dragover", (event) => {
+    event.preventDefault();
+    dropzone.classList.add("is-dragover");
+  });
+  dropzone?.addEventListener("dragleave", () => dropzone.classList.remove("is-dragover"));
+  dropzone?.addEventListener("drop", async (event) => {
+    event.preventDefault();
+    dropzone.classList.remove("is-dragover");
+    await addNewsMediaFiles(form, event.dataTransfer?.files);
+  });
+
+  tool.addEventListener("input", (event) => {
+    const card = event.target.closest("[data-media-id]");
+    if (!card) return;
+    const item = getNewsMediaItems(form).find((entry) => entry.id === card.dataset.mediaId);
+    if (!item) return;
+    if (event.target.matches("[data-media-size]")) item.size = event.target.value;
+    if (event.target.matches("[data-media-position]")) item.position = event.target.value;
+    if (event.target.matches("[data-media-width]")) {
+      const rawWidth = Number(event.target.value || 0);
+      item.width = rawWidth ? Math.min(100, Math.max(25, rawWidth)) : "";
+    }
+    if (event.target.matches("[data-media-caption]")) item.caption = event.target.value;
+  });
+
+  tool.addEventListener("click", (event) => {
+    const card = event.target.closest("[data-media-id]");
+    if (!card) return;
+    const item = getNewsMediaItems(form).find((entry) => entry.id === card.dataset.mediaId);
+    if (!item) return;
+
+    if (event.target.closest("[data-media-set-cover]")) {
+      setNewsCoverImage(form, item.src, item.name);
+      renderNewsMediaLibrary(form);
+      status("封面已更新，保存文章后生效。", "success");
+    }
+    if (event.target.closest("[data-media-insert]")) {
+      insertMediaByPosition(form, item);
+      setDirty("news", true);
+      status("图片已按选择的位置插入正文，保存文章后生效。", "success");
+    }
+    if (event.target.closest("[data-media-remove]")) {
+      form._newsMediaItems = getNewsMediaItems(form).filter((entry) => entry.id !== item.id);
+      renderNewsMediaLibrary(form);
+      status("图片已从本次图片库移除，已插入正文的标记不会自动删除。", "info");
+    }
   });
 }
 
