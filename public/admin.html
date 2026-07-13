@@ -5,11 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>后台管理中心 | Panhiro 高压清洗设备</title>
     <meta name="robots" content="noindex" />
-    <link rel="icon" href="/assets/panhiro-logo-site.png" type="image/png" />
+    <link rel="icon" href="/assets/panhiro-favicon-32.png?v=20260713" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/assets/panhiro-favicon-48.png?v=20260713" sizes="48x48" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/panhiro-apple-touch-icon.png?v=20260713" />
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body data-page="admin">
-    <main class="admin-shell">
+    <div class="admin-login-overlay" data-login-overlay>
+      <form class="admin-login-card" data-login-form>
+        <a class="brand admin-login-brand" href="/index.html">
+          <img src="/assets/panhiro-logo-hd.png" alt="Panhiro 磐宏" />
+        </a>
+        <h1>后台管理登录</h1>
+        <p class="admin-login-desc">请输入管理员账号密码进入内容管理系统</p>
+        <label>
+          <span>用户名</span>
+          <input type="text" name="username" autocomplete="username" required placeholder="请输入用户名" />
+        </label>
+        <label>
+          <span>密码</span>
+          <input type="password" name="password" autocomplete="current-password" required placeholder="请输入密码" />
+        </label>
+        <button class="btn primary admin-login-btn" type="submit">登录</button>
+        <p class="admin-login-error" data-login-error role="alert" aria-live="polite"></p>
+      </form>
+    </div>
+
+    <main class="admin-shell" hidden data-admin-shell>
+      <header class="admin-mobile-bar">
+        <a class="admin-mobile-brand" href="/index.html">
+          <img src="/assets/panhiro-logo-light.png" alt="Panhiro" />
+        </a>
+        <div>
+          <strong data-mobile-panel-title>产品管理</strong>
+          <span data-mobile-save-state>内容工作台</span>
+        </div>
+        <button type="button" class="admin-mobile-menu" data-admin-menu-toggle aria-label="打开后台菜单" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </header>
+      <button type="button" class="admin-nav-scrim" data-admin-menu-close aria-label="关闭后台菜单"></button>
       <aside class="admin-side">
         <a class="brand admin-brand" href="/index.html">
           <img src="/assets/panhiro-logo-hd.png" alt="Panhiro" />
@@ -21,7 +56,9 @@
         <nav>
           <button type="button" class="active" data-admin-tab="products">产品发布台</button>
           <button type="button" data-admin-tab="news">新闻发布台</button>
+          <button type="button" data-admin-tab="inquiries">客户询盘 <span class="tab-badge" data-inquiry-badge hidden>0</span></button>
           <a href="/index.html">返回官网首页</a>
+          <button type="button" class="admin-logout-btn" data-logout>退出登录</button>
         </nav>
         <div class="admin-side-note">
           <strong>当前说明</strong>
@@ -36,31 +73,50 @@
             <h1>Panhiro 内容后台</h1>
             <p class="admin-lead">这里不是技术后台，而是给发布人员直接使用的工作台。上传图片、编辑产品词条、写文章、设为首页展示，都在一个清晰界面里完成。</p>
           </div>
-          <div class="token-panel">
-            <label class="token-box">
-              <span>管理员 Token</span>
-              <input type="password" data-token-input placeholder="部署后填写 Cloudflare ADMIN_TOKEN" />
-            </label>
-            <p class="token-tip">没有配置 Token 时，仍可先在本地预览和练习发布流程。</p>
-          </div>
         </div>
 
         <p class="admin-status" data-admin-status>正在读取内容...</p>
         <section class="admin-overview" data-admin-overview></section>
 
         <section class="admin-panel active" data-panel="products">
-          <div class="admin-panel-head">
+          <div class="admin-panel-head admin-workspace-head">
             <div>
               <p class="eyebrow">PRODUCT STUDIO</p>
-              <h2>产品发布台</h2>
+              <h2>产品管理</h2>
+              <p class="panel-summary">先从产品库查找内容，需要修改时再进入编辑器。</p>
             </div>
             <div class="admin-primary-actions">
               <button class="btn ghost light" type="button" data-product-create>新建产品</button>
             </div>
           </div>
 
-          <div class="studio-layout">
-            <form class="admin-form studio-editor" data-product-form>
+          <nav class="workspace-tabs" aria-label="产品工作区">
+            <button type="button" class="active" data-product-view="library">产品库</button>
+            <button type="button" data-product-view="homepage">首页编排</button>
+            <button type="button" data-product-view="editor">产品编辑器</button>
+          </nav>
+
+          <section class="homepage-control-board" data-product-workspace="homepage" hidden>
+            <article>
+              <div>
+                <span class="studio-kicker">HOME ALL TAB</span>
+                <h3>首页 All 展示的 4 个产品</h3>
+                <p>只显示勾选“首页四个产品卡”的产品，并按排序序号取前 4 个。</p>
+              </div>
+              <div class="homepage-pick-list" data-home-featured-preview></div>
+            </article>
+            <article>
+              <div>
+                <span class="studio-kicker">HOME MARQUEE</span>
+                <h3>首页滚动展示产品</h3>
+                <p>只滚动勾选“首页滚动产品”的产品，可在右侧产品库一键加入或移除。</p>
+              </div>
+              <div class="homepage-pick-list" data-home-marquee-preview></div>
+            </article>
+          </section>
+
+          <div class="studio-layout workspace-layout">
+            <form class="admin-form studio-editor" data-product-form data-product-workspace="editor" hidden>
               <input type="hidden" name="id" />
               <input type="hidden" name="slug" />
               <input type="hidden" name="image_url" />
@@ -103,6 +159,41 @@
                     <textarea name="description" rows="6" required placeholder="用客户能看懂的话描述用途、优势、适用场景和合作价值。"></textarea>
                   </label>
                 </div>
+              </section>
+
+              <section class="editor-section bilingual-section">
+                <div class="section-headline">
+                  <div>
+                    <strong>中文展示内容</strong>
+                    <p>中文官网优先显示这里的内容；留空时系统会使用原英文内容做基础中文化。</p>
+                  </div>
+                </div>
+                <div class="editor-grid">
+                  <label class="field-span-2">
+                    <span>中文产品名称</span>
+                    <input name="name_zh" placeholder="例如：1500W 手持商用高压清洗机 1650B" />
+                  </label>
+                  <label>
+                    <span>中文产品分类</span>
+                    <input name="category_zh" placeholder="例如：洗车机系列" />
+                  </label>
+                  <label>
+                    <span>中文一句话卖点</span>
+                    <input name="tagline_zh" placeholder="适合门店、家用和轻商用清洗场景。" />
+                  </label>
+                  <label class="field-span-2">
+                    <span>中文详细介绍</span>
+                    <textarea name="description_zh" rows="6" placeholder="用中文描述用途、优势、适用场景和合作价值。"></textarea>
+                  </label>
+                </div>
+                <div class="section-headline slim-headline">
+                  <div>
+                    <strong>中文规格词条</strong>
+                    <p>如果不填写，中文页面会自动翻译英文规格词条。</p>
+                  </div>
+                  <button class="admin-mini-button" type="button" data-product-add-spec-zh>新增中文词条</button>
+                </div>
+                <div class="spec-builder" data-product-spec-zh-rows></div>
               </section>
 
               <section class="editor-section">
@@ -168,12 +259,19 @@
                   <label class="switch-field">
                     <input name="is_featured" type="checkbox" />
                     <div>
-                      <strong>首页重点展示</strong>
-                      <p>勾选后可进入首页重点产品区。</p>
+                      <strong>首页四个产品卡</strong>
+                      <p>勾选后进入首页产品区；前台按排序取前 4 个。</p>
                     </div>
                   </label>
                   <label class="switch-field">
-                    <input name="published" type="checkbox" checked />
+                    <input name="show_in_marquee" type="checkbox" checked />
+                    <div>
+                      <strong>首页滚动产品</strong>
+                      <p>勾选后进入首页顶部横向滚动产品条。</p>
+                    </div>
+                  </label>
+                  <label class="switch-field">
+                    <input name="published" type="checkbox" />
                     <div>
                       <strong>立即发布</strong>
                       <p>关闭后只保存草稿，不对外显示。</p>
@@ -188,7 +286,7 @@
               </div>
             </form>
 
-            <aside class="content-library">
+            <aside class="content-library" data-product-workspace="library">
               <div class="content-library-head">
                 <div>
                   <span class="studio-kicker">PRODUCT LIBRARY</span>
@@ -207,9 +305,11 @@
                   <button type="button" data-product-filter="published">已发布</button>
                   <button type="button" data-product-filter="draft">草稿</button>
                   <button type="button" data-product-filter="featured">首页重点</button>
+                  <button type="button" data-product-filter="marquee">首页滚动</button>
                 </div>
               </div>
               <div class="admin-table content-list" data-product-admin-list></div>
+              <nav class="admin-pagination" data-product-pagination aria-label="产品列表分页"></nav>
             </aside>
           </div>
         </section>
@@ -278,6 +378,33 @@
                 </div>
               </section>
 
+              <section class="editor-section bilingual-section">
+                <div class="section-headline">
+                  <div>
+                    <strong>英文展示内容</strong>
+                    <p>英文官网优先显示这里的内容；留空时仍使用原标题和默认翻译逻辑。</p>
+                  </div>
+                </div>
+                <div class="editor-grid">
+                  <label class="field-span-2">
+                    <span>英文文章标题</span>
+                    <input name="title_en" placeholder="Example: Panhiro completes a new delivery preparation" />
+                  </label>
+                  <label>
+                    <span>英文文章分类</span>
+                    <input name="category_en" placeholder="Company News / Product Updates" />
+                  </label>
+                  <label class="field-span-2">
+                    <span>英文摘要</span>
+                    <textarea name="excerpt_en" rows="4" placeholder="Short summary for the English news list and article page."></textarea>
+                  </label>
+                  <label class="field-span-2">
+                    <span>英文正文</span>
+                    <textarea class="content-editor" name="content_en" rows="10" placeholder="English article body. Use blank lines between paragraphs."></textarea>
+                  </label>
+                </div>
+              </section>
+
               <section class="editor-section">
                 <div class="section-headline">
                   <div>
@@ -323,7 +450,7 @@
                 </div>
                 <div class="editor-grid compact-grid">
                   <label class="switch-field">
-                    <input name="published" type="checkbox" checked />
+                    <input name="published" type="checkbox" />
                     <div>
                       <strong>立即发布</strong>
                       <p>关闭后保存为草稿，不会在前台显示。</p>
@@ -359,7 +486,37 @@
                 </div>
               </div>
               <div class="admin-table content-list" data-news-admin-list></div>
+              <nav class="admin-pagination" data-news-pagination aria-label="文章列表分页"></nav>
             </aside>
+          </div>
+        </section>
+
+        <section class="admin-panel" data-panel="inquiries">
+          <div class="admin-panel-head">
+            <div>
+              <p class="eyebrow">INQUIRY INBOX</p>
+              <h2>客户询盘</h2>
+            </div>
+            <div class="admin-primary-actions">
+              <button class="btn ghost light" type="button" data-inquiry-refresh>刷新询盘</button>
+            </div>
+          </div>
+
+          <div class="inquiry-board">
+            <div class="library-toolbar">
+              <label class="admin-search wide-search">
+                <span>搜索询盘</span>
+                <input type="search" data-inquiry-search placeholder="按姓名、公司、联系方式、需求搜索" />
+              </label>
+              <div class="filter-pills" data-inquiry-filters>
+                <button type="button" class="active" data-inquiry-filter="all">全部</button>
+                <button type="button" data-inquiry-filter="new">待处理</button>
+                <button type="button" data-inquiry-filter="handled">已处理</button>
+                <button type="button" data-inquiry-filter="archived">已归档</button>
+              </div>
+            </div>
+            <p class="inquiry-hint">客户在官网“联系我们”页提交的咨询会显示在这里。新询盘不会自动通知，请定期查看或联系开发者接入邮件/企业微信提醒。</p>
+            <div class="inquiry-list" data-inquiry-list></div>
           </div>
         </section>
       </section>

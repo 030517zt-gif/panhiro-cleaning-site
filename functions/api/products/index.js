@@ -33,10 +33,16 @@ function productPayload(body) {
     category: String(body.category || "").trim(),
     tagline: String(body.tagline || "").trim(),
     description: String(body.description || "").trim(),
+    name_zh: String(body.name_zh || "").trim(),
+    category_zh: String(body.category_zh || "").trim(),
+    tagline_zh: String(body.tagline_zh || "").trim(),
+    description_zh: String(body.description_zh || "").trim(),
     image_url: String(body.image_url || "").trim(),
     specs: JSON.stringify(body.specs || {}),
+    specs_zh: JSON.stringify(body.specs_zh || {}),
     sort_order: Number(body.sort_order || 0),
     is_featured: body.is_featured ? 1 : 0,
+    show_in_marquee: body.show_in_marquee ? 1 : 0,
     published: body.published === 0 ? 0 : 1
   };
 }
@@ -72,8 +78,8 @@ export async function onRequestPost({ request, env }) {
   try {
     const result = await env.DB.prepare(
       `INSERT INTO products
-        (name, slug, category, tagline, description, image_url, specs, sort_order, is_featured, published, updated_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+        (name, slug, category, tagline, description, name_zh, category_zh, tagline_zh, description_zh, image_url, specs, specs_zh, sort_order, is_featured, show_in_marquee, published, updated_at)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
     )
       .bind(
         payload.name,
@@ -81,10 +87,16 @@ export async function onRequestPost({ request, env }) {
         payload.category,
         payload.tagline,
         payload.description,
+        payload.name_zh,
+        payload.category_zh,
+        payload.tagline_zh,
+        payload.description_zh,
         payload.image_url,
         payload.specs,
+        payload.specs_zh,
         payload.sort_order,
         payload.is_featured,
+        payload.show_in_marquee,
         payload.published,
         new Date().toISOString()
       )

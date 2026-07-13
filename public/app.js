@@ -1,4 +1,5 @@
 ﻿import { DEFAULT_PRODUCTS, DEFAULT_NEWS, PRODUCT_CATEGORIES } from "./content-seed.js";
+import CONTACT from "./contact-config.js";
 
 const storeKeys = {
   products: "panhiro.cnryce.products.v2",
@@ -6,7 +7,7 @@ const storeKeys = {
 };
 const languageStoreKey = "panhiro.site.lang.v2";
 const legacyLanguageStoreKey = "panhiro.site.lang";
-const DEFAULT_LANGUAGE = "en";
+const DEFAULT_LANGUAGE = "zh";
 
 const state = {
   products: [],
@@ -295,6 +296,16 @@ function localizeSpecs(specs) {
   ]));
 }
 
+function localizedField(item, field, fallback = "") {
+  const value = item?.[field] ?? fallback;
+  if (state.lang === "zh") {
+    const zhValue = item?.[`${field}_zh`];
+    if (zhValue) return zhValue;
+    return hasChinese(value) ? value : translateProductCopy(value);
+  }
+  return item?.[`${field}_en`] || value || item?.[`${field}_zh`] || fallback;
+}
+
 function localizeProduct(product) {
   if (state.lang !== "zh") {
     return {
@@ -306,13 +317,13 @@ function localizeProduct(product) {
   }
   return {
     ...product,
-    name: translateProductCopy(product.name),
-    category: productCategoryLabel(product.category),
+    name: localizedField(product, "name"),
+    category: product.category_zh || productCategoryLabel(product.category),
     tagline: /CNRYCE product catalog/i.test(product.tagline || "")
-      ? categoryTagline(product.category)
-      : translateProductCopy(product.tagline || categoryTagline(product.category)),
-    description: translateProductCopy(product.description),
-    specs: localizeSpecs(product.specs)
+      ? (product.tagline_zh || categoryTagline(product.category))
+      : localizedField(product, "tagline", categoryTagline(product.category)),
+    description: localizedField(product, "description"),
+    specs: Object.keys(product.specs_zh || {}).length ? product.specs_zh : localizeSpecs(product.specs)
   };
 }
 
@@ -335,6 +346,24 @@ function usesDefaultNewsCopy(post) {
 }
 
 function localizeNews(post) {
+  if (state.lang === "zh" && (post.title_zh || post.excerpt_zh || post.content_zh)) {
+    return {
+      ...post,
+      title: post.title_zh || post.title,
+      category: post.category_zh || newsCategoryLabel(post.category),
+      excerpt: post.excerpt_zh || post.excerpt,
+      content: post.content_zh || post.content
+    };
+  }
+  if (state.lang === "en" && (post.title_en || post.excerpt_en || post.content_en)) {
+    return {
+      ...post,
+      title: post.title_en || post.title,
+      category: post.category_en || newsCategoryLabel(post.category),
+      excerpt: post.excerpt_en || post.excerpt,
+      content: post.content_en || post.content
+    };
+  }
   const translated = NEWS_TRANSLATIONS[post.slug];
   if (!translated || !usesDefaultNewsCopy(post)) {
     return {
@@ -444,6 +473,13 @@ function applyStaticLanguage() {
   setText(".site-nav .submenu a[href='/subpage.html?page=company-profile']", shared.companyProfile);
   setText(".site-nav .submenu a[href='/subpage.html?page=company-strength']", shared.companyStrength);
   setText(".site-nav .nav-main[href='/product.html']", shared.productCenter);
+  setText(".site-nav .submenu a[href='/product.html']", lang === "en" ? "All Products" : "全部产品");
+  $$(".site-nav .wide-menu .submenu a[href*='category=']").forEach(a => {
+    const url = new URL(a.href, location.origin);
+    const cat = url.searchParams.get("category") || "";
+    const label = lang === "en" ? (CATEGORY_ALIASES[cat] || cat) : (PRODUCT_CATEGORY_ZH[cat] || PRODUCT_CATEGORY_ZH[CATEGORY_ALIASES[cat]] || cat);
+    if (label) a.textContent = label;
+  });
   setText(".site-nav .nav-main[href='/subpage.html?page=service']", shared.serviceSupport);
   setText(".site-nav .submenu a[href='/subpage.html?page=service']", shared.serviceOverview);
   setText(".site-nav .submenu a[href='/subpage.html?page=service-video']", shared.serviceVideo);
@@ -462,6 +498,9 @@ function applyStaticLanguage() {
   $(".side-rail a[href='#top']")?.setAttribute("aria-label", shared.top);
   $(".side-rail a[href^='tel:']")?.setAttribute("aria-label", shared.phone);
   $(".side-rail a[href='#contact'], .side-rail a[href='/subpage.html?page=contact']")?.setAttribute("aria-label", shared.message);
+
+  $$(".phone-link").forEach(el => { el.href = `tel:${CONTACT.phone}`; el.textContent = CONTACT.phoneDisplay; });
+  $$(".side-rail a[href^='tel:']").forEach(el => { el.href = `tel:${CONTACT.phone}`; });
 
   if (page === "home") {
     document.title = lang === "en"
@@ -503,13 +542,13 @@ function applyStaticLanguage() {
     setText(".faq-section .section-head h2", lang === "en" ? "Frequently Asked Questions" : "常见问题");
     setText(".faq-section .section-summary", lang === "en" ? "We answer the most common questions about quality, warranty, branding, stock and delivery in advance." : "把客户最常问的质量、保修、品牌、库存和交付问题先说清楚，减少来回沟通。");
     setHTML(".faq-grid", lang === "en"
-      ? `<details class="faq-item" open><summary>How do you ensure product quality?</summary><p>Each machine is inspected and tested individually before packing, followed by a final pre-shipment review.</p></details><details class="faq-item" open><summary>How long is the warranty?</summary><p>The standard warranty is 6-12 months depending on the component grade and order configuration.</p></details><details class="faq-item" open><summary>Can you use the customer's own brand?</summary><p>Yes. We support OEM and welcome ODM projects with custom branding, packaging and market-specific setup.</p></details><details class="faq-item" open><summary>Do you keep stock?</summary><p>Regular models are often available in stock. Custom or bulk orders are confirmed according to the actual production schedule.</p></details><details class="faq-item" open><summary>What is the lead time?</summary><p>Stock items can be shipped quickly. Custom or bulk orders usually take about 15 days in the off-season and about 30 days in the peak season.</p></details><details class="faq-item" open><summary>Who should I contact?</summary><p>You can email <a href="mailto:sales@panhiro.net">sales@panhiro.net</a> with the model, quantity and market requirement, and we will reply soon.</p></details>`
-      : `<details class="faq-item" open><summary>如何确保产品质量？</summary><p>每台产品在包装前都会经过单独检查和测试，出货前再做一轮复检。</p></details><details class="faq-item" open><summary>产品保修多久？</summary><p>常规质保期为 6-12 个月，会根据配件档次和订单配置确认。</p></details><details class="faq-item" open><summary>支持使用客户自己的品牌吗？</summary><p>支持 OEM，也欢迎 ODM 订单，可按品牌、包装和市场需求做配套。</p></details><details class="faq-item" open><summary>产品有库存吗？</summary><p>常规产品通常有库存，可以尽快安排；定制或批量订单会按实际情况确认交付节奏。</p></details><details class="faq-item" open><summary>交付周期多久？</summary><p>库存产品可尽快发货；定制或批量订单一般淡季约 15 天，旺季约 30 天。</p></details><details class="faq-item" open><summary>有问题联系谁？</summary><p>可以直接邮件联系 <a href="mailto:sales@panhiro.net">sales@panhiro.net</a>，发送型号、数量和市场需求，我们会尽快回复。</p></details>`);
+      ? `<details class="faq-item" open><summary>How do you ensure product quality?</summary><p>Each machine is inspected and tested individually before packing, followed by a final pre-shipment review.</p></details><details class="faq-item" open><summary>How long is the warranty?</summary><p>The standard warranty is 6-12 months depending on the component grade and order configuration.</p></details><details class="faq-item" open><summary>Can you use the customer's own brand?</summary><p>Yes. We support OEM and welcome ODM projects with custom branding, packaging and market-specific setup.</p></details><details class="faq-item" open><summary>Do you keep stock?</summary><p>Regular models are often available in stock. Custom or bulk orders are confirmed according to the actual production schedule.</p></details><details class="faq-item" open><summary>What is the lead time?</summary><p>Stock items can be shipped quickly. Custom or bulk orders usually take about 15 days in the off-season and about 30 days in the peak season.</p></details><details class="faq-item" open><summary>Who should I contact?</summary><p>You can email <a href="mailto:${CONTACT.emailSales}">${CONTACT.emailSales}</a> with the model, quantity and market requirement, and we will reply soon.</p></details>`
+      : `<details class="faq-item" open><summary>如何确保产品质量？</summary><p>每台产品在包装前都会经过单独检查和测试，出货前再做一轮复检。</p></details><details class="faq-item" open><summary>产品保修多久？</summary><p>常规质保期为 6-12 个月，会根据配件档次和订单配置确认。</p></details><details class="faq-item" open><summary>支持使用客户自己的品牌吗？</summary><p>支持 OEM，也欢迎 ODM 订单，可按品牌、包装和市场需求做配套。</p></details><details class="faq-item" open><summary>产品有库存吗？</summary><p>常规产品通常有库存，可以尽快安排；定制或批量订单会按实际情况确认交付节奏。</p></details><details class="faq-item" open><summary>交付周期多久？</summary><p>库存产品可尽快发货；定制或批量订单一般淡季约 15 天，旺季约 30 天。</p></details><details class="faq-item" open><summary>有问题联系谁？</summary><p>可以直接邮件联系 <a href="mailto:${CONTACT.emailSales}">${CONTACT.emailSales}</a>，发送型号、数量和市场需求，我们会尽快回复。</p></details>`);
     setText(".contact-band h2", lang === "en" ? "Get Product Files and Quotations" : "获取产品资料与报价");
     setText(".contact-band p:not(.eyebrow)", lang === "en" ? "Send us the target product, quantity, market region and custom requirements, and we will prepare catalog files, configuration suggestions and quotation details for you." : "请发送目标产品、采购数量、市场区域和定制需求，我们会尽快整理产品目录、配置建议与报价信息。");
     setHTML(".contact-info-list", lang === "en"
-      ? `<a href="mailto:sales@panhiro.net"><span>Catalog / Quotation</span><strong>sales@panhiro.net</strong></a><a href="mailto:panchen@panhiro.net"><span>Email</span><strong>panchen@panhiro.net</strong></a><a href="tel:+8613197228342"><span>Phone</span><strong>+86 131 9722 8342</strong></a><div><span>Company</span><strong>Taizhou Panhiro Electromechanical Co., Ltd.</strong></div>`
-      : `<a href="mailto:sales@panhiro.net"><span>资料 / 报价</span><strong>sales@panhiro.net</strong></a><a href="mailto:panchen@panhiro.net"><span>邮箱</span><strong>panchen@panhiro.net</strong></a><a href="tel:+8613197228342"><span>电话</span><strong>+86 131 9722 8342</strong></a><div><span>公司</span><strong>台州磐宏机电有限公司</strong></div>`);
+      ? `<a href="mailto:${CONTACT.emailSales}"><span>Catalog / Quotation</span><strong>${CONTACT.emailSales}</strong></a><a href="mailto:${CONTACT.emailGeneral}"><span>Email</span><strong>${CONTACT.emailGeneral}</strong></a><a href="tel:${CONTACT.phone}"><span>Phone</span><strong>${CONTACT.phoneDisplay}</strong></a><div><span>Company</span><strong>${CONTACT.companyEn}</strong></div>`
+      : `<a href="mailto:${CONTACT.emailSales}"><span>资料 / 报价</span><strong>${CONTACT.emailSales}</strong></a><a href="mailto:${CONTACT.emailGeneral}"><span>邮箱</span><strong>${CONTACT.emailGeneral}</strong></a><a href="tel:${CONTACT.phone}"><span>电话</span><strong>${CONTACT.phoneDisplay}</strong></a><div><span>公司</span><strong>${CONTACT.companyZh}</strong></div>`);
     setPlaceholder("[data-search-input]", lang === "en" ? "Search product names, categories or company news..." : "输入产品名称、分类、公司动态...");
     setText(".search-dialog label span", lang === "en" ? "Search Products or News" : "搜索产品或动态");
   }
@@ -518,9 +557,10 @@ function applyStaticLanguage() {
     document.title = lang === "en" ? "Product Center | Panhiro Cleaning Equipment" : "产品中心 | 磐宏清洗设备";
     setMeta("meta[name='description']", lang === "en"
       ? "Explore Panhiro's product center based on the CNRYCE category structure, including high pressure washers, vacuum cleaners, plunger pumps, hoses and accessories."
-      : "查看磐宏按 CNRYCE 参考分类整理的 87 个产品，覆盖 Washing Machine、Vacuum Cleaner、Washer Plunger Pumps、Foam Gun 等目录。");
+      : "查看磐宏按参考分类整理的 87 个产品，覆盖清洗机、洗车机系列、吸尘器、清洗机柱塞泵、泡沫枪和转接头等目录。");
+    setText(".page-hero .eyebrow", lang === "en" ? "PRODUCT CENTER" : "产品中心");
     setText(".page-hero h1", lang === "en" ? "Product Center" : "产品中心");
-    setText(".page-hero p:not(.eyebrow)", lang === "en" ? "Browse 87 products organized by the reference site categories, covering Washing Machine, car washing series, Vacuum Cleaner, Washer Plunger Pumps, Foam Gun and more." : "按参考站分类展示 87 个产品，覆盖 Washing Machine、car washing series、Vacuum Cleaner、Washer Plunger Pumps、Foam Gun 等目录。");
+    setText(".page-hero p:not(.eyebrow)", lang === "en" ? "Browse 87 products organized by the reference site categories, covering Washing Machine, car washing series, Vacuum Cleaner, Washer Plunger Pumps, Foam Gun and more." : "按参考分类展示 87 个产品，覆盖清洗机、洗车机系列、吸尘器、清洗机柱塞泵、泡沫枪和清洗机转接头等目录。");
     setPlaceholder("[data-search-input]", lang === "en" ? "Enter product model or category..." : "输入产品型号或分类...");
     setText(".search-dialog label span", lang === "en" ? "Search Products or News" : "搜索产品或动态");
   }
@@ -553,8 +593,10 @@ function normalizeProduct(product) {
     ...product,
     category: canonicalCategory(product.category),
     specs: parseSpecs(product.specs),
+    specs_zh: parseSpecs(product.specs_zh),
     sort_order: Number(product.sort_order || 0),
     is_featured: Number(product.is_featured || 0),
+    show_in_marquee: Number(product.show_in_marquee ?? 0),
     published: Number(product.published ?? 1)
   };
 }
@@ -731,7 +773,7 @@ function renderHomeProducts() {
 
   const featured = state.products.filter((item) => item.is_featured).slice(0, 4);
   const render = (category = "全部") => {
-    const products = (category === "全部" ? featured : state.products.filter((item) => productMatchesCategory(item, category))).slice(0, 4);
+    const products = category === "全部" ? featured : state.products.filter((item) => productMatchesCategory(item, category));
     grid.innerHTML = products.length ? products.map(productCard).join("") : `<div class="empty-state">${state.lang === "en" ? "No products in this category yet. They will appear automatically after publishing from the admin panel." : "该分类暂无产品，后台添加后会自动显示。"}</div>`;
     attachProductEvents(grid);
     setupMotion();
@@ -746,18 +788,25 @@ function renderProductRail() {
   const rail = $("[data-home-marquee]");
   if (!rail) return;
 
-  const items = state.products.slice(0, 10);
+  const items = state.products.filter((product) => product.show_in_marquee).slice(0, 10);
+  if (!items.length) {
+    rail.innerHTML = "";
+    return;
+  }
   const tiles = items
     .map(
-      (product) => `
+      (product) => {
+        const localized = localizeProduct(product);
+        return `
         <a class="marquee-item" href="/subpage.html?page=${encodeURIComponent(product.slug || product.id)}">
-          <img src="${escapeHTML(product.image_url)}" alt="${escapeHTML(product.name)}" loading="lazy" />
+          <img src="${escapeHTML(product.image_url)}" alt="${escapeHTML(localized.name)}" loading="lazy" />
           <div>
-            <span>${escapeHTML(categoryLabel(product.category))}</span>
-            <strong>${escapeHTML(product.name)}</strong>
+            <span>${escapeHTML(localized.category)}</span>
+            <strong>${escapeHTML(localized.name)}</strong>
           </div>
         </a>
-      `
+      `;
+      }
     )
     .join("");
 
@@ -826,17 +875,18 @@ function openProduct(id) {
     return;
   }
 
-  const specs = Object.entries(product.specs)
+  const localized = localizeProduct(product);
+  const specs = Object.entries(localized.specs)
     .map(([key, value]) => `<span>${escapeHTML(key)}：${escapeHTML(value)}</span>`)
     .join("");
 
   detail.innerHTML = `
     <div class="detail-grid">
-      <img src="${escapeHTML(product.image_url)}" alt="${escapeHTML(product.name)}" />
+      <img src="${escapeHTML(product.image_url)}" alt="${escapeHTML(localized.name)}" />
       <div>
-        <span class="tag">${escapeHTML(product.category)}</span>
-        <h2>${escapeHTML(product.name)}</h2>
-        <p>${escapeHTML(product.description)}</p>
+        <span class="tag">${escapeHTML(localized.category)}</span>
+        <h2>${escapeHTML(localized.name)}</h2>
+        <p>${escapeHTML(localized.description)}</p>
         <div class="spec-list">${specs}</div>
       </div>
     </div>
@@ -874,7 +924,10 @@ function setupHeader() {
     window.addEventListener("scroll", onScroll, { passive: true });
   }
   if (toggle && nav) {
-    toggle.addEventListener("click", () => nav.classList.toggle("is-open"));
+    toggle.addEventListener("click", () => {
+      nav.classList.toggle("is-open");
+      toggle.classList.toggle("is-active");
+    });
     const groups = $$(".nav-group", nav);
     const desktopQuery = window.matchMedia("(min-width: 901px)");
     const closeGroups = () => groups.forEach((group) => group.classList.remove("is-open"));

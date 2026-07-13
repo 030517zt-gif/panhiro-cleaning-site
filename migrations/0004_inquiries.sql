@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS inquiries (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT NOT NULL,
+  company TEXT NOT NULL DEFAULT '',
+  contact TEXT NOT NULL,
+  region TEXT NOT NULL DEFAULT '',
+  product TEXT NOT NULL DEFAULT '',
+  intent TEXT NOT NULL DEFAULT '',
+  message TEXT NOT NULL DEFAULT '',
+  lang TEXT NOT NULL DEFAULT 'zh',
+  source TEXT NOT NULL DEFAULT '',
+  status TEXT NOT NULL DEFAULT 'new',
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_inquiries_created_at ON inquiries (created_at DESC);

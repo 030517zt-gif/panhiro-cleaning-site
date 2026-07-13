@@ -1,8 +1,9 @@
 import { FALLBACK_PAGE, PRODUCT_DETAILS, SUBPAGES } from "./subpage-data.js";
 import { DEFAULT_NEWS, DEFAULT_PRODUCTS } from "./content-seed.js";
+import CONTACT from "./contact-config.js";
 
 const params = new URLSearchParams(window.location.search);
-const lang = localStorage.getItem("panhiro.site.lang.v2") || localStorage.getItem("panhiro.site.lang") || "en";
+const lang = localStorage.getItem("panhiro.site.lang.v2") || localStorage.getItem("panhiro.site.lang") || "zh";
 const storeKeys = {
   products: "panhiro.cnryce.products.v2",
   news: "panhiro.cnryce.news.v2"
@@ -207,6 +208,16 @@ function localizeSpecs(specs) {
   ]));
 }
 
+function localizedField(item, field, fallback = "") {
+  const value = item?.[field] ?? fallback;
+  if (lang === "zh") {
+    const zhValue = item?.[`${field}_zh`];
+    if (zhValue) return zhValue;
+    return hasChinese(value) ? value : translateProductCopy(value);
+  }
+  return item?.[`${field}_en`] || value || item?.[`${field}_zh`] || fallback;
+}
+
 function localizeProduct(product) {
   if (lang !== "zh") {
     return {
@@ -218,13 +229,13 @@ function localizeProduct(product) {
   }
   return {
     ...product,
-    name: translateProductCopy(product.name),
-    category: productCategoryLabel(product.category),
+    name: localizedField(product, "name"),
+    category: product.category_zh || productCategoryLabel(product.category),
     tagline: /CNRYCE product catalog/i.test(product.tagline || "")
-      ? categoryTagline(product.category)
-      : translateProductCopy(product.tagline || categoryTagline(product.category)),
-    description: translateProductCopy(product.description),
-    specs: localizeSpecs(product.specs)
+      ? (product.tagline_zh || categoryTagline(product.category))
+      : localizedField(product, "tagline", categoryTagline(product.category)),
+    description: localizedField(product, "description"),
+    specs: Object.keys(product.specs_zh || {}).length ? product.specs_zh : localizeSpecs(product.specs)
   };
 }
 
@@ -288,6 +299,7 @@ const managedContent = await loadManagedContent();
 const products = managedContent.products.map((product) => ({
   ...product,
   specs: parseSpecs(product.specs),
+  specs_zh: parseSpecs(product.specs_zh),
   published: Number(product.published ?? 1)
 })).filter((product) => product.published);
 const newsPosts = managedContent.news
@@ -446,6 +458,24 @@ const subpageTranslations = {
 };
 
 function localizeNews(post) {
+  if (lang === "zh" && (post.title_zh || post.excerpt_zh || post.content_zh)) {
+    return {
+      ...post,
+      title: post.title_zh || post.title,
+      category: post.category_zh || post.category,
+      excerpt: post.excerpt_zh || post.excerpt,
+      content: post.content_zh || post.content
+    };
+  }
+  if (lang === "en" && (post.title_en || post.excerpt_en || post.content_en)) {
+    return {
+      ...post,
+      title: post.title_en || post.title,
+      category: post.category_en || post.category,
+      excerpt: post.excerpt_en || post.excerpt,
+      content: post.content_en || post.content
+    };
+  }
   if (lang !== "en") return post;
   const translated = newsTranslations[post.slug];
   const original = defaultNewsBySlug.get(post.slug);
@@ -482,7 +512,7 @@ const data = currentProduct
             ["03", "Contact", "For quotations or product files, please contact sales@panhiro.net."]
           ]
         : [
-            ["01", currentProduct.category, "该产品已按参考站产品分类导入，图片已下载到本地静态资源目录。"],
+            ["01", productDetail.category, "该产品已按参考站产品分类导入，图片已下载到本地静态资源目录。"],
             ["02", "产品资料", "可继续在后台补充详细参数、应用场景、包装信息和询盘说明。"],
             ["03", "联系方式", "需要报价或产品资料时，可通过 sales@panhiro.net 联系。"]
           ]
@@ -576,11 +606,11 @@ function renderBase() {
 function renderProductDetail(root) {
   const detail = currentProduct
     ? {
-        badge: currentProduct.category,
+        badge: productDetail.category,
         heroImage: currentProduct.image_url,
         gallery: [currentProduct.image_url],
-        specs: Object.entries(currentProduct.specs).map(([key, value]) => `${key}: ${value}`),
-        scene: currentProduct.description
+        specs: Object.entries(productDetail.specs).map(([key, value]) => `${key}: ${value}`),
+        scene: productDetail.description
       }
     : PRODUCT_DETAILS[pageKey];
 
@@ -836,7 +866,7 @@ function renderContact(root) {
         ["Can you use the customer's own brand?", "Yes. We support OEM and welcome ODM projects with custom branding, packaging and market-specific setup."],
         ["Do you keep stock?", "Regular models are often available in stock. Custom or bulk orders are confirmed according to the actual production schedule."],
         ["What is the lead time?", "Stock items can be shipped quickly. Custom or bulk orders usually take about 15 days in the off-season and about 30 days in the peak season."],
-        ["Who should I contact?", "You can email sales@panhiro.net with the model, quantity and market requirement, and we will reply soon."]
+        ["Who should I contact?", `You can email ${CONTACT.emailSales} with the model, quantity and market requirement, and we will reply soon.`]
       ]
     : (data.faq || []);
 
@@ -858,10 +888,11 @@ function renderContact(root) {
         <div class="contact-detail-head">
           <p class="eyebrow">${lang === "en" ? "FULL CONTACT ACCESS" : "完整咨询入口"}</p>
           <h2>${lang === "en" ? "Email, phone and WeCom access in one page" : "邮箱、电话、企业微信，一页完成沟通"}</h2>
-          <p>${lang === "en" ? "Please email sales@panhiro.net or panchen@panhiro.net first with the model, quantity, market and configuration request. You can also call directly or scan the code for WeCom." : "优先发送邮件到 sales@panhiro.net 或 panchen@panhiro.net，写清型号、数量、市场和配置需求；也可以直接电话联系，或扫码添加企业微信。"}</p>
+          <p>${lang === "en" ? `Please email ${CONTACT.emailSales} or ${CONTACT.emailGeneral} first with the model, quantity, market and configuration request. You can also call directly or scan the code for WeCom.` : `优先发送邮件到 ${CONTACT.emailSales} 或 ${CONTACT.emailGeneral}，写清型号、数量、市场和配置需求；也可以直接电话联系，或扫码添加企业微信。`}</p>
         </div>
         <div class="contact-detail-layout">
           <form class="contact-detail-form" data-inquiry-form>
+            <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" class="form-hp" />
             <label>${lang === "en" ? "Name" : "姓名"}<input type="text" name="name" placeholder="${lang === "en" ? "Enter your name" : "请输入您的姓名"}" autocomplete="name" required /></label>
             <label>${lang === "en" ? "Company / Store" : "公司 / 门店"}<input type="text" name="company" placeholder="${lang === "en" ? "Enter company or store name" : "请输入公司或门店名称"}" autocomplete="organization" /></label>
             <label>${lang === "en" ? "Contact" : "联系方式"}<input type="text" name="contact" placeholder="${lang === "en" ? "Phone / WeChat / Email" : "电话 / 微信 / 邮箱均可"}" autocomplete="tel" required /></label>
@@ -899,17 +930,17 @@ function renderContact(root) {
           <div class="contact-channel-panel">
             <article class="contact-channel-card">
               <span>${lang === "en" ? "Email Inquiry" : "邮箱咨询"}</span>
-              <a href="mailto:sales@panhiro.net">sales@panhiro.net</a>
+              <a href="mailto:${CONTACT.emailSales}">${CONTACT.emailSales}</a>
               <p>${lang === "en" ? "Best for product lists, target markets, purchase quantities, voltage and plug requests, or customization needs." : "适合发送产品清单、目标市场、采购数量、电压插头要求和定制需求。"}</p>
             </article>
             <article class="contact-channel-card phone-card">
               <span>${lang === "en" ? "Phone Inquiry" : "电话咨询"}</span>
-              <a href="tel:+8613197228342">+86 13197228342</a>
+              <a href="tel:${CONTACT.phone}">${CONTACT.phoneDisplay}</a>
               <p>${lang === "en" ? "Best for urgent confirmation of product files, quotation direction, sample discussion or service issues." : "适合急需确认产品资料、报价方向、样机沟通或售后问题。"}</p>
             </article>
             <article class="contact-channel-card">
               <span>${lang === "en" ? "Direct Email" : "邮箱"}</span>
-              <a href="mailto:panchen@panhiro.net">panchen@panhiro.net</a>
+              <a href="mailto:${CONTACT.emailGeneral}">${CONTACT.emailGeneral}</a>
               <p>${lang === "en" ? "Send product models, quantities, target market, voltage, plug type and customization needs to this mailbox." : "请把型号、数量、目标市场、电压、插头类型和定制需求发送到这个邮箱。"}</p>
             </article>
             <article class="contact-channel-card qr-card">
@@ -935,12 +966,71 @@ function renderContact(root) {
 
   const form = $("[data-inquiry-form]");
   const status = $("[data-inquiry-status]");
-  form?.addEventListener("submit", (event) => {
+  const isStaticPreview = location.protocol === "file:" || ["5173", "5174"].includes(location.port);
+
+  const messages = {
+    sending: lang === "en" ? "Submitting..." : "正在提交...",
+    success: lang === "en"
+      ? "Thank you. Your inquiry has been received and our sales team will reply soon."
+      : "提交成功，我们已收到您的咨询，销售团队会尽快与您联系。",
+    localSaved: lang === "en"
+      ? "Saved in this local preview. It will submit to the server after deployment."
+      : "已保存在本地预览中，部署上线后会真正提交到服务器。",
+    error: lang === "en"
+      ? "Submission failed. Please try again, or reach us by email or phone."
+      : "提交失败，请稍后重试，或通过邮箱、电话直接联系我们。"
+  };
+
+  form?.addEventListener("submit", async (event) => {
     event.preventDefault();
-    status.textContent = lang === "en"
-      ? "Saved in the current browser preview. After deployment, this can be connected to email, WeCom or a CRM."
-      : "已记录在当前浏览器预览中。上线后可继续接入邮箱、企业微信或 CRM。";
-    form.reset();
+    if (!status) return;
+
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const formData = new FormData(form);
+    const payload = {
+      name: (formData.get("name") || "").toString().trim(),
+      company: (formData.get("company") || "").toString().trim(),
+      contact: (formData.get("contact") || "").toString().trim(),
+      region: (formData.get("region") || "").toString().trim(),
+      product: (formData.get("product") || "").toString().trim(),
+      intent: (formData.get("intent") || "").toString().trim(),
+      message: (formData.get("message") || "").toString().trim(),
+      website: (formData.get("website") || "").toString().trim(),
+      lang,
+      source: "contact-page"
+    };
+
+    // 本地预览模式：不打接口，存到浏览器 localStorage，方便演示
+    if (isStaticPreview) {
+      const stored = JSON.parse(localStorage.getItem("panhiro.inquiries.preview") || "[]");
+      stored.unshift({ ...payload, created_at: new Date().toISOString() });
+      localStorage.setItem("panhiro.inquiries.preview", JSON.stringify(stored));
+      status.textContent = messages.localSaved;
+      status.dataset.tone = "success";
+      form.reset();
+      return;
+    }
+
+    status.textContent = messages.sending;
+    status.dataset.tone = "info";
+    if (submitBtn) submitBtn.disabled = true;
+
+    try {
+      const response = await fetch("/api/inquiries", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      status.textContent = messages.success;
+      status.dataset.tone = "success";
+      form.reset();
+    } catch (error) {
+      status.textContent = messages.error;
+      status.dataset.tone = "error";
+    } finally {
+      if (submitBtn) submitBtn.disabled = false;
+    }
   });
 }
 

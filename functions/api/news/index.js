@@ -33,6 +33,14 @@ function newsPayload(body) {
     category: String(body.category || "").trim(),
     excerpt: String(body.excerpt || "").trim(),
     content: String(body.content || "").trim(),
+    title_zh: String(body.title_zh || "").trim(),
+    category_zh: String(body.category_zh || "").trim(),
+    excerpt_zh: String(body.excerpt_zh || "").trim(),
+    content_zh: String(body.content_zh || "").trim(),
+    title_en: String(body.title_en || "").trim(),
+    category_en: String(body.category_en || "").trim(),
+    excerpt_en: String(body.excerpt_en || "").trim(),
+    content_en: String(body.content_en || "").trim(),
     image_url: String(body.image_url || "").trim(),
     published_at: String(body.published_at || new Date().toISOString().slice(0, 10)).trim(),
     published: body.published === 0 ? 0 : 1
@@ -70,8 +78,8 @@ export async function onRequestPost({ request, env }) {
   try {
     const result = await env.DB.prepare(
       `INSERT INTO news_posts
-        (title, slug, category, excerpt, content, image_url, published_at, published, updated_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`
+        (title, slug, category, excerpt, content, title_zh, category_zh, excerpt_zh, content_zh, title_en, category_en, excerpt_en, content_en, image_url, published_at, published, updated_at)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
     )
       .bind(
         payload.title,
@@ -79,6 +87,14 @@ export async function onRequestPost({ request, env }) {
         payload.category,
         payload.excerpt,
         payload.content,
+        payload.title_zh,
+        payload.category_zh,
+        payload.excerpt_zh,
+        payload.content_zh,
+        payload.title_en,
+        payload.category_en,
+        payload.excerpt_en,
+        payload.content_en,
         payload.image_url,
         payload.published_at,
         payload.published,

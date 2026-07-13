@@ -10,10 +10,18 @@ const state = {
   apiAvailable: false,
   products: [],
   news: [],
+  inquiries: [],
+  inquiriesLoaded: false,
   productQuery: "",
   newsQuery: "",
+  inquiryQuery: "",
   productFilter: "all",
   newsFilter: "all",
+  inquiryFilter: "all",
+  productPage: 1,
+  newsPage: 1,
+  pageSize: 12,
+  productView: "library",
   activePanel: "products",
   dirty: {
     products: false,
@@ -89,8 +97,10 @@ function normalizeProduct(item) {
   return {
     ...item,
     specs: parseSpecs(item.specs || {}),
+    specs_zh: parseSpecs(item.specs_zh || {}),
     sort_order: Number(item.sort_order || 0),
     is_featured: Number(item.is_featured || 0),
+    show_in_marquee: Number(item.show_in_marquee ?? 0),
     published: Number(item.published ?? 1),
     updated_at: item.updated_at || new Date().toISOString()
   };
@@ -145,7 +155,9 @@ function relativeTime(value) {
 }
 
 function currentPanelLabel() {
-  return state.activePanel === "news" ? "新闻中心" : "产品中心";
+  if (state.activePanel === "news") return "新闻中心";
+  if (state.activePanel === "inquiries") return "客户询盘";
+  return "产品中心";
 }
 
 function updateCommandBar(message = "", tone = "info") {
@@ -164,6 +176,10 @@ function updateCommandBar(message = "", tone = "info") {
       <a href="/index.html" target="_blank" rel="noopener">预览官网</a>
     </div>
   `;
+  const mobileTitle = $("[data-mobile-panel-title]");
+  const mobileState = $("[data-mobile-save-state]");
+  if (mobileTitle) mobileTitle.textContent = currentPanelLabel();
+  if (mobileState) mobileState.textContent = dirty ? "有未保存修改" : message || "准备就绪";
 }
 
 function setDirty(panel, dirty = true) {
@@ -260,6 +276,7 @@ async function api(path, options = {}) {
 
 function render() {
   renderOverview();
+  renderHomepageControls();
   renderProducts();
   renderNews();
 }
@@ -304,6 +321,7 @@ function renderOverview() {
   if (!root) return;
   const totalProducts = state.products.length;
   const featuredProducts = state.products.filter((item) => item.is_featured).length;
+  const marqueeProducts = state.products.filter((item) => item.show_in_marquee).length;
   const totalNews = state.news.length;
   const publishedNews = state.news.filter((item) => item.published).length;
   const draftProducts = state.products.filter((item) => !item.published).length;
@@ -311,7 +329,7 @@ function renderOverview() {
   updateNavBadges({ totalProducts, totalNews });
   root.innerHTML = [
     overviewCard("内容总量", `${totalProducts + totalNews}`, "产品与动态合计"),
-    overviewCard("产品数量", `${totalProducts}`, `${featuredProducts} 个首页展示 / ${draftProducts} 个草稿`),
+    overviewCard("产品数量", `${totalProducts}`, `${featuredProducts} 个首页产品卡候选，前 4 个展示 / ${marqueeProducts} 个滚动产品 / ${draftProducts} 个草稿`),
     overviewCard("新闻数量", `${totalNews}`, `${publishedNews} 条已发布 / ${draftNews} 个草稿`),
     overviewCard("运行模式", state.apiAvailable ? "Cloudflare D1" : "Local Preview", state.apiAvailable ? "线上数据库已连接" : "浏览器本地存储")
   ].join("");
@@ -328,7 +346,8 @@ function productItem(item) {
         <div class="admin-item-meta">
           <span>${escapeHTML(item.category)}</span>
           <span>#${escapeHTML(item.sort_order)}</span>
-          <span>${item.is_featured ? "首页重点" : "常规展示"}</span>
+          <span>${item.is_featured ? "首页产品卡" : "常规展示"}</span>
+          ${item.show_in_marquee ? "<span>首页滚动</span>" : ""}
           <span>${item.published ? "已发布" : "草稿"}</span>
           <span>更新 ${escapeHTML(updatedLabel)}</span>
         </div>
@@ -336,12 +355,60 @@ function productItem(item) {
         <p>${escapeHTML(item.tagline || item.description || "")}</p>
       </div>
       <div class="admin-actions">
-        <button type="button" data-edit-product="${escapeHTML(item.id)}">继续编辑</button>
+        <button type="button" data-edit-product="${escapeHTML(item.id)}">编辑</button>
         <a href="${escapeHTML(href)}" target="_blank" rel="noopener">预览</a>
-        <button type="button" class="danger" data-delete-product="${escapeHTML(item.id)}">删除</button>
+        <details class="record-menu">
+          <summary aria-label="更多产品操作">更多</summary>
+          <div>
+            <button type="button" data-toggle-featured-product="${escapeHTML(item.id)}">${item.is_featured ? "移出首页卡" : "加入首页卡"}</button>
+            <button type="button" data-toggle-marquee-product="${escapeHTML(item.id)}">${item.show_in_marquee ? "移出滚动" : "加入滚动"}</button>
+            <button type="button" class="danger" data-delete-product="${escapeHTML(item.id)}">删除产品</button>
+          </div>
+        </details>
       </div>
     </div>
   `;
+}
+
+function sortForHomepage(items) {
+  return items.slice().sort((a, b) => a.sort_order - b.sort_order || sortDate(b.updated_at) - sortDate(a.updated_at));
+}
+
+function homepagePickMarkup(item, type) {
+  const toggleAttr = type === "featured" ? "data-toggle-featured-product" : "data-toggle-marquee-product";
+  const toggleLabel = type === "featured" ? "移出首页卡" : "移出滚动";
+  return `
+    <div class="homepage-pick-card">
+      <img src="${escapeHTML(item.image_url)}" alt="${escapeHTML(item.name)}" />
+      <div>
+        <span>#${escapeHTML(item.sort_order)} / ${escapeHTML(item.category)}</span>
+        <strong>${escapeHTML(item.name_zh || item.name)}</strong>
+      </div>
+      <button type="button" ${toggleAttr}="${escapeHTML(item.id)}">${toggleLabel}</button>
+    </div>
+  `;
+}
+
+function renderHomepageControls() {
+  const featuredRoot = $("[data-home-featured-preview]");
+  const marqueeRoot = $("[data-home-marquee-preview]");
+  if (!featuredRoot && !marqueeRoot) return;
+
+  const featured = sortForHomepage(state.products.filter((item) => item.published && item.is_featured));
+  const marquee = sortForHomepage(state.products.filter((item) => item.published && item.show_in_marquee));
+  const visibleFeatured = featured.slice(0, 4);
+  const visibleMarquee = marquee.slice(0, 10);
+
+  if (featuredRoot) {
+    featuredRoot.innerHTML = visibleFeatured.length
+      ? `${visibleFeatured.map((item) => homepagePickMarkup(item, "featured")).join("")}${featured.length > 4 ? `<p class="homepage-pick-note">还有 ${featured.length - 4} 个已勾选，但首页 All 只显示排序前 4 个。</p>` : ""}`
+      : `<div class="admin-empty compact-empty">还没有选择首页 All 展示产品。</div>`;
+  }
+  if (marqueeRoot) {
+    marqueeRoot.innerHTML = visibleMarquee.length
+      ? `${visibleMarquee.map((item) => homepagePickMarkup(item, "marquee")).join("")}${marquee.length > 10 ? `<p class="homepage-pick-note">还有 ${marquee.length - 10} 个已勾选，但滚动条当前只取排序前 10 个。</p>` : ""}`
+      : `<div class="admin-empty compact-empty">还没有选择首页滚动产品。</div>`;
+  }
 }
 
 function newsItem(item) {
@@ -376,25 +443,32 @@ function renderProducts() {
   const query = state.productQuery.trim();
   const filtered = state.products
     .filter((item) =>
-      [item.name, item.category, item.tagline, item.description, JSON.stringify(item.specs || {})]
+      [item.name, item.name_zh, item.category, item.category_zh, item.tagline, item.tagline_zh, item.description, item.description_zh, JSON.stringify(item.specs || {}), JSON.stringify(item.specs_zh || {})]
         .some((value) => matchesQuery(value, query))
     )
     .filter((item) => {
       if (state.productFilter === "published") return item.published;
       if (state.productFilter === "draft") return !item.published;
       if (state.productFilter === "featured") return item.is_featured;
+      if (state.productFilter === "marquee") return item.show_in_marquee;
       return true;
     });
   if (count) {
     count.textContent = `${filtered.length} / ${state.products.length}`;
   }
-  list.innerHTML = filtered.length
-    ? filtered
-        .slice()
-        .sort((a, b) => sortDate(b.updated_at) - sortDate(a.updated_at) || a.sort_order - b.sort_order)
-        .map(productItem)
-        .join("")
+  const sorted = filtered.slice().sort((a, b) => {
+          if (["featured", "marquee"].includes(state.productFilter)) {
+            return a.sort_order - b.sort_order || sortDate(b.updated_at) - sortDate(a.updated_at);
+          }
+          return sortDate(b.updated_at) - sortDate(a.updated_at) || a.sort_order - b.sort_order;
+        });
+  const totalPages = Math.max(1, Math.ceil(sorted.length / state.pageSize));
+  state.productPage = Math.min(state.productPage, totalPages);
+  const offset = (state.productPage - 1) * state.pageSize;
+  list.innerHTML = sorted.length
+    ? sorted.slice(offset, offset + state.pageSize).map(productItem).join("")
     : `<div class="admin-empty">没有匹配的产品，换个关键词试试。</div>`;
+  renderPagination("product", state.productPage, totalPages, sorted.length);
 }
 
 function renderNews() {
@@ -404,7 +478,7 @@ function renderNews() {
   const query = state.newsQuery.trim();
   const filtered = state.news
     .filter((item) =>
-      [item.title, item.category, item.excerpt, item.content, item.published_at]
+      [item.title, item.title_zh, item.title_en, item.category, item.category_zh, item.category_en, item.excerpt, item.excerpt_zh, item.excerpt_en, item.content, item.content_zh, item.content_en, item.published_at]
         .some((value) => matchesQuery(value, query))
     )
     .filter((item) => {
@@ -415,13 +489,42 @@ function renderNews() {
   if (count) {
     count.textContent = `${filtered.length} / ${state.news.length}`;
   }
-  list.innerHTML = filtered.length
-    ? filtered
-        .slice()
-        .sort((a, b) => sortDate(b.updated_at || b.published_at) - sortDate(a.updated_at || a.published_at))
-        .map(newsItem)
-        .join("")
+  const sorted = filtered.slice().sort((a, b) => sortDate(b.updated_at || b.published_at) - sortDate(a.updated_at || a.published_at));
+  const totalPages = Math.max(1, Math.ceil(sorted.length / state.pageSize));
+  state.newsPage = Math.min(state.newsPage, totalPages);
+  const offset = (state.newsPage - 1) * state.pageSize;
+  list.innerHTML = sorted.length
+    ? sorted.slice(offset, offset + state.pageSize).map(newsItem).join("")
     : `<div class="admin-empty">没有匹配的动态，换个关键词试试。</div>`;
+  renderPagination("news", state.newsPage, totalPages, sorted.length);
+}
+
+function renderPagination(type, current, total, itemCount) {
+  const root = $(`[data-${type}-pagination]`);
+  if (!root) return;
+  if (total <= 1) {
+    root.innerHTML = itemCount ? `<span>共 ${itemCount} 条</span>` : "";
+    return;
+  }
+  root.innerHTML = `
+    <span>第 ${current} / ${total} 页，共 ${itemCount} 条</span>
+    <div>
+      <button type="button" data-page-type="${type}" data-page-value="${current - 1}" ${current === 1 ? "disabled" : ""}>上一页</button>
+      <button type="button" data-page-type="${type}" data-page-value="${current + 1}" ${current === total ? "disabled" : ""}>下一页</button>
+    </div>
+  `;
+}
+
+function setProductView(view, options = {}) {
+  state.productView = view;
+  $$('[data-product-view]').forEach((button) => button.classList.toggle("active", button.dataset.productView === view));
+  $$('[data-product-workspace]').forEach((section) => {
+    section.hidden = section.dataset.productWorkspace !== view;
+  });
+  document.body.dataset.productView = view;
+  if (options.scroll !== false) {
+    $("[data-panel='products']")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 }
 
 function setImagePreview(img, src, alt) {
@@ -438,6 +541,7 @@ function setImagePreview(img, src, alt) {
 }
 
 function readSpecRows(container) {
+  if (!container) return {};
   const rows = $$(".spec-row", container);
   const specs = {};
   rows.forEach((row) => {
@@ -497,24 +601,31 @@ function fillProductForm(item) {
   const urlInput = $("[data-product-image-url]");
   const preview = $("[data-product-image-preview]");
   const specRows = $("[data-product-spec-rows]");
+  const specZhRows = $("[data-product-spec-zh-rows]");
   const specSuggestions = $("[data-product-spec-suggestions]");
   const imageName = $("[data-product-image-name]");
   if (!form) return;
 
   form.id.value = item?.id || "";
   form.name.value = item?.name || "";
+  if (form.name_zh) form.name_zh.value = item?.name_zh || "";
   form.slug.value = item?.slug || "";
   form.category.value = item?.category || "";
+  if (form.category_zh) form.category_zh.value = item?.category_zh || "";
   form.tagline.value = item?.tagline || "";
+  if (form.tagline_zh) form.tagline_zh.value = item?.tagline_zh || "";
   form.description.value = item?.description || "";
+  if (form.description_zh) form.description_zh.value = item?.description_zh || "";
   form.sort_order.value = item?.sort_order ?? 0;
   form.is_featured.checked = Boolean(item?.is_featured);
-  form.published.checked = item ? Boolean(item.published) : true;
+  if (form.show_in_marquee) form.show_in_marquee.checked = item ? Boolean(item.show_in_marquee) : false;
+  form.published.checked = item ? Boolean(item.published) : false;
 
   if (urlInput) urlInput.value = item?.image_url || "";
   form.image_url.value = item?.image_url || "";
   setImagePreview(preview, item?.image_url || "", item?.name || "产品图片预览");
   renderSpecRows(specRows, item?.specs || {});
+  renderSpecRows(specZhRows, item?.specs_zh || {});
   renderSpecSuggestions(specSuggestions, item?.category || form.category.value || "Washing Machine", item?.specs || {});
   syncUploadName(imageName, item?.image_url ? "已载入当前图片" : "");
 
@@ -524,6 +635,7 @@ function fillProductForm(item) {
       ? "调整分类、图片、词条和发布状态后直接保存，系统会保留现有页面链接。"
       : "填写产品名称、分类、图片、规格词条和展示状态，系统会自动生成页面地址。";
   }
+  setProductView("editor");
   form.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
@@ -538,12 +650,20 @@ function fillNewsForm(item) {
 
   form.id.value = item?.id || "";
   form.title.value = item?.title || "";
+  if (form.title_zh) form.title_zh.value = item?.title_zh || "";
+  if (form.title_en) form.title_en.value = item?.title_en || "";
   form.slug.value = item?.slug || "";
   form.category.value = item?.category || "";
+  if (form.category_zh) form.category_zh.value = item?.category_zh || "";
+  if (form.category_en) form.category_en.value = item?.category_en || "";
   form.published_at.value = item?.published_at || new Date().toISOString().slice(0, 10);
   form.excerpt.value = item?.excerpt || "";
+  if (form.excerpt_zh) form.excerpt_zh.value = item?.excerpt_zh || "";
+  if (form.excerpt_en) form.excerpt_en.value = item?.excerpt_en || "";
   form.content.value = item?.content || "";
-  form.published.checked = item ? Boolean(item.published) : true;
+  if (form.content_zh) form.content_zh.value = item?.content_zh || "";
+  if (form.content_en) form.content_en.value = item?.content_en || "";
+  form.published.checked = item ? Boolean(item.published) : false;
 
   if (urlInput) urlInput.value = item?.image_url || "";
   form.image_url.value = item?.image_url || "";
@@ -1095,6 +1215,7 @@ function setupNewsInlineImageTool(form) {
 function setupProductEditor() {
   const form = $("[data-product-form]");
   const specRows = $("[data-product-spec-rows]");
+  const specZhRows = $("[data-product-spec-zh-rows]");
   const specSuggestions = $("[data-product-spec-suggestions]");
   const create = $("[data-product-create]");
   if (!form || !specRows) return;
@@ -1102,6 +1223,7 @@ function setupProductEditor() {
   form.noValidate = true;
   form.dataset.slugPrefix = "product";
   renderSpecRows(specRows, {});
+  renderSpecRows(specZhRows, {});
   attachAutoSlug(form, "[name='name']", "[name='slug']");
   syncImageInput(form, {
     fileSelector: "[data-product-image-file]",
@@ -1121,6 +1243,11 @@ function setupProductEditor() {
     specRows.insertAdjacentHTML("beforeend", specRowMarkup());
   });
 
+  const addSpecZh = $("[data-product-add-spec-zh]");
+  addSpecZh?.addEventListener("click", () => {
+    specZhRows?.insertAdjacentHTML("beforeend", specRowMarkup());
+  });
+
   specRows.addEventListener("click", (event) => {
     const remove = event.target.closest(".spec-remove");
     if (!remove) return;
@@ -1129,6 +1256,11 @@ function setupProductEditor() {
   });
   specRows.addEventListener("input", () => {
     renderSpecSuggestions(specSuggestions, form.category.value || "Washing Machine", readSpecRows(specRows));
+  });
+  specZhRows?.addEventListener("click", (event) => {
+    const remove = event.target.closest(".spec-remove");
+    if (!remove) return;
+    remove.closest(".spec-row")?.remove();
   });
 
   specSuggestions?.addEventListener("click", (event) => {
@@ -1156,10 +1288,16 @@ function setupProductEditor() {
       category: form.category.value.trim(),
       tagline: form.tagline.value.trim(),
       description: form.description.value.trim(),
+      name_zh: form.name_zh?.value.trim() || "",
+      category_zh: form.category_zh?.value.trim() || "",
+      tagline_zh: form.tagline_zh?.value.trim() || "",
+      description_zh: form.description_zh?.value.trim() || "",
       image_url: form.image_url.value.trim() || $("[data-product-image-url]", form)?.value.trim(),
       specs: readSpecRows(specRows),
+      specs_zh: readSpecRows(specZhRows),
       sort_order: Number(form.sort_order.value || 0),
       is_featured: form.is_featured.checked ? 1 : 0,
+      show_in_marquee: form.show_in_marquee?.checked ? 1 : 0,
       published: form.published.checked ? 1 : 0,
       updated_at: new Date().toISOString()
     };
@@ -1171,12 +1309,17 @@ function setupProductEditor() {
 
     const id = form.id.value;
     const isUpdate = Boolean(id);
+    const previous = state.products.find((item) => String(item.id) === String(id));
+    if (payload.published && (!previous || !previous.published)) {
+      const confirmed = confirm("确认现在发布这个产品吗？发布后会立即出现在官网对应页面。");
+      if (!confirmed) return;
+    }
     let savedProduct = null;
     setFormBusy(form, true);
     status(isUpdate ? "正在保存产品修改..." : "正在创建新产品...");
     try {
       if (state.apiAvailable) {
-        if (!localStorage.getItem(keys.token)) throw new Error("请先输入管理员 Token，系统还没有发出保存请求。");
+        if (!localStorage.getItem(keys.token)) throw new Error("登录已过期，请重新登录。");
         const result = await api(id ? `/api/products/${id}` : "/api/products", {
           method: id ? "PUT" : "POST",
           body: JSON.stringify(payload)
@@ -1195,6 +1338,7 @@ function setupProductEditor() {
         render();
       }
       fillProductForm(null);
+      setProductView("library");
       showSavedStatus("product", savedProduct || { ...payload, id }, isUpdate, state.apiAvailable);
     } catch (error) {
       status(friendlyError(error), "error");
@@ -1251,6 +1395,14 @@ function setupNewsEditor() {
       category: form.category.value.trim(),
       excerpt: form.excerpt.value.trim(),
       content: form.content.value.trim(),
+      title_zh: form.title_zh?.value.trim() || "",
+      category_zh: form.category_zh?.value.trim() || "",
+      excerpt_zh: form.excerpt_zh?.value.trim() || "",
+      content_zh: form.content_zh?.value.trim() || "",
+      title_en: form.title_en?.value.trim() || "",
+      category_en: form.category_en?.value.trim() || "",
+      excerpt_en: form.excerpt_en?.value.trim() || "",
+      content_en: form.content_en?.value.trim() || "",
       image_url: form.image_url.value.trim() || $("[data-news-image-url]", form)?.value.trim(),
       published_at: form.published_at.value,
       published: form.published.checked ? 1 : 0,
@@ -1268,12 +1420,17 @@ function setupNewsEditor() {
 
     const id = form.id.value;
     const isUpdate = Boolean(id);
+    const previous = state.news.find((item) => String(item.id) === String(id));
+    if (payload.published && (!previous || !previous.published)) {
+      const confirmed = confirm("确认现在发布这篇文章吗？发布后会立即出现在官网新闻页面。");
+      if (!confirmed) return;
+    }
     let savedNews = null;
     setFormBusy(form, true);
     status(isUpdate ? "正在保存文章修改..." : "正在创建新文章...");
     try {
       if (state.apiAvailable) {
-        if (!localStorage.getItem(keys.token)) throw new Error("请先输入管理员 Token，系统还没有发出保存请求。");
+        if (!localStorage.getItem(keys.token)) throw new Error("登录已过期，请重新登录。");
         const result = await api(id ? `/api/news/${id}` : "/api/news", {
           method: id ? "PUT" : "POST",
           body: JSON.stringify(payload)
@@ -1310,7 +1467,7 @@ function deleteProduct(id) {
   (async () => {
     try {
       if (state.apiAvailable) {
-        if (!localStorage.getItem(keys.token)) throw new Error("请先填写管理员 Token。");
+        if (!localStorage.getItem(keys.token)) throw new Error("登录已过期，请重新登录。");
         await api(`/api/products/${id}`, { method: "DELETE" });
         await loadContent();
       } else {
@@ -1325,12 +1482,45 @@ function deleteProduct(id) {
   })();
 }
 
+async function toggleProductPlacement(id, field) {
+  const current = state.products.find((product) => String(product.id) === String(id));
+  if (!current) return;
+  const nextValue = current[field] ? 0 : 1;
+  const payload = {
+    ...current,
+    [field]: nextValue,
+    is_featured: field === "is_featured" ? nextValue : current.is_featured ? 1 : 0,
+    show_in_marquee: field === "show_in_marquee" ? nextValue : current.show_in_marquee ? 1 : 0,
+    published: current.published ? 1 : 0,
+    updated_at: new Date().toISOString()
+  };
+
+  try {
+    if (state.apiAvailable) {
+      if (!localStorage.getItem(keys.token)) throw new Error("登录已过期，请重新登录。");
+      await api(`/api/products/${id}`, {
+        method: "PUT",
+        body: JSON.stringify(payload)
+      });
+      await loadContent();
+    } else {
+      state.products = state.products.map((item) => (String(item.id) === String(id) ? normalizeProduct(payload) : item));
+      persistLocal();
+      render();
+    }
+    const label = field === "is_featured" ? "首页 All 产品卡" : "首页滚动产品";
+    status(`${current.name_zh || current.name} 已${nextValue ? "加入" : "移出"}${label}。`, "success");
+  } catch (error) {
+    status(friendlyError(error), "error");
+  }
+}
+
 function deleteNews(id) {
   if (!confirm("确定删除这条文章吗？")) return;
   (async () => {
     try {
       if (state.apiAvailable) {
-        if (!localStorage.getItem(keys.token)) throw new Error("请先填写管理员 Token。");
+        if (!localStorage.getItem(keys.token)) throw new Error("登录已过期，请重新登录。");
         await api(`/api/news/${id}`, { method: "DELETE" });
         await loadContent();
       } else {
@@ -1399,6 +1589,204 @@ function setupFormIntelligence() {
   });
 }
 
+const INQUIRY_STATUS_LABELS = {
+  new: "待处理",
+  handled: "已处理",
+  archived: "已归档"
+};
+
+const INQUIRY_PREVIEW_KEY = "panhiro.inquiries.preview";
+
+function normalizeInquiry(item) {
+  return {
+    id: item.id ?? `local-${item.created_at || Math.random().toString(36).slice(2)}`,
+    name: item.name || "",
+    company: item.company || "",
+    contact: item.contact || "",
+    region: item.region || "",
+    product: item.product || "",
+    intent: item.intent || "",
+    message: item.message || "",
+    lang: item.lang || "zh",
+    source: item.source || "",
+    status: INQUIRY_STATUS_LABELS[item.status] ? item.status : "new",
+    created_at: item.created_at || new Date().toISOString(),
+    isLocal: Boolean(item.isLocal)
+  };
+}
+
+function updateInquiryBadge() {
+  const badge = $("[data-inquiry-badge]");
+  if (!badge) return;
+  const pending = state.inquiries.filter((item) => item.status === "new").length;
+  if (pending > 0) {
+    badge.textContent = String(pending);
+    badge.hidden = false;
+  } else {
+    badge.hidden = true;
+  }
+}
+
+function inquiryCard(item) {
+  const created = item.created_at ? new Date(item.created_at).toLocaleString("zh-CN", { hour12: false }) : "";
+  const fields = [
+    ["公司 / 门店", item.company],
+    ["所在地区", item.region],
+    ["产品意向", item.product],
+    ["合作类型", item.intent]
+  ]
+    .filter(([, value]) => value)
+    .map(([label, value]) => `<div><span>${escapeHTML(label)}</span><strong>${escapeHTML(value)}</strong></div>`)
+    .join("");
+
+  const message = item.message
+    ? `<p class="inquiry-message">${escapeHTML(item.message)}</p>`
+    : "";
+
+  const localTag = item.isLocal ? '<span class="inquiry-tag local">本地预览</span>' : "";
+  const actions = item.isLocal
+    ? '<span class="inquiry-local-note">本地预览数据，部署上线后才会真正入库</span>'
+    : `
+        <button type="button" class="admin-mini-button" data-inquiry-status-set="new" data-inquiry-id="${escapeHTML(item.id)}">标记待处理</button>
+        <button type="button" class="admin-mini-button" data-inquiry-status-set="handled" data-inquiry-id="${escapeHTML(item.id)}">标记已处理</button>
+        <button type="button" class="admin-mini-button" data-inquiry-status-set="archived" data-inquiry-id="${escapeHTML(item.id)}">归档</button>
+        <button type="button" class="admin-mini-button danger" data-inquiry-delete="${escapeHTML(item.id)}">删除</button>
+      `;
+
+  return `
+    <article class="inquiry-card" data-status="${escapeHTML(item.status)}">
+      <div class="inquiry-card-top">
+        <div class="inquiry-identity">
+          <strong>${escapeHTML(item.name || "（未填写姓名）")}</strong>
+          <a href="tel:${escapeHTML(item.contact)}" class="inquiry-contact">${escapeHTML(item.contact || "")}</a>
+        </div>
+        <div class="inquiry-meta">
+          <span class="inquiry-status inquiry-status-${escapeHTML(item.status)}">${escapeHTML(INQUIRY_STATUS_LABELS[item.status] || item.status)}</span>
+          ${localTag}
+          <time>${escapeHTML(created)}</time>
+        </div>
+      </div>
+      ${fields ? `<div class="inquiry-fields">${fields}</div>` : ""}
+      ${message}
+      <div class="inquiry-actions">${actions}</div>
+    </article>
+  `;
+}
+
+function filteredInquiries() {
+  const query = state.inquiryQuery.trim();
+  return state.inquiries.filter((item) => {
+    if (state.inquiryFilter !== "all" && item.status !== state.inquiryFilter) return false;
+    if (!query) return true;
+    return [item.name, item.company, item.contact, item.region, item.product, item.intent, item.message]
+      .some((value) => matchesQuery(value, query));
+  });
+}
+
+function renderInquiries() {
+  const list = $("[data-inquiry-list]");
+  if (!list) return;
+  updateInquiryBadge();
+
+  if (!state.inquiriesLoaded && !state.inquiries.length) {
+    list.innerHTML = '<p class="inquiry-empty">正在读取询盘...</p>';
+    return;
+  }
+
+  const items = filteredInquiries();
+  if (!items.length) {
+    list.innerHTML = state.inquiries.length
+      ? '<p class="inquiry-empty">没有符合当前筛选条件的询盘。</p>'
+      : '<p class="inquiry-empty">还没有收到客户询盘。官网“联系我们”页提交的咨询会出现在这里。</p>';
+    return;
+  }
+
+  list.innerHTML = items.map(inquiryCard).join("");
+}
+
+async function loadInquiries(force = false) {
+  if (state.inquiriesLoaded && !force) return;
+
+  if (isStaticPreview) {
+    const local = readLocal(INQUIRY_PREVIEW_KEY, []);
+    state.inquiries = local.map((item) => normalizeInquiry({ ...item, isLocal: true }));
+    state.inquiriesLoaded = true;
+    renderInquiries();
+    return;
+  }
+
+  const list = $("[data-inquiry-list]");
+  if (list && !state.inquiries.length) list.innerHTML = '<p class="inquiry-empty">正在读取询盘...</p>';
+
+  try {
+    const data = await api("/api/inquiries");
+    state.inquiries = (data.inquiries || []).map((item) => normalizeInquiry(item));
+    state.inquiriesLoaded = true;
+    renderInquiries();
+  } catch (error) {
+    state.inquiriesLoaded = false;
+    if (list) {
+      list.innerHTML = `<p class="inquiry-empty error">读取询盘失败：${escapeHTML(friendlyError(error))}</p>`;
+    }
+    notify(friendlyError(error), "error");
+  }
+}
+
+async function setInquiryStatus(id, status) {
+  try {
+    await api(`/api/inquiries/${encodeURIComponent(id)}`, {
+      method: "PUT",
+      body: JSON.stringify({ status })
+    });
+    const item = state.inquiries.find((entry) => String(entry.id) === String(id));
+    if (item) item.status = status;
+    renderInquiries();
+    notify(`已将询盘标记为「${INQUIRY_STATUS_LABELS[status] || status}」。`, "success");
+  } catch (error) {
+    notify(friendlyError(error), "error");
+  }
+}
+
+async function deleteInquiry(id) {
+  if (!window.confirm("确定删除这条询盘吗？删除后无法恢复。")) return;
+  try {
+    await api(`/api/inquiries/${encodeURIComponent(id)}`, { method: "DELETE" });
+    state.inquiries = state.inquiries.filter((entry) => String(entry.id) !== String(id));
+    renderInquiries();
+    notify("询盘已删除。", "success");
+  } catch (error) {
+    notify(friendlyError(error), "error");
+  }
+}
+
+function setupInquiries() {
+  $("[data-inquiry-refresh]")?.addEventListener("click", () => loadInquiries(true));
+
+  $("[data-inquiry-search]")?.addEventListener("input", (event) => {
+    state.inquiryQuery = event.currentTarget.value;
+    renderInquiries();
+  });
+
+  $("[data-inquiry-filters]")?.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-inquiry-filter]");
+    if (!button) return;
+    state.inquiryFilter = button.dataset.inquiryFilter;
+    $$("[data-inquiry-filter]").forEach((item) => item.classList.toggle("active", item === button));
+    renderInquiries();
+  });
+
+  $("[data-inquiry-list]")?.addEventListener("click", (event) => {
+    const statusButton = event.target.closest("[data-inquiry-status-set]");
+    const deleteButton = event.target.closest("[data-inquiry-delete]");
+    if (statusButton) {
+      setInquiryStatus(statusButton.dataset.inquiryId, statusButton.dataset.inquiryStatusSet);
+    }
+    if (deleteButton) {
+      deleteInquiry(deleteButton.dataset.inquiryDelete);
+    }
+  });
+}
+
 function setupTabs() {
   $$("[data-admin-tab]").forEach((button) => {
     button.addEventListener("click", () => {
@@ -1406,46 +1794,94 @@ function setupTabs() {
       $$("[data-admin-tab]").forEach((item) => item.classList.toggle("active", item === button));
       $$(".admin-panel").forEach((panel) => panel.classList.toggle("active", panel.dataset.panel === button.dataset.adminTab));
       updateCommandBar();
+      closeAdminMenu();
+      if (button.dataset.adminTab === "inquiries") loadInquiries();
     });
   });
 }
 
-function setupToken() {
-  const input = $("[data-token-input]");
-  if (!input) return;
-  let tokenStatus = $("[data-token-status]");
-  if (!tokenStatus) {
-    tokenStatus = document.createElement("p");
-    tokenStatus.className = "token-status";
-    tokenStatus.setAttribute("data-token-status", "");
-    input.closest(".token-panel")?.append(tokenStatus);
+function setupLogin() {
+  const overlay = $("[data-login-overlay]");
+  const shell = $("[data-admin-shell]");
+  const form = $("[data-login-form]");
+  const errorEl = $("[data-login-error]");
+  const logoutBtn = $("[data-logout]");
+  const isLocal = location.protocol === "file:" || ["5173", "5174"].includes(location.port);
+
+  function showAdmin() {
+    overlay.hidden = true;
+    shell.hidden = false;
   }
-  let tokenTimer = null;
-  const setTokenStatus = (message, tone = "info", shouldNotify = false) => {
-    tokenStatus.textContent = message;
-    tokenStatus.dataset.tone = tone;
-    if (shouldNotify) notify(message, tone);
-  };
-  input.value = localStorage.getItem(keys.token) || "";
-  setTokenStatus(input.value ? "管理员 Token 已保存在当前浏览器。" : "尚未填写管理员 Token，提交到 D1 时会被拦截。", input.value ? "success" : "error");
-  input.addEventListener("input", () => {
-    const value = input.value.trim();
-    localStorage.setItem(keys.token, value);
-    window.clearTimeout(tokenTimer);
-    setTokenStatus(value ? "正在保存管理员 Token..." : "管理员 Token 已清空，提交会失败。", value ? "info" : "error");
-    tokenTimer = window.setTimeout(() => {
-      setTokenStatus(value ? "管理员 Token 已保存到当前浏览器。" : "管理员 Token 已清空，提交会失败。", value ? "success" : "error", true);
-    }, 450);
+
+  function showLogin() {
+    overlay.hidden = false;
+    shell.hidden = true;
+  }
+
+  if (isLocal || localStorage.getItem(keys.token)) {
+    showAdmin();
+  } else {
+    showLogin();
+  }
+
+  form?.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    errorEl.textContent = "";
+    const btn = form.querySelector("button[type='submit']");
+    btn.disabled = true;
+    btn.textContent = "登录中...";
+
+    const username = form.username.value.trim();
+    const password = form.password.value;
+
+    if (isLocal) {
+      localStorage.setItem(keys.token, "local-preview-token");
+      showAdmin();
+      loadContent();
+      btn.disabled = false;
+      btn.textContent = "登录";
+      return;
+    }
+
+    try {
+      const res = await fetch("/api/auth", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username, password })
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "登录失败");
+      localStorage.setItem(keys.token, data.token);
+      showAdmin();
+      loadContent();
+    } catch (err) {
+      errorEl.textContent = err.message;
+    } finally {
+      btn.disabled = false;
+      btn.textContent = "登录";
+    }
+  });
+
+  logoutBtn?.addEventListener("click", () => {
+    localStorage.removeItem(keys.token);
+    if (isLocal) {
+      showAdmin();
+    } else {
+      showLogin();
+      form.reset();
+    }
   });
 }
 
 function setupSearch() {
   $("[data-product-search]")?.addEventListener("input", (event) => {
     state.productQuery = event.currentTarget.value;
+    state.productPage = 1;
     renderProducts();
   });
   $("[data-news-search]")?.addEventListener("input", (event) => {
     state.newsQuery = event.currentTarget.value;
+    state.newsPage = 1;
     renderNews();
   });
 }
@@ -1455,6 +1891,7 @@ function setupFilters() {
     const button = event.target.closest("[data-product-filter]");
     if (!button) return;
     state.productFilter = button.dataset.productFilter;
+    state.productPage = 1;
     $$("[data-product-filter]").forEach((item) => item.classList.toggle("active", item === button));
     renderProducts();
   });
@@ -1463,6 +1900,7 @@ function setupFilters() {
     const button = event.target.closest("[data-news-filter]");
     if (!button) return;
     state.newsFilter = button.dataset.newsFilter;
+    state.newsPage = 1;
     $$("[data-news-filter]").forEach((item) => item.classList.toggle("active", item === button));
     renderNews();
   });
@@ -1472,6 +1910,8 @@ function setupListActions() {
   document.addEventListener("click", (event) => {
     const editProduct = event.target.closest("[data-edit-product]");
     const deleteProductButton = event.target.closest("[data-delete-product]");
+    const toggleFeaturedProduct = event.target.closest("[data-toggle-featured-product]");
+    const toggleMarqueeProduct = event.target.closest("[data-toggle-marquee-product]");
     const editNews = event.target.closest("[data-edit-news]");
     const deleteNewsButton = event.target.closest("[data-delete-news]");
 
@@ -1480,6 +1920,8 @@ function setupListActions() {
       if (item) fillProductForm(item);
     }
     if (deleteProductButton) deleteProduct(deleteProductButton.dataset.deleteProduct);
+    if (toggleFeaturedProduct) toggleProductPlacement(toggleFeaturedProduct.dataset.toggleFeaturedProduct, "is_featured");
+    if (toggleMarqueeProduct) toggleProductPlacement(toggleMarqueeProduct.dataset.toggleMarqueeProduct, "show_in_marquee");
     if (editNews) {
       const item = state.news.find((post) => String(post.id) === String(editNews.dataset.editNews));
       if (item) fillNewsForm(item);
@@ -1488,23 +1930,56 @@ function setupListActions() {
   });
 }
 
+function closeAdminMenu() {
+  document.body.classList.remove("admin-menu-open");
+  $("[data-admin-menu-toggle]")?.setAttribute("aria-expanded", "false");
+}
+
+function setupWorkspaceNavigation() {
+  $("[data-admin-menu-toggle]")?.addEventListener("click", () => {
+    const open = document.body.classList.toggle("admin-menu-open");
+    $("[data-admin-menu-toggle]")?.setAttribute("aria-expanded", String(open));
+  });
+  $("[data-admin-menu-close]")?.addEventListener("click", closeAdminMenu);
+  $$('[data-product-view]').forEach((button) => {
+    button.addEventListener("click", () => setProductView(button.dataset.productView));
+  });
+  document.addEventListener("click", (event) => {
+    const pageButton = event.target.closest("[data-page-type]");
+    if (!pageButton || pageButton.disabled) return;
+    const page = Number(pageButton.dataset.pageValue || 1);
+    if (pageButton.dataset.pageType === "product") {
+      state.productPage = page;
+      renderProducts();
+    } else {
+      state.newsPage = page;
+      renderNews();
+    }
+    pageButton.closest(".content-library")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  setProductView("library", { scroll: false });
+}
+
 function initDefaults() {
   const newsForm = $("[data-news-form]");
   if (newsForm && !newsForm.published_at.value) {
     newsForm.published_at.value = new Date().toISOString().slice(0, 10);
   }
   fillProductForm(null);
+  setProductView("library", { scroll: false });
   fillNewsForm(null);
 }
 
+setupLogin();
 setupProChrome();
 setupTabs();
-setupToken();
+setupWorkspaceNavigation();
 setupProductEditor();
 setupNewsEditor();
 setupFormIntelligence();
 setupSearch();
 setupFilters();
 setupListActions();
+setupInquiries();
 initDefaults();
 loadContent();
