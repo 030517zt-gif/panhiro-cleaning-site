@@ -41,6 +41,8 @@ const PRODUCT_SPEC_TEMPLATES = {
   "Car Washing T Series": ["Model", "Power", "Pressure", "Flow", "Portable Type", "Application"],
   "Industrial Series": ["Model", "Power", "Pressure", "Flow", "Pump", "Duty"],
   "Permanent Magnet Series": ["Model", "Power", "Pressure", "Flow", "Motor", "Application"],
+  "PH Series": ["Model", "Power", "Pressure", "Flow", "Pump", "Duty"],
+  "VK Series": ["Model", "Power", "Pressure", "Flow", "Motor", "Application"],
   "Vacuum Cleaner": ["Model", "Power", "Capacity", "Voltage", "Application"],
   "Washer Plunger Pumps": ["Model", "Pump Head", "Pressure", "Flow", "Material"],
   "Washer Pressure Pipe": ["Model", "Length", "Pressure", "Material", "Connector"],
@@ -115,7 +117,7 @@ function normalizeNews(item) {
 }
 
 function sortDate(value) {
-  return new Date(value || 0).getTime() || 0;
+  return parseDbDate(value).getTime() || 0;
 }
 
 function matchesQuery(value, query) {
@@ -146,12 +148,12 @@ function statusHTML(markup, tone = "info") {
 
 function relativeTime(value) {
   if (!value) return "尚未保存";
-  const seconds = Math.max(0, Math.round((Date.now() - new Date(value).getTime()) / 1000));
+  const seconds = Math.max(0, Math.round((Date.now() - parseDbDate(value).getTime()) / 1000));
   if (seconds < 10) return "刚刚";
   if (seconds < 60) return `${seconds} 秒前`;
   const minutes = Math.round(seconds / 60);
   if (minutes < 60) return `${minutes} 分钟前`;
-  return new Date(value).toLocaleString("zh-CN", { hour12: false });
+  return parseDbDate(value).toLocaleString("zh-CN", { hour12: false });
 }
 
 function currentPanelLabel() {
@@ -169,7 +171,7 @@ function updateCommandBar(message = "", tone = "info") {
   bar.innerHTML = `
     <div class="command-copy">
       <span>${currentPanelLabel()} / ${mode}</span>
-      <strong>${dirty ? "有未保存修改" : message || "准备就绪"}</strong>
+      <strong>${dirty ? "有未保存修改" : escapeHTML(message) || "准备就绪"}</strong>
     </div>
     <div class="command-meta">
       <span>${state.lastSavedAt ? `上次保存 ${relativeTime(state.lastSavedAt)}` : "等待首次保存"}</span>
@@ -226,12 +228,14 @@ function friendlyError(error) {
   return message || "操作失败，请稍后再试。";
 }
 
-function setFormBusy(form, busy, label = "Saving...") {
+function setFormBusy(form, busy, label = "保存中...") {
   const button = form?.querySelector("button[type='submit']");
   if (!button) return;
   if (!button.dataset.idleLabel) button.dataset.idleLabel = button.textContent;
   button.disabled = busy;
   button.classList.toggle("is-busy", busy);
+  // 保存成功的“已保存 ✓”状态由 markFormSaved 管理，恢复时不覆盖，避免反馈一闪而过
+  if (!busy && button.classList.contains("is-saved")) return;
   button.textContent = busy ? label : button.dataset.idleLabel;
 }
 
@@ -245,10 +249,52 @@ function showSavedStatus(type, item, isUpdate, isRemote) {
   const mode = isRemote ? "已写入 Cloudflare D1 数据库" : "已保存到当前浏览器预览";
   const href = recordUrl(item);
   markSaved();
+  markFormSaved();
+  showSaveDialog(label, action, mode, href);
   statusHTML(
     `<strong>${label}${action}，${mode}。</strong><a href="${escapeHTML(href)}" target="_blank" rel="noopener">打开详情页</a>`,
     "success"
   );
+}
+
+// 保存成功弹窗：明确的"操作完成"告知，可一键打开详情页
+function showSaveDialog(label, action, mode, href) {
+  let dialog = document.querySelector("[data-admin-save-dialog]");
+  if (!dialog) {
+    dialog = document.createElement("dialog");
+    dialog.className = "notice-dialog";
+    dialog.setAttribute("data-admin-save-dialog", "");
+    document.body.append(dialog);
+  }
+  if (dialog.open) dialog.close(); // 防御：避免已打开时再次 showModal 抛错
+  dialog.innerHTML = `
+    <div class="notice-body">
+      <span class="notice-icon success">✓</span>
+      <h3>${escapeHTML(label)}${escapeHTML(action)}</h3>
+      <p>${escapeHTML(mode)}</p>
+      <div class="notice-actions">
+        <a class="btn primary" href="${escapeHTML(href)}" target="_blank" rel="noopener">打开详情页</a>
+        <button class="btn ghost light" type="button" data-notice-close>继续编辑</button>
+      </div>
+    </div>
+  `;
+  dialog.querySelector("[data-notice-close]").addEventListener("click", () => dialog.close());
+  dialog.showModal();
+}
+
+// 保存成功后，把当前表单的提交按钮短暂切换为"已保存"成功态，给用户明确的操作完成反馈
+function markFormSaved() {
+  const form = state.activePanel === "news" ? $("[data-news-form]") : $("[data-product-form]");
+  const button = form?.querySelector("button[type='submit']");
+  if (!button) return;
+  const original = button.dataset.idleLabel || button.textContent;
+  button.classList.add("is-saved");
+  button.textContent = "已保存 ✓";
+  window.clearTimeout(button._savedTimer);
+  button._savedTimer = window.setTimeout(() => {
+    button.classList.remove("is-saved");
+    button.textContent = original;
+  }, 2000);
 }
 
 function readImageAsDataUrl(file) {
@@ -260,6 +306,24 @@ function readImageAsDataUrl(file) {
   });
 }
 
+// 图片上传校验：只允许图片类型，并限制原始文件大小（base64 编码会膨胀约 33%）。
+// 500KB 原始文件 → dataUrl 约 670KB，与后端 image_url 字段限制（2MB）匹配，避免保存后被截断
+const MAX_IMAGE_BYTES = 500 * 1024; // 500KB
+
+function validateImageFile(file) {
+  if (!file) return { ok: false, error: "请选择图片文件。" };
+  if (!file.type || !file.type.startsWith("image/")) {
+    return { ok: false, error: "请选择图片文件（JPG / PNG / WebP / GIF）。" };
+  }
+  if (file.size > MAX_IMAGE_BYTES) {
+    return {
+      ok: false,
+      error: `图片不能超过 500KB（当前 ${(file.size / 1024 / 1024).toFixed(1)}MB）。建议先压缩或用图片链接。`
+    };
+  }
+  return { ok: true };
+}
+
 async function api(path, options = {}) {
   const token = localStorage.getItem(keys.token) || "";
   const headers = new Headers(options.headers || {});
@@ -267,6 +331,12 @@ async function api(path, options = {}) {
   if (token) headers.set("Authorization", `Bearer ${token}`);
 
   const response = await fetch(path, { ...options, headers, cache: "no-store" });
+  if (response.status === 401 && !isStaticPreview) {
+    // token 失效/错误：清除本地凭据并回到登录页，避免卡在"无权限"状态无法重新登录
+    localStorage.removeItem(keys.token);
+    window.location.href = "admin.html";
+    throw new Error("登录已过期，请重新登录。");
+  }
   if (!response.ok) {
     const error = await response.json().catch(() => ({ error: `HTTP ${response.status}` }));
     throw new Error(error.error || `HTTP ${response.status}`);
@@ -298,10 +368,11 @@ async function loadContent() {
     state.apiAvailable = true;
     status("已连接 Cloudflare Functions。保存会写入 D1 数据库。");
   } catch {
-    state.products = readLocal(keys.products, DEFAULT_PRODUCTS).map(normalizeProduct);
-    state.news = readLocal(keys.news, DEFAULT_NEWS).map(normalizeNews);
-    state.apiAvailable = false;
-    status("当前是本地静态预览模式。保存会写入浏览器 localStorage，部署后会写入 Cloudflare D1。");
+    // 线上模式接口加载失败：不静默降级为"本地预览保存"，否则内容会写进 localStorage 而不是数据库（假成功）
+    state.products = [];
+    state.news = [];
+    state.apiAvailable = true;
+    status("无法连接后台接口，内容列表暂为空。保存会直接报错，不会写入本地缓存。", "error");
   }
   render();
 }
@@ -648,6 +719,9 @@ function fillNewsForm(item) {
   const imageName = $("[data-news-image-name]");
   if (!form) return;
 
+  // 重置媒体库，避免编辑上一条文章时残留其图片（seed 逻辑会从封面和正文重建）
+  if (form._newsMediaItems) form._newsMediaItems = [];
+
   form.id.value = item?.id || "";
   form.title.value = item?.title || "";
   if (form.title_zh) form.title_zh.value = item?.title_zh || "";
@@ -719,6 +793,12 @@ function syncImageInput(form, options) {
 
   const readFile = async (file) => {
     if (!file) return;
+    const check = validateImageFile(file);
+    if (!check.ok) {
+      syncUploadName(fileName, "");
+      status(check.error, "error");
+      return;
+    }
     syncUploadName(fileName, `Reading: ${file.name}`);
     try {
       const dataUrl = await readImageAsDataUrl(file);
@@ -848,6 +928,12 @@ function setupNewsMediaWorkbench(form) {
   fileInput?.addEventListener("change", async () => {
     const file = fileInput.files?.[0];
     if (!file) return;
+    const check = validateImageFile(file);
+    if (!check.ok) {
+      syncUploadName(fileName, "");
+      status(check.error, "error");
+      return;
+    }
     syncUploadName(fileName, `Reading: ${file.name}`);
     try {
       const dataUrl = await readImageAsDataUrl(file);
@@ -1123,13 +1209,27 @@ function renderNewsMediaLibrary(form) {
 async function addNewsMediaFiles(form, files) {
   const list = Array.from(files || []).filter((file) => file?.type?.startsWith("image/"));
   if (!list.length) return;
-  status(`正在读取 ${list.length} 张图片...`);
+  const valid = [];
+  const invalid = [];
   for (const file of list) {
-    const dataUrl = await readImageAsDataUrl(file);
-    pushNewsMediaItem(form, { src: dataUrl, name: file.name, size: "large" });
+    const check = validateImageFile(file);
+    (check.ok ? valid : invalid).push({ file, error: check.error });
+  }
+  if (invalid.length) {
+    status(`有 ${invalid.length} 张图片未添加：${invalid[0].error}`, "error");
+  }
+  if (!valid.length) return;
+  status(`正在读取 ${valid.length} 张图片...`);
+  for (const { file } of valid) {
+    try {
+      const dataUrl = await readImageAsDataUrl(file);
+      pushNewsMediaItem(form, { src: dataUrl, name: file.name, size: "large" });
+    } catch {
+      status(`图片 ${file.name} 读取失败，已跳过。`, "error");
+    }
   }
   renderNewsMediaLibrary(form);
-  status(`${list.length} 张图片已加入图片库。`, "success");
+  status(`${valid.length} 张图片已加入图片库。`, "success");
 }
 
 function setupNewsInlineImageTool(form) {
@@ -1597,6 +1697,26 @@ const INQUIRY_STATUS_LABELS = {
 
 const INQUIRY_PREVIEW_KEY = "panhiro.inquiries.preview";
 
+// 兼容两种时间格式：SQLite CURRENT_TIMESTAMP 存的是无时区标记的 UTC（旧数据），需补 Z 按 UTC 解析；
+// 新版数据存 ISO 带时区，直接解析即可。避免时区差 8 小时。
+// 兼容两种时间格式：SQLite CURRENT_TIMESTAMP 存的是无时区标记的 UTC（旧数据），需补 Z 按 UTC 解析；
+// 新版数据存 ISO 带时区，直接解析即可。避免时区差 8 小时。
+function parseDbDate(value) {
+  if (!value) return new Date(0);
+  const raw = String(value);
+  const normalized = /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/.test(raw)
+    ? `${raw.replace(" ", "T")}Z`
+    : raw;
+  const date = new Date(normalized);
+  return Number.isNaN(date.getTime()) ? new Date(0) : date;
+}
+
+function formatInquiryTime(value) {
+  if (!value) return "";
+  const date = parseDbDate(value);
+  return date.getTime() ? date.toLocaleString("zh-CN", { hour12: false }) : String(value);
+}
+
 function normalizeInquiry(item) {
   return {
     id: item.id ?? `local-${item.created_at || Math.random().toString(36).slice(2)}`,
@@ -1628,7 +1748,7 @@ function updateInquiryBadge() {
 }
 
 function inquiryCard(item) {
-  const created = item.created_at ? new Date(item.created_at).toLocaleString("zh-CN", { hour12: false }) : "";
+  const created = formatInquiryTime(item.created_at);
   const fields = [
     ["公司 / 门店", item.company],
     ["所在地区", item.region],
@@ -1719,7 +1839,7 @@ async function loadInquiries(force = false) {
   if (list && !state.inquiries.length) list.innerHTML = '<p class="inquiry-empty">正在读取询盘...</p>';
 
   try {
-    const data = await api("/api/inquiries");
+    const data = await api("/api/inquiries?limit=500");
     state.inquiries = (data.inquiries || []).map((item) => normalizeInquiry(item));
     state.inquiriesLoaded = true;
     renderInquiries();
@@ -1795,7 +1915,7 @@ function setupTabs() {
       $$(".admin-panel").forEach((panel) => panel.classList.toggle("active", panel.dataset.panel === button.dataset.adminTab));
       updateCommandBar();
       closeAdminMenu();
-      if (button.dataset.adminTab === "inquiries") loadInquiries();
+      if (button.dataset.adminTab === "inquiries") loadInquiries(true);
     });
   });
 }
@@ -1864,12 +1984,8 @@ function setupLogin() {
 
   logoutBtn?.addEventListener("click", () => {
     localStorage.removeItem(keys.token);
-    if (isLocal) {
-      showAdmin();
-    } else {
-      showLogin();
-      form.reset();
-    }
+    showLogin();
+    form.reset();
   });
 }
 

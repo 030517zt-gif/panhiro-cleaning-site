@@ -1,6 +1,7 @@
 import { FALLBACK_PAGE, PRODUCT_DETAILS, SUBPAGES } from "./subpage-data.js";
 import { DEFAULT_NEWS, DEFAULT_PRODUCTS } from "./content-seed.js";
 import CONTACT from "./contact-config.js";
+import { enrichProductRecords } from "./product-content.js";
 
 const params = new URLSearchParams(window.location.search);
 const lang = localStorage.getItem("panhiro.site.lang.v2") || localStorage.getItem("panhiro.site.lang") || "zh";
@@ -12,15 +13,16 @@ const aliases = {
   ph0995: "ph-0995"
 };
 const requested = aliases[params.get("page")] || params.get("page") || FALLBACK_PAGE;
-const legacyProductPages = new Set(["products", "vk-y1", "vk-1010-p4", "vk-1011", "ph-0885", "ph-0995", "p4-p5"]);
 const PRODUCT_CATEGORY_ZH = {
   "Washing Machine": "清洗机",
   "car washing series": "洗车机系列",
   "Car Washing T Series": "T 系列洗车机",
   "Industrial Series": "工业系列",
   "Permanent Magnet Series": "永磁系列",
-  "RY Series": "工业系列",
-  "PW Series": "永磁系列",
+  "RY Series": "PH 系列",
+  "PW Series": "VK 系列",
+  "PH Series": "PH 系列",
+  "VK Series": "VK 系列",
   "Vacuum Cleaner": "吸尘器",
   "Washer Plunger Pumps": "清洗机柱塞泵",
   "Washer Pressure Pipe": "清洗机高压管",
@@ -111,10 +113,6 @@ const SPEC_LABELS_ZH = {
   Flow: "流量"
 };
 
-if (legacyProductPages.has(requested)) {
-  window.location.replace("/product.html");
-}
-
 const $ = (selector, root = document) => root.querySelector(selector);
 
 function escapeHTML(value) {
@@ -159,9 +157,9 @@ async function loadManagedContent() {
     : await Promise.allSettled([readJson("/api/products"), readJson("/api/news")]);
 
   return {
-    products: productsResult.status === "fulfilled"
+    products: enrichProductRecords(productsResult.status === "fulfilled"
       ? productsResult.value.products
-      : readLocal(storeKeys.products, DEFAULT_PRODUCTS),
+      : readLocal(storeKeys.products, DEFAULT_PRODUCTS)),
     news: newsResult.status === "fulfilled"
       ? newsResult.value.news
       : readLocal(storeKeys.news, DEFAULT_NEWS)
@@ -170,8 +168,10 @@ async function loadManagedContent() {
 
 function categoryLabel(category) {
   return {
-    "RY Series": "Industrial Series",
-    "PW Series": "Permanent Magnet Series"
+    "RY Series": "PH Series",
+    "PW Series": "VK Series",
+    "PH Series": "PH Series",
+    "VK Series": "VK Series"
   }[category] || category;
 }
 
@@ -246,6 +246,8 @@ function categoryTagline(category) {
       "Car Washing T Series": "Portable high pressure cleaning equipment for home, shop and mobile cleaning needs.",
       "RY Series": "Industrial Series for frequent use with balanced pressure output and operating convenience.",
       "PW Series": "Permanent Magnet Series for commercial cleaning and heavier-duty washing tasks.",
+      "PH Series": "PH Series for frequent use with balanced pressure output and operating convenience.",
+      "VK Series": "VK Series for commercial cleaning and heavier-duty washing tasks.",
       "Vacuum Cleaner": "Suitable for workshops, stores, woodworking dust and floor cleaning tasks.",
       "Washer Plunger Pumps": "Core plunger pump components for maintenance, assembly and bulk supporting supply.",
       "Washer Pressure Pipe": "High pressure hose and extension pipe accessories for washing, unclogging and connection work.",
@@ -258,6 +260,8 @@ function categoryTagline(category) {
       "Car Washing T Series": "便携高压清洗设备，适合家庭、门店和移动清洗需求。",
       "RY Series": "Industrial Series 面向高频使用的清洗机系列，兼顾压力表现与操作便利性。",
       "PW Series": "Permanent Magnet Series 面向商用清洗与重污冲洗场景，适合更高强度的清洁任务。",
+      "PH Series": "PH 系列面向高频使用的清洗机系列，兼顾压力表现与操作便利性。",
+      "VK Series": "VK 系列面向商用清洗与重污冲洗场景，适合更高强度的清洁任务。",
       "Vacuum Cleaner": "适用于车间、门店、木工粉尘和地面清洁等吸尘需求。",
       "Washer Plunger Pumps": "清洗机核心泵类配件，适合维修、装配与批量配套。",
       "Washer Pressure Pipe": "高压管路与延长管配件，覆盖冲洗、疏通和连接场景。",
@@ -375,7 +379,7 @@ const subpageTranslations = {
     sectionTitle: "Complete machines and accessories presented by reference categories",
     description: "Instead of relying on self-defined categories, Panhiro organizes the catalog directly by the reference site structure so buyers can evaluate product lines, scenarios and supporting accessories faster.",
     points: [
-      "Complete machine categories include Washing Machine, car washing series, Car Washing T Series, Industrial Series and Permanent Magnet Series",
+      "Complete machine categories include Washing Machine, car washing series, Car Washing T Series, PH Series and VK Series",
       "Accessory categories include Vacuum Cleaner, Washer Plunger Pumps, Washer Pressure Pipe, Spray Gun For Cleaning, Foam Gun and Washer Adapter",
       "Buyers can filter by category for channel selection, replenishment and quotation preparation"
     ],
@@ -544,6 +548,16 @@ const data = currentProduct
     }
   : localizeSubpage(pageKey, SUBPAGES[pageKey]);
 
+function setCanonical(href) {
+  let link = document.querySelector('link[rel="canonical"]');
+  if (!link) {
+    link = document.createElement("link");
+    link.rel = "canonical";
+    document.head.appendChild(link);
+  }
+  link.href = href;
+}
+
 function setPageMeta() {
   const siteName = lang === "en" ? "Panhiro Cleaning Equipment" : "磐宏清洗设备";
   const title = `${data.title} | ${siteName}`;
@@ -554,6 +568,10 @@ function setPageMeta() {
   setMeta('meta[property="og:title"]', title);
   setMeta('meta[property="og:description"]', description);
   setMeta('meta[property="og:image"]', new URL(data.image, location.origin).href);
+  setMeta('meta[property="og:locale"]', lang === "en" ? "en_US" : "zh_CN");
+  // 每个子页面变体（产品详情/新闻详情/公司简介等）都有独立的 canonical，
+  // 避免全部指向同一个 /subpage.html 被搜索引擎判定为重复内容
+  setCanonical(`https://www.panhiro.net/subpage.html?page=${encodeURIComponent(pageKey)}`);
 }
 
 function renderBase() {
@@ -608,13 +626,25 @@ function renderProductDetail(root) {
     ? {
         badge: productDetail.category,
         heroImage: currentProduct.image_url,
-        gallery: [currentProduct.image_url],
+        gallery: Array.isArray(currentProduct.gallery) && currentProduct.gallery.length
+          ? currentProduct.gallery
+          : [currentProduct.image_url],
         specs: Object.entries(productDetail.specs).map(([key, value]) => `${key}: ${value}`),
-        scene: productDetail.description
+        scene: productDetail.description,
+        contentHtml: currentProduct.detail_html || "",
+        sourceUrl: currentProduct.source_url || ""
       }
     : PRODUCT_DETAILS[pageKey];
 
   if (!detail) return;
+
+  const productName = productDetail?.name || data.title;
+  const model = currentProduct?.specs?.Model || productName;
+  const whatsappNumber = String(CONTACT.whatsapp || "").replace(/\D/g, "");
+  const whatsappText = lang === "en"
+    ? `Hello, I would like a quotation for ${productName} (${model}).`
+    : `你好，我想咨询 ${productName}（${model}）的报价。`;
+  const whatsappHref = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappText)}`;
 
   root.insertAdjacentHTML(
     "beforeend",
@@ -625,16 +655,69 @@ function renderProductDetail(root) {
             <p class="eyebrow">${escapeHTML(categoryLabel(detail.badge))}</p>
             <h2>${escapeHTML(data.title)} ${lang === "en" ? "Product Display" : "产品展示"}</h2>
             <p>${escapeHTML(detail.scene)}</p>
-            <div class="product-detail-specs">
-              ${detail.specs.map((spec) => `<span>${escapeHTML(spec)}</span>`).join("")}
-            </div>
-            <a class="btn primary" href="/subpage.html?page=contact">${lang === "en" ? "Request This Model" : "咨询该型号"}</a>
+             <div class="product-detail-specs">
+               ${detail.specs.map((spec) => `<span>${escapeHTML(spec)}</span>`).join("")}
+             </div>
+             <div class="product-detail-actions">
+               <a class="btn primary" href="/subpage.html?page=contact">${lang === "en" ? "Request This Model" : "咨询该型号"}</a>
+               ${detail.sourceUrl ? `<a class="source-link" href="${escapeHTML(detail.sourceUrl)}" target="_blank" rel="noopener noreferrer">${lang === "en" ? "View Source Page" : "查看源站详情"}</a>` : ""}
+             </div>
           </div>
           <div class="product-detail-visual">
             <img src="${escapeHTML(detail.heroImage)}" alt="${escapeHTML(data.title)}" />
-          </div>
-        </div>
-        <div class="product-gallery-grid">
+           </div>
+         </div>
+         <section class="product-inquiry-panel" aria-labelledby="product-inquiry-title">
+           <div class="product-inquiry-copy">
+             <p class="eyebrow">${lang === "en" ? "REQUEST A QUOTE" : "产品询价"}</p>
+             <h2 id="product-inquiry-title">${lang === "en" ? "Get a quotation for this model" : "获取此型号报价"}</h2>
+             <p>${lang === "en" ? "Tell us the quantity and your contact details. We will reply with availability, configuration and quotation information." : "填写采购数量和联系方式，我们会根据库存、配置和采购需求回复报价信息。"}</p>
+             <div class="product-inquiry-contacts">
+               <a class="inquiry-contact-card whatsapp-contact" href="${escapeHTML(whatsappHref)}" target="_blank" rel="noopener noreferrer">
+                 <span class="inquiry-contact-icon">WA</span>
+                 <span><strong>WhatsApp</strong><small>${escapeHTML(CONTACT.whatsappDisplay)}</small></span>
+               </a>
+               <a class="inquiry-contact-card" href="mailto:${escapeHTML(CONTACT.emailInquiry)}?subject=${encodeURIComponent(`Quotation - ${productName}`)}&body=${encodeURIComponent(`Hello, I would like a quotation for ${productName} (${model}).`)}">
+                 <span class="inquiry-contact-icon">@</span>
+                 <span><strong>${lang === "en" ? "Email" : "邮箱"}</strong><small>${escapeHTML(CONTACT.emailInquiry)}</small></span>
+               </a>
+             </div>
+           </div>
+           <form class="product-inquiry-form" data-product-inquiry-form>
+             <label>
+               <span>${lang === "en" ? "Model" : "产品型号"}</span>
+               <input type="text" name="product" value="${escapeHTML(model)}" readonly data-inquiry-product />
+             </label>
+             <div class="inquiry-form-row">
+               <label>
+                 <span>${lang === "en" ? "Name" : "姓名"} *</span>
+                 <input type="text" name="name" autocomplete="name" required placeholder="${lang === "en" ? "Your name" : "您的姓名"}" />
+               </label>
+               <label>
+                 <span>${lang === "en" ? "Company" : "公司"}</span>
+                 <input type="text" name="company" autocomplete="organization" placeholder="${lang === "en" ? "Company name" : "公司名称"}" />
+               </label>
+             </div>
+             <div class="inquiry-form-row">
+               <label>
+                 <span>${lang === "en" ? "WhatsApp / Email" : "WhatsApp / 邮箱"} *</span>
+                 <input type="text" name="contact" autocomplete="email" required placeholder="${lang === "en" ? "How can we reach you?" : "请留下联系方式"}" />
+               </label>
+               <label>
+                 <span>${lang === "en" ? "Quantity" : "采购数量"}</span>
+                 <input type="number" name="quantity" min="1" inputmode="numeric" placeholder="${lang === "en" ? "e.g. 100" : "例如：100"}" />
+               </label>
+             </div>
+             <label>
+               <span>${lang === "en" ? "Requirements" : "需求说明"}</span>
+               <textarea name="message" rows="3" placeholder="${lang === "en" ? "Voltage, plug type, target market or customization needs (optional)" : "电压、插头、目标市场或定制要求（选填）"}"></textarea>
+             </label>
+             <input type="text" name="website" class="form-hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+             <button class="btn primary" type="submit">${lang === "en" ? "Get My Quote" : "获取报价"}</button>
+             <p class="form-status" data-product-inquiry-status role="status" aria-live="polite"></p>
+           </form>
+         </section>
+         <div class="product-gallery-grid">
           ${detail.gallery
             .map(
               (src, index) => `
@@ -644,11 +727,78 @@ function renderProductDetail(root) {
                 </article>
               `
             )
-            .join("")}
-        </div>
+           .join("")}
+       </div>
+       ${detail.contentHtml ? `
+         <section class="product-source-content">
+           <div class="section-head">
+             <p class="eyebrow">${lang === "en" ? "PRODUCT INFORMATION" : "产品资料"}</p>
+             <h2>${lang === "en" ? "Specifications and application details" : "规格参数与应用详情"}</h2>
+           </div>
+           <div class="source-rich-content">${detail.contentHtml}</div>
+         </section>
+       ` : ""}
       </section>
     `
   );
+
+  const inquiryForm = root.querySelector("[data-product-inquiry-form]");
+  const inquiryStatus = root.querySelector("[data-product-inquiry-status]");
+  const inquiryIsStatic = location.protocol === "file:" || ["5173", "5174"].includes(location.port);
+  inquiryForm?.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    if (!inquiryStatus) return;
+    const formData = new FormData(inquiryForm);
+    const quantity = String(formData.get("quantity") || "").trim();
+    const message = String(formData.get("message") || "").trim();
+    const payload = {
+      name: String(formData.get("name") || "").trim(),
+      company: String(formData.get("company") || "").trim(),
+      contact: String(formData.get("contact") || "").trim(),
+      region: "",
+      product: String(formData.get("product") || model).trim(),
+      intent: "Quote Request",
+      message: [quantity ? `Quantity: ${quantity}` : "", message].filter(Boolean).join("\n"),
+      website: String(formData.get("website") || "").trim(),
+      lang,
+      source: "product-detail"
+    };
+    if (!payload.name || !payload.contact) {
+      inquiryStatus.textContent = lang === "en" ? "Please enter your name and contact details." : "请填写姓名和联系方式。";
+      inquiryStatus.dataset.tone = "error";
+      return;
+    }
+    const button = inquiryForm.querySelector("button[type=submit]");
+    if (button) button.disabled = true;
+    inquiryStatus.textContent = lang === "en" ? "Sending..." : "正在提交...";
+    inquiryStatus.dataset.tone = "info";
+    try {
+      if (inquiryIsStatic) {
+        const stored = JSON.parse(localStorage.getItem("panhiro.inquiries.preview") || "[]");
+        stored.unshift({ ...payload, created_at: new Date().toISOString() });
+        localStorage.setItem("panhiro.inquiries.preview", JSON.stringify(stored));
+      } else {
+        const response = await fetch("/api/inquiries", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      }
+      inquiryStatus.textContent = inquiryIsStatic
+        ? (lang === "en" ? "Saved in this local preview." : "已保存到本地预览。")
+        : (lang === "en" ? "Thanks. We will reply with a quotation soon." : "提交成功，我们会尽快回复报价。");
+      inquiryStatus.dataset.tone = "success";
+      inquiryForm.reset();
+      const productInput = inquiryForm.querySelector("[data-inquiry-product]");
+      if (productInput) productInput.value = model;
+    } catch {
+      inquiryStatus.textContent = lang === "en" ? "Submission failed. Please try WhatsApp or email." : "提交失败，请改用 WhatsApp 或邮箱联系我们。";
+      inquiryStatus.dataset.tone = "error";
+    } finally {
+      if (button) button.disabled = false;
+    }
+  });
 }
 
 function renderProfile(root) {
@@ -902,8 +1052,8 @@ function renderContact(root) {
                 <option>Washing Machine</option>
                 <option>car washing series</option>
                 <option>Car Washing T Series</option>
-                <option>Industrial Series</option>
-                <option>Permanent Magnet Series</option>
+                <option>PH Series</option>
+                <option>VK Series</option>
                 <option>Vacuum Cleaner</option>
                 <option>Washer Plunger Pumps</option>
                 <option>Washer Pressure Pipe</option>
@@ -968,6 +1118,28 @@ function renderContact(root) {
   const status = $("[data-inquiry-status]");
   const isStaticPreview = location.protocol === "file:" || ["5173", "5174"].includes(location.port);
 
+  // 询盘提交结果弹窗：给用户明确的操作完成告知（成功/失败/本地预览）
+  function showInquiryDialog(tone, title, detail) {
+    let dialog = document.querySelector("[data-inquiry-dialog]");
+    if (!dialog) {
+      dialog = document.createElement("dialog");
+      dialog.className = "notice-dialog";
+      dialog.setAttribute("data-inquiry-dialog", "");
+      document.body.append(dialog);
+    }
+    const icon = tone === "success" ? "✓" : tone === "error" ? "✕" : "ℹ";
+    dialog.innerHTML = `
+      <div class="notice-body">
+        <span class="notice-icon ${tone}">${icon}</span>
+        <h3>${title}</h3>
+        <p>${detail}</p>
+        <button class="btn primary" type="button" data-notice-close>好的</button>
+      </div>
+    `;
+    dialog.querySelector("[data-notice-close]").addEventListener("click", () => dialog.close());
+    dialog.showModal();
+  }
+
   const messages = {
     sending: lang === "en" ? "Submitting..." : "正在提交...",
     success: lang === "en"
@@ -995,7 +1167,9 @@ function renderContact(root) {
       product: (formData.get("product") || "").toString().trim(),
       intent: (formData.get("intent") || "").toString().trim(),
       message: (formData.get("message") || "").toString().trim(),
-      website: (formData.get("website") || "").toString().trim(),
+      // 蜜罐字段：浏览器自动填充可能误填隐藏的 website 输入框，导致后端蜜罐把真实询盘静默吞掉。
+      // 因此浏览器侧一律不传（后端蜜罐仍会拦截直接调用 API 的机器人）。
+      website: "",
       lang,
       source: "contact-page"
     };
@@ -1008,6 +1182,7 @@ function renderContact(root) {
       status.textContent = messages.localSaved;
       status.dataset.tone = "success";
       form.reset();
+      showInquiryDialog("info", "已保存在本地预览", messages.localSaved);
       return;
     }
 
@@ -1025,9 +1200,11 @@ function renderContact(root) {
       status.textContent = messages.success;
       status.dataset.tone = "success";
       form.reset();
+      showInquiryDialog("success", "提交成功", messages.success);
     } catch (error) {
       status.textContent = messages.error;
       status.dataset.tone = "error";
+      showInquiryDialog("error", "提交失败", messages.error);
     } finally {
       if (submitBtn) submitBtn.disabled = false;
     }
@@ -1046,3 +1223,7 @@ function renderExtras() {
 
 renderBase();
 renderExtras();
+
+// 通知 app.js：子页 DOM 已渲染完成，可补做计数器/FAQ 等交互绑定
+// （app.js 的 setupMotion 可能先于本模块的异步渲染执行，导致子页元素未被观察）
+window.dispatchEvent(new CustomEvent("panhiro:subpage-rendered"));

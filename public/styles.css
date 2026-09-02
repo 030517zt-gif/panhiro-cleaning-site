@@ -347,7 +347,7 @@ select {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url("/assets/panhiro-factory-building.png");
+  background-image: url("/assets/panhiro-factory-building.webp");
   background-size: cover;
   background-position: center 48%;
   transform: scale(1.03);
@@ -1673,7 +1673,7 @@ select {
   color: var(--white);
   background:
     linear-gradient(90deg, rgba(10, 18, 28, 0.94), rgba(10, 18, 28, 0.7)),
-    url("/assets/panhiro-factory-building.png");
+    url("/assets/panhiro-factory-building.webp");
   background-size: cover;
   background-position: center;
 }
@@ -1956,6 +1956,207 @@ select {
   object-fit: contain;
 }
 
+.product-detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+}
+
+.product-inquiry-panel {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.78fr) minmax(360px, 1.22fr);
+  gap: 28px;
+  margin-top: 18px;
+  padding: clamp(24px, 4vw, 42px);
+  color: var(--white);
+  background:
+    radial-gradient(circle at 10% 0%, rgba(245, 126, 54, 0.2), transparent 34%),
+    var(--ink);
+}
+
+.product-inquiry-copy h2 {
+  max-width: 440px;
+  margin: 0 0 12px;
+  font-size: clamp(28px, 3.4vw, 46px);
+  line-height: 1.05;
+}
+
+.product-inquiry-copy > p:not(.eyebrow) {
+  max-width: 520px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.75;
+}
+
+.product-inquiry-contacts {
+  display: grid;
+  gap: 10px;
+  margin-top: 26px;
+}
+
+.inquiry-contact-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.06);
+  transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+}
+
+.inquiry-contact-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--orange);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.inquiry-contact-icon {
+  display: grid;
+  flex: 0 0 38px;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  color: var(--ink);
+  background: var(--orange);
+  font-size: 12px;
+  font-weight: 950;
+}
+
+.inquiry-contact-card span:last-child {
+  display: grid;
+  gap: 3px;
+}
+
+.inquiry-contact-card strong {
+  font-size: 14px;
+}
+
+.inquiry-contact-card small {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+.product-inquiry-form {
+  display: grid;
+  gap: 12px;
+  padding: 22px;
+  color: var(--steel);
+  background: var(--white);
+}
+
+.product-inquiry-form label {
+  display: grid;
+  gap: 7px;
+  font-weight: 850;
+}
+
+.product-inquiry-form label > span {
+  font-size: 13px;
+}
+
+.product-inquiry-form input,
+.product-inquiry-form textarea {
+  width: 100%;
+  min-height: 46px;
+  padding: 12px 13px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.product-inquiry-form input[readonly] {
+  color: var(--orange);
+  background: var(--orange-soft);
+  font-weight: 900;
+}
+
+.product-inquiry-form input:focus,
+.product-inquiry-form textarea:focus {
+  outline: 2px solid var(--orange);
+  outline-offset: 1px;
+}
+
+.inquiry-form-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.product-inquiry-form button[type="submit"] {
+  width: 100%;
+  margin-top: 4px;
+}
+
+.product-inquiry-form button[type="submit"]:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+
+.source-link {
+  color: var(--orange-soft);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.source-link:hover {
+  color: var(--white);
+}
+
+.product-source-content {
+  max-width: 980px;
+  margin: 56px auto 0;
+}
+
+.source-rich-content {
+  color: var(--steel);
+  font-size: 1rem;
+  line-height: 1.85;
+}
+
+.source-rich-content p {
+  margin: 0 0 18px;
+}
+
+.source-rich-content img {
+  display: block;
+  width: min(100%, 860px);
+  max-height: 720px;
+  margin: 24px auto;
+  object-fit: contain;
+  background: var(--paper);
+}
+
+.source-rich-content .nei-table {
+  max-width: 100%;
+  margin: 24px 0;
+  overflow-x: auto;
+}
+
+.source-rich-content table {
+  width: 100%;
+  min-width: 420px;
+  border-collapse: collapse;
+  background: var(--paper);
+}
+
+.source-rich-content td,
+.source-rich-content th {
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  text-align: left;
+}
+
+.source-rich-content td:first-child,
+.source-rich-content th:first-child {
+  width: 32%;
+  color: var(--ink);
+  font-weight: 800;
+}
+
 .company-profile-header,
 .strength-hero-panel,
 .contact-detail-head {
@@ -2201,7 +2402,7 @@ select {
   padding: 24px;
   background:
     linear-gradient(135deg, rgba(10, 16, 24, 0.96), rgba(16, 23, 32, 0.92)),
-    url("/assets/panhiro-factory-building.png");
+    url("/assets/panhiro-factory-building.webp");
   background-size: cover;
   background-position: center;
 }
@@ -2318,7 +2519,7 @@ select {
   color: var(--white);
   background:
     linear-gradient(180deg, rgba(9, 15, 21, 0.98), rgba(13, 19, 27, 0.97)),
-    url("/assets/panhiro-factory-building.png");
+    url("/assets/panhiro-factory-building.webp");
   background-size: cover;
   background-position: center;
   position: sticky;
@@ -3381,7 +3582,7 @@ select {
   padding: 24px;
   background:
     linear-gradient(180deg, rgba(7, 12, 18, 0.96), rgba(18, 24, 32, 0.94)),
-    url("/assets/panhiro-factory-building.png");
+    url("/assets/panhiro-factory-building.webp");
   background-size: cover;
   background-position: center;
 }
@@ -3752,6 +3953,11 @@ select {
     padding: 0 24px;
   }
 
+  /* 901-1180px 视口（如 1024 平板横屏）下隐藏电话，避免 header 水平溢出 */
+  .header-tools .phone-link {
+    display: none;
+  }
+
   .site-nav {
     gap: 18px;
   }
@@ -3884,6 +4090,12 @@ select {
   }
 
   .header-tools {
+    display: inline-flex;
+    gap: 8px;
+  }
+
+  .header-tools .phone-link,
+  .header-tools .lang-link {
     display: none;
   }
 
@@ -4864,9 +5076,15 @@ body[data-page="admin"] {
   }
 
   .product-detail-hero,
+  .product-inquiry-panel,
   .strength-process,
   .contact-detail-form {
     padding: 22px;
+  }
+
+  .product-inquiry-panel,
+  .inquiry-form-row {
+    grid-template-columns: 1fr;
   }
 
   .company-fact-panel div,
@@ -5354,4 +5572,192 @@ img[loading="lazy"] {
   height: 1px;
   background: linear-gradient(90deg, transparent, var(--line) 20%, var(--orange) 50%, var(--line) 80%, transparent);
   opacity: 0.6;
+}
+
+/* ===== 反馈强化：前台询盘提交状态条 ===== */
+.form-status {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  border: 1px solid;
+  animation: status-in 0.3s ease;
+}
+.form-status:empty {
+  display: none;
+}
+.form-status::before {
+  content: "ℹ";
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 900;
+  color: #fff;
+  background: #2f7bd6;
+}
+.form-status[data-tone="success"] {
+  background: #e9f9ef;
+  color: #17633a;
+  border-color: rgba(23, 99, 58, 0.25);
+}
+.form-status[data-tone="success"]::before {
+  content: "✓";
+  background: #1f9254;
+}
+.form-status[data-tone="error"] {
+  background: #fdeeee;
+  color: #b3261e;
+  border-color: rgba(179, 38, 30, 0.25);
+}
+.form-status[data-tone="error"]::before {
+  content: "✕";
+  background: #d93025;
+}
+.form-status[data-tone="info"] {
+  background: #eef4fb;
+  color: #1f5b8f;
+  border-color: rgba(31, 91, 143, 0.22);
+}
+.form-status[data-tone="info"]::before {
+  content: "ℹ";
+  background: #2f7bd6;
+}
+@keyframes status-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== 反馈强化：后台 toast 图标 ===== */
+.admin-toast {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  line-height: 1.5;
+}
+.admin-toast::before {
+  content: "ℹ";
+  flex: 0 0 auto;
+  width: 20px;
+  height: 20px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 900;
+  color: #fff;
+  background: #2f7bd6;
+}
+.admin-toast[data-tone="success"]::before {
+  content: "✓";
+  background: #20a464;
+}
+.admin-toast[data-tone="error"]::before {
+  content: "✕";
+  background: #d93025;
+}
+.admin-toast[data-tone="warning"]::before {
+  content: "!";
+  background: #e8890c;
+}
+
+/* ===== 反馈强化：保存按钮"已保存"成功态 ===== */
+button.is-saved,
+.btn.is-saved {
+  background: #1f9254 !important;
+  border-color: #1f9254 !important;
+  color: #fff !important;
+  transform: none !important;
+}
+
+/* ===== 通知弹窗（前台询盘提交 / 后台保存确认） ===== */
+.notice-dialog {
+  border: none;
+  border-radius: 16px;
+  padding: 0;
+  width: min(420px, calc(100vw - 40px));
+  box-shadow: 0 24px 64px rgba(8, 16, 26, 0.32);
+  background: #fff;
+  color: var(--ink);
+}
+.notice-dialog::backdrop {
+  background: rgba(8, 16, 26, 0.45);
+}
+.notice-dialog[open] {
+  animation: notice-in 0.25s ease;
+}
+.notice-body {
+  padding: 32px 28px 28px;
+  text-align: center;
+}
+.notice-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: 900;
+  color: #fff;
+}
+.notice-icon.success {
+  background: #1f9254;
+}
+.notice-icon.error {
+  background: #d93025;
+}
+.notice-icon.info {
+  background: #2f7bd6;
+}
+.notice-body h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+.notice-body p {
+  margin: 0 0 22px;
+  color: #5a6a7a;
+  line-height: 1.6;
+}
+.notice-body .btn {
+  min-width: 140px;
+}
+.notice-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+@keyframes notice-in {
+  from { opacity: 0; transform: translateY(12px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ===== 移动端抽屉菜单内的语言切换按钮 ===== */
+.nav-lang-toggle {
+  display: none;
+}
+@media (max-width: 900px) {
+  .nav-lang-toggle {
+    display: inline-block;
+    margin: 16px 0 8px;
+    padding: 10px 18px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 999px;
+    color: var(--white);
+    background: rgba(255, 255, 255, 0.06);
+    font-weight: 800;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  .nav-lang-toggle:hover {
+    border-color: var(--orange-2);
+    background: rgba(239, 107, 34, 0.16);
+  }
 }

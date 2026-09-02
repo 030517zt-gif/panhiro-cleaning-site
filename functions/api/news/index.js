@@ -8,11 +8,24 @@ function json(data, status = 200) {
   });
 }
 
+// 恒定时间字符串比较，避免时序侧信道泄露 token 信息
+function safeEqual(a, b) {
+  const left = String(a || "");
+  const right = String(b || "");
+  if (left.length !== right.length) return false;
+  let diff = 0;
+  for (let i = 0; i < left.length; i++) {
+    diff |= left.charCodeAt(i) ^ right.charCodeAt(i);
+  }
+  return diff === 0;
+}
+
 function authError(request, env) {
   const token = env.ADMIN_TOKEN;
   const header = request.headers.get("Authorization") || "";
-  if (!token) return "ADMIN_TOKEN is not configured.";
-  if (header !== `Bearer ${token}`) return "Unauthorized.";
+  if (!token) return "Unauthorized.";
+  if (!header.startsWith("Bearer ")) return "Unauthorized.";
+  if (!safeEqual(header.slice(7), token)) return "Unauthorized.";
   return null;
 }
 
@@ -26,24 +39,44 @@ function slugify(value) {
   return slug || `news-${Date.now()}`;
 }
 
+// 单字段最大长度，避免超大 payload 撑爆数据库
+const LIMITS = {
+  title: 300,
+  slug: 200,
+  category: 100,
+  excerpt: 1000,
+  content: 4194304,
+  title_zh: 300,
+  category_zh: 100,
+  excerpt_zh: 1000,
+  content_zh: 50000,
+  title_en: 300,
+  category_en: 100,
+  excerpt_en: 1000,
+  content_en: 50000,
+  image_url: 2097152,
+  published_at: 10
+};
+
 function newsPayload(body) {
+  const s = (value, max) => String(value ?? "").trim().slice(0, max);
   return {
-    title: String(body.title || "").trim(),
-    slug: String(body.slug || slugify(body.title)).trim(),
-    category: String(body.category || "").trim(),
-    excerpt: String(body.excerpt || "").trim(),
-    content: String(body.content || "").trim(),
-    title_zh: String(body.title_zh || "").trim(),
-    category_zh: String(body.category_zh || "").trim(),
-    excerpt_zh: String(body.excerpt_zh || "").trim(),
-    content_zh: String(body.content_zh || "").trim(),
-    title_en: String(body.title_en || "").trim(),
-    category_en: String(body.category_en || "").trim(),
-    excerpt_en: String(body.excerpt_en || "").trim(),
-    content_en: String(body.content_en || "").trim(),
-    image_url: String(body.image_url || "").trim(),
-    published_at: String(body.published_at || new Date().toISOString().slice(0, 10)).trim(),
-    published: body.published === 0 ? 0 : 1
+    title: s(body.title, LIMITS.title),
+    slug: s(body.slug || slugify(body.title), LIMITS.slug),
+    category: s(body.category, LIMITS.category),
+    excerpt: s(body.excerpt, LIMITS.excerpt),
+    content: s(body.content, LIMITS.content),
+    title_zh: s(body.title_zh, LIMITS.title_zh),
+    category_zh: s(body.category_zh, LIMITS.category_zh),
+    excerpt_zh: s(body.excerpt_zh, LIMITS.excerpt_zh),
+    content_zh: s(body.content_zh, LIMITS.content_zh),
+    title_en: s(body.title_en, LIMITS.title_en),
+    category_en: s(body.category_en, LIMITS.category_en),
+    excerpt_en: s(body.excerpt_en, LIMITS.excerpt_en),
+    content_en: s(body.content_en, LIMITS.content_en),
+    image_url: s(body.image_url, LIMITS.image_url),
+    published_at: s(body.published_at || new Date().toISOString().slice(0, 10), LIMITS.published_at),
+    published: body.published === 0 || body.published === false ? 0 : 1
   };
 }
 
@@ -57,16 +90,21 @@ function validate(payload) {
 
 export async function onRequestGet({ env }) {
   if (!env.DB) return json({ error: "D1 binding DB is not configured." }, 500);
-  const { results } = await env.DB.prepare(
-    "SELECT * FROM news_posts ORDER BY published_at DESC, id DESC"
-  ).all();
-  return json({ news: results });
+  try {
+    const { results } = await env.DB.prepare(
+      "SELECT * FROM news_posts ORDER BY published_at DESC, id DESC"
+    ).all();
+    return json({ news: results });
+  } catch (caught) {
+    console.error("Failed to fetch news:", caught);
+    return json({ error: "Failed to fetch news." }, 500);
+  }
 }
 
 export async function onRequestPost({ request, env }) {
   if (!env.DB) return json({ error: "D1 binding DB is not configured." }, 500);
   const error = authError(request, env);
-  if (error) return json({ error }, error === "Unauthorized." ? 401 : 500);
+  if (error) return json({ error }, 401);
 
   const body = await request.json().catch(() => null);
   if (!body) return json({ error: "Invalid JSON body." }, 400);
@@ -107,6 +145,10 @@ export async function onRequestPost({ request, env }) {
       .first();
     return json({ news: created }, 201);
   } catch (caught) {
-    return json({ error: caught.message || "Failed to create news post." }, 500);
+    console.error("Failed to create news post:", caught);
+    if (String(caught && caught.message || "").includes("UNIQUE constraint failed")) {
+      return json({ error: `A news post with slug "${payload.slug}" already exists.` }, 409);
+    }
+    return json({ error: "Failed to create news post." }, 500);
   }
 }

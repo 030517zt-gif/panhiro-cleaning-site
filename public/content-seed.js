@@ -2,8 +2,8 @@ export const PRODUCT_CATEGORIES = [
   "Washing Machine",
   "car washing series",
   "Car Washing T Series",
-  "RY Series",
-  "PW Series",
+  "PH Series",
+  "VK Series",
   "Vacuum Cleaner",
   "Washer Plunger Pumps",
   "Washer Pressure Pipe",
@@ -18,1566 +18,2518 @@ export const DEFAULT_PRODUCTS = [
     "name": "1500W handheld commercial high pressure washer 1650B",
     "slug": "1800w-handheld-commercial-high-pressure-washer",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "1500W handheld commercial high pressure washer 1650B Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "In the field of commercial cleaning, high pressure cleaning machines have become the core equipment for improving efficiency and cleaning quality. With its unique technological advantages, it is reshaping cleaning standards across industries.",
-    "image_url": "/assets/cnryce/1800w-handheld-commercial-high-pressure-washer.png",
+    "image_url": "/assets/cnryce/source/4059-202601081324046037.png",
     "specs": {
-      "Category": "car washing series",
       "Power": "1500W",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Model": "PH-1650B",
+      "Voltage": "220V/50Hz",
+      "Flow Rate": "10L/min",
+      "Pressure": "80Bar",
+      "Speed": "2800RPM",
+      "Brand": "PH"
     },
     "sort_order": 1,
     "is_featured": 1,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202601081324046037.png",
+      "/assets/cnryce/source/4059-202601081310406143.jpg",
+      "/assets/cnryce/source/4059-202601081310398389.jpg",
+      "/assets/cnryce/source/4059-202601081310390295.jpg",
+      "/assets/cnryce/source/4059-202601081324046037_s.png",
+      "/assets/cnryce/source/4059-202601081327425613.jpg",
+      "/assets/cnryce/source/4059-202601081327423487.jpg",
+      "/assets/cnryce/source/4059-202601081327422045.jpg",
+      "/assets/cnryce/source/4059-202601081327421432.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/1800w-handheld-commercial-high-pressure-washer",
+    "source_title": "1500W handheld commercial high pressure washer 1650B",
+    "source_brand": "RY",
+    "brand": "PH",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        1500W handheld commercial high pressure washer 1650B                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        In the field of commercial cleaning, high pressure cleaning machines have become the core equipment for improving efficiency and cleaning quality. With its unique technological advantages, it is reshaping cleaning standards across industries.                                    </p>\r\n                                    <p><br/></p><p><img alt=\"pressure\" src=\"/assets/cnryce/source/4059-202601081327425613.jpg\" title=\"pressure\"/></p><p><img alt=\"washer\" src=\"/assets/cnryce/source/4059-202601081327423487.jpg\" title=\"washer\"/></p><p><img alt=\"high\" src=\"/assets/cnryce/source/4059-202601081327422045.jpg\" title=\"high\"/></p><p><img alt=\"pressure\" src=\"/assets/cnryce/source/4059-202601081327421432.jpg\" title=\"pressure\"/></p><p>Specification:</p><div class=\"nei-table\"><table><colgroup><col/><col/></colgroup><tbody><tr class=\"firstRow\"><td class=\"et2\">Model:</td><td class=\"et2\">PH-1650B</td></tr><tr><td class=\"et2\">Power:</td><td class=\"et2\">1500W</td></tr><tr><td class=\"et2\">Voltage:</td><td class=\"et2\">220V/50Hz</td></tr><tr><td class=\"et2\">Flow Rate:</td><td class=\"et2\">10L/min</td></tr><tr><td class=\"et2\">Pressure:</td><td class=\"et2\">80Bar</td></tr><tr><td class=\"et2\">Speed:</td><td class=\"et2\">2800RPM</td></tr></tbody></table></div><p>Characteristics and Applications of Commercial High Pressure Cleaners</p><p>Introduction</p><p><br/></p><p>Core features<br/></p><p>1. High Pressure Cleaning Technology</p><p>The heart of commercial high-pressure washers is their high-pressure pump system, which converts ordinary water into a high-pressure stream, usually in the range of 1500-5000 PSI. This high-pressure water flow forms high-speed jets through nozzles with strong impact and can effectively strip away stubborn stains such as oil, rust and concrete residues. Compared with traditional cleaning methods, high pressure cleaning significantly shortens the cleaning time, improves work efficiency, and reduces water consumption, reflecting environmental advantages.</p><p>2. Design for versatility</p><p>Modern commercial high-pressure cleaning machines support a variety of cleaning modes, including cold, hot and steam cleaning, to suit the needs of different scenarios. The hot water and steam modes are particularly suitable for the removal of grease and bacteria, enhancing the hygienic cleaning capabilities of the equipment. In addition, the device is equipped with a variety of nozzles and accessories, such as rotating brushes and surface cleaners, extending its range of applications, allowing it to handle diverse cleaning tasks from fine surfaces to large areas.</p><p>3. Endurance and Safety</p><p>Commercial equipment design focuses on durability, using all-steel architecture and corrosion-resistant materials to ensure long-term stable operation in harsh environments. Safety features include anti-leak protection, automatic shutdown mechanism and pressure release valve to ensure operational safety. These designs reduce maintenance requirements and reduce long-term operating costs.</p><p>4. Intelligent operation</p><p>Intelligent technology is another bright spot for commercial high-pressure cleaning machines. Many models are equipped with intelligent control systems, such as touchscreen interfaces and pressure adjustment functions, which simplify the operation process and improve cleaning accuracy. Some high-end models also integrate IoT technology to support remote monitoring and fault diagnosis, further improving management efficiency and equipment reliability.</p><p>Extensive application scenarios</p><p>1. Catering &amp; Hospitality Industry</p><p>In the restaurant industry, high pressure cleaning machines are used for deep cleaning of kitchen equipment to effectively remove oil stains and food residues and ensure hygienic standards. The hospitality industry, for its part, uses its clean rooms, bathrooms and common areas to enhance the customer experience.</p><p>2. Construction &amp; Manufacturing</p><p>On construction sites, equipment washes concrete mixers and construction tools to remove cement and dust. The manufacturing industry is used for the maintenance of production lines and machinery, to remove oil pollution and industrial residues, and to ensure equipment performance.</p><p>3. The automotive and logistics industry</p><p>Auto repair shops use high pressure cleaning machines for vehicle maintenance to quickly clean the body and chassis. The logistics center is used for the cleaning of warehouses and transportation equipment to improve operational efficiency.</p><p>4. Municipalities and Public Facilities</p><p>Municipal departments apply high-pressure cleaning machines for street cleaning and maintenance of public facilities such as parks and squares. Its efficient cleaning capabilities help to enhance the city&#39;s image and public health.</p><p>conclusion</p><p>Commercial high-pressure cleaning machines have become an indispensable tool for commercial cleaning thanks to their high-pressure technology, versatility, durable design and intelligent operation. From catering to municipalities, its widespread application not only improves cleaning efficiency, but also promotes environmental protection and cost savings. With the advancement of technology, commercial high-pressure cleaning machines will continue to innovate to meet the growing demand for cleaning, bringing more convenience and benefits to various industries.</p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 2,
-    "name": "2000W handheld portable commercial high pressure washer car washer RY1680",
+    "name": "2000W handheld portable commercial high pressure washer car washer PH1680",
     "slug": "2000w-handheld-portable-commercial-high-pressure-washer-car-washer-ry1680",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "2000W handheld portable commercial high pressure washer car washer RY1680 Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The commercial cleaning machine is highly efficient and durable, designed specifically for large-scale cleaning. It features strong cleaning capabilities, energy-saving, and water-saving functions, is easy to operate, and is suitable for use in catering, industrial, and other settings, thereby improving cleaning efficiency.",
-    "image_url": "/assets/cnryce/2000w-handheld-portable-commercial-high-pressure-washer-car-washer-ry1680.png",
+    "image_url": "/assets/cnryce/source/4059-202601081407011360.png",
     "specs": {
-      "Category": "car washing series",
       "Power": "2000W",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Model": "PH-1680",
+      "Voltage": "220V/50Hz",
+      "Flow Rate": "12L/min",
+      "Pressure": "100Bar",
+      "Speed": "1440RPM",
+      "Brand": "PH"
     },
     "sort_order": 2,
     "is_featured": 1,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202601081407011360.png",
+      "/assets/cnryce/source/4059-202601081406482102.jpg",
+      "/assets/cnryce/source/4059-202601081406495101.jpg",
+      "/assets/cnryce/source/4059-202601081406489750.jpg",
+      "/assets/cnryce/source/4059-202601081407011360_s.png",
+      "/assets/cnryce/source/4059-202601081338293057.jpg",
+      "/assets/cnryce/source/4059-202601081338297441.jpg",
+      "/assets/cnryce/source/4059-202601081338294411.jpg",
+      "/assets/cnryce/source/4059-202601081338291774.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/2000w-handheld-portable-commercial-high-pressure-washer-car-washer-ry1680",
+    "source_title": "2000W handheld portable commercial high pressure washer car washer RY1680",
+    "source_brand": "RY",
+    "brand": "PH",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        2000W handheld portable commercial high pressure washer car washer PH1680                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The commercial cleaning machine is highly efficient and durable, designed specifically for large-scale cleaning. It features strong cleaning capabilities, energy-saving, and water-saving functions, is easy to operate, and is suitable for use in catering, industrial, and other settings, thereby improving cleaning efficiency.                                    </p>\r\n                                    <p>Core Advantages Analysis of Commercial High Pressure Washer</p><p><img alt=\"pressure\" src=\"/assets/cnryce/source/4059-202601081338293057.jpg\" title=\"pressure\"/></p><p><img alt=\"washer\" src=\"/assets/cnryce/source/4059-202601081338297441.jpg\" title=\"washer\"/></p><p><img alt=\"high\" src=\"/assets/cnryce/source/4059-202601081338294411.jpg\" title=\"high\"/></p><p><img alt=\"pressure\" src=\"/assets/cnryce/source/4059-202601081338291774.jpg\" title=\"pressure\"/></p><p>&nbsp;Specification</p><div class=\"nei-table\"><table><colgroup><col/><col/></colgroup><tbody><tr class=\"firstRow\"><td class=\"et2\">Model:</td><td class=\"et2\">PH-1680</td></tr><tr><td class=\"et2\">Power:</td><td class=\"et2\">2000W</td></tr><tr><td class=\"et2\">Voltage:</td><td class=\"et2\">220V/50Hz</td></tr><tr><td class=\"et2\">Flow Rate:</td><td class=\"et2\">12L/min</td></tr><tr><td class=\"et2\">Pressure:</td><td class=\"et2\">100Bar</td></tr><tr><td class=\"et2\">Speed:</td><td class=\"et2\">1440RPM</td></tr></tbody></table></div><p>The commercial high pressure washer stands out as a highly efficient solution for commercial cleaning scenarios by virtue of its five core advantages: high pressure cleaning technology, versatility, durability, intelligent operation, and wide applicability, enabling it to tackle various heavy-duty stain cleaning challenges with precision.</p><p>&nbsp;</p><p>I. High Pressure Cleaning Technology: Efficient Cleaning &amp; Water-Saving Environmental Protection</p><p>&nbsp;</p><p>At its core lies the 1500-5000 PSI high-speed water flow generated by a high-pressure pump, which can instantly strip stubborn stains such as oil stains, rust, and concrete residues. The cleaning efficiency of the commercial high pressure washer far surpasses that of traditional manual scrubbing or low-pressure washing. Meanwhile, the high pressure cleaning mode significantly reduces water consumption, achieving powerful decontamination while realizing green and environmentally friendly commercial cleaning.</p><p>&nbsp;</p><p>II. Versatility: Multi-Mode &amp; Multi-Accessory, Adapting to All Scenarios</p><p>&nbsp;</p><p>The commercial high pressure washer supports three cleaning modes: cold water, hot water, and steam, which can be flexibly switched according to stain types and cleaning requirements—cold water mode for daily dust removal, hot water mode for oil stain decomposition, and steam mode for high-temperature sterilization. Equipped with a variety of professional accessories such as rotating brushes and surface cleaners, the commercial high pressure washer further expands its cleaning boundaries, covering cleaning objects of different shapes and materials for commercial cleaning tasks.</p><p>&nbsp;</p><p>III. Durability &amp; Safety: Robust Quality &amp; Multiple Protections</p><p>&nbsp;</p><p>The body of the commercial high pressure washer is built with full steel structure and corrosion-resistant materials, making it capable of withstanding harsh environments such as humidity and dust, and ensuring long-term stable operation during commercial cleaning work. To guarantee operational safety, the commercial high pressure washer is equipped with multiple safety protection mechanisms including leakage protection, automatic shutdown mechanism and pressure relief valve, effectively preventing potential risks during the use of the commercial high pressure washer in commercial cleaning sites.</p><p>&nbsp;</p><p>IV. Intelligent Operation: Simplified Process &amp; Intelligent Monitoring</p><p>&nbsp;</p><p>The commercial high pressure washer is configured with an intelligent control system, featuring a touch screen interface and pressure adjustment function to simplify the operation process of commercial cleaning, allowing operators to master the use skills quickly. Some high-end models of the commercial high pressure washer are integrated with IoT technology, which enables remote monitoring and fault diagnosis, reducing the maintenance cost of the commercial high pressure washer and ensuring the continuity of commercial cleaning work.</p><p>&nbsp;</p><p>V. Wide Applicability: Covering Multiple Industries &amp; Scenarios</p><p>&nbsp;</p><p>1. Catering and Hotel Industry: The commercial high pressure washer is used for cleaning kitchen equipment and guest rooms, helping catering and hotel businesses meet strict hygiene standards for commercial cleaning.</p><p>2. Industry and Manufacturing Industry: The commercial high pressure washer plays a vital role in cleaning production lines and machinery, ensuring the stable performance of equipment and promoting the smooth progress of industrial production.</p><p>3. Automotive and Logistics Industry: The commercial high pressure washer is applied to vehicle maintenance and warehouse cleaning, improving the operational efficiency of automotive and logistics enterprises through efficient commercial cleaning.</p><p>4. Municipal and Public Facilities: The commercial high pressure washer is adopted for street cleaning and public facility maintenance, helping to enhance the city image via professional commercial cleaning work.</p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 3,
     "name": "1800W Portable Commercial High pressure washer 1660",
     "slug": "2kw-portable-commercial-high-pressure-washer",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
-    "description": "The core features lie in their high-pressure cleaning capabilities, multi-functional integration, safe and durable design, intelligent operation, and wide range of applicable scenarios, which enable them to efficiently meet cleaning needs in various commercial environments.",
-    "image_url": "/assets/cnryce/2kw-portable-commercial-high-pressure-washer.png",
+    "tagline": "1800W Portable Commercial High pressure washer 1660 Manufacturers and Factory. We accept OEM custom products all made in China.",
+    "description": "The core features  lie in their high-pressure cleaning capabilities, multi-functional integration, safe and durable design, intelligent operation, and wide range of applicable scenarios, which enable them to efficiently meet cleaning needs in various commercial environments.",
+    "image_url": "/assets/cnryce/source/4059-202601081322039513.png",
     "specs": {
-      "Category": "car washing series",
       "Power": "1800W",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Model": "PH-1660",
+      "Voltage": "220V/50Hz",
+      "Flow Rate": "10L/min",
+      "Pressure": "75Bar",
+      "Speed": "2800RPM",
+      "Brand": "PH"
     },
     "sort_order": 3,
     "is_featured": 1,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202601081322039513.png",
+      "/assets/cnryce/source/4059-202601081258448240.jpg",
+      "/assets/cnryce/source/4059-202601081258434609.jpg",
+      "/assets/cnryce/source/4059-202601081258433559.jpg",
+      "/assets/cnryce/source/4059-202601081322039513_s.png",
+      "/assets/cnryce/source/4059-202601081319437037.jpg",
+      "/assets/cnryce/source/4059-202601081319431098.jpg",
+      "/assets/cnryce/source/4059-202601081319430914.jpg",
+      "/assets/cnryce/source/4059-202601081319436076.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/2kw-portable-commercial-high-pressure-washer",
+    "source_title": "1800W Portable Commercial High pressure washer 1660",
+    "source_brand": "RY",
+    "brand": "PH",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        1800W Portable Commercial High pressure washer 1660                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The core features  lie in their high-pressure cleaning capabilities, multi-functional integration, safe and durable design, intelligent operation, and wide range of applicable scenarios, which enable them to efficiently meet cleaning needs in various commercial environments.                                    </p>\r\n                                    <p><img alt=\"pressure\" src=\"/assets/cnryce/source/4059-202601081319437037.jpg\" title=\"pressure\"/></p><p><img alt=\"washer\" src=\"/assets/cnryce/source/4059-202601081319431098.jpg\" title=\"washer\"/></p><p><img alt=\"high pressure\" src=\"/assets/cnryce/source/4059-202601081319430914.jpg\" title=\"high pressure\"/></p><p><img alt=\"pressure\" src=\"/assets/cnryce/source/4059-202601081319436076.jpg\" title=\"pressure\"/></p><p>Specificatiion:</p><div class=\"nei-table\"><table><colgroup><col/><col/></colgroup><tbody><tr class=\"firstRow\"><td class=\"et2\">Model:</td><td class=\"et3\">PH-1660</td></tr><tr><td class=\"et3\">Power:</td><td class=\"et3\">1800W</td></tr><tr><td class=\"et3\">Voltage:</td><td class=\"et3\">220V/50Hz</td></tr><tr><td class=\"et3\">Flow Rate:</td><td class=\"et3\">10L/min</td></tr><tr><td class=\"et3\">Pressure:</td><td class=\"et3\">75Bar</td></tr><tr><td class=\"et3\">Speed:</td><td class=\"et3\">2800RPM</td></tr></tbody></table></div><p><span>The Features and Applications of Commercial High Pressure Washers</span></p><p>In the realm of industrial and commercial cleaning, the commercial high pressure washer stands as an indispensable workhorse, boasting a suite of robust features that set it apart from residential alternatives and make it a staple across diverse sectors. At its core, a commercial high pressure washer is engineered for durability and continuous operation, with heavy - duty components such as reinforced steel frames, industrial - grade pumps, and high - performance motors that can withstand prolonged use without compromising on power. Unlike residential models that often prioritize portability over pressure output, a commercial high pressure washer delivers exceptional pressure levels, typically ranging from 2,000 to 5,000 PSI (pounds per square inch), and some heavy - duty variants can even exceed 10,000 PSI, enabling it to tackle the most stubborn dirt, grime, grease, and rust with ease.</p><p>Another key feature of the commercial high pressure washer is its versatility in terms of water flow and pressure adjustment. Most units come with adjustable nozzles that allow operators to switch between narrow, high - pressure streams for targeted cleaning and wide, low - pressure sprays for larger surface areas, ensuring optimal performance for different tasks. Many commercial high pressure washers also support hot water cleaning, with integrated heating systems that can raise water temperatures to over 140°F, which is highly effective at breaking down oil and grease deposits—a common challenge in commercial and industrial settings. Additionally, commercial high pressure washers are designed with user - convenience in mind, featuring ergonomic handles, easy - to - access controls, and large - capacity fuel or power tanks, reducing downtime and boosting productivity during long cleaning shifts.</p><p>The applications of the commercial high pressure washer span a vast array of industries, making it a versatile tool for both indoor and outdoor cleaning tasks. In the automotive industry, commercial high pressure washers are a must - have for cleaning fleet vehicles, heavy - duty trucks, and construction equipment, as they can quickly remove mud, road salt, and engine grease without damaging the vehicle’s paint or metal surfaces. Car wash businesses rely heavily on commercial high pressure washers to provide efficient and thorough cleaning services, ensuring customer satisfaction while minimizing labor costs.</p><p>In the construction and property maintenance sectors, commercial high pressure washers play a critical role in cleaning building exteriors, sidewalks, parking lots, and concrete surfaces. They can effectively eliminate graffiti, mold, mildew, and accumulated dirt, restoring the appearance of commercial properties and enhancing their curb appeal. For food processing plants and restaurants, commercial high pressure washers are essential for maintaining hygiene standards, as they can sanitize kitchen equipment, floors, and walls, removing food residues and bacteria that are difficult to eliminate with conventional cleaning methods.</p><p>The agricultural industry also benefits greatly from commercial high pressure washers, which are used to clean farm machinery, livestock enclosures, and storage facilities. They can remove caked - on manure, feed residues, and pesticides, helping to prevent the spread of diseases and ensure the health of livestock. Moreover, in the marine industry, commercial high pressure washers are employed to clean boat hulls, removing barnacles and algae that can slow down vessels and increase fuel consumption.</p><p>In conclusion, the commercial high pressure washer is a powerful and versatile cleaning solution, defined by its durability, high pressure output, and adjustable functionality. Its wide range of applications across automotive, construction, food service, agricultural, and marine industries underscores its importance as a key tool for maintaining cleanliness, hygiene, and operational efficiency in commercial settings. As businesses continue to prioritize efficiency and sustainability, the commercial high pressure washer will remain a vital asset, offering a cost - effective and eco - friendly alternative to harsh chemical cleaners.</p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 4,
     "name": "Industrial 3000KW high pressure washer",
     "slug": "industrial-3000kw-high-pressure-washer",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "Industrial 3000KW high pressure washer Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "This high-pressure cleaning machine relies on its own-developed high-pressure pump technology. Its 3000W power and 14L/min water output efficiency meet the needs of commercial, industrial, and other applications.",
-    "image_url": "/assets/cnryce/industrial-3000kw-high-pressure-washer.png",
+    "image_url": "/assets/cnryce/source/4059-202512121326199325.png",
     "specs": {
-      "Category": "car washing series",
-      "Power": "3000KW",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Power": "3000W",
+      "Flow": "14L/min",
+      "Brand": "VK"
     },
     "sort_order": 4,
     "is_featured": 1,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202512121326199325.png",
+      "/assets/cnryce/source/4059-202512121326199325_s.png",
+      "/assets/cnryce/source/4059-202512111618417638.jpg",
+      "/assets/cnryce/source/4059-202512111618418419.jpg",
+      "/assets/cnryce/source/4059-202512111618410732.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/industrial-3000kw-high-pressure-washer",
+    "source_title": "Industrial 3000KW high pressure washer",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Industrial 3000KW high pressure washer                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        This high-pressure cleaning machine relies on its own-developed high-pressure pump technology. Its 3000W power and 14L/min water output efficiency meet the needs of commercial, industrial, and other applications.                                    </p>\r\n                                    <p><br/></p><p><img alt=\"Industrial High pressure washer\" src=\"/assets/cnryce/source/4059-202512111618417638.jpg\" title=\"Industrial High pressure washer\"/></p><p><img alt=\"Industrial Pressure Washer\" src=\"/assets/cnryce/source/4059-202512111618418419.jpg\" title=\"Industrial Pressure Washer\"/></p><p><img alt=\"heavy duty car washer\" src=\"/assets/cnryce/source/4059-202512111618410732.jpg\" title=\"heavy duty car washer\"/></p><p><span>The Application, Maintenance and Technological Innovation of Industrial High Pressure Washer</span></p><p><span>In the realm of industrial cleaning, the Industrial High Pressure Washer stands as an indispensable piece of equipment, redefining the efficiency and effectiveness of dirt, grime, and contaminant removal across diverse sectors. Unlike ordinary cleaning tools, the Industrial Pressure Washer leverages high-pressure water jets, typically ranging from 1000 to 5000 PSI (pounds per square inch), and in some heavy-duty models, even exceeding 10,000 PSI, to tackle the most stubborn industrial residues—whether it’s grease caked on manufacturing machinery, scale buildup in pipelines, or concrete stains in construction sites. Even the heavy duty car washer, a specialized variant of industrial high-pressure cleaning equipment, has carved out a critical niche in automotive manufacturing and fleet maintenance, proving the versatility of this technology across both industrial and commercial automotive sectors.</span></p><p><span>The application scope of the Industrial High Pressure Washer is as vast as it is varied, spanning manufacturing, construction, municipal services, food processing, and automotive industries, among others. In the manufacturing sector, factories rely on the Industrial Pressure Washer to clean production lines, machine tools, and metal components. For instance, in automotive manufacturing plants, the heavy duty car washer is used to blast away metal shavings, lubricants, and paint overspray from vehicle frames and parts during the assembly process, ensuring that each component meets strict quality standards before final assembly. Beyond automotive applications, general Industrial High Pressure Washer units are deployed in chemical plants to remove corrosive chemical residues from reaction vessels and pipelines, a task that would be nearly impossible with manual cleaning and far too risky with abrasive chemical cleaners. In the construction industry, these washers are instrumental in cleaning concrete surfaces, removing form release agents, and preparing surfaces for painting or coating, while municipal authorities use them to clear clogged sewers, clean public infrastructure like bridges and sidewalks, and even remove graffiti from public buildings—all tasks that demand the raw power of an Industrial Pressure Washer.</span></p><p><span>In the food processing industry, hygiene is non-negotiable, and the Industrial High Pressure Washer plays a pivotal role in maintaining sanitized production environments. These washers can effectively remove food debris, oil, and bacteria from processing equipment, conveyor belts, and storage tanks without leaving behind chemical residues, aligning with strict food safety regulations. Even in the shipping and marine industry, Industrial High Pressure Washer systems are used to clean ship hulls, removing barnacles and marine growth that can impede vessel speed and fuel efficiency. For fleet management companies, the heavy duty car washer is a workhorse, capable of cleaning entire fleets of trucks, buses, and delivery vehicles in a fraction of the time it would take with manual washing, significantly reducing labor costs and increasing operational efficiency.</span></p><p><span>While the Industrial High Pressure Washer is engineered for durability, proper maintenance is essential to ensure its longevity and consistent performance—especially given the heavy-duty conditions in which these machines operate. The first rule of maintenance for any Industrial Pressure Washer is to conduct a pre-operation check: inspect the high-pressure hose for cracks or leaks, ensure the nozzle is free from clogs (a common issue when cleaning debris-laden surfaces), and verify that the pump oil level is adequate. For the heavy duty car washer, which often deals with mud, road salt, and automotive fluids, checking the inlet filter for blockages is particularly important, as contaminants can damage the pump and reduce water flow.</span></p><p><span>After each use, the Industrial Pressure Washer requires thorough post-operation care. Drain all remaining water from the pump, hoses, and spray gun to prevent freezing in cold climates, which can cause irreparable damage to the pump’s internal components. For models with gasoline engines, it’s crucial to turn off the fuel valve and run the engine until it stalls to clear the carburetor, preventing fuel degradation and clogs. For electric Industrial Pressure Washer units, disconnect the power supply and wipe down the control panel to prevent water damage and electrical malfunctions. The heavy duty car washer, in particular, benefits from a quick rinse of the spray gun and nozzle after cleaning vehicles, as road grime and soap residue can harden and block the nozzle over time.</span></p><p><span>Regular scheduled maintenance is equally vital for the Industrial Pressure Washer. The pump, the heart of the machine, requires oil changes every 50 to 100 hours of operation, depending on the manufacturer’s recommendations. Using the correct grade of pump oil is critical—low-quality oil can cause excessive wear and overheating. Seals and O-rings, which prevent water leaks, should be inspected every few months and replaced if they show signs of cracking or wear. For the Industrial Pressure Washer’s high-pressure hose, avoid kinking or dragging it over sharp surfaces, as this can weaken the hose and lead to bursts. The heavy duty car washer’s wheels and cart frame (if equipped) should also be checked for rust and lubricated regularly, especially if used in outdoor or corrosive environments like coastal areas.</span></p><p><span>Technological innovation has further elevated the capabilities of the Industrial High Pressure Washer in recent years, making these machines more efficient, user-friendly, and environmentally sustainable. Modern Industrial Pressure Washer models often feature variable pressure settings, allowing operators to adjust the water pressure to match the cleaning task—from gentle cleaning of delicate surfaces to ultra-high pressure for tough industrial grime. Some advanced Industrial Pressure Washer units integrate hot water or steam cleaning functions, which use heat to break down grease and oil more effectively, reducing the need for harsh chemical cleaners. The heavy duty car washer has also benefited from these innovations, with many models now offering foam cannons and adjustable nozzles that deliver a thick layer of cleaning foam, enhancing the removal of stubborn automotive dirt without scratching paintwork.</span></p><p><span>Energy efficiency is another key focus of modern Industrial High Pressure Washer design. Electric models now use brushless motors, which consume less power and have a longer lifespan than traditional brushed motors. Gasoline-powered Industrial Pressure Washer units are equipped with fuel-injected engines that improve fuel economy and reduce emissions, aligning with global environmental regulations. Additionally, water recycling systems are being integrated into some Industrial Pressure Washer setups, allowing businesses to reuse water for cleaning, reducing water waste and operational costs—an especially valuable feature for large-scale industrial facilities and car wash operations using the heavy duty car washer.</span></p><p><span>The future of the Industrial High Pressure Washer is poised for even more exciting advancements, with the integration of smart technology leading the way. IoT-enabled Industrial Pressure Washer units can now send real-time data to operators, alerting them to maintenance needs, pressure irregularities, or potential equipment failures before they escalate. Some models even feature remote control operation, allowing workers to operate the Industrial Pressure Washer from a safe distance when cleaning hazardous areas. For the heavy duty car washer, automation is becoming increasingly common, with robotic heavy duty car washer systems now used in large automotive dealerships and fleet centers, delivering consistent cleaning results with minimal human intervention.</span></p><p><span>In conclusion, the Industrial High Pressure Washer is far more than just a cleaning tool—it is a cornerstone of modern industrial operations, driving efficiency, hygiene, and cost savings across countless sectors. From the manufacturing floor to the automotive workshop, the Industrial Pressure Washer and its specialized variant, the heavy duty car washer, continue to evolve to meet the changing needs of industries worldwide. With proper maintenance and the adoption of new technologies, these powerful machines will remain essential assets for industrial cleaning for years to come, proving that the Industrial High Pressure Washer is not just a piece of equipment, but a catalyst for cleaner, more productive industrial environments.</span></p><p><span><br/></span></p><p><br/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 5,
     "name": "New Commercial Permanent Magnet High Pressure Washer",
     "slug": "new-commercial-permanent-magnet-high-pressure-washer",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "New Commercial Permanent Magnet High Pressure Washer Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The permanent magnet cleaning machine is an efficient and environmentally friendly cleaning machine, which is driven by a permanent magnet motor and characterized by high pressure, large flow rate and high efficiency.",
-    "image_url": "/assets/cnryce/new-commercial-permanent-magnet-high-pressure-washer.jpg",
+    "image_url": "/assets/cnryce/source/4059-202512201623300479.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Model": "PH-8090P",
+      "Power": "2200W",
+      "Voltage": "220V/50Hz",
+      "Flow Rate": "11L/min",
+      "Pressure": "110Bar",
+      "Speed": "2800RPM",
+      "Brand": "PH"
     },
     "sort_order": 5,
     "is_featured": 1,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202512201623300479.jpg",
+      "/assets/cnryce/source/4059-202512091301441906.jpg",
+      "/assets/cnryce/source/4059-202512091301451170.jpg",
+      "/assets/cnryce/source/4059-202512091301440475.png",
+      "/assets/cnryce/source/4059-202512201623300479_s.jpg",
+      "/assets/cnryce/source/4059-202512091312335465.jpg",
+      "/assets/cnryce/source/4059-202512091312338667.jpg",
+      "/assets/cnryce/source/4059-202512091312339155.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/new-commercial-permanent-magnet-high-pressure-washer",
+    "source_title": "New Commercial Permanent Magnet High Pressure Washer",
+    "source_brand": "RY",
+    "brand": "PH",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        New Commercial Permanent Magnet High Pressure Washer                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The permanent magnet cleaning machine is an efficient and environmentally friendly cleaning machine, which is driven by a permanent magnet motor and characterized by high pressure, large flow rate and high efficiency.                                    </p>\r\n                                    <p><strong>I. Overview of permanent magnet high pressure cleaning machine</strong></p><p>Permanent magnetic high pressure cleaning machine is a high pressure washing machine using permanent magnetic technology. It combines the high performance of permanent magnet motors and the flexible control of variable frequency technology to provide powerful power support for a variety of cleaning needs. This cleaning machine not only has the advantages of being efficient and energy efficient, but also maintains a stable working condition in different working environments.</p><p><br/></p><p><strong>II. Main characteristics</strong></p><p>1. High performance: A variable frequency high pressure cleaning machine using a permanent magnet motor has a high working efficiency. The large magnetic field strength of permanent magnet motor makes the motor torque and power density higher, which improves the overall performance of washing machine.</p><p>2. Energy saving and environmental protection: Through frequency shifting technology, the cleaning machine can adjust the working frequency according to actual demand, effectively reducing energy consumption. At the same time, the efficient performance of the permanent magnet motor also reduces energy waste, making this cleaning machine a significant advantage in environmental protection.</p><p>3. Stable and reliable: The permanent magnet variable frequency high pressure cleaning machine has been designed with full consideration for the stability and reliability of the equipment. The use of high-quality materials and advanced manufacturing processes ensures that the cleaning machine can maintain a stable working condition during long periods of operation.</p><p><br/></p><p><strong>III. Areas of application</strong></p><p>Pioneer permanent magnet variable frequency high pressure cleaning machines are widely used in many fields such as industry, commerce and home. In the industrial sector, it can be used for cleaning equipment, pipes and production lines; In the commercial sector, it is suitable for cleaning large buildings, parking lots and public facilities; In the household sector, it can be used to clean cars, yards and outdoor facilities, etc.</p><p><br/></p><p><strong>IV. CONCLUSIONS</strong></p><p>With its efficiency, energy saving and stable characteristics, permanent magnet variable frequency high-pressure cleaning machines occupy an important position in the modern cleaning industry. With the continuous development of technology, this cleaning machine will apply its unique advantages in more fields and bring more convenience to people&#39;s lives.</p><ul class=\" list-paddingleft-2\"><li><p><br/><span><span><strong><span>Specification</span></strong></span></span></p><div class=\"nei-table\"><table><tbody><tr class=\"firstRow\"><td valign=\"top\">Model:<br/></td><td valign=\"top\">PH-8090P<br/></td></tr><tr><td valign=\"top\">Power:</td><td valign=\"top\">2200W</td></tr><tr><td valign=\"top\">Voltage:</td><td valign=\"top\">220V/50Hz</td></tr><tr><td valign=\"top\">Flow Rate:</td><td valign=\"top\">11L/min</td></tr><tr><td valign=\"top\">Pressure:</td><td valign=\"top\">110Bar</td></tr><tr><td valign=\"top\">Speed:</td><td valign=\"top\">2800RPM</td></tr></tbody></table></div><p><img alt=\"permanent magnet high pressure washer\" src=\"/assets/cnryce/source/4059-202512091312335465.jpg\" title=\"permanent magnet high pressure washer\"/></p></li></ul><p><img alt=\"permanent magnet cleaning machine\" src=\"/assets/cnryce/source/4059-202512091312338667.jpg\" title=\"permanent magnet cleaning machine\"/></p><p><img alt=\"Permanent magnet high-pressure cleaner\" src=\"/assets/cnryce/source/4059-202512091312339155.jpg\" title=\"Permanent magnet high-pressure cleaner\"/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 6,
     "name": "220V 1.5kw Household High Quality Induction Motor Electric High Pressure Car Washer",
     "slug": "220v-15kw-household-high-quality-induction-motor-electric-high-pressure-car-washer",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "220V 1.5kw Household High Quality Induction Motor Electric High Pressure Car Washer Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "It is so user-friendly that it can be operated like a “dummy-proof” device. With just three steps for installation and a single button for starting and stopping, even elderly individuals can quickly get started. It also features electrical leakage protection and a water-resistant body, ensuring safe use. Equipped with a pure copper motor, it is durable and less prone to failure, requiring no chemical cleaners and conserving water and promoting environmental protection. From washing cars and cleaning yards to cleaning appliances and polishing tiles, this single machine can handle various needs, completely freeing up hands and making daily cleaning time-saving and effortless.",
-    "image_url": "/assets/cnryce/220v-15kw-household-high-quality-induction-motor-electric-high-pressure-car-washer.png",
+    "image_url": "/assets/cnryce/source/4059-202512121628587147.png",
     "specs": {
-      "Category": "car washing series",
       "Power": "1.5kw",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 6,
     "is_featured": 1,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202512121628587147.png",
+      "/assets/cnryce/source/4059-202512121628470134.png",
+      "/assets/cnryce/source/4059-202512121628478727.png",
+      "/assets/cnryce/source/4059-202512121628587147_s.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/220v-15kw-household-high-quality-induction-motor-electric-high-pressure-car-washer",
+    "source_title": "220V 1.5kw Household High Quality Induction Motor Electric High Pressure Car Washer",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        220V 1.5kw Household High Quality Induction Motor Electric High Pressure Car Washer                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        It is so user-friendly that it can be operated like a “dummy-proof” device. With just three steps for installation and a single button for starting and stopping, even elderly individuals can quickly get started. It also features electrical leakage protection and a water-resistant body, ensuring safe use. Equipped with a pure copper motor, it is durable and less prone to failure, requiring no chemical cleaners and conserving water and promoting environmental protection. From washing cars and cleaning yards to cleaning appliances and polishing tiles, this single machine can handle various needs, completely freeing up hands and making daily cleaning time-saving and effortless.                                    </p>\r\n                                    <p>The Characteristics and Applications of Household High Pressure Washer</p><p>In modern family life, the household high pressure washer has evolved from a niche cleaning tool to a must-have household appliance, and its versatility has made it a popular choice for many families. What makes it stand out is its lightweight and portable design—unlike bulky industrial high pressure washers, a typical household high pressure washer weighs only 8 to 10 kilograms, with an ergonomic handle that allows even the elderly or women to carry it around effortlessly. This portability enables it to be used flexibly in various household scenarios, from cleaning the balcony to washing the car in the garage, without taking up much storage space.</p><p>As a powerful cleaning device, the household high pressure washer boasts impressive pressure output, usually ranging from 90 to 150 bar, which generates strong water jets to blast away stubborn stains. When used as a car washer, it can easily remove mud, insect residues, and road grime from car bodies and wheels without causing scratches to the paintwork. Moreover, it comes with multi-mode nozzles, including high-pressure direct jet, fan spray, and low-pressure shower, making it suitable for different cleaning tasks. The high-pressure mode is ideal for tackling tough dirt on concrete floors and car tires, while the low-pressure mode is perfect for watering plants, cleaning window screens, and washing glass, ensuring efficient cleaning without damaging delicate surfaces.</p><p>The applications of the household high pressure washer extend far beyond car washing. For outdoor household areas, it can clean moss and oil stains from courtyards and patios, and remove dust and cobwebs from exterior walls and railings without the need for ladders, enhancing cleaning safety. Indoors, it helps with deep cleaning of bathroom tiles, kitchen countertops, and air conditioner external units, flushing out dirt from crevices that are hard to reach with traditional tools. Additionally, it is an eco-friendly option—compared to professional car wash shops, using a household high pressure washer consumes only 8 to 10 liters of water per car wash, saving a significant amount of water resources. It also reduces reliance on chemical cleaners, as high-pressure water alone can handle most cleaning jobs, minimizing environmental pollution.</p><p>Easy operation is another key feature of the household high pressure washer. With a user-friendly interface, it supports one-click start and stop, and the quick-connect fittings allow for hassle-free assembly in just three steps: connect the water source, plug in the power, and select the desired mode. Many models are equipped with safety features such as leakage protection, overheat protection, and pressure relief valves, ensuring safe use for the whole family. In conclusion, the household high pressure washer combines portability, efficiency, and versatility, making it an indispensable helper for modern household cleaning, whether as a car washer or a multi-purpose cleaning tool for daily household chores.</p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 7,
     "name": "Portable Car Washer High Pressure Washer for Homeuse Automatic",
     "slug": "portable-car-washer-high-pressure-washer-for-homeuse-automatic",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "Portable Car Washer High Pressure Washer for Homeuse Automatic Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "This household high pressure washer is lightweight and portable, perfect for multi-scene household cleaning. Equipped with multi-mode nozzles, it delivers strong pressure to remove tough stains. As a handy car washer, it features one-click operation, safe protection and water-saving performance.",
-    "image_url": "/assets/cnryce/portable-car-washer-high-pressure-washer-for-homeuse-automatic.png",
+    "image_url": "/assets/cnryce/source/4059-202512121644057455.png",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 7,
     "is_featured": 1,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202512121644057455.png",
+      "/assets/cnryce/source/4059-202512121644560649.png",
+      "/assets/cnryce/source/4059-202512121644574166.png",
+      "/assets/cnryce/source/4059-202512121644057455_s.png",
+      "/assets/cnryce/source/4059-202512121649163577.png",
+      "/assets/cnryce/source/4059-202512121649166305.png",
+      "/assets/cnryce/source/4059-202512121649167206.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/portable-car-washer-high-pressure-washer-for-homeuse-automatic",
+    "source_title": "Portable Car Washer High Pressure Washer for Homeuse Automatic",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Portable Car Washer High Pressure Washer for Homeuse Automatic                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        This household high pressure washer is lightweight and portable, perfect for multi-scene household cleaning. Equipped with multi-mode nozzles, it delivers strong pressure to remove tough stains. As a handy car washer, it features one-click operation, safe protection and water-saving performance.                                    </p>\r\n                                    <p><span><span></span></span></p><p><img alt=\"household\" src=\"/assets/cnryce/source/4059-202512121649163577.png\" title=\"household\"/></p><p><img alt=\"high pressure washer\" src=\"/assets/cnryce/source/4059-202512121649166305.png\" title=\"high pressure washer\"/></p><p><img alt=\"car washer\" src=\"/assets/cnryce/source/4059-202512121649167206.png\" title=\"car washer\"/></p><p><span><span>The Features and Applications of Household High Pressure Washer</span></span><br/></p><p><span><span>In the realm of household cleaning, the household high pressure washer has emerged as a game-changer, seamlessly blending portability and power to redefine daily tidying routines. Unlike heavy-duty industrial pressure washers, the household high pressure washer is engineered with a compact, lightweight frame, usually weighing between 8 to 12 kilograms, paired with a non-slip handle that allows easy carrying. This design makes it a perfect companion for various household scenarios, as it can be effortlessly moved from the garage to the balcony, from the courtyard to the bathroom, without taking up excessive storage space.</span></span></p><p><span><span>One of the core advantages of the household high pressure washer lies in its remarkable cleaning power. With a pressure range of 90 to 150 bar, it produces high-velocity water jets that can blast away the most stubborn stains with ease. When used as a car washer, it excels at removing mud, bug splatters, and road grime from car bodies, wheels, and undercarriages, delivering a professional-level clean without scratching the paint. What</span><span>’</span><span>s more, most household high pressure washer models come with interchangeable nozzles, offering multiple spray modes</span><span>—</span><span>high-pressure direct jet for tough dirt, wide fan spray for large-area cleaning, and low-pressure mist for delicate surfaces. This versatility ensures that the household high pressure washer can handle everything from scrubbing concrete driveways to watering potted plants in the household garden.</span></span></p><p><span><span>The applications of the household high pressure washer extend far beyond car cleaning, covering almost every corner of household maintenance. Outdoors, it can eliminate moss and algae from patio tiles, wash off dust and grime from exterior walls and fences, and even clean outdoor furniture and barbecue grills. Indoors, it proves to be a lifesaver for deep-cleaning bathroom tiles and grout, flushing grease off kitchen floors, and unclogging the dust accumulated in air conditioner outdoor units. Additionally, the household high pressure washer is an eco-friendly choice for household use. It uses far less water than traditional cleaning methods</span><span>—</span><span>only 8 to 10 liters per car wash, which is a fraction of the water consumed by professional car washes. It also reduces the need for chemical cleaners, as high-pressure water alone is sufficient for most household cleaning tasks, protecting both the environment and household surfaces from chemical damage.</span></span></p><p><span><span>Safety and ease of use are also standout features of the household high pressure washer. Most models are equipped with user-friendly controls, including one-click start/stop buttons and quick-connect fittings that simplify assembly in minutes. Safety features such as leak protection, overheat shutdown, and pressure relief valves ensure that even inexperienced users can operate the household high pressure washer with confidence. In summary, the household high pressure washer is an indispensable tool for modern households, serving not only as a reliable car washer but also as a versatile assistant for all household cleaning needs, making tidying up faster, easier, and more efficient.</span></span></p><p><span>&nbsp;</span></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 8,
-    "name": "2025 new design 220V portable household high pressure washer",
+    "name": "2025 new design ````220V portable household high pressure washer",
     "slug": "2025-new-design-220v-portable-household-high-pressure-washer",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "2025 new design ````220V portable household high pressure washer Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The home handheld cleaning machine is a versatile tool for household cleaning. It boasts numerous core features. The machine is compact and lightweight, making it easy for women to carry. It can seamlessly switch between various settings such as balconies, garages, and outdoor areas. When stored, it does not take up much space in small living quarters. Equipped with powerful high-pressure motors and multiple-mode nozzles, it can effortlessly clean stubborn stains. The gentle mode can be used to water plants and wash window screens, balancing efficiency with care for the objects being cleaned.",
-    "image_url": "/assets/cnryce/2025-new-design-220v-portable-household-high-pressure-washer.png",
+    "image_url": "/assets/cnryce/source/4059-202512121622511099.png",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 8,
     "is_featured": 1,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202512121622511099.png",
+      "/assets/cnryce/source/4059-202512121616440466.png",
+      "/assets/cnryce/source/4059-202512121616453645.png",
+      "/assets/cnryce/source/4059-202512121622511099_s.png",
+      "/assets/cnryce/source/4059-202512121616252032.png",
+      "/assets/cnryce/source/4059-202512121616253751.png",
+      "/assets/cnryce/source/4059-202512121616256925.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/2025-new-design-220v-portable-household-high-pressure-washer",
+    "source_title": "2025 new design ````220V portable household high pressure washer",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        2025 new design ````220V portable household high pressure washer                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The home handheld cleaning machine is a versatile tool for household cleaning. It boasts numerous core features. The machine is compact and lightweight, making it easy for women to carry. It can seamlessly switch between various settings such as balconies, garages, and outdoor areas. When stored, it does not take up much space in small living quarters. Equipped with powerful high-pressure motors and multiple-mode nozzles, it can effortlessly clean stubborn stains. The gentle mode can be used to water plants and wash window screens, balancing efficiency with care for the objects being cleaned.                                    </p>\r\n                                    <p><img alt=\"household\" src=\"/assets/cnryce/source/4059-202512121616252032.png\" title=\"household\"/></p><p><img alt=\"high pressure washer\" src=\"/assets/cnryce/source/4059-202512121616253751.png\" title=\"high pressure washer\"/></p><p><img alt=\"washer\" src=\"/assets/cnryce/source/4059-202512121616256925.png\" title=\"washer\"/></p><p>The Characteristics and Applications of Household High Pressure Washers<br/></p><p>In modern household cleaning routines, the household high pressure washer has evolved from a niche gadget into an indispensable tool, seamlessly blending portability, efficiency and versatility. More than just a specialized car washer, it delivers professional-grade cleaning performance while catering to the diverse needs of home use, making it a game-changer for simplifying daily chores.</p><p>One of the standout characteristics of a household high pressure washer is its exceptional portability. Unlike bulky industrial-grade models, it features a lightweight, handheld design with an ergonomic grip, usually weighing between 8 to 10 kilograms. This allows users—even the elderly or women—to carry it effortlessly across different areas, from the garage to the backyard, the balcony to the driveway. Its compact size also ensures easy storage, fitting neatly into small storage spaces, under cabinets or in car trunks without taking up much room. In terms of performance, a household high pressure washer boasts impressive pressure output, typically ranging from 90 to 150 bar, generating powerful water jets that can blast away stubborn dirt, grime, mud and even moss in seconds. What’s more, it comes with adjustable spray modes, including high-pressure direct jet for tough stains, wide-angle fan spray for large-area cleaning and low-pressure shower for delicate surfaces, striking a perfect balance between strong cleaning power and surface protection.</p><p>Operation simplicity is another key trait of the household high pressure washer. With a user-friendly one-button start/stop design and quick-connect fittings, it only takes three simple steps to set up: connect the water source, plug in the power and select the desired spray mode. Even beginners can master its use in no time. Additionally, it is equipped with multiple safety features, such as leakage protection plugs, waterproof casings and pressure relief valves, ensuring safe operation even in wet environments. Being energy-efficient and eco-friendly is also a major plus—when used as a car washer, it consumes only 8 to 10 liters of water per car wash, far less than traditional car wash shops, and it can clean effectively with just water, reducing the need for chemical detergents and minimizing environmental pollution.</p><p>The applications of a household high pressure washer are incredibly diverse. Primarily, it serves as a top-notch car washer, enabling users to clean their cars at home with professional results—removing road grime from the body, brake dust from the wheels and dirt from the chassis without scratching the paint. For outdoor household cleaning, it excels at washing patio floors, garden paths, fences and exterior walls, eliminating accumulated dust and moss to refresh the look of the house. Indoors, it can be used to clean bathroom tiles, kitchen floors and balcony railings, tackling tough stains like mold and oil splatters with ease. Moreover, it is ideal for cleaning outdoor equipment, such as garden tools, bicycles, motorcycles and camping gear, extending their service life by removing dirt and rust.</p><p>In conclusion, the household high pressure washer is a multi-functional cleaning powerhouse that combines portability, efficiency, ease of use and safety. Whether as a reliable car washer or an all-round household cleaning assistant, it significantly enhances cleaning efficiency, reduces labor intensity and brings convenience and comfort to modern family life.</p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 9,
     "name": "High Pressure Washer Car Washer Machine, 2100 Watts, 160 Bars, 8L/Min Flow Rate",
     "slug": "high-pressure-washer-car-washer-machine-2100-watts-160-bars-8lmin-flow-rate",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "High Pressure Washer Car Washer Machine, 2100 Watts, 160 Bars, 8L/Min Flow Rate Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The specification of the high pressure car washing machine is 2100 watts of power, 160 bar of pressure, and a flow rate of 8 liters per minute. This equipment is ideal for a wide range of applications such as washing cars, motorcycles and home cleaning.",
-    "image_url": "/assets/cnryce/high-pressure-washer-car-washer-machine-2100-watts-160-bars-8lmin-flow-rate.png",
+    "image_url": "/assets/cnryce/source/4059-202407200844410821.png",
     "specs": {
-      "Category": "car washing series",
       "Power": "2100 Watts",
       "Pressure": "160 Bars",
-      "Flow": "8L/Min"
+      "Flow": "8L/Min",
+      "Brand": "VK"
     },
     "sort_order": 9,
     "is_featured": 1,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407200844410821.png",
+      "/assets/cnryce/source/4059-202512201615260654.jpg",
+      "/assets/cnryce/source/4059-202502201726335828.jpg",
+      "/assets/cnryce/source/4059-202512201615351574.jpg",
+      "/assets/cnryce/source/4059-202407200844410821_s.png",
+      "/assets/cnryce/source/4059-202407200844410821.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-washer-car-washer-machine-2100-watts-160-bars-8lmin-flow-rate",
+    "source_title": "High Pressure Washer Car Washer Machine, 2100 Watts, 160 Bars, 8L/Min Flow Rate",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High Pressure Washer Car Washer Machine, 2100 Watts, 160 Bars, 8L/Min Flow Rate                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The specification of the high pressure car washing machine is 2100 watts of power, 160 bar of pressure, and a flow rate of 8 liters per minute. This equipment is ideal for a wide range of applications such as washing cars, motorcycles and home cleaning.                                    </p>\r\n                                    <p><strong>1.Power and Performance</strong></p><p>This high pressure washer, specifically designed as High-pressure cleaning automotive machines, is equipped with a powerful 2100 watt motor that generates enough pressure for a wide range of surfaces, including car bodywork, floors, and the removal of stubborn stains. Professional cleaning equipment stable power output ensures consistent and efficient performance over long periods of use, avoiding overheating or performance degradation. As professional cleaning equipment, this high-pressure cleaner is capable of meeting not only the daily needs of automotive cleaning, but also more complex cleaning challenges. The integration of advanced technology makes this wireless wash spray gun an exceptional addition, offering unparalleled convenience and efficiency.</p><p><br/></p><p><strong>2.Pressure and Flow Characteristics</strong></p><p>The high pressure of 160 bar is one of the distinguishing features of this high pressure washer. Such a high pressure enables deep cleaning of hard-to-reach areas, effectively removing stubborn stains and grease. The wireless wash spray gun allows for flexible and targeted cleaning, enhancing the overall user experience. At the same time, the flow rate of 8 liters per minute ensures that the cleaning process is efficient and large areas can be cleaned in a short period of time. Whether for domestic use or small commercial premises, this High-pressure cleaning automotive machines provides excellent cleaning results, making it a must-have for any professional or DIY enthusiast.</p><p><br/></p><p><strong>3.Application Scenarios</strong></p><p>The high pressure washer, also known as High-pressure cleaning automotive machines, has a wide range of applications in several fields:</p><ul class=\" list-paddingleft-2\"><li><p>Car cleaning: For car enthusiasts, this high pressure washer is an indispensable cleaning tool. It quickly removes dirt, grease, bird droppings, and other stains from the car body, keeping the vehicle looking neat and shiny. The wireless wash spray gun adds an extra layer of convenience, allowing for precise and efficient cleaning. Whether it&#39;s for routine maintenance or deep cleaning, this professional cleaning equipment provides satisfactory cleaning results.</p></li><li><p>Ground Cleaning: The high-pressure cleaner also excels in ground areas such as patios, decks, and garages. It easily removes dirt, grease, weeds, and other impurities from the ground, restoring the original color and texture of the surface.</p></li><li><p>Other applications: In addition, this high pressure washer can also be used to clean outdoor furniture, swimming pool surroundings, building facades, and other scenarios. Its powerful cleaning ability, combined with the flexibility of the wireless wash spray gun, makes it able to cope with a variety of complex cleaning tasks, solidifying its position as a versatile and reliable cleaning solution.</p></li></ul><p><br/></p><p><img alt=\"Wireless Wash Spray Gun\" src=\"/assets/cnryce/source/4059-202407200844410821.png\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 10,
     "name": "High Pressure Washer for Car, Bike, Home Cleaning Heavy Induction Motor",
     "slug": "high-pressure-washer-for-car-bike-home-cleaning-heavy-induction-motor",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "High Pressure Washer for Car, Bike, Home Cleaning Heavy Induction Motor Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "A pressure washer is a widely used device for car, bike and home cleaning. Its main features include powerful cleaning ability and easy to use experience.",
-    "image_url": "/assets/cnryce/high-pressure-washer-for-car-bike-home-cleaning-heavy-induction-motor.jpg",
+    "image_url": "/assets/cnryce/source/4059-202412311108060368.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 10,
     "is_featured": 1,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202412311108060368.jpg",
+      "/assets/cnryce/source/4059-202412311100570104.jpg",
+      "/assets/cnryce/source/4059-202412311108060368_s.jpg",
+      "/assets/cnryce/source/4059-202407200844123366.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-washer-for-car-bike-home-cleaning-heavy-induction-motor",
+    "source_title": "High Pressure Washer for Car, Bike, Home Cleaning Heavy Induction Motor",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High Pressure Washer for Car, Bike, Home Cleaning Heavy Induction Motor                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        A pressure washer is a widely used device for car, bike and home cleaning. Its main features include powerful cleaning ability and easy to use experience.                                    </p>\r\n                                    <p><strong>1.Main Functions and Advantages</strong></p><ul class=\" list-paddingleft-2\"><li><p>Efficient cleaning: Home high-pressure cleaners can quickly remove stains and soil from cars, bicycles, and household surfaces, restoring their finish. This pressure washer technology is revolutionizing the way we clean.</p></li><li><p>Save time and effort: Using a high-pressure washer can avoid the tedious process of manual scrubbing, greatly reducing the labor intensity of cleaning work. Imagine transforming your cleaning chores with the power of a Portable Hand Held Car Washer Machine.</p></li><li><p>Versatility: Many high-pressure washers are not only suitable for washing cars but can also be used to clean yards, floors, crops, and various surfaces in the home, such as sofas, carpets, curtains, and more. Some models even double as High Pressure Drain Pipe Cleaner Machines.</p></li><li><p>Environmental protection and energy saving: Some home high-pressure cleaners adopt energy-saving design, ensuring the cleaning effect while reducing energy consumption.</p></li></ul><p><br/></p><p><strong>2.Automobile Cleaning</strong></p><ul class=\" list-paddingleft-2\"><li><p>Body cleaning: High-pressure cleaners can quickly rinse off the dust, mud, and stains on the surface of the car body, restoring its smoothness. A good High Pressure Drain Pipe Cleaner Machine is a must-have for any car enthusiast.</p></li><li><p>Wheel and chassis cleaning: Wheels and chassis are easy to accumulate dirt and mud. A high-pressure washer&#39;s high-pressure water flow can easily flush out these difficult-to-remove stains.</p></li><li><p>Engine compartment cleaning: After the engine has cooled down, using a high-pressure washer (taking care to avoid spraying directly onto electronic components) can remove dust and oil stains in the engine compartment, keeping the engine running smoothly. A Portable Hand Held Car Washer Machine can make this task even easier.</p></li></ul><p><br/></p><p><strong>3.Bicycle Cleaning</strong></p><ul class=\" list-paddingleft-2\"><li><p>Frame and chain cleaning: A high-pressure washer can quickly rinse off the dust on the bicycle frame and sludge on the chain, keeping the bicycle tidy and running smoothly. A Portable Hand Held Car Washer Machine can also be adapted for this purpose.</p></li><li><p>Tires and brakes cleaning: Tires and brakes are easy to accumulate dirt. A high-pressure washer&#39;s high-pressure water flow can easily wash away these stains, improving bike safety.</p></li></ul><p><br/></p><p><strong>4.Home Cleaning</strong></p><ul class=\" list-paddingleft-2\"><li><p>Outdoor Furniture Cleaning: Outdoor furniture such as chairs and tables in the courtyard are prone to accumulate dust and stains after being exposed to the wind and sun. A high-pressure washer can quickly restore its cleanliness, transforming your outdoor space.</p></li><li><p>Wall and Floor Cleaning: High-pressure washers can be used to clean stains and grease from patio walls, floors, driveways, and other areas of the home, keeping the home environment tidy. For those hard-to-reach areas, consider using a Portable Hand Held Car Washer Machine.</p></li><li><p>Window and Glass Cleaning: While High Pressure Drain Pipe Cleaner Machine are primarily used for outdoor cleaning, with the proper nozzles and techniques, they can also be used to clean windows and glass, removing stubborn stains and limescale. For more specialized tasks, consider a High Pressure Drain Pipe Cleaner Machine.</p></li></ul><p><br/></p><p><strong>5.Precautions for Use</strong></p><ul class=\" list-paddingleft-2\"><li><p>Understand the cleaning object: Before cleaning, understand the material and coating of cars, bicycles, and homes to avoid damage caused by improper use of a high-pressure cleaner.</p></li><li><p>Control water pressure and distance: When using a high-pressure cleaner, control the water pressure and distance to avoid damage to the cleaning object. Always start with a lower pressure setting and adjust as needed.</p></li><li><p>Pre-treat stains: For stains that are difficult to remove, you can pre-treat them with a rag or brush before rinsing them with a high-pressure cleaner. This will make the cleaning process more efficient.</p></li><li><p>Save water: High-pressure cleaners need to be connected to a water source, so pay attention to saving water during use to avoid waste. Responsible water usage is crucial when operating any pressure washer or high-pressure cleaner.</p></li></ul><p><img alt=\"pressure washer\" src=\"/assets/cnryce/source/4059-202407200844123366.jpg\"/><br/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 11,
     "name": "heavy duty washing equipment for car shop watering garden",
     "slug": "heavy-duty-washing-equipment-for-car-shop-watering-garden",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "heavy duty washing equipment for car shop watering garden Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Pressure washers play an important role in both auto stores and garden cleaning. Not only can they be used for professional cleaning of cars, but they can also water gardens effectively.",
-    "image_url": "/assets/cnryce/heavy-duty-washing-equipment-for-car-shop-watering-garden.jpg",
+    "image_url": "/assets/cnryce/source/4059-202412311121203109.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 11,
     "is_featured": 1,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202412311121203109.jpg",
+      "/assets/cnryce/source/4059-202407200835119361.jpg",
+      "/assets/cnryce/source/4059-202411201426089086.jpg",
+      "/assets/cnryce/source/4059-202412311121203109_s.jpg",
+      "/assets/cnryce/source/4059-202407200835119361.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/heavy-duty-washing-equipment-for-car-shop-watering-garden",
+    "source_title": "heavy duty washing equipment for car shop watering garden",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        heavy duty washing equipment for car shop watering garden                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Pressure washers play an important role in both auto stores and garden cleaning. Not only can they be used for professional cleaning of cars, but they can also water gardens effectively.                                    </p>\r\n                                    <p></p><p><strong>1.Working Principle</strong></p><p>The home high pressure cleaner and other pressure washers take water as the working medium and consist of two major parts: a pressurized pump and a power-driven unit. The power-driven pump completes the water suction and discharge process, transforming ordinary water into high-pressure, low-flow water.home high pressure cleaner is then transported through high-pressure pipelines and accelerated via high-pressure nozzles to form a low-pressure, high-flow jet. When the impact force of the high-pressure water jet exceeds the adhesion of dirt to the surface, the dirt is stripped away and washed off, achieving the cleaning purpose. This principle applies to both Electric Car Washer models and mobile high pressure washer systems.</p><p><br/></p><p><strong>2.Types and Features</strong></p><p>Automobile repair shops commonly use various types of mobile high pressure washer, each with its own characteristics:</p><ul class=\" list-paddingleft-2\"><li><p>Cold water high-pressure cleaner: mobile high pressure washer is suitable for general dirt cleaning, these are relatively affordable and easy to operate. Electric Car Washers are often used in home high pressure cleaner models for everyday tasks.</p></li><li><p>Hot water high-pressure cleaner: Electric Car Washer is equipped with a heating device to warm the water, these improve cleaning effectiveness, especially for removing oil and other stubborn stains. However, they are more expensive and consume more energy.</p></li><li><p>Ultra-high pressure washer: Electric Car Washer offer higher pressure levels, making them ideal for deeper cleaning tasks, such as concrete chiseling. They are more complex to operate and come at a higher price point.</p></li><li><p>Additionally, based on mobility, pressure washers can be categorized into fixed and mobile types (such as wheeled drag-type or portable models). For example, the mobile high pressure washer is perfect for on-the-go cleaning needs, while the Electric Car Washer is designed for vehicle-specific tasks.</p></li></ul><p><br/></p><p><strong>3.Application Scenarios</strong></p><p>In automobile repair shops, pressure washers are widely used in the following scenarios:</p><ul class=\" list-paddingleft-2\"><li><p>Automobile surface cleaning: Removing oil, dust, bird droppings, and other stains to maintain the vehicle&#39;s appearance. The Electric Car Washer is particularly effective for this purpose.</p></li><li><p>Chassis and parts cleaning: Deep cleaning hard-to-reach areas like the car chassis and engine compartment, removing grease, soil, and other impurities.</p></li><li><p>Tools and equipment cleaning: Keeping maintenance tools and equipment clean, ensuring a tidy and hygienic working environment.</p></li></ul><p><br/></p><p><strong>3.Functions</strong></p><p><strong>Basic Cleaning Functions</strong></p><ul class=\" list-paddingleft-2\"><li><p>High-pressure water rinsing: This is the core function of the home high pressure cleaner and other pressure washers. By generating a strong high-pressure water flow, they rinse off dirt, grease, rust, and other stains from car surfaces, ensuring the vehicle remains clean and well-maintained.</p></li><li><p>Deep cleaning: For hard-to-reach areas like the car chassis and engine compartment, the mobile high pressure washer can perform deep cleaning, removing grease and dirt to maintain cleanliness.</p></li></ul><p><strong>Professional Cleaning Functions</strong></p><ul class=\" list-paddingleft-2\"><li><p>Paint and rust removal: Pressure washers equipped with specialized nozzles and cleaners can strip old paint layers and rust from car surfaces, providing a clean base for repainting or restoration.</p></li><li><p>Oil cleaning: During automotive repairs, oil stains are common. The high-pressure water flow from a home high pressure cleaner or Electric Car Washer effectively removes these stains, keeping the workspace tidy.</p></li><li><p>Tools and equipment cleaning: Regular cleaning of maintenance tools and equipment is essential. Pressure washers can quickly and efficiently clean these items, ensuring their proper operation and longevity.</p></li></ul><p><img alt=\"home high pressure cleaner\" src=\"/assets/cnryce/source/4059-202407200835119361.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 12,
     "name": "professional cleaning equipment pressure washer",
     "slug": "professional-cleaning-equipment-pressure-washer",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "professional cleaning equipment pressure washer Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The 1500W High Pressure Washer is a professional cleaning equipment that is widely used for domestic and industrial cleaning. Its main features include powerful cleaning capacity and versatility, making it suitable for cleaning a wide range of surfaces such as cars, patios, roofs and more.",
-    "image_url": "/assets/cnryce/professional-cleaning-equipment-pressure-washer.jpg",
+    "image_url": "/assets/cnryce/source/4059-202407200833376869.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Power": "1500W",
+      "Item": "Value",
+      "Place of Origin": "China",
+      "Brand Name": "RY",
+      "Model Number": "C9",
+      "Function": "Cool water cleaning",
+      "Material": "Copper/Alu",
+      "Warranty": "1 Year",
+      "Output Power": ">1500W",
+      "Voltage": "220V/50HZ",
+      "Max Pressure": "80bar-130bar",
+      "Flow Rate": "7.0L/min-10L/min",
+      "Power Source": "Electric",
+      "Certification": "CE/ISO",
+      "Motor Type": "Induction Motor",
+      "Size": "39*26.5*31.5",
+      "Packing": "Color Box",
+      "Brand": "VK"
     },
     "sort_order": 12,
     "is_featured": 1,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407200833376869.jpg",
+      "/assets/cnryce/source/4059-202411201358398164.jpg",
+      "/assets/cnryce/source/4059-202411201359018211.jpg",
+      "/assets/cnryce/source/4059-202407200833376869_s.jpg",
+      "/assets/cnryce/source/4059-202406240844248967.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/professional-cleaning-equipment-pressure-washer",
+    "source_title": "professional cleaning equipment pressure washer",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        professional cleaning equipment pressure washer                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The 1500W High Pressure Washer is a professional cleaning equipment that is widely used for domestic and industrial cleaning. Its main features include powerful cleaning capacity and versatility, making it suitable for cleaning a wide range of surfaces such as cars, patios, roofs and more.                                    </p>\r\n                                    <link rel=\"stylesheet\" href=\"https://tp.waimaoniu.cn/public/content/template.css\" type=\"text/css\"/><p><br/></p><p>&nbsp; &nbsp; <span><strong>&nbsp;<span>Product Description</span></strong></span><br/></p><div class=\"wmn-template-26\"><div class=\"nei-table\"><table class=\"wmn-title-black wmn-bg-gray wmn-border-black-light zoom wmn-table-topLeftbg wmn-table-border\" data-sort=\"sortDisabled\"><tbody><tr class=\"firstRow\"><td class=\"wmn-title2-black-light\">Item</td><td class=\"wmn-title2-black-light\" rowspan=\"1\" colspan=\"4\">Value<br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Place of Origin</span></td><td rowspan=\"1\" colspan=\"4\">China</td></tr><tr><td class=\"wmn-title2-black-light\"><span>Brand Name</span></td><td rowspan=\"1\" colspan=\"4\">PH</td></tr><tr><td class=\"wmn-title2-black-light\"><span>Model Number</span></td><td rowspan=\"1\" colspan=\"4\">C9<br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span><span>Function</span></span></td><td rowspan=\"1\" colspan=\"4\"><span>Cool water cleaning</span><br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Material</span></td><td rowspan=\"1\" colspan=\"4\"><p>Copper/Alu</p><p><br/></p></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Warranty</span></td><td rowspan=\"1\" colspan=\"4\">1 Year</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Output Power</span></td><td rowspan=\"1\" colspan=\"4\">&gt;1500W</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Voltage</span></td><td rowspan=\"1\" colspan=\"4\">220V/50HZ<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Power</span></td><td rowspan=\"1\" colspan=\"4\">1500W<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Max Pressure</span></td><td rowspan=\"1\" colspan=\"4\">80bar-130bar<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Flow Rate</span></td><td rowspan=\"1\" colspan=\"4\">7.0L/min-10L/min<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span><span>Power Source</span></span></td><td rowspan=\"1\" colspan=\"4\">Electric</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span><span>Certification</span></span></td><td rowspan=\"1\" colspan=\"4\">CE/ISO<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Motor Type</span></td><td rowspan=\"1\" colspan=\"4\">Induction Motor</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Size</span></td><td rowspan=\"1\" colspan=\"4\"><span>39*26.5*31.5</span></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Packing</span></td><td rowspan=\"1\" colspan=\"4\">Color Box<br/></td></tr></tbody></table></div></div><p><strong>1.How It Works</strong></p><p>The high-pressure cleaner pressurizes water to hundreds or even thousands of PSI (pounds per square inch) by means of a high-pressure pump, and then jets domestic high pressure cleaner out through tiny nozzles. When the high-pressure water stream hits the surface to be cleaned, due to the pressure, car wash machine automatic acts like a sharp sword, penetrating deep into the dirt and impurities and generating a powerful impact. This mechanism effectively removes dirt, rust, and other contaminants from the surface. Whether it’s a domestic high pressure cleaner or a 1500W pressure washer, this principle ensures efficient cleaning performance.</p><p><br/></p><p><strong>2.Main Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>High-pressure water flow: The high-pressure water flow generated by the high-pressure cleaner can deeply clean surfaces and effectively remove stubborn dirt. car wash machine automatic feature is particularly useful for car washers and car wash machine automatic systems, ensuring thorough cleaning of vehicles.</p></li><li><p>Multiple nozzles: Nozzles of different shapes and sizes can meet various cleaning needs. For example, fan-shaped nozzles evenly cover large areas, while spot nozzles are ideal for precise cleaning tasks.</p></li><li><p>Mobility: Many 1500W pressure washer, including domestic high pressure cleaner models, are designed to be mobile, allowing users to clean easily in different locations.</p></li><li><p>Optional accessories: Some high-end models, such as the 1500W pressure washer, come with optional accessories like high-pressure hoses and extension rods, expanding their versatility for a wider range of cleaning tasks.</p></li></ul><p><br/></p><p><strong>3.Application Areas</strong></p><ul class=\" list-paddingleft-2\"><li><p>Industrial cleaning: The high-pressure cleaner is widely used in industrial fields, such as ship cleaning, oil field equipment cleaning, and building exterior wall cleaning.</p></li><li><p>Commercial cleaning: In the commercial sector, 1500W pressure washers&nbsp;are commonly used for parking lot cleaning, car wash operations, and restaurant kitchen cleaning. Car wash machine automatic systems, in particular, rely on high-pressure water flow for efficient vehicle cleaning.</p></li><li><p>Home cleaning: Home users can also benefit from domestic high pressure cleaner models for tasks like yard cleaning, vehicle cleaning, and exterior wall cleaning.</p></li></ul><p><br/></p><p><strong>4.Precautions for Use</strong></p><ul class=\" list-paddingleft-2\"><li><p>Read the manual: Before operating the high-pressure cleaner, carefully read the manufacturer’s operating instructions to ensure proper use of the equipment. This applies to all models, from 1500W pressure washer units to car washers.</p></li><li><p>Choose the right nozzle: Select the appropriate nozzle based on the cleaning task to achieve the best results. For example, a fan-shaped nozzle is ideal for large surfaces, while a spot nozzle is better for detailed cleaning.</p></li><li><p>Pay attention to safety precautions: Always wear protective eyewear and gloves when operating the high-pressure cleaner to avoid injuries caused by high-pressure water flow or flying debris.</p></li><li><p>Regular maintenance: Regularly maintain and service your high-pressure cleaner to ensure 1500W pressure washer remains in good working condition. This is especially important for car wash machine automatic systems and other frequently used equipment.</p></li></ul><p><br/></p><div class=\"article-append\"><div class=\"article-append-t\"><span><a  rel=\"nofollow\" href=\"/factory/production-equipment\">Production Equipment</a></span></div><div class=\"append-item\"><a  rel=\"nofollow\" href=\"/factory/production-equipment\"><img src=\"/assets/cnryce/source/4059-202406240844248967.jpg\" alt=\"Production Equipment\"/></a></div></div>                                </div>\r\n                            </div>"
   },
   {
     "id": 13,
     "name": "Hand Held Electric High Pressure Water Cleaner taizhou factory",
     "slug": "hand-held-electric-high-pressure-water-cleaner-taizhou-factory",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "Hand Held Electric High Pressure Water Cleaner taizhou factory Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Handheld electric high pressure water cleaners are portable cleaning equipment that are widely used for cleaning needs in homes and commercial establishments. This equipment usually features high water pressure and high flow rate to effectively remove dirt, grease and other stubborn grime.",
-    "image_url": "/assets/cnryce/hand-held-electric-high-pressure-water-cleaner-taizhou-factory.jpg",
+    "image_url": "/assets/cnryce/source/4059-202407200832538633.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Item": "Value",
+      "Place of Origin": "China",
+      "Brand Name": "RY",
+      "Model Number": "C8",
+      "Function": "Cool water cleaning",
+      "Material": "Copper/Alu",
+      "Warranty": "1 Year",
+      "Output Power": ">1500W",
+      "Voltage": "220V/50HZ",
+      "Power": "1500W",
+      "Max Pressure": "80bar-130bar",
+      "Flow Rate": "7.0L/min-10L/min",
+      "Power Source": "Electric",
+      "Certification": "CE/ISO",
+      "Motor Type": "Induction Motor",
+      "Size": "39*26.5*31.5",
+      "Packing": "Color Box",
+      "Brand": "VK"
     },
     "sort_order": 13,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407200832538633.jpg",
+      "/assets/cnryce/source/4059-202502200958214513.jpg",
+      "/assets/cnryce/source/4059-202512121402375470.jpg",
+      "/assets/cnryce/source/4059-202512121402385574.jpg",
+      "/assets/cnryce/source/4059-202407200832538633_s.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/hand-held-electric-high-pressure-water-cleaner-taizhou-factory",
+    "source_title": "Hand Held Electric High Pressure Water Cleaner taizhou factory",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Hand Held Electric High Pressure Water Cleaner taizhou factory                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Handheld electric high pressure water cleaners are portable cleaning equipment that are widely used for cleaning needs in homes and commercial establishments. This equipment usually features high water pressure and high flow rate to effectively remove dirt, grease and other stubborn grime.                                    </p>\r\n                                    <link rel=\"stylesheet\" href=\"https://tp.waimaoniu.cn/public/content/template.css\" type=\"text/css\"/><p><br/></p><p><span><strong><span>Product Description</span></strong></span><br/></p><div class=\"wmn-template-26\"><div class=\"nei-table\"><div class=\"nei-table\"><table class=\"wmn-title-black wmn-bg-gray wmn-border-black-light zoom wmn-table-topLeftbg wmn-table-border\" data-sort=\"sortDisabled\" scale=\"2.095613048368954\"><tbody><tr class=\"firstRow\"><td class=\"wmn-title2-black-light\">Item</td><td class=\"wmn-title2-black-light\" rowspan=\"1\" colspan=\"4\">Value<br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Place of Origin</span></td><td rowspan=\"1\" colspan=\"4\">China</td></tr><tr><td class=\"wmn-title2-black-light\"><span>Brand Name</span></td><td rowspan=\"1\" colspan=\"4\">PH</td></tr><tr><td class=\"wmn-title2-black-light\"><span>Model Number</span></td><td rowspan=\"1\" colspan=\"4\">C8<br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Function</span></td><td rowspan=\"1\" colspan=\"4\"><span>Cool water cleaning</span><br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Material</span></td><td rowspan=\"1\" colspan=\"4\"><p>Copper/Alu</p><p><br/></p></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Warranty</span></td><td rowspan=\"1\" colspan=\"4\">1 Year</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Output Power</span></td><td rowspan=\"1\" colspan=\"4\">&gt;1500W</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Voltage</span></td><td rowspan=\"1\" colspan=\"4\">220V/50HZ<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Power</span></td><td rowspan=\"1\" colspan=\"4\">1500W<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Max Pressure</span></td><td rowspan=\"1\" colspan=\"4\">80bar-130bar<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Flow Rate</span></td><td rowspan=\"1\" colspan=\"4\">7.0L/min-10L/min<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Power Source</span></td><td rowspan=\"1\" colspan=\"4\">Electric</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Certification</span></td><td rowspan=\"1\" colspan=\"4\">CE/ISO<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Motor Type</span></td><td rowspan=\"1\" colspan=\"4\">Induction Motor</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Size</span></td><td rowspan=\"1\" colspan=\"4\"><span>39*26.5*31.5</span></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Packing</span></td><td rowspan=\"1\" colspan=\"4\">Color Box<br/></td></tr></tbody></table></div></div></div><ol start=\"1\" class=\" list-paddingleft-2\"><li><p><br/></p></li></ol><p><strong>1.Working Principle</strong></p><p>The handheld electric high-pressure water cleaner uses an electric motor to drive the pump, which pressurizes the water. The pressurized water is then transported through the high-pressure hose to the cleaning nozzle, where it is released as a high-pressure water flow to effectively clean the surface of objects. This method ensures quick and efficient removal of dirt. The core component of this system is the high-pressure pump, which is responsible for generating the high-pressure water flow. Compared to a standard pressure cleaner, this device offers more specialized and powerful cleaning capabilities, making it ideal for tougher cleaning tasks. Additionally, a multi-function high-pressure cleaner can handle a variety of cleaning tasks, from light household chores to heavy-duty industrial applications.</p><p><br/></p><p><strong>2.Main Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>Efficient cleaning: The pressure cleaner can penetrate deep into crevices and corners, effectively removing stains and stubborn dirt. This feature is particularly useful in multi-function high-pressure cleaners, which are designed to handle a variety of cleaning tasks.</p></li><li><p>Energy saving and environmental protection: Unlike traditional cleaning methods, pressure cleaner save significant amounts of water and reduce the need for chemical cleaning agents, making them more eco-friendly.</p></li><li><p>Easy to operate: electric high pressure water cleaner&nbsp;is compact and lightweight, making electric high pressure water cleaner&nbsp;easy to carry and operate. Users only need to ensure the power cord and water pipe are connected correctly to begin cleaning.</p></li><li><p>Safe and reliable: These devices are typically equipped with safety features such as overflow valves, ensuring safe operation during use. This is a key advantage over standard pressure cleaners, which may lack advanced safety mechanisms.</p></li></ul><p><br/></p><p><strong>3.Application Scenes</strong></p><ul class=\" list-paddingleft-2\"><li><p>Family: electric high pressure water cleaner can be used to clean cars, courtyards, outdoor furniture, and more, bringing convenience to household chores. For example, it outperforms a standard pressure cleaner when it comes to cleaning outdoor surfaces.</p></li><li><p>Industrial field: electric high pressure water cleaner is suitable for cleaning mechanical equipment, factory floors, and other industrial settings, improving productivity.</p></li><li><p>Commercial field: It can be used in hotels, restaurants, shopping malls, and other public places to maintain a clean environment. The versatility of a multi-function high-pressure cleaner makes it a valuable tool in these settings.</p></li></ul><p><br/></p><p><strong>4.Purchase Suggestions</strong></p><ul class=\" list-paddingleft-2\"><li><p>Brand selection: Choose a well-known brand of handheld electric high-pressure water cleaner, such as Junying, Zhihui, or Yili. These brands have a strong reputation in the market, ensuring product quality and reliability.</p></li><li><p>Power selection: Select the appropriate power based on your cleaning needs. Higher power generally means better cleaning performance, but it’s important to balance this with energy consumption and cost.</p></li><li><p>Accessories selection: Ensure the pressure cleaner comes with complete accessories, such as high-pressure hoses, cleaning nozzles, and foam pots, to enhance cleaning efficiency and convenience.</p></li><li><p>After-sales service: Opt for brands that offer comprehensive after-sales support to address any issues that may arise during use.</p></li></ul><p><br/></p><p><strong>5.Precautions for Use</strong></p><ul class=\" list-paddingleft-2\"><li><p>Before use, ensure the power cord and water pipe are connected correctly.</p></li><li><p>Choose the appropriate high-pressure nozzle to match your cleaning needs.</p></li><li><p>Maintain the correct distance between the nozzle and the cleaning surface for optimal results.</p></li><li><p>After cleaning, turn off the water gun and power switch promptly to protect the equipment. This is especially important for electric high-pressure water cleaners, as proper maintenance ensures longevity and consistent performance.</p></li></ul><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 14,
     "name": "220V High pressure washer pump head 1800 Watts Motor, 120 Bars",
     "slug": "220v-high-pressure-washer-pump-head-1800-watts-motor-120-bars",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "220V High pressure washer pump head 1800 Watts Motor, 120 Bars Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "220 Volt High Pressure Cleaning Pump Heads with 1800 watt motors and 120 bar pressure are very common in the market. This configuration of pressure washer is usually used for domestic and commercial cleaning tasks and is effective in removing dirt and stains.",
-    "image_url": "/assets/cnryce/220v-high-pressure-washer-pump-head-1800-watts-motor-120-bars.jpg",
+    "image_url": "/assets/cnryce/source/4059-202407200830560089.jpg",
     "specs": {
-      "Category": "car washing series",
       "Power": "1800 Watts",
       "Pressure": "120 Bars",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 14,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407200830560089.jpg",
+      "/assets/cnryce/source/4059-202502201459521750.jpg",
+      "/assets/cnryce/source/4059-202407200830560089_s.jpg",
+      "/assets/cnryce/source/4059-202407200830560089.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/220v-high-pressure-washer-pump-head-1800-watts-motor-120-bars",
+    "source_title": "220V High pressure washer pump head 1800 Watts Motor, 120 Bars",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        220V High pressure washer pump head 1800 Watts Motor, 120 Bars                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        220 Volt High Pressure Cleaning Pump Heads with 1800 watt motors and 120 bar pressure are very common in the market. This configuration of pressure washer is usually used for domestic and commercial cleaning tasks and is effective in removing dirt and stains.                                    </p>\r\n                                    <p><strong>1. Core Parameters</strong></p><p><strong>Voltage &amp; Power:</strong></p><ul class=\" list-paddingleft-2\"><li><p>220 volts voltage, suitable for most home high pressure cleaner and commercial power environments.</p></li><li><p>The 1800-watt motor provides strong power, supporting long-term stable operation,</p></li></ul><p><strong>Pressure &amp; Flow:</strong></p><ul class=\" list-paddingleft-2\"><li><p>120 Bar pressure, suitable for removing medium-strength dirt, such as mud on vehicle surfaces or stains on patio floors, making it ideal for a pressure cleaner.</p></li><li><p>The flow rate is typically between 6-10 liters/minute (depending on the model), balancing cleaning efficiency and water consumption for high-pressure cleaning pump head applications.</p></li></ul><p><br/></p><p><strong>2. Applicable Scenarios</strong></p><ul class=\" list-paddingleft-2\"><li><p>Domestic: Cleaning vehicles, patios, balconies, and exterior walls with a home high pressure cleaner.</p></li><li><p>Commercial: Cleaning small parking lots, warehouse floors, and storefronts using the high-pressure cleaner.</p></li><li><p>Agricultural: Cleaning farm equipment and livestock pens with a pressure cleaner.</p></li></ul><p><br/></p><p><strong>3. Main Features</strong></p><p><strong>Efficient Cleaning:</strong></p><ul class=\" list-paddingleft-2\"><li><p>120 Bar pressure easily removes stubborn dirt, making it perfect for high-pressure cleaning pump head tasks.</p></li><li><p>Adjustable nozzles (e.g., 0°, 15°, 25°, 40°) meet different cleaning needs.</p></li></ul><p><strong>Energy Efficient &amp; Environmentally Friendly:</strong></p><ul class=\" list-paddingleft-2\"><li><p>The 1800-watt motor provides sufficient power while consuming relatively low energy, ideal for a home high pressure cleaner.</p></li><li><p>Some models are equipped with an automatic cleaning pump shut-off function to further save energy.</p></li></ul><p><strong>Portable Design:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Lightweight body, equipped with mobile wheels and a handle, making it easy to move and operate a pressure cleaner.</p></li><li><p>Compact design, suitable for home and small spaces, perfect for a home high pressure cleaner.</p></li></ul><p><strong>Durability:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Made of high-quality materials, corrosion and abrasion-resistant, suitable for outdoor use.</p></li><li><p>The motor and cleaning pump are optimized for stable operation and long life.</p></li></ul><p><br/></p><p><strong>4. Suggestions for Use</strong></p><p><strong>Operating Precautions:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Check the water pipe, nozzle, and power cord before using the high-pressure cleaning pump head to ensure no damage.</p></li><li><p>Turn on the water source before starting the motor to avoid dry burning in the high-pressure cleaner.</p></li><li><p>Turn off the power after use and empty the residual water in the water pipe to prevent freezing or scale accumulation in the cleaning pump.</p></li></ul><p><strong>Maintenance &amp; Care:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Clean the nozzle and filter regularly to prevent clogging in the pressure cleaner.</p></li><li><p>Check the running status of the cleaning pump and motor, replacing worn parts in time.</p></li><li><p>Pay attention to anti-freezing measures when using the home high pressure cleaner in winter, and store it in a dry environment.</p></li></ul><p><br/></p><p><strong>5. Advantages &amp; Disadvantages Analysis</strong></p><p><strong>Pros:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Moderate pressure, suitable for a variety of cleaning scenarios with the high-pressure cleaner.</p></li><li><p>The 1800-watt motor provides sufficient power and runs stably, ideal for a pressure cleaner.</p></li><li><p>220-volt voltage is versatile, suitable for most users of a home high pressure cleaner.</p></li><li><p>Compact and easy to move and store, perfect for a high-pressure cleaning pump head.</p></li></ul><p><strong>Disadvantages:</strong></p><ul class=\" list-paddingleft-2\"><li><p>120 Bar pressure may not be enough for heavy-duty industrial cleaning tasks with the high-pressure cleaner.</p></li><li><p>Relatively low flow rate makes it less efficient when cleaning large areas with a pressure cleaner.</p></li><li><p>Prolonged use may cause the motor to overheat, requiring attention to heat dissipation in the cleaning pump.</p></li></ul><p><br/></p><p><strong>6. Applicable People</strong></p><ul class=\" list-paddingleft-2\"><li><p>Home Users: Households that need to clean vehicles, yards, and exterior walls with a home high pressure cleaner.</p></li><li><p>Small Commercial Users: Such as car washes, small warehouses, and stores using the high-pressure cleaner.</p></li><li><p>Agricultural Users: Farmers who need to clean farm equipment and livestock pens with a pressure cleaner.</p></li></ul><p><br/></p><p><br/></p><p><img alt=\"home high pressure cleaner\" src=\"/assets/cnryce/source/4059-202407200830560089.jpg\"/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 15,
     "name": "High Pressure Car Washer 1.8KW Pump 120Bar 8L/min Flow Rate Commercial Cleaning Machine",
     "slug": "high-pressure-car-washer-18kw-pump-120bar-8lmin-flow-rate-commercial-cleaning-machine",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "High Pressure Car Washer 1.8KW Pump 120Bar 8L/min Flow Rate Commercial Cleaning Machine Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "High Pressure Car Wash is an efficient cleaning equipment for commercial and industrial use. With a power of 1.8KW, a pressure of 120Bar and a flow rate of 8L/min, this equipment is able to clean vehicles and other surfaces quickly and efficiently.",
-    "image_url": "/assets/cnryce/high-pressure-car-washer-18kw-pump-120bar-8lmin-flow-rate-commercial-cleaning-machine.jpg",
+    "image_url": "/assets/cnryce/source/4059-202407200830152917.jpg",
     "specs": {
-      "Category": "car washing series",
       "Power": "1.8KW",
       "Pressure": "120Bar",
-      "Flow": "8L/min"
+      "Flow": "8L/min",
+      "Brand": "VK"
     },
     "sort_order": 15,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407200830152917.jpg",
+      "/assets/cnryce/source/4059-202502201718571222.jpg",
+      "/assets/cnryce/source/4059-202502201719160002.jpg",
+      "/assets/cnryce/source/4059-202407200830152917_s.jpg",
+      "/assets/cnryce/source/4059-202407200830152917.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-car-washer-18kw-pump-120bar-8lmin-flow-rate-commercial-cleaning-machine",
+    "source_title": "High Pressure Car Washer 1.8KW Pump 120Bar 8L/min Flow Rate Commercial Cleaning Machine",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High Pressure Car Washer 1.8KW Pump 120Bar 8L/min Flow Rate Commercial Cleaning Machine                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        High Pressure Car Wash is an efficient cleaning equipment for commercial and industrial use. With a power of 1.8KW, a pressure of 120Bar and a flow rate of 8L/min, this equipment is able to clean vehicles and other surfaces quickly and efficiently.                                    </p>\r\n                                    <h3><span></span></h3><p>Analysis of Professional Cleaning Equipment: A Focus on High Pressure Car Wash Performance</p><p><strong>1.power analysis for professional cleaning equipment</strong></p><ul class=\" list-paddingleft-2\"><li><p>Power level: The High pressure car wash has a power of 1.8KW, which is a sufficient level for commercial pressure washers and ensures that the equipment provides a stable and strong power supply during operation. This power rating is typical for professional cleaning equipment designed for commercial use.</p></li><li><p>Energy consumption: Although the power of 1.8KW is relatively high, it also translates to higher efficiency in washing cars. At the same time, by reasonably controlling the usage time, energy consumption can be reduced to a certain extent, making it more environmentally friendly and cost-effective for commercial pressure washers.</p></li></ul><p><strong>2.pressure analysis for optimal cleaning results</strong></p><ul class=\" list-paddingleft-2\"><li><p>Pressure value: 120Bar pressure is ideal for High pressure car wash equipment. This pressure level is sufficient to tackle most stains and dirt, ensuring thorough cleaning results. High pressure is a hallmark of professional cleaning equipment, designed to deliver exceptional performance.</p></li><li><p>Pressure Adjustment: Most commercial pressure washers come with adjustable pressure settings. This feature allows users to customize the pressure level based on the dirtiness of the vehicle and personal preference. By fine-tuning the pressure, users can ensure effective cleaning while protecting the car&#39;s paintwork from damage.</p></li></ul><p><br/></p><p><strong>3. flow analysis for efficient cleaning</strong></p><ul class=\" list-paddingleft-2\"><li><p>Flow size: The flow rate of 8L/min is moderate for commercial pressure washers. This flow rate ensures that water covers the car body evenly and quickly, improving cleaning efficiency. Adequate flow is crucial for professional cleaning equipment to deliver consistent and reliable results.</p></li><li><p>Relationship between flow rate and pressure: Flow rate and pressure are two critical indicators of High pressure car wash performance. With sufficient pressure, an appropriate flow rate ensures that the cleaning effect is more thorough and efficient. Balancing these two factors is key to achieving optimal cleaning results with professional cleaning equipment.</p></li></ul><p><br/></p><p><strong>4. Comprehensive Performance Evaluation of Commercial Pressure Washers</strong></p><ul class=\" list-paddingleft-2\"><li><p>Cleaning efficiency: The High pressure car wash equipped with a 220V washer pump head offers exceptional cleaning efficiency. Thanks to its sufficient power, pressure, and flow rate, it can quickly clean both ordinary stains and stubborn dirt. This makes it an ideal choice for commercial pressure washers and professional cleaning equipment.</p></li><li><p>Durability: Commercial pressure washers often need to operate for extended periods, so durability is a crucial consideration. High-quality materials and manufacturing processes ensure that professional cleaning equipment can withstand the rigors of daily use. With proper maintenance, commercial pressure washers can deliver long-lasting performance and reliability.</p></li><li><p>Applicable Scenarios: The High pressure car wash is versatile and suitable for various commercial cleaning scenarios, including car washes, car beauty centers, and more. Its stable performance and easy operation make it an excellent choice for on-site cleaning at large-scale events or exhibitions. Additionally, for more delicate cleaning tasks, a Small Size Digital Ultrasonic Cleaner can be used as a complementary tool to achieve thorough cleaning results.</p></li></ul><h3><span></span><br/></h3><p><img alt=\"professional cleaning equipment\" src=\"/assets/cnryce/source/4059-202407200830152917.jpg\"/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 16,
     "name": "High Pressure Drain Pipe Cleaner Machine car washer automatic 130bar",
     "slug": "high-pressure-drain-pipe-cleaner-machine-car-washer-automatic-130bar",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "High Pressure Drain Pipe Cleaner Machine car washer automatic 130bar Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "2000W 160Bar High Pressure Washer with Copper Winding with 10 Meter Hose Pipe, Gunjet and Foam Bottle Multipurpose Washer Machine for Car, Bike, Furniture, Any Dirt Surface",
-    "image_url": "/assets/cnryce/high-pressure-drain-pipe-cleaner-machine-car-washer-automatic-130bar.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406151305544068.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
+      "Power": "2000W",
       "Pressure": "130bar",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 16,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151305544068.jpg",
+      "/assets/cnryce/source/4059-202406151305544068_s.jpg",
+      "/assets/cnryce/source/4059-202406151305544068.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-drain-pipe-cleaner-machine-car-washer-automatic-130bar",
+    "source_title": "High Pressure Drain Pipe Cleaner Machine car washer automatic 130bar",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High Pressure Drain Pipe Cleaner Machine car washer automatic 130bar                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        2000W 160Bar High Pressure Washer with Copper Winding with 10 Meter Hose Pipe, Gunjet and Foam Bottle Multipurpose Washer Machine for Car, Bike, Furniture, Any Dirt Surface                                    </p>\r\n                                    <p><strong>1.High-pressure Drain Pipe Cleaner with Electric Drive Mode</strong></p><p>High-pressure drain pipe cleaner, equipped with electric drive mode, is a specialized piece of equipment for unblocking and removing stubborn blockages and dirt in pipelines. Its characteristics and methods of use are as follows:</p><ul class=\" list-paddingleft-2\"><li><p>Main Components: Typically, electric drive mode consists of an Electric High Pressure Water Pump, a water tank, and a high-pressure water gun. The Electric High Pressure Water Pump generates high-pressure water flow, while the water tank stores sufficient water for cleaning purposes. The high-pressure water gun, through electric drive mode nozzle, directs the high-pressure water jet onto the clog or dirt, effectively flushing it away.</p></li><li><p>Working Principle: Leveraging the impact force of high-pressure water flow, the High Pressure Drain Pipe Cleaner Machine efficiently flushes out clogs and dirt, restoring the pipeline&#39;s smoothness.</p></li><li><p>Scope of Application: Suitable for various types of pipe cleaning tasks, including sewers, drainage pipes, septic tanks, sewage treatment facilities, and more.</p></li><li><p>Usage: When utilizing the High Pressure Drain Pipe Cleaner Machine for pipe cleaning, you must first connect electric drive mode to the pipeline and activate the Electric High Pressure Water Pump to produce high-pressure water flow. Then, aim the high-pressure water gun at the blockage or dirt and spray to flush electric drive mode away. Throughout the cleaning process, you can adjust the water stream&#39;s jet angle and strength to achieve optimal cleaning results.</p></li></ul><p><br/></p><p><strong>2.Fully Automatic Car Wash Machine with 130bar Pressure</strong></p><p>The fully automatic car wash machine, boasting a pressure of up to 130bar, is an efficient and convenient tool for vehicle cleaning. Here&#39;s a detailed overview:</p><p><strong>Performance Parameters:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Pressure: Reaching up to 130bar, this Electric High Pressure Water Pump robust pressure ensures that vehicle surface stains are thoroughly removed.</p></li><li><p>Flow Rate: Though varying among different brands and models, the flow rate is typically adequate for car washing needs.</p></li><li><p>Power: Generally exceeding 1700W, this powerful output guarantees stable operation and efficient cleaning.</p></li></ul><p><strong>Scope of Application:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Family Car Wash: Ideal for washing family cars, SUVs, and other small vehicles.</p></li><li><p>Commercial Car Wash: Suitable for car beauty shops, automated car washes, and other commercial venues, capable of meeting the cleaning demands of numerous vehicles.</p></li></ul><p><strong>Advantageous Features:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Efficient and Convenient: The High Pressure Drain Pipe Cleaner Machine significantly boosts car washing efficiency, saving valuable time and energy.</p></li><li><p>Excellent Cleaning Effect: The strong pressure and stable flow rate ensure the car wash machine delivers impeccable cleaning results, removing all stains from the vehicle&#39;s surface.</p></li><li><p>User-Friendly Operation: Equipped with an intelligent control system, the car wash machine is straightforward and easy to operate, even for beginners.</p></li><li><p>Safe and Reliable: Designed with safety considerations, such as waterless protection, the car wash machine prevents equipment damage or personal injury due to improper operation.</p></li></ul><p><strong>Precautions for Use:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Prior to use, inspect the car wash machine&#39;s device, hose, and fittings to ensure they are intact and operational.</p></li><li><p>Select the appropriate nozzle for cleaning tasks to cater to diverse cleaning requirements.</p></li><li><p>Maintain a proper distance between the nozzle and the surface to be cleaned, typically no more than 10 centimeters, to guarantee optimal cleaning performance.</p></li><li><p>After use, promptly shut off the car wash machine and disconnect it from the power supply for necessary maintenance and repairs.</p></li></ul><p><img alt=\"electric drive mode\" src=\"/assets/cnryce/source/4059-202406151305544068.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 17,
     "name": "portable Car Bike&Home Cleaning High Pressure Car Washer",
     "slug": "portable-car-bikehome-cleaning-high-pressure-car-washer",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "portable Car Bike&Home Cleaning High Pressure Car Washer Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Portable High Pressure Car Wash is an efficient cleaning tool for cars, bikes and household surfaces. According to your description, this high pressure car wash is equipped with a 2100 watt motor capable of generating up to 185 bar of pressure with a flow rate of 10 liters per minute, complete with an 8 meter outlet hose. This configuration makes the car wash both powerful and flexible during the cleaning process, making it suitable for a wide range of cleaning needs.",
-    "image_url": "/assets/cnryce/portable-car-bikehome-cleaning-high-pressure-car-washer.jpg",
+    "image_url": "/assets/cnryce/source/4059-202407200825065714.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Power": "2100 watt",
+      "Pressure": "185 bar",
+      "Flow": "10 liters per minute",
+      "Brand": "VK"
     },
     "sort_order": 17,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407200825065714.jpg",
+      "/assets/cnryce/source/4059-202502201711394121.jpg",
+      "/assets/cnryce/source/4059-202512201617157217.png",
+      "/assets/cnryce/source/4059-202407200825065714_s.jpg",
+      "/assets/cnryce/source/4059-202407200825065714.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/portable-car-bikehome-cleaning-high-pressure-car-washer",
+    "source_title": "portable Car Bike&Home Cleaning High Pressure Car Washer",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        portable Car Bike&Home Cleaning High Pressure Car Washer                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Portable High Pressure Car Wash is an efficient cleaning tool for cars, bikes and household surfaces. According to your description, this high pressure car wash is equipped with a 2100 watt motor capable of generating up to 185 bar of pressure with a flow rate of 10 liters per minute, complete with an 8 meter outlet hose. This configuration makes the car wash both powerful and flexible during the cleaning process, making it suitable for a wide range of cleaning needs.                                    </p>\r\n                                    <p><strong>1.Main functions and features</strong></p><ul class=\" list-paddingleft-2\"><li><p>High-pressure water flow: High-pressure car washes flush out stains and soil through high-pressure water flow, with high cleaning efficiency. home high pressure cleaner is the core function of any home high pressure cleaner or pressure cleaner.</p></li><li><p>Multi-functional nozzle: Many high-pressure cleaners are equipped with multi-functional nozzles that can switch between different water dispensing modes, such as high-pressure direct spraying, fan fast rinsing, and foam cleaning, to meet the needs of different cleaning scenarios. home high pressure cleaner feature is also found in Domestic Cleaning Car Wash Water Spray Machines.</p></li><li><p>Portable design: Portable high pressure car wash machines are usually designed to be cordless or removable, making portable high pressure car wash convenient for users to use them in different locations without the limitation of power supply or water hose.</p></li><li><p>Self-priming function: Some high-pressure cleaners have a self-priming function, which can suck water directly from the bucket or pool, increasing the flexibility of use.</p></li><li><p>Energy-saving and power saving: Some high-pressure car washers adopt energy-saving designs, such as low-power motors and intelligent shutdown functions, to reduce energy consumption.</p></li></ul><p><br/></p><p><strong>2.Car cleaning</strong></p><p>High-pressure car washers can efficiently clean the surface of automobiles, remove oil, dust, bird droppings, and other stains, maintaining the appearance of the vehicle. For the car body, wheelset, chassis, and windows, high-pressure car washes provide effective cleaning solutions. In addition, the Domestic Cleaning Car Wash Water Spray Machine portable design allows car owners to clean their cars at home or outdoors anytime, anywhere, without having to go to a professional car wash.</p><p><br/></p><p><strong>3.Bicycle Cleaning</strong></p><p>High-pressure car washes are also suitable for bicycle cleaning. The high-pressure water flow can quickly wash away stains and dirt from the surface of the bike, especially for parts that are difficult to clean manually, such as the wheel set, brake system, and drive train. A portable high pressure car wash machine can provide a deeper cleaning effect, helping protect the appearance and performance of the bike and extending its life.</p><p><br/></p><p><strong>4.Household Cleaning</strong></p><p>In addition to car and bike cleaning, a home high pressure cleaner can also be used for home cleaning. It can easily remove leaves, dirt, and grease from your yard, restoring it to a tidy condition. At the same time, high-pressure cleaners can be used to clean stains and moss on the exterior walls of buildings, doors, windows, floors, and other parts of the building, improving the aesthetics and service life of the building. In addition, for sanitary facilities such as sinks and bathtubs at home, a Domestic Cleaning Car Wash Water Spray Machine can provide effective cleaning results.</p><p><br/></p><p><strong>5.Precautions for use</strong></p><ul class=\" list-paddingleft-2\"><li><p>Understand the material: Before cleaning, understand the material and coating of the cleaning object to avoid damage caused by improper use. This is especially important when using a pressure cleaner.</p></li><li><p>Control water pressure and distance: When using a high-pressure car wash, control the water pressure and distance to avoid damage to the cleaning object.</p></li><li><p>Avoid long-time rinsing: Do not rinse the same part for a long time to avoid damage to the cleaning object. This is a common mistake when using a home high pressure cleaner.</p></li><li><p>Pay attention to safety: Pay attention to personal safety when using a high-pressure car wash machine to avoid the high-pressure water flow from hurting yourself or others.</p></li></ul><p><img alt=\"home high pressure cleaner\" src=\"/assets/cnryce/source/4059-202407200825065714.jpg\"/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 18,
     "name": "100bar Electric industrial Portable washer Water High Pressure Cleaner for car store",
     "slug": "100bar-electric-industrial-portable-washer-water-high-pressure-cleaner-for-car-store",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "100bar Electric industrial Portable washer Water High Pressure Cleaner for car store Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "A 100 bar electric industrial portable washer is an efficient cleaning device that is especially suitable for automotive stores and other places where high pressure cleaning is required. These washers are usually equipped with powerful cleaning capabilities to easily remove dirt, grease, and other stubborn grime from automotive surfaces.",
-    "image_url": "/assets/cnryce/100bar-electric-industrial-portable-washer-water-high-pressure-cleaner-for-car-store.jpg",
+    "image_url": "/assets/cnryce/source/4059-202407200834332749.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
       "Pressure": "100bar",
-      "Flow": "Water cleaning"
+      "Item": "Value",
+      "Place of Origin": "China",
+      "Brand Name": "RY",
+      "Model Number": "C11",
+      "Function": "Cool water cleaning",
+      "Material": "Copper/Alu",
+      "Warranty": "1 Year",
+      "Output Power": ">1500W",
+      "Voltage": "220V/50HZ",
+      "Power": "1500W",
+      "Max Pressure": "80bar-130bar",
+      "Flow Rate": "7.0L/min-10L/min",
+      "Power Source": "Electric",
+      "Certification": "CE/ISO",
+      "Motor Type": "Induction Motor",
+      "Size": "39*26.5*31.5",
+      "Packing": "Color Box",
+      "Brand": "VK"
     },
     "sort_order": 18,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407200834332749.jpg",
+      "/assets/cnryce/source/4059-202502201453331292.jpg",
+      "/assets/cnryce/source/4059-202407200834332749_s.jpg",
+      "/assets/cnryce/source/4059-202407200834332749.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/100bar-electric-industrial-portable-washer-water-high-pressure-cleaner-for-car-store",
+    "source_title": "100bar Electric industrial Portable washer Water High Pressure Cleaner for car store",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        100bar Electric industrial Portable washer Water High Pressure Cleaner for car store                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        A 100 bar electric industrial portable washer is an efficient cleaning device that is especially suitable for automotive stores and other places where high pressure cleaning is required. These washers are usually equipped with powerful cleaning capabilities to easily remove dirt, grease, and other stubborn grime from automotive surfaces.                                    </p>\r\n                                    <link rel=\"stylesheet\" href=\"https://tp.waimaoniu.cn/public/content/template.css\" type=\"text/css\"/><p><br/></p><p><span><strong><span>Product Description</span></strong></span><br/></p><div class=\"wmn-template-26\"><div class=\"nei-table\"><div class=\"nei-table\"><table class=\"wmn-title-black wmn-bg-gray wmn-border-black-light zoom wmn-table-topLeftbg wmn-table-border\" data-sort=\"sortDisabled\" scale=\"2.095613048368954\"><tbody><tr class=\"firstRow\"><td class=\"wmn-title2-black-light\">Item</td><td class=\"wmn-title2-black-light\" rowspan=\"1\" colspan=\"4\">Value<br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Place of Origin</span></td><td rowspan=\"1\" colspan=\"4\">China</td></tr><tr><td class=\"wmn-title2-black-light\"><span>Brand Name</span></td><td rowspan=\"1\" colspan=\"4\">PH</td></tr><tr><td class=\"wmn-title2-black-light\"><span>Model Number</span></td><td rowspan=\"1\" colspan=\"4\">C11<br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Function</span></td><td rowspan=\"1\" colspan=\"4\"><span>Cool water cleaning</span><br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Material</span></td><td rowspan=\"1\" colspan=\"4\"><p>Copper/Alu</p><p><br/></p></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Warranty</span></td><td rowspan=\"1\" colspan=\"4\">1 Year</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Output Power</span></td><td rowspan=\"1\" colspan=\"4\">&gt;1500W</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Voltage</span></td><td rowspan=\"1\" colspan=\"4\">220V/50HZ<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Power</span></td><td rowspan=\"1\" colspan=\"4\">1500W<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Max Pressure</span></td><td rowspan=\"1\" colspan=\"4\">80bar-130bar<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Flow Rate</span></td><td rowspan=\"1\" colspan=\"4\">7.0L/min-10L/min<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Power Source</span></td><td rowspan=\"1\" colspan=\"4\">Electric</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Certification</span></td><td rowspan=\"1\" colspan=\"4\">CE/ISO<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Motor Type</span></td><td rowspan=\"1\" colspan=\"4\">Induction Motor</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Size</span></td><td rowspan=\"1\" colspan=\"4\"><span>39*26.5*31.5</span></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Packing</span></td><td rowspan=\"1\" colspan=\"4\">Color Box<br/></td></tr></tbody></table></div></div></div><p><br/></p><p><strong>1. Core Parameters</strong></p><p>Pressure and flow rate are crucial for any home high pressure cleaner. When home high pressure cleaner comes to 100bar power washers, their pressure level is suitable for medium duty cleaning tasks such as washing vehicle surfaces, workshop floors, and other areas around the home. The flow rate, typically between 5-8 liters/minute, ensures a balance between cleaning efficiency and water consumption.</p><p>Motor and power are also important considerations. Electric drive is suitable for use indoors or near a power source, providing consistent power support for the pressure cleaner. Power levels typically range between 1,400-1,800 watts, ensuring adequate performance for various cleaning jobs. 100bar power washers are standard at 220 volts, making these 100bar power washers suitable for most commercial and industrial power environments, including home use.</p><p><br/></p><p><strong>2. Product Features</strong></p><p>One of the standout features of these home high pressure cleaners is their high pressure cleaning capability. With a rated pressure up to 100 bar, 100bar power washers can generate powerful high pressure water flow, easily flushing away stubborn stains and improving cleaning efficiency. As pressure cleaners, they are designed for both indoor and outdoor use.</p><p>The electric portable design makes these 100bar power washers easy to operate, carry, and move around, suitable for a variety of cleaning operations, both inside and outside the home. Their multi-functional application means they can be used not only for car cleaning but also for cleaning floors, walls, glass, and more, meeting a wide range of cleaning needs.</p><p>Strong durability is another key feature. Made of high-quality materials and using advanced technology, these pressure cleaners have a long service life and high durability, ensuring they can withstand frequent use in both home and commercial settings.</p><p><br/></p><p><strong>3. Use and Maintenance Guide</strong></p><p>For optimal performance and longevity, it&#39;s important to follow the use and maintenance guide for your home high pressure cleaner. Before use, always check the water pipe, nozzle, and power cord carefully to ensure there is no damage. When starting the pressure cleaner, turn on the water source before starting the motor to avoid damage caused by equipment idling.</p><p>After use, turn off the power and empty the residual water in the water pipe in time to prevent freezing and cracking or scale buildup, especially important during winter months when using 100bar power washers. Regular maintenance is also crucial. Clean the nozzles and filters regularly to avoid clogging and affecting performance. Regularly check the running condition of the pump and motor, and replace worn parts in time to keep your pressure cleaner in top condition.</p><p>Special attention should be paid to anti-freezing measures during winter use, and the equipment should be stored in a dry environment to prevent damage.</p><p><br/></p><p><strong>4. Product Advantages and Disadvantages Analysis</strong></p><p>Advantages of these home high pressure cleaners include their strong applicability. With a pressure level of 100 bar, they fully meet the daily cleaning needs of automobile stores, other commercial places, and even busy households. Their flexible and portable design, with lightweight construction and mobile wheels, allows for easy operation in the workshop, garage, or around the home.</p><p>Electric drive with low noise makes these pressure cleaners especially suitable for indoor environments, where quiet operation is a priority. Durable materials ensure high durability, making these 100bar power washers suitable for high-intensity, frequent use in both commercial and home settings.</p><p><br/></p><p><img alt=\"home high pressure cleaner\" src=\"/assets/cnryce/source/4059-202407200834332749.jpg\"/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 19,
     "name": "High pressure washer with hose fittings 220v 130bar garden cleaning",
     "slug": "high-pressure-washer-with-hose-fittings-220v-130bar-garden-cleaning",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "High pressure washer with hose fittings 220v 130bar garden cleaning Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "When it comes to choosing a pressure washer suitable for garden cleaning, 220V and 130bar pressure is the ideal configuration. This type of pressure washer is usually effective at removing dirt and weeds from gardens, patios and other outdoor areas.",
-    "image_url": "/assets/cnryce/high-pressure-washer-with-hose-fittings-220v-130bar-garden-cleaning.jpg",
+    "image_url": "/assets/cnryce/source/4059-202407200824273732.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
       "Pressure": "130bar",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 19,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407200824273732.jpg",
+      "/assets/cnryce/source/4059-202512201536562281.png",
+      "/assets/cnryce/source/4059-202512201536597293.png",
+      "/assets/cnryce/source/4059-202512201537227512.png",
+      "/assets/cnryce/source/4059-202407200824273732_s.jpg",
+      "/assets/cnryce/source/4059-202407200824273732.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-washer-with-hose-fittings-220v-130bar-garden-cleaning",
+    "source_title": "High pressure washer with hose fittings 220v 130bar garden cleaning",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High pressure washer with hose fittings 220v 130bar garden cleaning                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        When it comes to choosing a pressure washer suitable for garden cleaning, 220V and 130bar pressure is the ideal configuration. This type of pressure washer is usually effective at removing dirt and weeds from gardens, patios and other outdoor areas.                                    </p>\r\n                                    <p><strong>1. Product Advantage</strong></p><ul class=\" list-paddingleft-2\"><li><p>Efficient cleaning: The high-pressure cleaner uses high-pressure water flow to flush dirt in the garden. Compared with traditional cleaning methods, its cleaning efficiency is higher, and it can quickly remove stubborn stains on the ground, walls, equipment, and more. The home high pressure cleaner is particularly effective for residential use, offering powerful cleaning performance.</p></li><li><p>Water conservation and environmental protection: Although the pressure cleaner produces high water pressure, the actual amount of water used is relatively small. The rinsing process does not produce harmful substances, making it environmentally friendly. The washer of Hydraulic rubber hose ensures durability and efficient water usage, aligning with eco-friendly requirements.</p></li><li><p>Easy to operate: Equipped with hose fittings, the cleaning machine triplex plunger pump makes operation more flexible and convenient. It can adapt to different terrains and cleaning needs, ensuring a user-friendly experience.</p></li><li><p>Multifunctionality: In addition to basic garden cleaning, the high-pressure cleaner can also be used for vehicle cleaning, household cleaning, and other scenarios, making it a versatile tool. The home high pressure cleaner is especially suitable for various domestic cleaning tasks.</p></li></ul><p><br/></p><p><strong>2. Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>High-pressure water flow: With 130bar water pressure, the pressure cleaner can produce a strong water flow, easily dealing with all kinds of stubborn stains. The cleaning machine triplex plunger pump ensures consistent high pressure for effective cleaning.</p></li><li><p>Hose design: The washer of Hydraulic rubber hose enables the high-pressure cleaner to move flexibly, covering a wider area while reducing the operational burden. This design enhances maneuverability and efficiency.</p></li><li><p>Motor Drive: The 220v motor in the home high pressure cleaner provides stable and strong power support, ensuring an excellent cleaning effect. The cleaning machine triplex plunger pump further enhances performance with its robust motor.</p></li><li><p>Safety performance: The pressure cleaner incorporates waterproof, anti-electricity leakage, and other safety measures to ensure safe operation. The washer of Hydraulic rubber hose is designed to withstand high pressure without compromising safety.</p></li></ul><p><br/></p><p><strong>3. Performance Parameters</strong></p><ul class=\" list-paddingleft-2\"><li><p>Voltage: 220v, suitable for home and general industrial power environments. The home high pressure cleaner is ideal for residential use, while the high-pressure cleaner can handle more demanding tasks.</p></li><li><p>Water pressure: 130bar, providing strong water flushing force. The cleaning machine triplex plunger pump ensures consistent high pressure for optimal performance.</p></li><li><p>Flow rate: Varies according to specific models, but usually meets the needs of garden cleaning. The pressure cleaner offers adjustable flow rates for different cleaning tasks.</p></li><li><p>Power: Motor power varies by model, but the washer of Hydraulic rubber hose ensures sufficient power support for efficient cleaning.</p></li><li><p>Hose length: Depending on the specific configuration, the high-pressure cleaner generally meets the demand for movement during garden cleaning. The home high pressure cleaner offers a compact design with adequate hose length for residential use.</p></li></ul><p><br/></p><p><strong>4. Technological Innovation</strong></p><ul class=\" list-paddingleft-2\"><li><p>Intelligent control system: Some high-end models of the pressure cleaner are equipped with an intelligent control system. This system automatically adjusts water pressure and flow rate based on cleaning needs, improving efficiency and energy savings. The cleaning machine triplex plunger pump integrates seamlessly with this technology.</p></li><li><p>High-efficiency filtration system: The high-pressure cleaner adopts high-precision filters to purify the water source, preventing impurities from clogging the nozzles and prolonging the equipment&#39;s service life. The washer of Hydraulic rubber hose complements this system by ensuring smooth water flow.</p></li><li><p>Multi-functional nozzle design: Equipped with various nozzles, such as fan nozzles and direct injection nozzles, the home high pressure cleaner can be adapted to different cleaning needs, enhancing the cleaning effect. The pressure cleaner offers versatility with its interchangeable nozzles.</p></li><li><p>Environmental protection and energy-saving technology: The high-pressure cleaner uses energy-saving motors and optimized water flow designs to reduce energy and water consumption. The cleaning machine triplex plunger pump further supports this eco-friendly approach, aligning with modern environmental standards.</p></li></ul><p><img alt=\"home high pressure cleaner\" src=\"/assets/cnryce/source/4059-202407200824273732.jpg\"/><br/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 20,
     "name": "high pressure washer with Fully automatic shutdown pump head",
     "slug": "high-pressure-washer-with-fully-automatic-shutdown-pump-head",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "high pressure washer with Fully automatic shutdown pump head Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "High-pressure cleaners with fully automatic shut-off pump head are highly efficient and energy-saving cleaning equipment that is widely used for a variety of cleaning tasks. The main feature of this equipment is its automatic shut-off function, which stops the pump automatically when the trigger of the cleaning gun is not pressed, thus saving energy and prolonging the service life of the equipment.",
-    "image_url": "/assets/cnryce/high-pressure-washer-with-fully-automatic-shutdown-pump-head.jpg",
+    "image_url": "/assets/cnryce/source/4059-202407200834066522.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 20,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407200834066522.jpg",
+      "/assets/cnryce/source/4059-202502201537481188.png",
+      "/assets/cnryce/source/4059-202502201103005759.png",
+      "/assets/cnryce/source/4059-202407200834066522_s.jpg",
+      "/assets/cnryce/source/4059-202407200834066522.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-washer-with-fully-automatic-shutdown-pump-head",
+    "source_title": "high pressure washer with Fully automatic shutdown pump head",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        high pressure washer with Fully automatic shutdown pump head                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        High-pressure cleaners with fully automatic shut-off pump head are highly efficient and energy-saving cleaning equipment that is widely used for a variety of cleaning tasks. The main feature of this equipment is its automatic shut-off function, which stops the pump automatically when the trigger of the cleaning gun is not pressed, thus saving energy and prolonging the service life of the equipment.                                    </p>\r\n                                    <p><strong>1. Core features: fully automatic shutdown of the pump head</strong></p><p><strong>Intelligent Sensing:</strong></p><ul class=\" list-paddingleft-2\"><li><p>When the user releases the trigger or stops operation, the home high pressure cleaner will automatically sense and shut off the pump head, stopping water flow and pressure output.</p></li><li><p>When the trigger is pulled again, the home high pressure cleaner pump head will start immediately and resume working.</p></li></ul><p><strong>Energy saving and environmental protection:</strong></p><ul class=\" list-paddingleft-2\"><li><p>The &nbsp;high-pressure cleaner automatic shut-off function avoids unnecessary energy consumption, especially suitable for long-time operation or intermittent use scenarios.</p></li><li><p>portable car washer can reduce the <span>high-pressure cleaner</span> idling, reduces <span>high-pressure cleaner</span> wear and prolongs service life.</p></li></ul><p><strong>Safety Protection:</strong></p><ul class=\" list-paddingleft-2\"><li><p>portable car washer can prevent the high-pressure washers pump from running for a long time without load, avoiding overheating or damage.</p></li><li><p>portable car washer can reduce the risk of accidental spraying of high-pressure washers and improves operational safety.</p></li></ul><p><br/></p><p><strong>2.Main Advantages</strong></p><p><strong>Efficient cleaning:</strong></p><ul class=\" list-paddingleft-2\"><li><p>high-pressure washers can easily remove stubborn dirt, suitable for vehicles, floors, walls, yards and other cleaning scenarios.</p></li><li><p>Adjustable water pressure and nozzle mode to meet different high-pressure washers needs.</p></li></ul><p><strong>Convenient Operation:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Fully automatic shut-off function reduces the tediousness of manual operation, users only need to focus on the high-pressure washers cleaning task.</p></li><li><p>Lightweight design with moving wheels and handle for easy movement and operation.</p></li></ul><p><strong>Durable:</strong></p><ul class=\" list-paddingleft-2\"><li><p>home high pressure cleaner are made of high quality materials, corrosion and abrasion resistant, suitable for outdoor and harsh environments.</p></li><li><p>The automatic shut-off function reduces home high pressure cleaner wear and tear and further extends service life.</p></li></ul><p><strong>Versatility:</strong></p><ul class=\" list-paddingleft-2\"><li><p>home high pressure cleaner can be matched with a variety of nozzles and accessories, such as rotating brush, foam sprayer, etc., to extend the cleaning function.</p></li><li><p>home high pressure cleaner is suitable for a variety of scenarios such as domestic, commercial, industrial and so on.</p></li></ul><p><br/></p><p><strong>3.Applicable Scenarios</strong></p><p><strong>Home cleaning:</strong></p><ul class=\" list-paddingleft-2\"><li><p>high-pressure cleaner can cleaning vehicles, patios, balconies, exterior walls, etc.</p></li></ul><p><strong>Commercial use:</strong></p><ul class=\" list-paddingleft-2\"><li><p>high-pressure cleaner can cleaning parking lots, warehouses, shopping mall floors, etc.</p></li></ul><p><strong>Industrial applications:</strong></p><ul class=\" list-paddingleft-2\"><li><p>high-pressure cleaner cleaning mechanical equipment, workshop floor, construction site, etc.</p></li></ul><p><br/></p><p><strong>4.Purchase Suggestion</strong></p><p><strong>Pressure &amp; Flow Rate:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Choose the right water pressure (Bar) and flow rate (L/min) according to the high-pressure washers = cleaning needs. For home use usually choose 100-150 Bar, industrial use may need more than 200 Bar.</p></li></ul><p><strong>Power Type:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Electric type: portable car washer is suitable for home and small commercial use, quiet operation.</p></li><li><p>Oil-fired: portable car washer is suitable for unpowered premises or large industrial cleaning with more power.</p></li></ul><p><strong>Additional features:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Automatic pump head shut-off, water cooling system, pressure regulation, safety lock, etc.</p></li></ul><p><strong>Brand and after-sales:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Choose famous brand&nbsp;portable car washer to ensure equipment quality and after-sales service.</p></li></ul><p><br/></p><p><strong>5.Maintenance and care</strong></p><ul class=\" list-paddingleft-2\"><li><p>Regularly check the pump, water pipes and nozzles to ensure there is no blockage or damage.</p></li><li><p>Clean the equipment after use to prevent the accumulation of scale or dirt.</p></li><li><p>When using&nbsp;portable car washer in winter, pay attention to emptying the water tank and pipeline to prevent freezing and cracking.</p></li></ul><p><img alt=\"home high pressure cleaner\" src=\"/assets/cnryce/source/4059-202407200834066522.jpg\"/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 21,
     "name": "2024 New model household mobile washer High Pressure Pump",
     "slug": "2024-new-model-household-mobile-washer-high-pressure-pump",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "2024 New model household mobile washer High Pressure Pump Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "A high pressure pump with a 10L/m flow is an ideal choice when looking for a domestic pressure washer.Mainly used for cleaning cars, motorcycles, and other surfaces.It is popular for its efficient water flow and easey to use.",
-    "image_url": "/assets/cnryce/2024-new-model-household-mobile-washer-high-pressure-pump.jpg",
+    "image_url": "/assets/cnryce/source/4059-202410261642433056.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Flow": "10L/m",
+      "Item": "Value",
+      "Place of Origin": "China",
+      "Brand Name": "RY",
+      "Model Number": "RY",
+      "Function": "Cool water cleaning",
+      "Material": "Copper/Alu",
+      "Warranty": "1 Year",
+      "Output Power": "1500W-2000W",
+      "Voltage": "220V/50HZ",
+      "Power": "2000W",
+      "Max Pressure": "80bar-130bar",
+      "Flow Rate": "7.0L/min-10L/min",
+      "Power Source": "Electric",
+      "Certification": "CE/ISO",
+      "Motor Type": "Induction Motor",
+      "Size": "39*26.5*31.5",
+      "Packing": "Color Box",
+      "Brand": "VK"
     },
     "sort_order": 21,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202410261642433056.jpg",
+      "/assets/cnryce/source/4059-202410181558396939.jpg",
+      "/assets/cnryce/source/4059-202410181558384672.jpg",
+      "/assets/cnryce/source/4059-202410261642433056_s.jpg",
+      "/assets/cnryce/source/4059-202410261642433056.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/2024-new-model-household-mobile-washer-high-pressure-pump",
+    "source_title": "2024 New model household mobile washer High Pressure Pump",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        2024 New model household mobile washer High Pressure Pump                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        A high pressure pump with a 10L/m flow is an ideal choice when looking for a domestic pressure washer.Mainly used for cleaning cars, motorcycles, and other surfaces.It is popular for its efficient water flow and easey to use.                                    </p>\r\n                                    <link rel=\"stylesheet\" href=\"https://tp.waimaoniu.cn/public/content/template.css\" type=\"text/css\"/><p><span><strong><span>Product Description</span></strong></span><br/></p><div class=\"wmn-template-26\"><div class=\"nei-table\"><div class=\"nei-table\"><div class=\"nei-table\"><p><br/></p><div class=\"nei-table\"><table class=\"wmn-title-black wmn-bg-gray wmn-border-black-light zoom wmn-table-topLeftbg wmn-table-border\" data-sort=\"sortDisabled\" scale=\"2.095613048368954\"><tbody><tr class=\"firstRow\"><td class=\"wmn-title2-black-light\">Item</td><td class=\"wmn-title2-black-light\" rowspan=\"1\" colspan=\"4\">Value<br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Place of Origin</span></td><td rowspan=\"1\" colspan=\"4\">China</td></tr><tr><td class=\"wmn-title2-black-light\"><span>Brand Name</span></td><td rowspan=\"1\" colspan=\"4\">PH<br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Model Number</span></td><td rowspan=\"1\" colspan=\"4\">PH<br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Function</span></td><td rowspan=\"1\" colspan=\"4\"><span>Cool water cleaning</span><br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Material</span></td><td rowspan=\"1\" colspan=\"4\"><p>Copper/Alu</p></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Warranty</span></td><td rowspan=\"1\" colspan=\"4\">1 Year</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Output Power</span></td><td rowspan=\"1\" colspan=\"4\">1500W-2000W</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Voltage</span></td><td rowspan=\"1\" colspan=\"4\">220V/50HZ<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Power</span></td><td rowspan=\"1\" colspan=\"4\">2000W<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Max Pressure</span></td><td rowspan=\"1\" colspan=\"4\">80bar-130bar<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Flow Rate</span></td><td rowspan=\"1\" colspan=\"4\">7.0L/min-10L/min<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Power Source</span></td><td rowspan=\"1\" colspan=\"4\">Electric</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Certification</span></td><td rowspan=\"1\" colspan=\"4\">CE/ISO<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Motor Type</span></td><td rowspan=\"1\" colspan=\"4\">Induction Motor</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Size</span></td><td rowspan=\"1\" colspan=\"4\"><span>39*26.5*31.5</span></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Packing</span></td><td rowspan=\"1\" colspan=\"4\">Color Box<br/></td></tr></tbody></table></div><p><strong>1.Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>Mobility: The High Portable Pressure Washer and Electric Portable Water High Pressure Cleaner are usually equipped with wheels or an easy-to-carry design, enabling users to move the Pressure Cleaner Car Washer Machine body effortlessly to different locations. This feature is particularly useful for Pressure Cleaner Car Washer Machine models, making them ideal for both home and outdoor use.</p></li><li><p>High-pressure performance: These pumps, including the Hand Held Electric High Pressure Water Cleaner, provide high water pressure, ensuring strong flushing power to improve cleaning effectiveness. High Portable Pressure Washer is especially beneficial for industrial pressure washer applications, where robust performance is required.</p></li><li><p>Energy saving and high efficiency: The new Electric Portable Water High Pressure Cleaner models are designed with energy efficiency in mind. By optimizing the internal structure and using high-efficiency motors, they reduce energy consumption while maintaining high performance.</p></li><li><p>Durability: Made from high-quality materials and advanced manufacturing processes, these pumps, such as the High Portable Pressure Washer, offer excellent wear resistance and corrosion resistance, ensuring a long service life even in demanding environments.</p></li></ul><p><br/></p><p><strong>2.Working Principle</strong></p><p>The working principle of the Pressure Cleaner Car Washer Machine and other similar models is based on the cooperation between the drive motor and the high-pressure pump body. When the liquid interface introduces cleaning fluid (such as water or detergent), the high-pressure pump body is activated, forcing the cleaning fluid through the output end into the jet pipe. Simultaneously, the drive motor rotates the internal components, ensuring the cleaning liquid is evenly sprayed onto the target surface. Under high pressure, the cleaning liquid penetrates deeply into fibers or surfaces, effectively removing stains. This principle applies to both Hand Held Electric High Pressure Water Cleaner devices and industrial pressure washer systems.</p><p><br/></p><p><strong>3.Application Areas</strong></p><p><strong>Household Laundry</strong></p><p>This is the most direct application for Electric Portable Water High Pressure Cleaner models. In households, these pumps provide stable high-pressure water flow, ensuring thorough cleaning of clothes. Their mobility allows users to move the High Portable Pressure Washer to different locations, such as balconies, bathrooms, or outdoors, making laundry tasks more convenient.</p><p><strong>Outdoor Cleaning</strong></p><p>For outdoor enthusiasts who enjoy camping, picnics, or other activities, the Hand Held Electric High Pressure Water Cleaner is highly practical. It can clean outdoor equipment like tents, sleeping bags, and barbecue grills, ensuring they remain hygienic for future use. Additionally, the Pressure Cleaner Car Washer Machine can clean vehicles, bicycles, and other transportation means, effectively removing surface stains and dirt.</p><p><strong>Household Cleaning and Maintenance</strong></p><p>Beyond laundry, the Electric Portable Water High Pressure Cleaner can handle various household cleaning tasks. It is perfect for cleaning floors, tiles, glass, and other surfaces, removing stubborn stains and dirt. It can also be used to clean home plumbing fixtures like water pipes and faucets, ensuring smooth water flow.</p><p><strong>Small Commercial Cleaning Services</strong></p><p>For small businesses, the High Portable Pressure Washer is an excellent choice. It can clean kitchen equipment, tables, and chairs in small restaurants or office furniture and carpets in small offices. Its portability and efficiency make it ideal for meeting the cleaning needs of small commercial services.</p><p><img alt=\"Pressure Cleaner Car Washer Machine\" src=\"/assets/cnryce/source/4059-202410261642433056.jpg\"/></p></div></div></div></div><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 22,
     "name": "High Pressure Drain Pipe Cleaner Machine Car Washer, 2000W, 6.5L/Min Flow Rate",
     "slug": "high-pressure-drain-pipe-cleaner-machine-car-washer-2000w-65lmin-flow-rate",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "High Pressure Drain Pipe Cleaner Machine Car Washer, 2000W, 6.5L/Min Flow Rate Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The selection of high pressure drain cleaners and car washes requires several factors to be considered, with power and flow rate being two important parameters. For a high pressure washer with a power of 2000 watts and a flow rate of 6.5 liters per minute, this configuration is suitable for a wide range of cleaning tasks, including car washing and drain cleaning.",
-    "image_url": "/assets/cnryce/high-pressure-drain-pipe-cleaner-machine-car-washer-2000w-65lmin-flow-rate.jpg",
+    "image_url": "/assets/cnryce/source/4059-202410261641383104.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "2000W",
-      "Pressure": "Cleaning washer",
-      "Flow": "6.5L/Min"
+      "Power": "1500W",
+      "Flow": "6.5L/Min",
+      "Item": "Value",
+      "Place of Origin": "China",
+      "Brand Name": "RY",
+      "Model Number": "RY",
+      "Function": "Cool water cleaning",
+      "Material": "Copper/Alu",
+      "Warranty": "1 Year",
+      "Output Power": "1500W-2000W",
+      "Voltage": "220V/50HZ",
+      "Max Pressure": "80bar-130bar",
+      "Flow Rate": "7.0L/min-10L/min",
+      "Power Source": "Electric",
+      "Certification": "CE/ISO",
+      "Motor Type": "Induction Motor",
+      "Size": "39*26.5*31.5",
+      "Packing": "Color Box",
+      "Brand": "VK"
     },
     "sort_order": 22,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202410261641383104.jpg",
+      "/assets/cnryce/source/4059-202410181549315598.jpg",
+      "/assets/cnryce/source/4059-202410181549323778.jpg",
+      "/assets/cnryce/source/4059-202410261641383104_s.jpg",
+      "/assets/cnryce/source/4059-202410261641383104.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-drain-pipe-cleaner-machine-car-washer-2000w-65lmin-flow-rate",
+    "source_title": "High Pressure Drain Pipe Cleaner Machine Car Washer, 2000W, 6.5L/Min Flow Rate",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High Pressure Drain Pipe Cleaner Machine Car Washer, 2000W, 6.5L/Min Flow Rate                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The selection of high pressure drain cleaners and car washes requires several factors to be considered, with power and flow rate being two important parameters. For a high pressure washer with a power of 2000 watts and a flow rate of 6.5 liters per minute, this configuration is suitable for a wide range of cleaning tasks, including car washing and drain cleaning.                                    </p>\r\n                                    <link rel=\"stylesheet\" href=\"https://tp.waimaoniu.cn/public/content/template.css\" type=\"text/css\"/><p><strong><span>A household pressure washer is an efficient and convenient cleaning tool for cleaning a variety of surfaces such as automobiles, patio floors, and exterior walls.</span></strong></p><p><strong><span><br/></span></strong></p><p><strong><span></span></strong></p><p><span><strong><span>Product Description</span></strong></span><br/></p><div class=\"wmn-template-26\"><div class=\"nei-table\"><div class=\"nei-table\"><div class=\"nei-table\"><table class=\"wmn-title-black wmn-bg-gray wmn-border-black-light zoom wmn-table-topLeftbg wmn-table-border\" data-sort=\"sortDisabled\" scale=\"2.095613048368954\"><tbody><tr class=\"firstRow\"><td class=\"wmn-title2-black-light\">Item</td><td class=\"wmn-title2-black-light\" rowspan=\"1\" colspan=\"4\">Value<br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Place of Origin</span></td><td rowspan=\"1\" colspan=\"4\">China</td></tr><tr><td class=\"wmn-title2-black-light\"><span>Brand Name</span></td><td rowspan=\"1\" colspan=\"4\">PH<br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Model Number</span></td><td rowspan=\"1\" colspan=\"4\">PH<br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Function</span></td><td rowspan=\"1\" colspan=\"4\"><span>Cool water cleaning</span><br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Material</span></td><td rowspan=\"1\" colspan=\"4\"><p>Copper/Alu</p></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Warranty</span></td><td rowspan=\"1\" colspan=\"4\">1 Year</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Output Power</span></td><td rowspan=\"1\" colspan=\"4\">1500W-2000W</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Voltage</span></td><td rowspan=\"1\" colspan=\"4\">220V/50HZ<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Power</span></td><td rowspan=\"1\" colspan=\"4\">1500W<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Max Pressure</span></td><td rowspan=\"1\" colspan=\"4\">80bar-130bar<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Flow Rate</span></td><td rowspan=\"1\" colspan=\"4\">7.0L/min-10L/min<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Power Source</span></td><td rowspan=\"1\" colspan=\"4\">Electric</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Certification</span></td><td rowspan=\"1\" colspan=\"4\">CE/ISO<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Motor Type</span></td><td rowspan=\"1\" colspan=\"4\">Induction Motor</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Size</span></td><td rowspan=\"1\" colspan=\"4\"><span>39*26.5*31.5</span></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Packing</span></td><td rowspan=\"1\" colspan=\"4\">Color Box<br/></td></tr></tbody></table></div></div></div></div><p>High pressure drain cleaners and car washes, specifically high pressure washer machines and cleaning machines, are characterized mainly by high pressure washer machine power, flow rate, and application results. Below you will find detailed characteristics about the high-pressure cleaners with 2000 watts power and 6.5 liters/minute flow rate, ideal for various Automobile cleaning tasks:</p><p><strong>1.Power and performance</strong></p><p>The 2000 watts of power allows the pressure washer to generate enough pressure to be suitable for use on a variety of surfaces, including cars, floors, and drains. This high pressure washer machine provides consistent power and ensures there are no issues with overheating or performance degradation over extended periods of use. Cleaning machine robust design makes cleaning machine a versatile cleaning machine for numerous applications.</p><p><strong>2.Flow Rate Characteristics</strong></p><p>A flow rate of 6.5 liters per minute is a critical parameter for a pressure washer. This flow rate is suitable for efficient cleaning machine operations, capable of removing dirt and debris in a short period of time. The flow rate has a direct impact on the efficiency and effectiveness of the cleaning process, and a flow rate of 6.5 liters/minute can effectively meet the needs of both domestic and small commercial use, making portable car washer an excellent choice for a portable car washer as well.</p><p><strong>3.Applications</strong></p><p>High pressure washers are widely used in the following areas:</p><ul class=\" list-paddingleft-2\"><li><p>Automobile cleaning: portable car washer can quickly remove dirt and oil stains from the body of the vehicle, ensuring the appearance of the vehicle remains pristine. A pressure washer or a portable car washer is indispensable for thorough and efficient Automobile cleaning.</p></li><li><p>Drainage Pipe Cleaning: Through high-pressure water flow, portable car washer can effectively remove blockages such as grease, mud, and other debris in the pipes to ensure a smooth drainage system. The powerful jet from a high pressure washer machine makes short work of such tasks.</p></li><li><p>Ground Cleaning: Suitable for cleaning driveways, patios, and other hard surfaces, capable of removing stubborn stains. A cleaning machine like a pressure washer ensures that these areas remain clean and presentable.</p></li></ul><p id=\"\"><img alt=\"pressure washer\" src=\"/assets/cnryce/source/4059-202410261641383104.jpg\"/><br/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 23,
     "name": "High Pressure Car Washer Machine with Copper Winding",
     "slug": "high-pressure-car-washer-machine-with-copper-winding",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
-    "description": "This is an efficient car washer，commercial pressure washer with Auto Stop, Self-intake function, Pressure gauge, Variably adjustable fan spray lance, Water filter，this pressure washer has a compact and sturdy design and is convenient to move around",
-    "image_url": "/assets/cnryce/high-pressure-car-washer-machine-with-copper-winding.jpg",
+    "tagline": "High Pressure Car Washer Machine with Copper Winding Manufacturers and Factory. We accept OEM custom products all made in China.",
+    "description": "This is an efficient car washer，commercial pressure washer  with Auto Stop, Self-intake function, Pressure gauge, Variably adjustable fan spray lance, Water filter，this pressure washer has a compact and sturdy design and is convenient to move around",
+    "image_url": "/assets/cnryce/source/4059-202412311114167582.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 23,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202412311114167582.jpg",
+      "/assets/cnryce/source/4059-202512121339078396.jpg",
+      "/assets/cnryce/source/4059-202512121339088373.jpg",
+      "/assets/cnryce/source/4059-202412311111308002.jpg",
+      "/assets/cnryce/source/4059-202412311114167582_s.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-car-washer-machine-with-copper-winding",
+    "source_title": "High Pressure Car Washer Machine with Copper Winding",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High Pressure Car Washer Machine with Copper Winding                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        This is an efficient car washer，commercial pressure washer  with Auto Stop, Self-intake function, Pressure gauge, Variably adjustable fan spray lance, Water filter，this pressure washer has a compact and sturdy design and is convenient to move around                                    </p>\r\n                                    <p><strong>1.Core Components and Advantages</strong></p><p><strong>Pure copper motor:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Excellent electrical conductivity: Pure copper has excellent electrical conductivity, ensuring that the motor in a portable car washer or commercial pressure washer can efficiently convert electrical energy into mechanical energy when working, providing strong power.</p></li><li><p>Good heat dissipation: The pure copper motor in a pressure cleaner has excellent heat dissipation performance, which can effectively reduce the temperature of the motor at work and prolong its service life, making it ideal for continuous high-pressure water operations like those provided by an Electric High Pressure Water Pump.</p></li></ul><p><strong>High pressure pump:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Plunger or diaphragm structure: This structure is able to pressurize the water to a very high pressure, ensuring that the water column sprayed by the gun of a portable car washer or pressure cleaner has a strong impact and cleaning effect.</p></li><li><p>Durable material: High-pressure pumps, commonly found in commercial pressure washers and Electric High Pressure Water Pumps, are usually made of wear-resistant and corrosion-resistant materials to ensure long-term stable operation.</p></li></ul><p><br/></p><p><strong>2.Functions and Features</strong></p><p><strong>Efficient cleaning:</strong></p><ul class=\" list-paddingleft-2\"><li><p>A commercial pressure washer or pressure cleaner provides strong water pressure and water flow, which can quickly rinse away stains and mud from the body of vehicles.</p></li><li><p>Equipped with a multifunctional spray gun, the water flow pattern can be adjusted according to different cleaning needs, such as high-pressure direct current spray for heavy-duty cleaning or soft fan spray for delicate surfaces, all within the capabilities of a versatile portable car washer.</p></li></ul><p><strong>Portable Design:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Compact size and light weight make portable car washers easy to store and carry, perfect for home users, small car detailing stores, and outdoor activity enthusiasts who need a reliable pressure cleaner on the go.</p></li></ul><p><strong>Durable:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Core components like the pure copper motor and high pressure pump in commercial pressure washers and Electric High Pressure Water Pumps are made of high-quality materials to ensure long-term stable operation.</p></li><li><p>Reasonable structural design can effectively reduce wear and tear and failure rate, ensuring the durability of pressure cleaners and portable car washers alike.</p></li></ul><p><strong>Energy saving and environmental protection:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Efficient use of water resources and energy-efficient motors make portable car washers and commercial pressure washers environmentally friendly options.</p></li><li><p>Low noise when the motor is working, in line with environmental requirements, makes using an Electric High Pressure Water Pump or pressure cleaner a pleasure rather than a nuisance.</p></li></ul><p><br/></p><p><strong>3.Applicable Scenarios</strong></p><p><strong>Home users:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Solve the cumbersome and inconvenient traditional car washing with a compact and efficient portable car washer.</p></li><li><p>Easily complete the car washing task at home, saving time and cost while improving the efficiency of car washing.</p></li></ul><p><strong>Small car beauty store:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Boost work efficiency and meet high-frequency car washing needs with a robust commercial pressure washer.</p></li><li><p>Improve service quality and attract more customers by offering a professional-grade clean with every wash.</p></li></ul><p><strong>Outdoor activity enthusiasts:</strong></p><ul class=\" list-paddingleft-2\"><li><p>The portable design of pressure cleaners and portable car washers makes them suitable for outdoor use, such as cleaning off-road vehicles, RVs, and other outdoor vehicles.</p></li><li><p>Guarantee that the vehicle is clean as new and improve the experience of outdoor activities with the power of an Electric High Pressure Water Pump.</p></li></ul><p><br/></p><p><strong>4.Use and Maintenance</strong></p><p><strong>Use Steps:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Connect the power and water source to your portable car washer or commercial pressure washer, making sure the power contact is good.</p></li><li><p>Adjust the spray gun mode on your pressure cleaner to choose the appropriate cleaning method according to the need.</p></li><li><p>Start the portable car washer or commercial pressure washer and begin the cleaning task.</p></li><li><p>After cleaning, turn off the power and water source and carry out the necessary drying treatment to prolong the life of your Electric High Pressure Water Pump and other components.</p></li></ul><p><br/></p><p><strong>5.Maintenance:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Regularly check the motor and water hose connections on your pressure cleaner or commercial pressure washer to ensure tight connections and no leaks.</p></li><li><p>Keep the equipment clean and avoid long-term exposure to humid environments to prevent corrosion and maintain the performance of your Electric High Pressure Water Pump and other parts.</p></li><li><p>If any malfunction or abnormality is found, contact a professional for repair or replacement of parts to ensure the continued reliability of your portable car washer or pressure cleaner.</p></li></ul>                                </div>\r\n                            </div>"
   },
   {
     "id": 24,
     "name": "Electric 120bar high pressure Car Washer 220v 50hz Copper Winding with 10 Meter Hose Pipe",
     "slug": "electric-120bar-high-pressure-car-washer-220v-50hz-copper-winding-with-10-meter-hose-pipe",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "Electric 120bar high pressure Car Washer 220v 50hz Copper Winding with 10 Meter Hose Pipe Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "A power pressure washer is a common type of cleaning equipment for home and commercial use.",
-    "image_url": "/assets/cnryce/electric-120bar-high-pressure-car-washer-220v-50hz-copper-winding-with-10-meter-hose-pipe.jpg",
+    "image_url": "/assets/cnryce/source/4059-202407150850107783.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
       "Pressure": "120bar",
-      "Flow": "Water cleaning"
+      "Item": "Value",
+      "Place of Origin": "China",
+      "Brand Name": "RY",
+      "Model Number": "C3",
+      "Function": "Cool water cleaning",
+      "Material": "Copper/Alu",
+      "Warranty": "1 Year",
+      "Output Power": ">1500W",
+      "Voltage": "220V/50HZ",
+      "Power": "1500W",
+      "Max Pressure": "80bar-130bar",
+      "Flow Rate": "7.0L/min-10L/min",
+      "Power Source": "Electricity",
+      "Certification": "CE/ISO",
+      "Motor Type": "Induction Motor",
+      "Size": "39*26.5*31.5",
+      "Packing": "Color Box",
+      "Brand": "VK"
     },
     "sort_order": 24,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407150850107783.jpg",
+      "/assets/cnryce/source/4059-202411201355201507.jpg",
+      "/assets/cnryce/source/4059-202411201349488401.jpg",
+      "/assets/cnryce/source/4059-202407150850107783_s.jpg",
+      "/assets/cnryce/source/4059-202407150850107783.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/electric-120bar-high-pressure-car-washer-220v-50hz-copper-winding-with-10-meter-hose-pipe",
+    "source_title": "Electric 120bar high pressure Car Washer 220v 50hz Copper Winding with 10 Meter Hose Pipe",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Electric 120bar high pressure Car Washer 220v 50hz Copper Winding with 10 Meter Hose Pipe                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        A power pressure washer is a common type of cleaning equipment for home and commercial use.                                    </p>\r\n                                    <link rel=\"stylesheet\" href=\"https://tp.waimaoniu.cn/public/content/template.css\" type=\"text/css\"/><p><br/></p><p><span><strong><span>Product Description</span></strong></span><br/></p><div class=\"wmn-template-26\"><div class=\"nei-table\"><div class=\"nei-table\"><table class=\"wmn-title-black wmn-bg-gray wmn-border-black-light zoom wmn-table-topLeftbg wmn-table-border\" data-sort=\"sortDisabled\" scale=\"2.095613048368954\"><tbody><tr class=\"firstRow\"><td class=\"wmn-title2-black-light\">Item</td><td class=\"wmn-title2-black-light\" rowspan=\"1\" colspan=\"4\">Value<br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Place of Origin</span></td><td rowspan=\"1\" colspan=\"4\">China</td></tr><tr><td class=\"wmn-title2-black-light\"><span>Brand Name</span></td><td rowspan=\"1\" colspan=\"4\">PH</td></tr><tr><td class=\"wmn-title2-black-light\"><span>Model Number</span></td><td rowspan=\"1\" colspan=\"4\">C3<br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Function</span></td><td rowspan=\"1\" colspan=\"4\"><span>Cool water cleaning</span><br/></td></tr><tr><td class=\"wmn-title2-black-light\"><span>Material</span></td><td rowspan=\"1\" colspan=\"4\"><p>Copper/Alu</p><p><br/></p></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Warranty</span></td><td rowspan=\"1\" colspan=\"4\">1 Year</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Output Power</span></td><td rowspan=\"1\" colspan=\"4\">&gt;1500W</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Voltage</span></td><td rowspan=\"1\" colspan=\"4\">220V/50HZ<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Power</span></td><td rowspan=\"1\" colspan=\"4\">1500W<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Max Pressure</span></td><td rowspan=\"1\" colspan=\"4\">80bar-130bar<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Flow Rate</span></td><td rowspan=\"1\" colspan=\"4\">7.0L/min-10L/min<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Power Source</span></td><td rowspan=\"1\" colspan=\"4\">Electricity</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Certification</span></td><td rowspan=\"1\" colspan=\"4\">CE/ISO<br/></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Motor Type</span></td><td rowspan=\"1\" colspan=\"4\">Induction Motor</td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Size</span></td><td rowspan=\"1\" colspan=\"4\"><span>39*26.5*31.5</span></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><span>Packing</span></td><td rowspan=\"1\" colspan=\"4\">Color Box<br/></td></tr></tbody></table></div></div></div><p><strong>1.Equipment Overview</strong></p><p>This car wash machine, also known as a pressure washer, generates high pressure water flow through an electric motor-driven high pressure pump. It utilizes the impact force of the high pressure water flow to clean the dirt and stains on the surface of the vehicle. It is akin to a home high pressure cleaner or the high pressure cleaner found in professional settings. Its working pressure is up to 120bar, which can easily deal with all kinds of stubborn stains, such as bird droppings, tree gums, insect carcasses, and so on. Meanwhile, the rated voltage of 220V and rated frequency of 50Hz make this car wash equipment widely used in both domestic and industrial environments.</p><p><br/></p><p><strong>2.Equipment Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>Efficient cleaning: 120bar working pressure makes the water flow with strong impact, similar to that of a robust home high pressure cleaner. home high pressure cleaner can quickly clean off the dirt and stains on the surface of the vehicle and improve the efficiency of car wash tasks.</p></li><li><p>Energy saving and environmental protection: The pressure washer adopts an electric drive mode, which, compared with the traditional fuel-based car wash machine,pressure washer is more energy-saving and environmentally friendly, reducing environmental pollution.</p></li><li><p>Easy to operate: The equipment is reasonably designed with simple and intuitive operations. The user only needs to follow the instructions to easily complete the car wash task, much like operating a high-pressure cleaner.</p></li><li><p>Wide scope of application: The car wash machine, or pressure washer, is not only suitable for family car wash tasks but can also be used in car beauty stores, 4S stores, and other commercial places to meet the needs of different users.</p></li></ul><p><br/></p><p><strong>3.Precautions for Use</strong></p><ul class=\" list-paddingleft-2\"><li><p>Safe use: When using the car wash machine or pressure washer, make sure the power supply is connected correctly to avoid the risk of electric shock. At the same time, follow the instructions in the safe operation procedures to ensure personal safety, just as you would with a home high pressure cleaner.</p></li><li><p>Reasonable maintenance: Regular maintenance of the car wash machine, such as cleaning filters and checking the power cord, ensures the normal operation of the equipment and extends its service life, similar to maintaining a high-pressure cleaner.</p></li><li><p>Save water: When using the car wash machine, pay attention to saving water to avoid wasting it. You can optimize the car wash effect by adjusting the strength and direction of the water flow, while reducing water consumption, making it as efficient as a well-maintained pressure washer.</p></li></ul><p><br/></p><p><strong>4.Summary</strong></p><p>With its high efficiency, energy saving, and environmental protection, the electric 120bar high pressure car wash machine, or pressure washer, has become one of the important equipments in the modern car wash industry. It has shown excellent car wash effects and convenient operation experience in both home and commercial places. However, it is also necessary to pay attention to safety and maintenance issues in the process of use to ensure the normal operation and prolong the service life of this versatile home high pressure cleaner or high-pressure cleaner.</p><p><img alt=\"home high pressure cleaner\" src=\"/assets/cnryce/source/4059-202407150850107783.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 25,
     "name": "High Pressure Washer Portable for Car, Bike and Car Washer",
     "slug": "high-pressure-washer-portable-for-car-bike-and-car-washer",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "High Pressure Washer Portable for Car, Bike and Car Washer Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Portable cleaning equipment is becoming increasingly popular for cleaning cars, bicycles and other vehicles. These units are usually designed to be lightweight and easy to carry around for use at home or on the go.",
-    "image_url": "/assets/cnryce/high-pressure-washer-portable-for-car-bike-and-car-washer.jpg",
+    "image_url": "/assets/cnryce/source/4059-202412311119564181.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 25,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202412311119564181.jpg",
+      "/assets/cnryce/source/4059-202412311115441792.jpg",
+      "/assets/cnryce/source/4059-202512201534220376.jpg",
+      "/assets/cnryce/source/4059-202512201534291122.jpg",
+      "/assets/cnryce/source/4059-202412311119564181_s.jpg",
+      "/assets/cnryce/source/4059-202406151125137227.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-washer-portable-for-car-bike-and-car-washer",
+    "source_title": "High Pressure Washer Portable for Car, Bike and Car Washer",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High Pressure Washer Portable for Car, Bike and Car Washer                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Portable cleaning equipment is becoming increasingly popular for cleaning cars, bicycles and other vehicles. These units are usually designed to be lightweight and easy to carry around for use at home or on the go.                                    </p>\r\n                                    <p><strong>1.Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>Portable design: Portable washers are usually equipped with a lightweight body and removable wheels or handles, making Portable washers easy for users to move between locations effortlessly. Whether Portable washer&nbsp;a home garage, outdoor parking lot, or bike parking area, these mobile high pressure washer units are ready to go.</p></li><li><p>High-pressure water flow: A high-pressure pump pressurizes normal water flow to form a powerful high-pressure water flow, which can quickly wash away dirt, grease, and dust from the surface of cars and bicycles. High Pressure Cleaner can even clean the internal parts of a car wash machine, ensuring optimal performance.</p></li><li><p>Multi-functional nozzles: High Pressure Cleaner is equipped with a variety of nozzles (such as fan nozzles, rotary nozzles, etc.), users can adjust the shape and pressure of the water flow according to their cleaning needs. For example, fan nozzles are ideal for cleaning large areas, while rotary nozzles can clean stubborn stains in depth. This versatility makes Portable washers a must-have tool for any car wash or home cleaning task.</p></li><li><p>Energy-saving and environmentally friendly: Modern High Pressure Cleaner models usually use high-efficiency motors and energy-saving designs. They ensure excellent cleaning results while reducing water and electricity consumption, aligning with eco-friendly practices.</p></li><li><p>Strong durability: Made of high-quality materials with excellent waterproof and corrosion-resistant properties, mobile high pressure washer units are built for long-term use, even in demanding environments.</p></li></ul><p><br/></p><p><strong>2.Function</strong></p><ul class=\" list-paddingleft-2\"><li><p>Car cleaning: A Portable high pressure washer can thoroughly clean car surfaces, tires, chassis, and other parts, removing dirt, oil, bird droppings, and other stains to keep the vehicle looking shiny and new.</p></li><li><p>Bicycle Cleaning: For bicycles, the high-pressure water flow can easily remove dirt and oil stains from chains, gears, and frames, prolonging the lifespan of the bicycle.</p></li><li><p>Car Wash Maintenance: Portable washers can also be used to clean the internal pipes, nozzles, and other parts of a car wash machine, ensuring its proper operation and cleaning efficiency.</p></li><li><p>Outdoor Cleaning: In addition to vehicle cleaning, these devices can be used to clean outdoor furniture, patio floors, gardening tools, and more, meeting a variety of home cleaning needs.</p></li></ul><p><br/></p><p><strong>3.Application Scenarios</strong></p><ul class=\" list-paddingleft-2\"><li><p>Home use: Suitable for home users to clean private cars, bicycles, or yard equipment, Portable washers are easy to operate and save time and energy.</p></li><li><p>Automobile beauty store: Automobile beauty stores can use mobile high pressure washer units to provide customers with efficient cleaning services, improving service quality and customer satisfaction.</p></li><li><p>Bicycle Repair Shop: Bicycle repair stores can use High Pressure Cleaner devices to clean bicycle parts and maintain a tidy repair environment.</p></li><li><p>Car wash maintenance: Car wash maintenance personnel can use Portable washers to regularly clean equipment, ensuring its efficient operation and longevity.</p></li></ul><p><br/></p><p><strong>4.Precautions</strong></p><ul class=\" list-paddingleft-2\"><li><p>Correct operation: Read the manual carefully before using a High Pressure Cleaner to ensure proper installation and operation, avoiding damage caused by improper use.</p></li><li><p>Regular maintenance: Regularly check the nozzles, pipes, and motors of the mobile high pressure washer to ensure the equipment remains in good condition.</p></li><li><p>Safe use: Always wear protective equipment when using a Portable high pressure washer to avoid injuries caused by the high-pressure water flow.</p></li><li><p>By integrating Portable washers, car wash, high-pressure water flow, mobile high pressure washer, and High Pressure Cleaner throughout the article, the keyword density is optimized while maintaining clarity and coherence.</p></li></ul><p><img alt=\"Portable washer\" src=\"/assets/cnryce/source/4059-202406151125137227.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 26,
     "name": "Portable Powerful Home Pressure Washer Car Cleaning Induction Motor",
     "slug": "portable-powerful-home-pressure-washer-car-cleaning-induction-motor",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "Portable Powerful Home Pressure Washer Car Cleaning Induction Motor Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Portable and powerful home pressure washers are a very useful cleaning tool for home use that can efficiently clean a wide range of surfaces such as cars, floors, walls and more. These cleaners usually have a high-pressure water stream that can easily remove stubborn dirt and stains.",
-    "image_url": "/assets/cnryce/portable-powerful-home-pressure-washer-car-cleaning-induction-motor.jpg",
+    "image_url": "/assets/cnryce/source/4059-202412100908181607.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 26,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202412100908181607.jpg",
+      "/assets/cnryce/source/4059-202410291314261463.jpg",
+      "/assets/cnryce/source/4059-202411201455561208.jpg",
+      "/assets/cnryce/source/4059-202412100908181607_s.jpg",
+      "/assets/cnryce/source/4059-202410291314261463.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/portable-powerful-home-pressure-washer-car-cleaning-induction-motor",
+    "source_title": "Portable Powerful Home Pressure Washer Car Cleaning Induction Motor",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Portable Powerful Home Pressure Washer Car Cleaning Induction Motor                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Portable and powerful home pressure washers are a very useful cleaning tool for home use that can efficiently clean a wide range of surfaces such as cars, floors, walls and more. These cleaners usually have a high-pressure water stream that can easily remove stubborn dirt and stains.                                    </p>\r\n                                    <p><strong>1.Core Component: Induction Motor</strong></p><p dir=\"ltr\">The induction motor is the key component of the pressure washers, and industrial pressure washer with inlet pipe performance directly affects the overall efficiency of the washer. Induction motors are usually divided into two types: two-stage motors and four-stage motors.</p><ul class=\" list-paddingleft-2\"><li><p>Two-stage motor: A high-speed motor known for its cost-effectiveness. Compared to the four-stage motor, it is slightly louder but more affordable. High Pressure Commercial Cleaning Pump is suitable for users with a limited budget or lower noise requirements.</p></li><li><p>Four-stage motor: Known for its stable performance and greater durability. Although slightly more expensive, it delivers superior cleaning results. It is ideal for users who require long working hours or high-intensity cleaning, such as those using an industrial pressure washer with inlet pipe.</p></li></ul><p>For home pressure washers, the choice of induction motor should be based on actual needs and budget. If long working hours and high-intensity cleaning are required, the four-stage motor is the better choice.</p><p><br/></p><p><strong>2.Cleaning Performance</strong></p><p>Portable and powerful home pressure washers are typically equipped with high-power induction motors and high-flow pump heads, such as the Cold Water High Pressure Cleaning Machine pump head. These components provide strong water pressure and flow, making it easy to tackle stubborn dirt on vehicles or other surfaces. For example, some brands of pressure washers can deliver up to 200 kilograms of water pressure, ensuring outstanding cleaning results. Whether it&#39;s dirt on a car, bird droppings, or moss on a patio, these machines can rinse it away quickly.</p><p><br/></p><p><strong>3.Portability and Ease of Operation</strong></p><ul class=\" list-paddingleft-2\"><li><p>Portable design: Home pressure washers are usually lightweight and portable, with a moderate body weight for easy carrying and storage. For instance, some models weigh only 4.5 kilograms and can be easily stored in a car trunk, ready to meet cleaning needs anytime, anywhere.</p></li><li><p>Quick installation and operation: Many pressure washers, including the High Pressure Commercial Cleaning Pump, are designed for quick plug-and-play setups, making installation simple and fast. The intuitive operation allows users to get started quickly without complex adjustments.</p></li></ul><p><br/></p><p><strong>4.Additional Features and Design</strong></p><ul class=\" list-paddingleft-2\"><li><p>Water type adjustment: Some pressure washers support water type adjustment, allowing users to switch between different spray patterns based on cleaning needs. For example, nozzles can adjust from 0° to 60°, enabling both strong direct rinsing and wide fan-shaped cleaning for large areas.</p></li><li><p>Self-absorption function: Certain models, such as the industrial pressure washer with inlet pipe, feature a self-absorption function. This allows the machine to draw water from buckets, rivers, or other sources, making cleaning operations more flexible and convenient.</p></li><li><p>Waterproof grade: Home pressure washers typically have a high waterproof rating (such as IPX5), ensuring they can safely operate in wet environments without water intrusion.</p></li></ul><p><br/></p><p><strong>5.Applicable Scenes</strong></p><p>Portable and powerful home pressure washers are not only suitable for car washing but can also be used to clean yards, windows, walls, and more. With their versatility, these machines, including the High Pressure Commercial Cleaning Pump, meet a wide range of household cleaning needs, making them a valuable tool for any home.</p><p><img alt=\"industrial pressure washer with inlet pipe\" src=\"/assets/cnryce/source/4059-202410291314261463.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 27,
     "name": "Car Washer High Pressure Pump 1 Year Warranty Car/Bike Cleaning Supplies",
     "slug": "car-washer-high-pressure-pump-1-year-warranty-carbike-cleaning-supplies",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "Car Washer High Pressure Pump 1 Year Warranty Car/Bike Cleaning Supplies Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "High pressure pumps for high pressure car washes usually come with a one year warranty and are suitable for cleaning cars and bicycles. This equipment is designed to efficiently clean a wide range of vehicles, ensuring a remarkable cleaning result.",
-    "image_url": "/assets/cnryce/car-washer-high-pressure-pump-1-year-warranty-carbike-cleaning-supplies.jpg",
+    "image_url": "/assets/cnryce/source/4059-202407221619045210.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 27,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407221619045210.jpg",
+      "/assets/cnryce/source/4059-202502201732302944.png",
+      "/assets/cnryce/source/4059-202502201732361831.jpg",
+      "/assets/cnryce/source/4059-202407221619045210_s.jpg",
+      "/assets/cnryce/source/4059-202407221619045210.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/car-washer-high-pressure-pump-1-year-warranty-carbike-cleaning-supplies",
+    "source_title": "Car Washer High Pressure Pump 1 Year Warranty Car/Bike Cleaning Supplies",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Car Washer High Pressure Pump 1 Year Warranty Car/Bike Cleaning Supplies                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        High pressure pumps for high pressure car washes usually come with a one year warranty and are suitable for cleaning cars and bicycles. This equipment is designed to efficiently clean a wide range of vehicles, ensuring a remarkable cleaning result.                                    </p>\r\n                                    <p><strong>1.Structural Composition</strong></p><p>The high-pressure pump of the car wash machine is mainly composed of a high-pressure pump head, pump body, piston, connecting rod, and other parts. Among them, the high-pressure pump head is the key component of the high-pressure pump, which is mainly composed of a compression chamber, decompression chamber, water outlet, and piston rod. These car wash machines&nbsp;work together to ensure the efficient operation of Electric power pressure washers for car wash, delivering the necessary high-pressure water flow for effective cleaning.</p><p><br/></p><p><strong>2.Working Principle</strong></p><p>There are two main explanations for the working principle of the high-pressure pump of the car wash machine:</p><p>When the water flow passes through the high-pressure pump, the piston begins to work, compressing the water flow to a high-pressure state that the nozzle can withstand, thus forming high-pressure water flow for cleaning vehicles. When the high-pressure pump is in operation, it usually has two modes: driving mode and in-situ high-pressure cleaning mode. In driving mode, the high-pressure pump compresses water through the pump body and high-pressure pump head and sprays the water through high-pressure nozzles. In the in-situ high-pressure cleaning mode, the car wash machine workflow is similar to the driving mode, but the pressurization process is more rapid, and the cleaning effect is more obvious.</p><p>The pump introduces the external low-pressure water source into the pump body through the water inlet. After the water enters the pump body, it is rotated and pushed by the turbine blades, generating a high-speed centrifugal force. The water obtains high speed and pressure inside the turbine to form a high-pressure water flow, which finally sprays out through the outlet to create a high-pressure scouring effect. This principle is central to the operation of Electric power pressure washers for car wash, ensuring efficient and powerful cleaning performance.</p><p><br/></p><p><strong>3.Performance Characteristics</strong></p><ul class=\" list-paddingleft-2\"><li><p>High efficiency and energy saving: The high-pressure pump of the car wash machine can convert low-pressure water into high-pressure water flow, which greatly improves cleaning efficiency while saving water resources.</p></li><li><p>Easy to operate: High-pressure pumps are usually equipped with an easy-to-operate control system, allowing users to adjust water pressure and cleaning modes effortlessly. car wash machine feature is particularly beneficial for Electric power pressure washers for car wash, making them user-friendly for both professionals and home users.</p></li><li><p>Durable and reliable: Made of high-quality materials and advanced technology, high-pressure pumps are highly durable and reliable, meeting the demands of long-term use in various car wash applications.</p></li><li><p>Precautions for Use</p></li><li><p>Regular inspection: Regularly check whether the parts of the high-pressure pump are intact. If any damage is found, replace the parts promptly to maintain the efficiency of the car wash machine.</p></li><li><p>Correct operation: Operate the high-pressure pump correctly according to the instructions to avoid improper use, which could lead to equipment damage or safety accidents.</p></li><li><p>Maintenance: Regularly maintain the high-pressure pump by cleaning the filter, replacing the lubricating oil, and performing other necessary tasks. car wash machine will help prolong the service life of the equipment, ensuring that your Electric power pressure washers for car wash remain in optimal condition.</p></li></ul><p><img alt=\"car wash machine\" src=\"/assets/cnryce/source/4059-202407221619045210.jpg\"/><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 28,
     "name": "Technology High Pressure Car Washer Machine with Adjustable Pressure Control Feature",
     "slug": "technology-high-pressure-car-washer-machine-with-adjustable-pressure-control-feature",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "Technology High Pressure Car Washer Machine with Adjustable Pressure Control Feature Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "A pressure washer is a portable device designed to clean and decontaminate. It uses a motor-driven pump to dramatically increase the pressure of regular tap water to deliver a high-pressure, high-speed stream of water to remove stubborn stains.",
-    "image_url": "/assets/cnryce/technology-high-pressure-car-washer-machine-with-adjustable-pressure-control-feature.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406151323387125.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 28,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151323387125.jpg",
+      "/assets/cnryce/source/4059-202502201733264283.jpg",
+      "/assets/cnryce/source/4059-202406151323387125_s.jpg",
+      "/assets/cnryce/source/4059-202406151323387125.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/technology-high-pressure-car-washer-machine-with-adjustable-pressure-control-feature",
+    "source_title": "Technology High Pressure Car Washer Machine with Adjustable Pressure Control Feature",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Technology High Pressure Car Washer Machine with Adjustable Pressure Control Feature                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        A pressure washer is a portable device designed to clean and decontaminate. It uses a motor-driven pump to dramatically increase the pressure of regular tap water to deliver a high-pressure, high-speed stream of water to remove stubborn stains.                                    </p>\r\n                                    <p></p><p><strong>1.Main Features</strong></p><p><strong>Adjustable Pressure Control:</strong></p><p>Most technical high pressure cleaner systems, including commercial high pressure cleaner models, are equipped with a pressure-adjusting knob or regulator. commercial high pressure cleaner allows users to easily adjust the water pressure according to different cleaning needs. Some systems, such as the Portable Pressure Washer Gun washer, also support multiple water pressure modes, which can be switched using a gear switch. For example, low-pressure mode is suitable for watering plants or cleaning windows, while high-pressure mode is ideal for tackling stubborn stains.</p><p><strong>Efficient Cleaning Ability:</strong></p><p>These types of Auto Detailing Equipment are typically equipped with high-power motors and a multi-plunger pump design, providing strong water flow and stable pressure to quickly remove all kinds of stubborn stains. The high-rated flow rate ensures large coverage of the car body, significantly reducing car wash time and increasing Auto Detailing Equipment efficiency. This makes them perfect for both commercial high pressure cleaner applications and Portable Hand Held Car Washer Machine use.</p><p><strong>Multifunctional Design:</strong></p><p>In addition to car washing, these high pressure cleaner systems are suitable for Auto Detailing Equipment cleaning patios, windows, tables, chairs, and many other scenarios, meeting a wide range of daily Auto Detailing Equipment cleaning needs. Some models, like the Portable Pressure Washer Gun washer, come with various spray nozzles, such as direct spray nozzles, fan nozzles, and foam nozzles, allowing users to choose the right nozzle for specific tasks.</p><p><strong>Intelligent Control:</strong></p><p>Some high-end Auto Detailing Equipment models feature built-in intelligent temperature control chips and automatic start-stop functions. Auto Detailing Equipment features protect the equipment from damage in case of blockage or overload by automatically cutting off the power. The intelligent start-stop function also simplifies operation—users can start the machine by pressing the trigger and stop it by releasing it.</p><p><strong>Convenience:</strong></p><p>Many high pressure cleaner systems, including Portable Hand Held Car Washer Machine models, support two water extraction methods: faucet and bucket. Portable Hand Held Car Washer Machine flexibility makes them easy to use in different scenarios. Additionally, some systems come with long water hoses and winding reels, simplifying storage and movement while addressing the portability challenges of traditional car wash systems.</p><p><br/></p><p><strong>2.Application Areas</strong></p><p><strong>Automobile Service Industry:</strong></p><p>This is the most direct and extensive application field for high pressure cleaner systems, including commercial high pressure cleaner models. The automobile service industry includes car wash stores, auto beauty shops, and auto repair shops. These machines efficiently clean vehicle surfaces, removing oil, dust, bird droppings, and other stains, keeping vehicles looking their best.</p><p><strong>Home Cleaning:</strong></p><p>With the improvement of living standards, more families are using Portable Hand Held Car Washer Machine and other high pressure cleaner systems for home cleaning. These devices are not only great for cleaning cars but also for patios, windows, tables, chairs, and more.</p><p><strong>Industrial Cleaning:</strong></p><p>In the industrial field, commercial high pressure cleaner systems play a vital role. They are used to clean factory equipment, production lines, and machinery, removing oil, dust, paint, and other contaminants. This improves equipment efficiency and extends its service life.</p><p><strong>Construction Cleaning:</strong></p><p>High pressure cleaner systems are widely used in construction cleaning. They can clean building exteriors, roofs, floors, and other surfaces, removing dirt, moss, mold, and other impurities. This enhances the aesthetics and longevity of structures.</p><p><strong>Agricultural Cleaning:</strong></p><p>In agriculture, Portable Pressure Washer Gun washer and other high pressure cleaner systems are essential for cleaning tractors, sprinklers, harvesters, and other equipment. They quickly remove soil, pesticide residues, and other debris, ensuring optimal performance and durability.</p><p><br/></p><p><strong>3.Precautions</strong></p><ul class=\" list-paddingleft-2\"><li><p>Before adjusting the water pressure, ensure the machine is firmly connected and that both the inlet and outlet hoses are properly installed to avoid leaks or unstable pressure.</p></li><li><p>When using the high pressure cleaner for the first time, start testing at low pressure and gradually adjust to the desired level.</p></li><li><p>Protect your eyes and skin during use to avoid direct contact with high-pressure water jets.</p></li><li><p>Regularly inspect the Auto Detailing Equipment for any damaged parts and replace or repair them promptly to maintain optimal performance.</p></li></ul><p><img alt=\"commercial high pressure cleaner\" src=\"/assets/cnryce/source/4059-202406151323387125.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 29,
     "name": "CT3 High Pressure Washer for Car, Bike, Home Cleaning",
     "slug": "ct3-high-pressure-washer-for-car-bike-home-cleaning",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "CT3 High Pressure Washer for Car, Bike, Home Cleaning Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "This pressure washer has a power of 1600 watts and is capable of delivering up to 130 bar of pressure, which makes it very effective in cleaning a wide range of surfaces. Its heavy-duty induction motor design ensures that the unit is durable and highly efficient for extended use.",
-    "image_url": "/assets/cnryce/ct3-high-pressure-washer-for-car-bike-home-cleaning.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406151027500254.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Power": "1600 watts",
+      "Pressure": "130 bar",
+      "Brand": "VK"
     },
     "sort_order": 29,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151027500254.jpg",
+      "/assets/cnryce/source/4059-202512121344110315.jpg",
+      "/assets/cnryce/source/4059-202512121344124416.jpg",
+      "/assets/cnryce/source/4059-202512121344099764.jpg",
+      "/assets/cnryce/source/4059-202512121344101724.jpg",
+      "/assets/cnryce/source/4059-202406151027500254_s.jpg",
+      "/assets/cnryce/source/4059-202406151027500254.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/ct3-high-pressure-washer-for-car-bike-home-cleaning",
+    "source_title": "CT3 High Pressure Washer for Car, Bike, Home Cleaning",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        CT3 High Pressure Washer for Car, Bike, Home Cleaning                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        This pressure washer has a power of 1600 watts and is capable of delivering up to 130 bar of pressure, which makes it very effective in cleaning a wide range of surfaces. Its heavy-duty induction motor design ensures that the unit is durable and highly efficient for extended use.                                    </p>\r\n                                    <p><strong>1. Automobile Cleaning</strong></p><p><strong>Applicable models:</strong> pressure washer, portable pressure washer</p><p><strong>Features:</strong></p><ul class=\" list-paddingleft-2\"><li><p>High-pressure water flow can quickly remove mud, dust, and stains from the car body, making it an essential tool for car wash enthusiasts.</p></li><li><p>Equipped with a foam gun function, it can evenly spray car wash foam to soften stubborn dirt cleaning needs, ensuring excellent cleaning results.</p></li><li><p>Water pressure is adjustable to avoid damage to car paint cleaning needs, catering to specific cleaning needs.</p></li><li><p>Portable design allows for easy use in garages or outdoor spaces cleaning needs, making it a versatile choice for car wash tasks.</p></li></ul><p><strong>Recommended pressure: </strong>100-150 bar (suitable for car surface cleaning, avoiding damage from excessively high pressure).</p><p><br/></p><p><strong>2. Bicycle Cleaning</strong></p><p><strong>Applicable models:</strong> Portable pressure washer, home pressure washer</p><p><strong>Features:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Compact and lightweight, suitable for cleaning bicycle chains, gears, and frames, addressing specific cleaning needs for cyclists.</p></li><li><p>Equipped with a long, thin nozzle for precise cleaning of hard-to-reach corners, ensuring thorough cleaning results.</p></li><li><p>Low-pressure mode is ideal for cleaning results parts on your bike, preventing damage to bearings or paintwork.</p></li></ul><p><strong>Recommended pressure: </strong>50-100 bar (avoid high-pressure damage to fragile components).</p><p><br/></p><p><strong>3. Household Cleaning</strong></p><p><strong>Applicable models: </strong>Commercial pressure washer, household pressure washer&nbsp;cleaning results</p><p><strong>Applicable scenes:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Yard cleaning: Removes dirt and moss from driveways and fences, meeting diverse cleaning needs for outdoor spaces.</p></li><li><p>Window cleaning: Equipped with a rotating nozzle for efficient cleaning of glass surfaces cleaning results, delivering sparkling cleaning results.</p></li><li><p>Outdoor furniture cleaning: Quickly cleans tables, chairs, umbrellas, and more, making it a versatile tool for home cleaning needs.</p></li><li><p>Wall cleaning: Ideal for cleaning exterior walls and fences, providing powerful cleaning results for large surfaces.</p></li></ul><p><strong>Features:</strong></p><ul class=\" list-paddingleft-2\"><li><p>High-pressure and high-flow rate design, suitable for large-area cleaning tasks.</p></li><li><p>Multi-functional nozzles adapt to different cleaning needs, ensuring flexibility and efficiency.</p></li><li><p>Durable construction makes it suitable for frequent use, whether for car wash or household tasks.</p></li></ul><p><strong>Recommended pressure: </strong>150-200 bar (suitable for stubborn stains and hard surfaces).</p><p><br/></p><p><strong>4. Precautions for Use</strong></p><ul class=\" list-paddingleft-2\"><li><p>Pre-cleaning inspection: Ensure all parts of the pressure washer are firmly connected, and the water source is clean and free of impurities.</p></li><li><p>Pressure control: Adjust the pressure according to the cleaning object to avoid damaging fragile surfaces, especially during car wash or delicate cleaning tasks.</p></li><li><p>Safe operation: Wear protective equipment to avoid direct contact with high-pressure water, ensuring safety while achieving optimal cleaning results.</p></li><li><p>Maintenance: Drain the water in time after use to prevent corrosion of internal parts, prolonging the life of your pressure washer and maintaining its performance for future cleaning needs.</p></li></ul><p><img alt=\"cleaning results\" src=\"/assets/cnryce/source/4059-202406151027500254.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 30,
     "name": "Portable high Pressure Car Washer Machine for Washing car, Bike, Vehicles",
     "slug": "portable-high-pressure-car-washer-machine-for-washing-car-bike-vehicles",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "Portable high Pressure Car Washer Machine for Washing car, Bike, Vehicles Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The Portable High Pressure Car Wash is an efficient cleaning tool for washing cars, bicycles and other vehicles. It has a maximum pressure of up to 165 bar and a motor power of 2.0 kW, which makes it capable of delivering powerful water flow and pressure during the cleaning process, helping the user to remove dirt and stains with ease.",
-    "image_url": "/assets/cnryce/portable-high-pressure-car-washer-machine-for-washing-car-bike-vehicles.jpg",
+    "image_url": "/assets/cnryce/source/4059-202407150827001250.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Power": "2.0 kW",
+      "Pressure": "165 bar",
+      "Brand": "VK"
     },
     "sort_order": 30,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407150827001250.jpg",
+      "/assets/cnryce/source/4059-202512201530391193.jpg",
+      "/assets/cnryce/source/4059-202512201530499391.jpg",
+      "/assets/cnryce/source/4059-202407150827001250_s.jpg",
+      "/assets/cnryce/source/4059-202407150827001250.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/portable-high-pressure-car-washer-machine-for-washing-car-bike-vehicles",
+    "source_title": "Portable high Pressure Car Washer Machine for Washing car, Bike, Vehicles",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Portable high Pressure Car Washer Machine for Washing car, Bike, Vehicles                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The Portable High Pressure Car Wash is an efficient cleaning tool for washing cars, bicycles and other vehicles. It has a maximum pressure of up to 165 bar and a motor power of 2.0 kW, which makes it capable of delivering powerful water flow and pressure during the cleaning process, helping the user to remove dirt and stains with ease.                                    </p>\r\n                                    <p><strong>1. Main Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>Portability: The Portable High Pressure Car Wash is designed for ease of movement, often featuring cordless operation or extended power cords. This allows users to clean vehicles, including those requiring a commercial high pressure cleaner, without being limited by power or water source locations.</p></li><li><p>High-pressure water flow:commercial high pressure cleaner is&nbsp;equipped with an internal high-pressure pump, the pressure power washer delivers a strong water flow that effortlessly removes dirt, mud, and grease, ensuring a thorough and efficient Car Wash.</p></li><li><p>Versatility: Beyond standard Car Wash functions, the Portable High Pressure Car Wash includes multiple spray nozzles to handle various cleaning tasks. For instance, straight jet nozzles are perfect for high-pressure rinsing, while fan nozzles are ideal for evenly distributing car wash liquid over large surfaces.</p></li><li><p>Water conservation and environmental protection: Unlike traditional Car Wash methods, the commercial high pressure cleaner allows precise control over water flow and detergent usage, making commercial high pressure cleaner an eco-friendly choice that conserves water.</p></li></ul><p><br/></p><p><strong>2. Working Principle</strong></p><p>The Portable High Pressure Car Wash works by pressurizing water through pressure power washer internal pump and expelling it via a nozzle. Users can adjust the nozzle’s angle and shape to customize the water flow’s intensity and pattern, catering to different cleaning needs. Some models also feature a detergent container, enabling users to mix car wash liquid with water for improved cleaning efficiency.</p><p><br/></p><p><strong>3. Steps for Use</strong></p><ul class=\" list-paddingleft-2\"><li><p>Preparation: Ensure the pressure power washer is fully charged or connected to a power source, and prepare adequate water and car wash liquid.</p></li><li><p>Connect the water pipe: Insert the pressure power washer’s water pipe into a bucket of water, ensuring a secure connection to prevent leaks.</p></li><li><p>Adjust the nozzle: Choose the appropriate nozzle mode (e.g., direct or diffused) based on your specific cleaning requirements.</p></li></ul><p><strong>Start washing the car:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Begin by wetting the car body with the water gun, starting from the top and working downward to remove surface dust and debris.</p></li><li><p>pressure power washer use the nozzle to evenly spray car wash liquid across the car, ensuring complete coverage of dirt and grime.</p></li><li><p>Gently scrub the car with a sponge or brush, avoiding excessive force to prevent damage to the paint.</p></li><li><p>Rinse the car thoroughly with the water gun to remove all detergent and dirt.</p></li><li><p>Dry the body: Use a clean towel or water absorber to dry the car, preventing water spots.</p></li></ul><p><br/></p><p><strong>4. Precautions</strong></p><ul class=\" list-paddingleft-2\"><li><p>Power supply and power: For rechargeable Portable High Pressure Car Wash models, ensure the battery is fully charged before use. For plug-in models, inspect the power cord for damage and avoid operating in wet conditions to prevent electric shock.</p></li><li><p>Water quality requirements: Use clean water to avoid clogging the nozzle or damaging the internal components of the pressure power washer.</p></li><li><p>Car wash environment: Perform Car Wash in a well-ventilated, wind-free area to prevent dust and debris from settling back onto the car.</p></li><li><p>Selection of car wash liquid: Always use specialized car wash liquid instead of harsh alkaline or acidic cleaners to protect the car’s paint and components.</p></li><li><p>Pressure adjustment: Adjust the pressure of the commercial high pressure cleaner based on the level of dirt and the car’s paint condition to avoid causing damage.</p></li><li><p>Spray nozzle distance: Maintain a distance of 15-30 cm between the nozzle and the car body during rinsing to ensure effective cleaning while preventing paint damage.</p></li></ul><p><br/></p><p><strong>5. Maintenance</strong></p><ul class=\" list-paddingleft-2\"><li><p>Regular cleaning: After each use, clean the filter, nozzle, and other components of the Portable High Pressure Car Wash to prevent clogs and extend its lifespan.</p></li><li><p>Storage environment: Store the pressure power washer in a dry, well-ventilated area to avoid moisture-related damage and corrosion.</p></li><li><p>Battery maintenance: For rechargeable models, charge the battery regularly to maintain optimal performance and prolong its service life.</p></li></ul><p><br/></p><p><img alt=\"commercial high pressure cleaner\" src=\"/assets/cnryce/source/4059-202407150827001250.jpg\"/><br/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 31,
     "name": "Supreme High Pressure Washer, Car Washer,Car, Bike & Home Cleaning",
     "slug": "supreme-high-pressure-washer-car-washercar-bike-home-cleaning",
     "category": "car washing series",
-    "tagline": "car washing series product from the CNRYCE product catalog.",
+    "tagline": "Supreme High Pressure Washer, Car Washer,Car, Bike & Home Cleaning Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The design of this high pressure washer allows it to clean a wide range of surfaces quickly and efficiently, especially when cleaning cars and bicycles, removing dirt and stains with ease. Its combination of high flow rate and pressure ensures efficient cleaning results for both home use and outdoor cleaning needs.",
-    "image_url": "/assets/cnryce/supreme-high-pressure-washer-car-washercar-bike-home-cleaning.jpg",
+    "image_url": "/assets/cnryce/source/4059-202407150829263037.jpg",
     "specs": {
-      "Category": "car washing series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 31,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407150829263037.jpg",
+      "/assets/cnryce/source/4059-202502201720495183.jpg",
+      "/assets/cnryce/source/4059-202407150829263037_s.jpg",
+      "/assets/cnryce/source/4059-202407150829263037.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/supreme-high-pressure-washer-car-washercar-bike-home-cleaning",
+    "source_title": "Supreme High Pressure Washer, Car Washer,Car, Bike & Home Cleaning",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Supreme High Pressure Washer, Car Washer,Car, Bike & Home Cleaning                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The design of this high pressure washer allows it to clean a wide range of surfaces quickly and efficiently, especially when cleaning cars and bicycles, removing dirt and stains with ease. Its combination of high flow rate and pressure ensures efficient cleaning results for both home use and outdoor cleaning needs.                                    </p>\r\n                                    <p><strong>1.Supreme High Pressure Cleaner</strong></p><p>Supreme High Pressure Cleaner is an efficient cleaning tool, its main features include:</p><ul class=\" list-paddingleft-2\"><li><p>Efficient cleaning: Through high-pressure water flow, it rapidly flushes away stains, soil, and other debris, making it suitable for a variety of scenes that require deep cleaning, including commercial high pressure cleaner applications.</p></li><li><p>Save time and energy: Home car wash water jet avoids the tedious process of manual wiping, reducing the labor intensity of cleaning work.</p></li><li><p>Versatility: In addition to the basic cleaning function, High-pressure washer&nbsp;can be equipped with different nozzles and attachments to meet various cleaning needs, from industrial settings to home car wash water jet tasks.</p></li><li><p>Strong durability: Usually made of high-quality materials, High-pressure washer offers high durability and a long service life, making High-pressure washer a reliable choice for both high-pressure washers and everyday cleaning tasks.</p></li></ul><p><br/></p><p><strong>2.Car Wash Machine</strong></p><p>A car wash machine is a type of equipment specialized in cleaning cars, and its main advantages are:</p><ul class=\" list-paddingleft-2\"><li><p>High degree of automation: It can automatically complete the steps of cleaning, waxing, and air-drying the car, which greatly improves the efficiency of car wash operations.</p></li><li><p>Protecting the car paint: Using soft bristles and mild detergents, High-pressure washer avoids damage to the car paint, making it ideal for both commercial high pressure cleaner and home car wash water jet use.</p></li><li><p>Saving water: Compared with traditional manual car wash, the machine can control the amount of water more accurately, achieving the purpose of saving water.</p></li></ul><p><strong>Car wash machines are mainly divided into the following categories:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Fully automatic car wash machine: Controlled by a computer program, it realizes automatic car washing. It is divided into contactless automatic car wash machines and brush-type automatic car wash machines. The contactless machine uses laser positioning technology to determine the position and shape of the car, controlling the cleaning medium to clean the top, bottom, and periphery of the car, avoiding direct contact with the body. In contrast, brush-type car wash machines clean the vehicle through contact between the brush and the body.</p></li><li><p>Semi-automatic car wash machine: Requires manual assistance to complete some of the car wash steps, such as rinsing the chassis and wiping the body.</p></li><li><p>Portable car wash machine: Compact in size and easy to carry, it is suitable for family or small car wash stores, and can also be used as a home car wash water jet.</p></li></ul><p><br/></p><p><strong>3.Car Cleaning Equipment</strong></p><p>In addition to the car wash machine, car cleaning equipment also includes a variety of tools and cleaners specifically designed for cleaning different parts of the car, such as:</p><ul class=\" list-paddingleft-2\"><li><p>Interior cleaner: Used to clean car seats, carpets, dashboards, and other parts, able to remove stains and odors.</p></li><li><p>Tire Shine: Able to restore the shine of tires while providing a protective effect.</p></li><li><p>Glass cleaner: Specially used for cleaning car glass, it can remove stains and scale, keeping the glass clear and bright.</p></li></ul><p><br/></p><p><strong>4.Bicycle Cleaning Equipment</strong></p><p>Bicycle cleaning equipment mainly includes high-pressure washers, brushes, towels, and special bicycle cleaners. These tools can quickly remove stains and dirt from the surface of the bicycle, keeping it neat and beautiful. At the same time, regular cleaning and maintenance can extend the life of the bike. Whether using a commercial high pressure cleaner or a home car wash water jet, these tools ensure efficient and thorough cleaning for all your cleaning needs.</p><p>By incorporating commercial high pressure cleaner, car wash, home car wash water jet, cleaning needs, and high-pressure washers throughout the article, the keyword density is optimized while maintaining readability and relevance.</p><p><img alt=\"commercial high pressure cleaner\" src=\"/assets/cnryce/source/4059-202407150829263037.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 32,
     "name": "pressure washer Portable, Used for Home Bike and Car Cleaning",
     "slug": "pressure-washer-portable-used-for-home-bike-and-car-cleaning",
     "category": "Car Washing T Series",
-    "tagline": "Car Washing T Series product from the CNRYCE product catalog.",
+    "tagline": "pressure washer Portable, Used for Home Bike and Car Cleaning Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Portable pressure washers are a very practical type of cleaning equipment for home use and are especially good at cleaning bicycles and cars. These types of equipment are usually lightweight, easy to maneuver, and efficient at removing dirt and stains.",
-    "image_url": "/assets/cnryce/pressure-washer-portable-used-for-home-bike-and-car-cleaning.png",
+    "image_url": "/assets/cnryce/source/4059-202512201622415416.png",
     "specs": {
-      "Category": "Car Washing T Series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 32,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202512201622415416.png",
+      "/assets/cnryce/source/4059-202512201620312297.jpg",
+      "/assets/cnryce/source/4059-202512201620433900.jpg",
+      "/assets/cnryce/source/4059-202512201620553507.jpg",
+      "/assets/cnryce/source/4059-202512201622415416_s.png",
+      "/assets/cnryce/source/4059-202406151003217183.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/pressure-washer-portable-used-for-home-bike-and-car-cleaning",
+    "source_title": "pressure washer Portable, Used for Home Bike and Car Cleaning",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        pressure washer Portable, Used for Home Bike and Car Cleaning                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Portable pressure washers are a very practical type of cleaning equipment for home use and are especially good at cleaning bicycles and cars. These types of equipment are usually lightweight, easy to maneuver, and efficient at removing dirt and stains.                                    </p>\r\n                                    <p><strong>1. Features Rephrased</strong></p><ul class=\" list-paddingleft-2\"><li><p>Compact Mobility: Portable pressure washers feature a sleek, lightweight design often accompanied by detachable wheels or handles, facilitating seamless relocation for Car Washer Cleaning tasks. Whether in a residential garage, an outdoor parking area, or a bicycle rack, these units are ready to deploy. Their portability is a huge advantage, enabling users to perform Car Washer Cleaning anywhere needed.</p></li><li><p>Intense Water Jet: A high-pressure pump amplifies standard water flow into a potent jet. This Car Washer Cleaning jet efficiently eradicates dirt, grease, and dust from cars, bicycles, patio floors, and furniture alike. Car Washer Cleaning crucial feature ensures thorough cleaning for both Car Washer Cleaning and The self-service car wash machine applications.</p></li><li><p>Versatile Spray Tips: The self-service car wash machine boasts an array of nozzles, including fan and rotating types, Car Washer Cleaning allowing users to tailor the water stream&#39;s shape and force to specific cleaning requirements. For instance, the fan nozzle excels at covering broad surfaces, whereas the rotating nozzle tackles stubborn spots with precision. This adaptability makes portable pressure washers indispensable for efficient cleaning.</p></li><li><p>Eco-Conscious Efficiency: Modern portable pressure washers incorporate high-efficiency motors and energy-saving designs, achieving exemplary cleaning results while minimizing water and electricity usage, adhering to eco-friendly practices.</p></li><li><p>Robust Longevity: Constructed from premium materials with superior waterproof and corrosion-resistant qualities, these devices are engineered for sustained use, even in harsh environments.</p></li></ul><p><br/></p><p><strong>2. Function Rephrased</strong></p><ul class=\" list-paddingleft-2\"><li><p>Automobile Cleansing: The portable high-pressure cleaner meticulously scrubs car exteriors, tires, undercarriages, and more, eliminating dirt, grease, bird droppings, and other contaminants to preserve the vehicle&#39;s showroom shine. This makes it an exemplary tool for Car Washer Cleaning chores.</p></li><li><p>Bicycle Purification: For bicycles, the high-pressure water jet effortlessly strips dirt and grease from chains, gears, and frames, enhancing the bike&#39;s longevity.</p></li><li><p>Residential Cleaning: Beyond automotive applications, the portable pressure washer tackles patio floors, outdoor furniture, gardening tools, and various other household items, catering to diverse cleaning needs.</p></li></ul><p><br/></p><p><strong>3.Application Scenarios Rephrased</strong></p><ul class=\" list-paddingleft-2\"><li><p>Domestic Utilization: The self-service car wash machine is ideal for homeowners to freshen up personal vehicles, bicycles, or patio gear. Portable pressure washers offer user-friendly operation and time-saving convenience.</p></li><li><p>Outdoor Upkeep: For families who cherish camping, picnics, and other outdoor pursuits, the portable high-pressure cleaner keeps tents, barbecue grills, and other outdoor essentials pristine and hygienic for future adventures.</p></li><li><p>Automotive Preservation: Bicycle and car aficionados can regularly wash their rides with portable pressure washers, maintaining a neat appearance and prolonging their lifespan. This is particularly beneficial for sustaining The self-service car wash machine&#39;s performance.</p></li></ul><p><br/></p><p><strong>3. Precautions Rephrased</strong></p><ul class=\" list-paddingleft-2\"><li><p>Operational Accuracy: Before initiating use, meticulously read the instruction manual to ensure proper setup and handling of the portable pressure washer, preventing misuse-related damage.</p></li><li><p>Routine Servicing: Regularly inspect the nozzles, hoses, and motor of the pressure washer to uphold optimal equipment condition.</p></li><li><p>Safe Handling: Always don protective gear (like gloves and goggles) when operating the portable high-pressure cleaner to shield yourself from potential injuries caused by the high-pressure water jet.<img alt=\"Car Washer Cleaning\" src=\"/assets/cnryce/source/4059-202406151003217183.jpg\"/></p></li></ul>                                </div>\r\n                            </div>"
   },
   {
     "id": 33,
     "name": "high pressure cleaning washer with spray hose wand lance commercial use cleaner",
     "slug": "high-pressure-cleaning-washer-with-spray-hose-wand-lance-commercial-use-cleaner",
     "category": "Car Washing T Series",
-    "tagline": "Car Washing T Series product from the CNRYCE product catalog.",
+    "tagline": "high pressure cleaning washer with spray hose wand lance commercial use cleaner Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "A pressure washer is a widely used piece of equipment for commercial and industrial cleaning, and models with nozzles, in particular, are favored for their high performance and flexibility.",
-    "image_url": "/assets/cnryce/high-pressure-cleaning-washer-with-spray-hose-wand-lance-commercial-use-cleaner.jpg",
+    "image_url": "/assets/cnryce/source/4059-202407221626141108.jpg",
     "specs": {
-      "Category": "Car Washing T Series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 33,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407221626141108.jpg",
+      "/assets/cnryce/source/4059-202502201735056533.png",
+      "/assets/cnryce/source/4059-202512201619402813.jpg",
+      "/assets/cnryce/source/4059-202512201619494859.jpg",
+      "/assets/cnryce/source/4059-202407221626141108_s.jpg",
+      "/assets/cnryce/source/4059-202407221626048742.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-cleaning-washer-with-spray-hose-wand-lance-commercial-use-cleaner",
+    "source_title": "high pressure cleaning washer with spray hose wand lance commercial use cleaner",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        high pressure cleaning washer with spray hose wand lance commercial use cleaner                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        A pressure washer is a widely used piece of equipment for commercial and industrial cleaning, and models with nozzles, in particular, are favored for their high performance and flexibility.                                    </p>\r\n                                    <p><strong>1. High-pressure Cleaner with Nozzle - The Car Washer Cleaning Solution</strong></p><p>The high-pressure cleaner with nozzle, akin to a sophisticated Car Washer Cleaning system, merges the high-pressure water flow generated by a robust pump with a specialized nozzle tailored for cleaning tasks. Here are its primary attributes:</p><ul class=\" list-paddingleft-2\"><li><p>Efficient Cleaning: The Car Washer with high efficient Pump swiftly strips and rinses away dirt, yielding an impressive cleaning effect. Car Washer with high efficient Pump is particularly evident in Car Washer with high efficient Pump models, where the intensity and precision of the water stream are optimized for automotive surfaces.</p></li><li><p>Flexibility: The nozzle&#39;s ingenuity allows for versatile cleaning, accommodating dirt of varied shapes and locations. Commercial Cleaners adaptability makes it an ideal choice for Commercial Cleaners targeting diverse surfaces and contaminants.</p></li><li><p>Energy Saving and Environmental Protection: Compared to conventional cleaning methods, the Commercial Cleaners with nozzle stands out for its energy efficiency and eco-friendliness. Commercial Cleaners minimizes water wastage and pollutant emissions, aligning with green cleaning initiatives.</p></li><li><p>Easy to Operate: The equipment boasts user-friendly design, simplifying operations and reducing both complexity and labor costs. This ease of use is crucial for Commercial Cleaners aiming to maximize productivity.</p></li></ul><p>This versatile cleaner finds extensive applications across sectors, from industrial equipment maintenance to vehicle grooming and building facade rejuvenation. In industrial settings, it excels at cleaning production line gear and machinery components. For automotive enthusiasts, it&#39;s the go-to for spotless car, motorcycle, and other vehicle exteriors. In construction, it&#39;s invaluable for restoring the gleam to exterior walls and glass curtain walls.</p><p><br/></p><p><strong>2. Commercial Cleaning Machine - The Powerhouse for Extensive Cleaning Needs</strong></p><p>The Commercial cleaning machine, a bespoke solution for commercial settings, often boasts enhanced cleaning efficiency and robust cleaning capabilities. Here&#39;s a breakdown of its key features:</p><ul class=\" list-paddingleft-2\"><li><p>High-Power Motors: Commercial cleaners frequently harness high-power motors, providing a steadfast and potent cleaning force. These motors are particularly impressive in Car Washer with high efficient Pump models, ensuring rapid and thorough vehicle cleanliness.</p></li><li><p>Multiple Cleaning Modes: To cater to the diverse cleaning demands of commercial spaces, these washers offer a spectrum of cleaning modes, encompassing high-pressure water cleaning, foam cleaning, and more. This versatility makes them indispensable for Commercial Cleaners tasked with maintaining various surfaces and environments.</p></li><li><p>Strong Durability: Built with top-notch materials and cutting-edge manufacturing techniques, Commercial washers promise longevity and minimal downtime. Their rugged construction ensures they stand the test of time, even in high-use applications like Car Washer Cleaning stations.</p></li><li><p>Intelligent Control: As technology evolves, Commercial cleaning machines increasingly integrate intelligent controls, such as automatic induction cleaning and remote operation. These innovations streamline cleaning processes, enhancing both efficiency and convenience for Commercial Cleaners.</p></li></ul><p><br/></p><p><strong>3. Usage Scenarios Highlighting Versatility</strong></p><p><strong>Industrial Cleaning:</strong></p><p>In mining, tunneling, cement production, and other heavy industries, these cleaners are indispensable for equipment, production lines, and operational areas. They effectively eliminate oil, dust, metal shards, and other contaminants, maintaining a safe and productive work environment.</p><p><strong>Car Manufacturing Industry:</strong></p><p>In automotive part production, engines, transmissions, and other metal components undergo meticulous cleaning, ensuring peak performance and aesthetic appeal. Car Washer with high efficient Pump models are tailored for this precision work, delivering spotless results.</p><p><strong>Mechanical Equipment Manufacturing:</strong></p><p>During machinery production, these cleaners meticulously remove cutting fluids, oils, and metal debris from metal surfaces, enhancing product quality and longevity. Their precision and power make them a staple in mechanical workshops.</p><p><strong>Construction Site and Road Transportation:</strong></p><p>For swift and effective cleaning of construction machinery and road vehicles, these washers are unparalleled. They eliminate dust, mud, and oil, thereby improving air quality and minimizing environmental impact. Commercial Cleaners rely on them to maintain equipment and vehicles in pristine condition.</p><p><img src=\"/assets/cnryce/source/4059-202407221626048742.jpg\" title=\"Commercial Cleaners\" alt=\"Commercial Cleaners\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 34,
     "name": "all copper wire induction motor commercial pressure washer",
     "slug": "all-copper-wire-induction-motor-commercial-pressure-washer",
     "category": "Car Washing T Series",
-    "tagline": "Car Washing T Series product from the CNRYCE product catalog.",
+    "tagline": "all copper wire induction motor commercial pressure washer Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The Commercial high-pressure Washer has 1800watts heavy duty High Quality induction motor that operates on a 220v/50Hz Single phase power supplant It has adjustable Flow to allows cleaning of Multiple Application . This Pressure Washer has a maximum pressure of 2320PSI",
-    "image_url": "/assets/cnryce/all-copper-wire-induction-motor-commercial-pressure-washer.jpg",
+    "image_url": "/assets/cnryce/source/4059-202407221626552763.jpg",
     "specs": {
-      "Category": "Car Washing T Series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Power": "1800watts",
+      "Pressure": "2320PSI",
+      "Brand": "VK"
     },
     "sort_order": 34,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407221626552763.jpg",
+      "/assets/cnryce/source/4059-202512201548202632.jpg",
+      "/assets/cnryce/source/4059-202512201548260934.png",
+      "/assets/cnryce/source/4059-202407221626552763_s.jpg",
+      "/assets/cnryce/source/4059-202407221627071014.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/all-copper-wire-induction-motor-commercial-pressure-washer",
+    "source_title": "all copper wire induction motor commercial pressure washer",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        all copper wire induction motor commercial pressure washer                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The Commercial high-pressure Washer has 1800watts heavy duty High Quality induction motor that operates on a 220v/50Hz Single phase power supplant It has adjustable Flow to allows cleaning of Multiple Application . This Pressure Washer has a maximum pressure of 2320PSI                                    </p>\r\n                                    <p><strong>1.Main Features</strong></p><p><strong>Full copper wire induction motor:</strong></p><p>The motor of our Car Washer Cleaning equipment is made of all-copper wire, which has excellent conductivity and corrosion resistance, ensuring the stability and durability of the motor under long timeCar Washer Cleaning and high load operation. Induction motor design makes the Car Washer run more smoothly, with lower noise levels, while improving the efficiency of energy utilization.</p><p><strong>High-pressure cleaning capability:</strong></p><p>Our self-service car wash machine is capable of generating high-pressure water streams, usually with pressures up to 20MPa (200Bar) or more, to effectively remove stubborn stains and grease. The high-pressure water stream is passed through special nozzles to create a low-pressure, high-flow jet, enhancing cleaning results. The Portable Pressure Washer Gun attached to the machine allows for precise and targeted cleaning.</p><p><strong>Commercial Grade Design:</strong></p><p>Designed specifically for commercial environments, our Car Washer Cleaning equipment boasts powerful cleaning capabilities and long-lasting durability. It can withstand long hours of continuous work and is suitable for various high-intensity application scenarios, including car washes, farms, and industrial cleaning.</p><p><strong>Easy &amp; Safe Operation:</strong></p><p>Operating our Car Washer is simple and intuitive, reducing operator training costs and time. Safety features such as electronic overpressure protection and fault detection ensure the equipment runs smoothly and safely. The Portable Pressure Washer Gun is ergonomically designed for comfortable and safe use.</p><p><br/></p><p><strong>2.Performance Parameters</strong></p><ul class=\" list-paddingleft-2\"><li><p>Model and specifications: Different brands and models of all-copper induction motor commercial high-pressure cleaners have various performance parameters. Our self-service car wash machine offers a range of models to suit different Car Washer Cleaning needs.</p></li><li><p>Power and voltage: The power of our equipment is usually more than 1800W, with a voltage of 220V or 380V to cater to different Car Washer Cleaning application scenarios. This ensures that our Car Washer can be used in a variety of settings.</p></li><li><p>Pressure &amp; Flow: With pressures reaching up to 20MPa (200Bar) or more and a flow rate of around 30L/MIN (1800L/H), our Portable Pressure Washer Gun ensures an efficient cleaning effect.</p></li><li><p>Other parameters: Additional features such as battery capacity, noise level, high-pressure gun recoil, high-pressure hose passage, and power cord length vary according to equipment models. Our Car Washer Cleaning equipment is designed to meet a wide range of specifications.</p></li></ul><p><br/></p><p><strong>3.Application Fields</strong></p><ul class=\" list-paddingleft-2\"><li><p>Car wash store: Our self-service Car Washer machine is ideal for quickly and efficiently cleaning vehicles, improving the efficiency of car washing and service quality. Customers can enjoy the convenience of washing their own cars with our user-friendly equipment.</p></li><li><p>Breeding farms: Our Car Washer Cleaning equipment is perfect for cleaning breeding equipment and animal enclosures, maintaining environmental hygiene and preventing the spread of disease. The high-pressure&nbsp;Car Washer cleaning capability ensures thorough and effective cleaning.</p></li><li><p>Industrial cleaning: Our equipment is used to clean mechanical equipment, production lines, and other industrial places, removing oil, dust, and other impurities to maintain the normal operation of the equipment. In addition, Car Washer can be applied in various fields such as chemical plant reactor cleaning, spraying workshop plug board rinsing, shipbuilding factory hull rinsing, and more. The versatility of our Portable Pressure Washer Gun makes it a valuable tool in many industries.</p></li></ul><p><br/></p><p><strong>4.Maintenance and Upkeep</strong></p><ul class=\" list-paddingleft-2\"><li><p>Regular inspection: Regularly check whether the motor, pump head, nozzle, Portable Pressure Washer Gun and other parts of your Car Washer equipment are worn or damaged, and replace them in time. This ensures the long-term performance and reliability of your self-service car wash machine.</p></li><li><p>Cleaning and maintenance: Regularly clean the dirt and impurities inside and outside the equipment to keep it clean. At the same time, lubricate and maintain the lubricating parts of the equipment to ensure smooth operation. The easy-to-access parts of our Portable Pressure Washer Gun make maintenance straightforward.</p></li><li><p>Storage environment: Store your Car Washer Cleaning equipment in a dry, ventilated, non-corrosive gas environment to avoid prolonged exposure to sunlight or humid conditions. This will prolong the lifespan of your equipment and keep it in top condition.</p></li></ul><p><img src=\"/assets/cnryce/source/4059-202407221627071014.jpg\" title=\"Car Washer Cleaning\" alt=\"Car Washer Cleaning\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 35,
     "name": "High Pressure cleaning machine with Multi functional high pressure jet pump head",
     "slug": "high-pressure-cleaning-machine-with-multi-functional-high-pressure-jet-pump-head",
     "category": "Car Washing T Series",
-    "tagline": "Car Washing T Series product from the CNRYCE product catalog.",
+    "tagline": "High Pressure cleaning machine with Multi functional high pressure jet pump head Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Multi functional high pressure jet pump head",
-    "image_url": "/assets/cnryce/high-pressure-cleaning-machine-with-multi-functional-high-pressure-jet-pump-head.png",
+    "image_url": "/assets/cnryce/source/4059-202407221627380693.png",
     "specs": {
-      "Category": "Car Washing T Series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 35,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202407221627380693.png",
+      "/assets/cnryce/source/4059-202412311055291734.jpg",
+      "/assets/cnryce/source/4059-202412311052370612.jpg",
+      "/assets/cnryce/source/4059-202412311052410396.jpg",
+      "/assets/cnryce/source/4059-202407221627380693_s.png",
+      "/assets/cnryce/source/4059-202407221627459064.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-cleaning-machine-with-multi-functional-high-pressure-jet-pump-head",
+    "source_title": "High Pressure cleaning machine with Multi functional high pressure jet pump head",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High Pressure cleaning machine with Multi functional high pressure jet pump head                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Multi functional high pressure jet pump head                                    </p>\r\n                                    <p><strong>1.Main Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>High Pressure Jet Pump Head:Equipped with a Multi functional high pressure jet pump head, this machine can generate strong water pressure and easily cope with all kinds of stubborn stains. The pump head is well-designed, wear-resistant, and has a long service life, making industrial pressure washer with inlet pipe ideal for demanding tasks such as those performed by an industrial pressure washer with inlet pipe.</p></li><li><p>Multifunctionality:Permanent Magnet High Pressure cleaning machine can be replaced according to various cleaning scenarios and needs. For example, fan-shaped spray nozzles are perfect for large-area rinsing, while spot spray nozzles are ideal for precise cleaning. Some equipment, like the Permanent Magnet High Pressure cleaning machine, also features adjustable water flow pressure and flow rate, ensuring it meets the cleaning needs of different materials and dirt levels.</p></li><li><p>Energy Efficiency:With advanced motor and pump designs, such as those found in the High Pressure Sewer Jetter, these machines improve working efficiency while reducing energy consumption. They are environmentally friendly, minimizing water waste and the need for chemical cleaners.</p></li><li><p>Easy to Operate:The equipment is designed with user-friendliness in mind, featuring intuitive controls and safety protection devices to ensure safe operation. This makes it suitable for both professionals and home users, including those operating The self-service car wash machine.</p></li></ul><p><br/></p><p><strong>2.Application Scenes</strong></p><ul class=\" list-paddingleft-2\"><li><p>Industrial Field:Suitable for cleaning mechanical equipment, production lines, pipelines, and other industrial setups, the industrial pressure washer with inlet pipe can effectively remove oil, rust, dust, and other pollutants.</p></li><li><p>Commercial Field:Ideal for cleaning floors, walls, and glass in hotels, guesthouses, and restaurants, these machines can also clean vehicles like cars and motorcycles. The Permanent Magnet High Pressure cleaning machine is particularly effective in commercial settings due to its versatility and power.</p></li><li><p>Family Field:Perfect for cleaning outdoor spaces such as courtyards, gardens, and balconies, these machines can also handle household items like furniture, tiles, and glass. The Multi functional high pressure jet pump head ensures efficient cleaning for a variety of home tasks.</p></li></ul><p><br/></p><p><strong>3.Precautions for Use</strong></p><p><strong>Check Before Starting the Machine:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Inspect whether the screws and nuts of each part of the equipment are loose.</p></li><li><p>Ensure the oil level and water source are normal.</p></li></ul><p><strong>Connect the Water Pipe:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Connect the inlet and outlet pipes securely to prevent air leaks.</p></li><li><p>Install a filter on the inlet pipe to avoid damaging the high-pressure pump by inhaling impurities. This is especially important for equipment like the High Pressure Sewer Jetter.</p></li></ul><p><strong>Power Connection:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Ensure the power supply voltage matches the labeling requirements.</p></li><li><p>Have the power supply connected by a professional to guarantee safety.</p></li></ul><p><strong>Operation Use:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Select the appropriate nozzle and water flow pressure based on the cleaning task.</p></li><li><p>Maintain the proper distance between the nozzle and the cleaned surface to avoid damaging the objects.</p></li></ul><p><strong>Maintenance:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Regularly maintain the equipment by replacing worn parts and cleaning filters.</p></li><li><p>Store the equipment in a dry and ventilated area to prevent moisture and corrosion. This is crucial for maintaining the longevity of machines like The self-service car wash machine.</p></li></ul><p><img src=\"/assets/cnryce/source/4059-202407221627459064.png\" title=\"industrial pressure washer with inlet pipe\" alt=\"industrial pressure washer with inlet pipe\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 36,
     "name": "Industrial Pressure Washer With Inlet Pipe",
     "slug": "industrial-pressure-washer-with-inlet-pipe",
-    "category": "RY Series",
-    "tagline": "RY Series product from the CNRYCE product catalog.",
+    "category": "PH Series",
+    "tagline": "Industrial Pressure Washer With Inlet Pipe Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Industrial pressure washers usually require an inlet hose for a continuous supply of fresh water. They do not have a water storage tank and need to be connected to an external water source through a hose to maintain continuous operation.",
-    "image_url": "/assets/cnryce/industrial-pressure-washer-with-inlet-pipe.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406150853557292.jpg",
     "specs": {
-      "Category": "RY Series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "PH"
     },
     "sort_order": 36,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406150853557292.jpg",
+      "/assets/cnryce/source/4059-202501211609122944.jpg",
+      "/assets/cnryce/source/4059-202501211609199414.jpg",
+      "/assets/cnryce/source/4059-202406150853557292_s.jpg",
+      "/assets/cnryce/source/4059-202406150853557292.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/industrial-pressure-washer-with-inlet-pipe",
+    "source_title": "Industrial Pressure Washer With Inlet Pipe",
+    "source_brand": "RY",
+    "brand": "PH",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Industrial Pressure Washer With Inlet Pipe                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Industrial pressure washers usually require an inlet hose for a continuous supply of fresh water. They do not have a water storage tank and need to be connected to an external water source through a hose to maintain continuous operation.                                    </p>\r\n                                    <p><strong>1.Main Features</strong></p><p><strong>High-pressure water rinsing:</strong></p><p>The Industrial Pressure Washer is capable of deeply cleaning the surface and crevices of objects through the high-pressure water flow generated by its high-pressure pump, effectively removing stubborn stains, grease, rust, and more. This feature is particularly useful for tasks performed by the High Pressure Drain Pipe Cleaner Machine, ensuring thorough cleaning in demanding environments.</p><p><strong>With inlet pipe design:</strong></p><p>High Pressure Drain Pipe Cleaner Machine is equipped with a long-distance water inlet pipe, making high-pressure cleaners easy to connect to a water source and ensuring a sufficient water supply during the cleaning process. The water inlet pipe is designed to be pressure-resistant and wear-resistant, allowing it to adapt to various complex environments. This design is a key feature of An industrial pressure washer, making it versatile for industrial applications.</p><p><strong>Multi-functional cleaning head:</strong></p><p>The cleaning head can be replaced according to cleaning needs, with options such as fan-shaped, round, and point-shaped nozzles to meet the requirements of different scenarios. This adaptability is a hallmark of high-pressure cleaners, ensuring they can handle a wide range of cleaning tasks.</p><p><strong>High efficiency and energy saving:</strong></p><p>The Industrial Pressure Washer adopts advanced energy-saving technology to reduce energy consumption while improving cleaning efficiency. This makes high-pressure cleaners an eco-friendly choice for industrial cleaning operations.</p><p><strong>Easy to operate:</strong></p><p>high-pressure cleaner&nbsp;is designed with user-friendliness in mind, featuring simple and intuitive controls. Even operators without professional experience can quickly get started, making it ideal for both industrial and commercial use.</p><p><br/></p><p><strong>2.Application Scenes</strong></p><p>The Industrial Pressure Washer with an inlet pipe is suitable for various industrial cleaning scenarios, including but not limited to:</p><ul class=\" list-paddingleft-2\"><li><p>Petrochemical: Used to clean tanks, pipelines, reactors, and other equipment to remove grease and dirt.</p></li><li><p>Heavy Manufacturing: Used to clean mechanical equipment, molds, and other production line components to keep them clean and running smoothly.</p></li><li><p>Shipbuilding and maintenance: Used to clean hulls, decks, cabins, and other areas, removing marine organisms, oil, and rust.</p></li><li><p>Construction industry: Used to clean building facades, glass curtain walls, floors, and more, removing dust, stains, and graffiti.</p></li><li><p>Public facilities: Used to clean park facilities, sculptures, bridges, and other public structures, maintaining the city&#39;s beauty and hygiene.</p></li></ul><p>&nbsp;<br/></p><p><strong>3.Use and Maintenance</strong></p><ul class=\" list-paddingleft-2\"><li><p>Correct use: Operate the High Pressure Drain Pipe Cleaner Machine or other high-pressure cleaners according to the manual to avoid misuse that could lead to equipment damage or personal injury.</p></li><li><p>Regular maintenance: Clean, inspect, and maintain the equipment regularly to ensure its normal operation and extend its service life.</p></li><li><p>Replacement of fittings: Replace worn fittings, such as nozzles and seals, as needed to maintain the cleaning effectiveness of the equipment.</p></li></ul><p><img alt=\"Industrial Pressure Washer\" src=\"/assets/cnryce/source/4059-202406150853557292.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 37,
     "name": "Electric High Pressure Car Cleaner Washer",
     "slug": "electric-high-pressure-car-cleaner-washer",
-    "category": "RY Series",
-    "tagline": "RY Series product from the CNRYCE product catalog.",
+    "category": "PH Series",
+    "tagline": "Electric High Pressure Car Cleaner Washer Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The mobile high pressure washer is a highly efficient and versatile mobile high pressure cleaning equipment, which provides users with an efficient and convenient cleaning solution with its excellent performance, reliable quality and convenient mobility.",
-    "image_url": "/assets/cnryce/electric-high-pressure-car-cleaner-washer.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406150948374377.jpg",
     "specs": {
-      "Category": "RY Series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "PH"
     },
     "sort_order": 37,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406150948374377.jpg",
+      "/assets/cnryce/source/4059-202501211611577099.jpg",
+      "/assets/cnryce/source/4059-202501211612193689.jpg",
+      "/assets/cnryce/source/4059-202406150948374377_s.jpg",
+      "/assets/cnryce/source/4059-202406150948374377.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/electric-high-pressure-car-cleaner-washer",
+    "source_title": "Electric High Pressure Car Cleaner Washer",
+    "source_brand": "RY",
+    "brand": "PH",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Electric High Pressure Car Cleaner Washer                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The mobile high pressure washer is a highly efficient and versatile mobile high pressure cleaning equipment, which provides users with an efficient and convenient cleaning solution with its excellent performance, reliable quality and convenient mobility.                                    </p>\r\n                                    <p><strong>1. Working Principle</strong></p><p>The high pressure washer mainly utilizes the up and down movement of the piston inside the working pump to turn the low-pressure water sucked in into high-pressure water. When the water is pressurized, it becomes easier to remove mud, dust, dirt, etc., from the surface of the car. This principle applies to both mobile high pressure washer and commercial pressure washer models, ensuring efficient cleaning across various applications.</p><p><br/></p><p><strong>2. Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>Efficient cleaning: High-pressure water can quickly wash away dirt, mud, and grease on the car body, making the cleaning efficiency much higher than traditional manual car washing. This is a key feature of both power washer and commercial pressure washer models.</p></li><li><p>Water conservation and environmental protection: Electric high pressure washer adopts high-pressure technology, significantly improving water utilization. Compared to traditional car washing methods, it can greatly reduce water consumption.</p></li><li><p>Easy to operate: Most electric mobile high pressure washer models are designed with intuitive interfaces and user-friendly controls, making them easy for users to operate.</p></li><li><p>Portability: Many power washer models are lightweight and equipped with wheels or carrying handles, making them easy to move and use in different locations.</p></li><li><p>Versatility: Some commercial pressure washer models come with various nozzles and cleaning modes to meet different needs, such as cleaning vehicles, yards, and windows.</p></li><li><p>Durability: High-quality high pressure washer models are typically made of corrosion- and abrasion-resistant materials, ensuring long-term performance and extended service life.</p></li></ul><p><br/></p><p><strong>3. Function</strong></p><ul class=\" list-paddingleft-2\"><li><p>High-pressure rinsing: This is the most basic function of a power washer, which uses high-pressure water flow to quickly rinse away dirt from the car.</p></li><li><p>Foam spraying: Some mobile high pressure washer models are equipped with a foam spraying function, evenly distributing car wash foam to soften dirt and grease.</p></li><li><p>Water gun adjustment: Users can adjust the pressure and flow rate of the water gun on a commercial pressure washer to suit different cleaning tasks.</p></li><li><p>Self-sucking function: Certain high pressure washer models can directly draw water from buckets or sinks, increasing flexibility.</p></li><li><p>Overheating protection: To protect the motor, many power washer models include an overheating protection feature that automatically cuts off power when temperatures are too high.</p></li><li><p>Low noise design: Advanced mobile high pressure washer models often feature low-noise designs, reducing noise pollution during use.</p></li><li><p>Energy-saving mode: Some commercial pressure washer models offer energy-saving modes, ensuring effective cleaning while reducing energy consumption.</p></li></ul><p><br/></p><p><strong>4. Method of Use and Precautions</strong></p><p><strong>Usage:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Connect the inlet and outlet pipes, then plug in the power supply.</p></li><li><p>Press the power start switch and open the water inlet to fill the pump, expelling air for a few seconds.</p></li><li><p>When the water spray is pressurized, begin the car wash process. This applies to all high pressure washer, mobile high pressure washer, power washer, and commercial pressure washer models.</p></li></ul><p><strong>Precautions:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Ensure the water supply is clean and free of impurities. Install a filter under the inlet pipe to prevent debris from entering the pump, especially in commercial pressure washer models.</p></li><li><p>Turn off the power promptly after use to avoid pump wear from idling. This is crucial for both power washer and mobile high pressure washer models.</p></li><li><p>Follow safety guidelines to prevent electric shock or equipment damage.</p></li><li><p>Drain residual water from the high pressure washer after use to prevent corrosion during storage.</p></li></ul><p><img alt=\"high pressure washer\" src=\"/assets/cnryce/source/4059-202406150948374377.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 38,
     "name": "High Pressure Drain Pipe Cleaner Machine",
     "slug": "high-pressure-drain-pipe-cleaner-machine",
-    "category": "RY Series",
-    "tagline": "RY Series product from the CNRYCE product catalog.",
+    "category": "PH Series",
+    "tagline": "High Pressure Drain Pipe Cleaner Machine Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The high pressure drain cleaning machine is a high-pressure cleaning machine designed for pipe cleaning. It utilizes high-pressure water flow technology combined with an advanced control system and durable materials to efficiently and quickly remove clogs from pipes.",
-    "image_url": "/assets/cnryce/high-pressure-drain-pipe-cleaner-machine.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406151017410007.jpg",
     "specs": {
-      "Category": "RY Series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "PH"
     },
     "sort_order": 38,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151017410007.jpg",
+      "/assets/cnryce/source/4059-202501211610338693.jpg",
+      "/assets/cnryce/source/4059-202501211610507200.jpg",
+      "/assets/cnryce/source/4059-202406151017410007_s.jpg",
+      "/assets/cnryce/source/4059-202406151017410007.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-drain-pipe-cleaner-machine",
+    "source_title": "High Pressure Drain Pipe Cleaner Machine",
+    "source_brand": "RY",
+    "brand": "PH",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High Pressure Drain Pipe Cleaner Machine                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The high pressure drain cleaning machine is a high-pressure cleaning machine designed for pipe cleaning. It utilizes high-pressure water flow technology combined with an advanced control system and durable materials to efficiently and quickly remove clogs from pipes.                                    </p>\r\n                                    <p></p><p><strong>1.Working Principle</strong></p><p>The High Pressure Drain Cleaning Machine generates powerful impact through high-pressure water flow to flush out clogs and dirt in pipelines, restoring their smoothness. Permanent Magnet High Pressure cleaning machine typically consists of a high-pressure water pump, water tank, and high-pressure water gun. The high-pressure water pump generates the water flow, the water tank stores sufficient water, and the high-pressure water gun accurately sprays the water through the nozzle to target clogs or dirt. This principle applies to both Drain Cleaning Machine and Permanent Magnet High Pressure cleaning machine models, ensuring efficient pipeline cleaning.</p><p><br/></p><p><strong>2.Features and Advantages</strong></p><ul class=\" list-paddingleft-2\"><li><p>Efficient cleaning: The high-pressure water flow can quickly strip and clean dirt from pipelines, significantly improving cleaning efficiency. This is a key feature of the industrial pressure washer with inlet pipe, making it ideal for heavy-duty tasks.</p></li><li><p>Environmental protection and energy saving: Using water as the cleaning medium, these machines do not pollute the environment. Additionally, high-pressure cleaning technology minimizes water waste, making it an eco-friendly choice.</p></li><li><p>Wide scope of application: Suitable for various types of drain cleaning, including sewers, drainpipes, and septic tanks. Whether it&#39;s a household pressure washer or an industrial pressure washer with inlet pipe, these machines can handle diverse cleaning needs.</p></li><li><p>Easy to operate: The equipment is simple to operate and easy to start, reducing labor intensity for workers.</p></li><li><p>Safe and reliable: High-pressure water jetting equipment allows for precise control of jet pressure, ensuring safety for operators and preventing damage to the work object.</p></li></ul><p><br/></p><p><strong>3.Application Areas</strong></p><p>The High Pressure Drain Cleaning Machine has a wide range of applications, including but not limited to:</p><ul class=\" list-paddingleft-2\"><li><p>Residential homes: Used for dredging and cleaning domestic sewage pipes and slag-draining pipes. The household pressure washer is particularly effective for these tasks.</p></li><li><p>Commercial places: Such as restaurants and hotels, where debris discharge pipes require regular cleaning.</p></li><li><p>Municipal pipelines: Including the dredging and cleaning of urban underground pipelines and rainwater pipelines.</p></li><li><p>Industrial areas: For cleaning and removing cement blocks, wood blocks, oil sludge, and other debris from factory pipelines. The Permanent Magnet High Pressure cleaning machine excels in these demanding environments.</p></li></ul><p><br/></p><p><strong>3.Purchase and Maintenance Suggestions</strong></p><ul class=\" list-paddingleft-2\"><li><p>Suggestions for purchase: When purchasing a Drain Cleaning Machine, consider factors such as performance, price, and brand reputation. Ensure the equipment has sufficient high-pressure water flow generation capacity to meet your cleaning needs. Opt for well-known brands and reputable suppliers to guarantee equipment quality and reliable after-sales service.</p></li><li><p>Maintenance advice: Regularly&nbsp; maintain and repair the equipment, including checking the wear and tear of components like high-pressure water pumps, water tanks, and high-pressure water guns. Replace damaged parts promptly and keep the equipment clean and dry to avoid moisture or corrosion. This is especially important for industrial pressure washer with inlet pipe models used in harsh environments.</p></li></ul><p><img alt=\"Drain Cleaning Machine\" src=\"/assets/cnryce/source/4059-202406151017410007.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 39,
     "name": "250bar 3625psi Diesel High Pressure Washer Cleaner Machines",
     "slug": "250bar-3625psi-diesel-high-pressure-washer-cleaner-machines",
-    "category": "RY Series",
-    "tagline": "RY Series product from the CNRYCE product catalog.",
+    "category": "PH Series",
+    "tagline": "250bar 3625psi Diesel High Pressure Washer Cleaner Machines Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The diesel pressure washer is a diesel-powered high-pressure washing machine that provides excellent cleaning results on construction sites, factory floors, as well as in agricultural and municipal cleaning.",
-    "image_url": "/assets/cnryce/250bar-3625psi-diesel-high-pressure-washer-cleaner-machines.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406151034061709.jpg",
     "specs": {
-      "Category": "RY Series",
-      "Power": "High pressure",
       "Pressure": "250bar",
-      "Flow": "Water cleaning"
+      "Brand": "PH"
     },
     "sort_order": 39,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151034061709.jpg",
+      "/assets/cnryce/source/4059-202501211607599313.jpg",
+      "/assets/cnryce/source/4059-202501211608177163.jpg",
+      "/assets/cnryce/source/4059-202406151034061709_s.jpg",
+      "/assets/cnryce/source/4059-202406151034061709.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/250bar-3625psi-diesel-high-pressure-washer-cleaner-machines",
+    "source_title": "250bar 3625psi Diesel High Pressure Washer Cleaner Machines",
+    "source_brand": "RY",
+    "brand": "PH",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        250bar 3625psi Diesel High Pressure Washer Cleaner Machines                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The diesel pressure washer is a diesel-powered high-pressure washing machine that provides excellent cleaning results on construction sites, factory floors, as well as in agricultural and municipal cleaning.                                    </p>\r\n                                    <p><strong>1.Main Features</strong></p><p><strong>Strong Power, High Cleaning Efficiency</strong></p><p>The Diesel Pressure Washer is capable of generating high-pressure water flow, Diesel Pressure Washer can deeply clean the surface and crevices of objects, effectively removing stubborn stains, oil, and rust. Equipped with a high-performance diesel drive system, Diesel Pressure Washer ensures high water flow and strong pressure, significantly improving cleaning efficiency. This makes Diesel Pressure Washer a top choice for commercial pressure washer applications where power and performance are critical.</p><p><strong>Strong Adaptability, Wide Range of Applications</strong></p><p>Diesel high pressure washers have minimal restrictions on the cleaning environment. Whether it&#39;s a narrow space or a harsh environment, as long as there is sufficient water pressure, Diesel High Pressure Washer Cleaner Machines can perform cleaning operations. These machines are versatile and can handle complex shapes, special materials, and various scales, making them suitable for cleaning both metallic and non-metallic surfaces.</p><p><strong>Feature-Rich, Easy to Operate</strong></p><p>Diesel High Pressure Washer Cleaner Machines typically offer multiple cleaning modes, with nozzles that can switch between high and low pressure and adjust water shapes to adapt to different cleaning needs. The equipment is designed with practicality in mind, such as high-pressure water hoses using a coil design for easy storage, and rollers for effortless movement, making them ideal for large-area cleaning operations.</p><p><strong>Environmental Protection and Energy Efficiency</strong></p><p>Diesel high pressure washers do not emit harmful substances during operation, preventing secondary pollution. Additionally, the atomized water spray can dilute dust concentrations in the surrounding air, improving the environment. Compared to other cleaning methods, these machines have lower operating costs, with relatively low power and water consumption during continuous use, making them energy-efficient equipment.</p><p><strong>Safe and Reliable, Easy Maintenance</strong></p><p>Diesel Pressure Washer models are usually equipped with safety locks, leakage protection switches, and other safety devices to prevent accidental activation and electrical hazards. diesel high pressure washers is designed for easy maintenance, reducing repair costs and downtime.</p><p><br/></p><p><strong>2.Application Fields</strong></p><p>Diesel high pressure washers are widely used in various industries, including shipping, industry, construction, municipal services, and transportation. Specific applications include:</p><ul class=\" list-paddingleft-2\"><li><p>Petrochemical: Cleaning tanks, pipelines, reactors, and other equipment to remove heavy oil residue.</p></li><li><p>Heavy Manufacturing: Cleaning heavy machinery, engines, compressors, and other production line equipment to remove oil residue.</p></li><li><p>Ship and Marine Engineering: Cleaning ship hulls and marine platform equipment to remove marine organisms, rust, and heavy oil stains.</p></li><li><p>Power and Energy: Cleaning and maintaining generators, transformers, insulators, and line towers.</p></li><li><p>Railroad and Transportation: Cleaning rolling stock and other equipment to remove oil and dust.</p></li><li><p>Construction Sites: Cleaning heavy construction material residues and oil stains at demolition sites.</p></li></ul><p><br/></p><p><strong>3.Precautions for Use</strong></p><ul class=\" list-paddingleft-2\"><li><p>Before using the Diesel High Pressure Washer Cleaner Machines, ensure the diesel high pressure washers is properly connected to the power supply and water source. Adjust the heating temperature and cleaning pressure according to actual needs.</p></li><li><p>Always wear personal protective equipment during operation to ensure safety.</p></li><li><p>Regularly maintain and repair the equipment to extend its service life and keep it in optimal working condition.</p></li></ul><p><img alt=\"Diesel Pressure Washer\" src=\"/assets/cnryce/source/4059-202406151034061709.jpg\"/><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 40,
     "name": "Gasoline Pressure Washer",
     "slug": "gasoline-pressure-washer",
-    "category": "RY Series",
-    "tagline": "RY Series product from the CNRYCE product catalog.",
+    "category": "PH Series",
+    "tagline": "Gasoline Pressure Washer Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The gasoline high pressure washer is a gasoline-powered high-pressure cleaning equipment designed for all types of cleaning jobs. It combines a high-efficiency gasoline engine with advanced high-pressure pump technology that generates a powerful stream of water pressure to tackle all kinds of stubborn dirt and stains with ease.",
-    "image_url": "/assets/cnryce/gasoline-pressure-washer.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406151048575718.jpg",
     "specs": {
-      "Category": "RY Series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "PH"
     },
     "sort_order": 40,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151048575718.jpg",
+      "/assets/cnryce/source/4059-202502211028068260.jpg",
+      "/assets/cnryce/source/4059-202502211028099731.jpg",
+      "/assets/cnryce/source/4059-202406151048575718_s.jpg",
+      "/assets/cnryce/source/4059-202406151048575718.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/gasoline-pressure-washer",
+    "source_title": "Gasoline Pressure Washer",
+    "source_brand": "RY",
+    "brand": "PH",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Gasoline Pressure Washer                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The gasoline high pressure washer is a gasoline-powered high-pressure cleaning equipment designed for all types of cleaning jobs. It combines a high-efficiency gasoline engine with advanced high-pressure pump technology that generates a powerful stream of water pressure to tackle all kinds of stubborn dirt and stains with ease.                                    </p>\r\n                                    <p></p><p><strong>1.Basic Principle</strong></p><p>The Gasoline High Pressure Washer utilizes a gasoline engine to drive the pump, pressurizing the water to a high pressure state. This pressurized water is then sprayed out through the nozzle in the form of a high-speed water stream. This high-pressure water stream is capable of removing surface dirt, grease stains, and can even penetrate deep into crevices and hard-to-reach corners, achieving a thorough cleaning effect. For those specifically tasked with cleaning vehicles, a gasoline high pressure car washer is an ideal choice.</p><p><br/></p><p><strong>2.Main Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>Strong Power: The gasoline engine provides robust power, enabling the Gasoline High Pressure Washer to generate higher water pressure and greater water flow. This makes gasoline high pressure car washer suitable for large cleaning projects and places that require deep cleaning, such as those that might demand an Oil Heavy Duty High Pressure Cleaner.</p></li><li><p>Mobile and Flexible: Gasoline high-pressure cleaners are typically designed to be portable, equipped with wheels or handles for easy portability. This makes gasoline high pressure car washer convenient for users to carry out cleaning operations in various locations.</p></li><li><p>Adaptable: Different types of nozzles can be replaced according to specific cleaning needs, allowing users to adjust the flow and shape of the water jet to meet diverse cleaning requirements. Whether you need a soft spray for delicate surfaces or a powerful jet for stubborn stains, the Gasoline High Pressure Washer adapts easily.</p></li><li><p>Durable and Reliable: Gasoline high-pressure cleaners often use high-quality materials and manufacturing processes, ensuring high durability and reliability. Oil Heavy Duty High Pressure Cleaner can operate stably for extended periods, making them a valuable addition to any cleaning arsenal, especially when compared to an Oil Heavy Duty High Pressure Cleaner.</p></li></ul><p><br/></p><p><strong>3.Application Scene</strong></p><p>Gasoline high-pressure cleaners, including gasoline high pressure car washers, are widely used in various settings that require high-pressure water flow. These include:</p><ul class=\" list-paddingleft-2\"><li><p>Industrial Cleaning: Oil Heavy Duty High Pressure Cleaner is used to clean dirt and oil stains on factory equipment, molds, pipelines, and other industrial facilities.</p></li><li><p>Building Cleaning: Ideal for cleaning the outer walls of high-rise buildings, glass curtain walls, and other hard-to-reach areas.</p></li><li><p>Vehicle Cleaning: Specifically designed gasoline high pressure car washers are used to clean dirt and oil stains on cars, trucks, tractors, and other means of transportation.</p></li><li><p>Agricultural Applications: Suitable for irrigation and disinfection operations in orchards, farms, and other places.</p></li></ul><p><br/></p><p><strong>3.Maintenance and Upkeep</strong></p><p>To ensure the normal operation and prolong the service life of your Gasoline High Pressure Washer, regular maintenance and repairs are essential. Here are some common maintenance and upkeep measures:</p><ul class=\" list-paddingleft-2\"><li><p>Regular Inspection: After each use, inspect the cables, nozzles, pipelines, and other parts of the cleaner to ensure they are intact. Replace damaged parts promptly.</p></li><li><p>Clean the Filter: Regularly clean the water filter to prevent impurities from affecting water flow and machine performance.</p></li><li><p>Change the Oil: Regularly change the oil in the gasoline engine to protect it and prolong its service life.</p></li><li><p>Storage Environment: Store the cleaner in a dry, ventilated place to avoid damage from humidity.</p></li><li><p>Winter Maintenance: In cold seasons, ensure the equipment&#39;s water is emptied to prevent water pipes and pumps from cracking due to freezing.</p></li></ul><p><br/></p><p><strong>4.Precautions</strong></p><ul class=\" list-paddingleft-2\"><li><p>Safe Operation: When operating the Gasoline High Pressure Washer, always follow safety regulations. Wear necessary protective equipment, such as protective glasses, gloves, and other safety gear.</p></li><li><p>Avoid Electric Shock: When using the cleaner, ensure that the power supply voltage complies with labeling rules and that the power connection is made by a professional. If an extension cord is used, ensure the plug and socket are of waterproof construction.</p></li><li><p>Prevent Clogging: When using the Gasoline High Pressure Washer, be cautious to avoid pointing the nozzle at people or animals to prevent injuries caused by the high-pressure water stream. Additionally, avoid pointing the nozzle at narrow crevices or holes to prevent clogging and ensure optimal performance.</p></li></ul><p><img alt=\"Gasoline High Pressure Washer\" src=\"/assets/cnryce/source/4059-202406151048575718.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 41,
     "name": "Permanent Magnet Motor Pressure Washer Machine",
     "slug": "permanent-magnet-motor-pressure-washer-machine",
-    "category": "PW Series",
-    "tagline": "PW Series product from the CNRYCE product catalog.",
+    "category": "VK Series",
+    "tagline": "Permanent Magnet Motor Pressure Washer Machine Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The permanent magnet cleaning machine is an efficient and environmentally friendly cleaning machine, which is driven by a permanent magnet motor and characterized by high pressure, large flow rate and high efficiency.",
-    "image_url": "/assets/cnryce/permanent-magnet-motor-pressure-washer-machine.png",
+    "image_url": "/assets/cnryce/source/4059-202604281357209655.png",
     "specs": {
-      "Category": "PW Series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 41,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202604281357209655.png",
+      "/assets/cnryce/source/4059-202604281357287584.png",
+      "/assets/cnryce/source/4059-202604281357349780.png",
+      "/assets/cnryce/source/4059-202604281357209655_s.png",
+      "/assets/cnryce/source/4059-202411051703087250.jpg",
+      "/assets/cnryce/source/4059-202411051703177546.jpg",
+      "/assets/cnryce/source/4059-202411051648323253.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/permanent-magnet-motor-pressure-washer-machine",
+    "source_title": "Permanent Magnet Motor Pressure Washer Machine",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Permanent Magnet Motor Pressure Washer Machine                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The permanent magnet cleaning machine is an efficient and environmentally friendly cleaning machine, which is driven by a permanent magnet motor and characterized by high pressure, large flow rate and high efficiency.                                    </p>\r\n                                    <p><strong>1.Working Principle</strong></p><p>The working principle of the permanent magnet high pressure washer is relatively simple. permanent magnet cleaning machine utilizes a permanent magnet motor as a power source to drive the high-pressure plunger pump. When the high-pressure plunger pump is driven, permanent magnet cleaning machine pressurizes the water to a very high pressure and then directs it through a specific nozzle in the form of high-speed water jets. This high-speed water jet possesses a strong impact force, capable of stripping and washing away dirt from the surface of objects, thereby achieving the purpose of cleaning.</p><p><br/></p><p><strong>2.Main Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>High efficiency and energy saving: permanent magnet high pressure washer is renowned for its high efficiency and energy-saving capabilities. Compared to traditional motors, permanent magnet high pressure washer converts electrical energy into mechanical energy more effectively, significantly reducing energy consumption.</p></li><li><p>Stable performance: The performance of the permanent magnet motor is notably stable, maintaining high working efficiency and output pressure over extended periods.</p></li><li><p>Small size and light weight: The incorporation of the permanent magnet motor results in a compact design and reduced weight for the permanent magnet high-pressure cleaner, making it easy to carry and operate.</p></li><li><p>Good cleaning effect: The high-pressure water jets are capable of penetrating into minute crevices on the surface of objects, thoroughly rinsing away dirt and grime.</p></li></ul><p><br/></p><p><strong>3.Type and Classification</strong></p><p>Permanent magnet high-pressure cleaners come in various types and classifications. For instance, based on heating methods, they can be divided into cold water and hot water versions. Hot water permanent magnet high-pressure cleaners employ a heating device to elevate water temperature, enhancing cleaning efficacy but at the cost of increased energy consumption and maintenance. Furthermore, they can be categorized according to power systems, including motor-driven, gasoline engine-driven, and diesel-driven models. Notably, some industrial models, like the industrial pressure washer with inlet pipe, are designed for heavy-duty applications requiring constant water supply.</p><p><br/></p><p><strong>4.Field of Application</strong></p><p>Permanent magnet high-pressure cleaners find widespread application across multiple sectors:</p><ul class=\" list-paddingleft-2\"><li><p>Household cleaning: Ideal for a variety of household chores, such as washing vehicles, yard equipment, and furniture. The permanent magnet cleaning machine offers convenience and efficiency for these tasks.</p></li><li><p>Commercial Cleaning: In commercial settings, permanent magnet high-pressure washers are frequently used to clean exterior walls, floors, equipment, and facilities. Their powerful water jets ensure thorough cleaning with minimal effort.</p></li><li><p>Industrial cleaning: Within the industrial realm, permanent magnet high-pressure cleaners play a crucial role in cleaning equipment, pipelines, containers, and executing specialized operations like water cutting. Their robustness and versatility make them indispensable for maintaining industrial hygiene.</p></li><li><p>Municipal sanitation: Municipal authorities rely on permanent magnet high-pressure cleaners for road cleaning, garbage station sanitation, and public facility maintenance. Their ability to handle large volumes of dirt and debris makes them an invaluable asset for urban cleanliness.</p></li></ul><p><span></span><img src=\"/assets/cnryce/source/4059-202411051703087250.jpg\" title=\"Permanent magnet high-pressure cleaner\" alt=\"Permanent magnet high-pressure cleaner\"/><img src=\"/assets/cnryce/source/4059-202411051703177546.jpg\" title=\"permanent magnet cleaning machine\" alt=\"permanent magnet cleaning machine\"/><br/></p><p><span class=\"edui-editor-imagescale-hand0\"></span><span class=\"edui-editor-imagescale-hand1\"></span></p><p><br/></p><p><span class=\"edui-editor-imagescale-hand0\"></span><span class=\"edui-editor-imagescale-hand1\"></span></p><p><img src=\"/assets/cnryce/source/4059-202411051648323253.jpg\" title=\"permanent magnet high pressure washer\" alt=\"permanent magnet high pressure washer\"/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 42,
     "name": "Permanent Magnet High Pressure Cleaning Machine",
     "slug": "permanent-magnet-high-pressure-cleaning-machine",
-    "category": "PW Series",
-    "tagline": "PW Series product from the CNRYCE product catalog.",
+    "category": "VK Series",
+    "tagline": "Permanent Magnet High Pressure Cleaning Machine Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The permanent magnet cleaning machine is an efficient and environmentally friendly cleaning machine, which is driven by a permanent magnet motor and characterized by high pressure, large flow rate and high efficiency.",
-    "image_url": "/assets/cnryce/permanent-magnet-high-pressure-cleaning-machine.jpg",
+    "image_url": "/assets/cnryce/source/4059-202412311439492661.jpg",
     "specs": {
-      "Category": "PW Series",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 42,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202412311439492661.jpg",
+      "/assets/cnryce/source/4059-202501211545113756.png",
+      "/assets/cnryce/source/4059-202501211545192413.webp",
+      "/assets/cnryce/source/4059-202501211545254337.webp",
+      "/assets/cnryce/source/4059-202501211545305219.png",
+      "/assets/cnryce/source/4059-202412311439492661_s.jpg",
+      "/assets/cnryce/source/4059-202411051703087250.jpg",
+      "/assets/cnryce/source/4059-202411051703177546.jpg",
+      "/assets/cnryce/source/4059-202411051648323253.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/permanent-magnet-high-pressure-cleaning-machine",
+    "source_title": "Permanent Magnet High Pressure Cleaning Machine",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Permanent Magnet High Pressure Cleaning Machine                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The permanent magnet cleaning machine is an efficient and environmentally friendly cleaning machine, which is driven by a permanent magnet motor and characterized by high pressure, large flow rate and high efficiency.                                    </p>\r\n                                    <p><strong>1.Working Principle</strong></p><p>The working principle of the permanent magnet high pressure washer is relatively simple. permanent magnet cleaning machine utilizes a permanent magnet motor as a power source to drive the high-pressure plunger pump. When the high-pressure plunger pump is driven, permanent magnet cleaning machine pressurizes the water to a very high pressure and then directs it through a specific nozzle in the form of high-speed water jets. This high-speed water jet possesses a strong impact force, capable of stripping and washing away dirt from the surface of objects, thereby achieving the purpose of cleaning.</p><p><br/></p><p><strong>2.Main Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>High efficiency and energy saving: permanent magnet high pressure washer is renowned for its high efficiency and energy-saving capabilities. Compared to traditional motors, permanent magnet high pressure washer converts electrical energy into mechanical energy more effectively, significantly reducing energy consumption.</p></li><li><p>Stable performance: The performance of the permanent magnet motor is notably stable, maintaining high working efficiency and output pressure over extended periods.</p></li><li><p>Small size and light weight: The incorporation of the permanent magnet motor results in a compact design and reduced weight for the permanent magnet high-pressure cleaner, making it easy to carry and operate.</p></li><li><p>Good cleaning effect: The high-pressure water jets are capable of penetrating into minute crevices on the surface of objects, thoroughly rinsing away dirt and grime.</p></li></ul><p><br/></p><p><strong>3.Type and Classification</strong></p><p>Permanent magnet high-pressure cleaners come in various types and classifications. For instance, based on heating methods, they can be divided into cold water and hot water versions. Hot water permanent magnet high-pressure cleaners employ a heating device to elevate water temperature, enhancing cleaning efficacy but at the cost of increased energy consumption and maintenance. Furthermore, they can be categorized according to power systems, including motor-driven, gasoline engine-driven, and diesel-driven models. Notably, some industrial models, like the industrial pressure washer with inlet pipe, are designed for heavy-duty applications requiring constant water supply.</p><p><br/></p><p><strong>4.Field of Application</strong></p><p>Permanent magnet high-pressure cleaners find widespread application across multiple sectors:</p><ul class=\" list-paddingleft-2\"><li><p>Household cleaning: Ideal for a variety of household chores, such as washing vehicles, yard equipment, and furniture. The permanent magnet cleaning machine offers convenience and efficiency for these tasks.</p></li><li><p>Commercial Cleaning: In commercial settings, permanent magnet high-pressure washers are frequently used to clean exterior walls, floors, equipment, and facilities. Their powerful water jets ensure thorough cleaning with minimal effort.</p></li><li><p>Industrial cleaning: Within the industrial realm, permanent magnet high-pressure cleaners play a crucial role in cleaning equipment, pipelines, containers, and executing specialized operations like water cutting. Their robustness and versatility make them indispensable for maintaining industrial hygiene.</p></li><li><p>Municipal sanitation: Municipal authorities rely on permanent magnet high-pressure cleaners for road cleaning, garbage station sanitation, and public facility maintenance. Their ability to handle large volumes of dirt and debris makes them an invaluable asset for urban cleanliness.</p></li></ul><p><span></span><img src=\"/assets/cnryce/source/4059-202411051703087250.jpg\" title=\"Permanent magnet high-pressure cleaner\" alt=\"Permanent magnet high-pressure cleaner\"/><img src=\"/assets/cnryce/source/4059-202411051703177546.jpg\" title=\"permanent magnet cleaning machine\" alt=\"permanent magnet cleaning machine\"/><br/></p><p><span class=\"edui-editor-imagescale-hand0\"></span><span class=\"edui-editor-imagescale-hand1\"></span></p><p><br/></p><p><span class=\"edui-editor-imagescale-hand0\"></span><span class=\"edui-editor-imagescale-hand1\"></span></p><p><img src=\"/assets/cnryce/source/4059-202411051648323253.jpg\" title=\"permanent magnet high pressure washer\" alt=\"permanent magnet high pressure washer\"/></p><p><span class=\"edui-editor-imagescale-hand0\"></span><span class=\"edui-editor-imagescale-hand1\"></span></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 43,
     "name": "Industrial Vacuum Cleaner With Hose",
     "slug": "industrial-vacuum-cleaner-with-hose",
     "category": "Vacuum Cleaner",
-    "tagline": "Vacuum Cleaner product from the CNRYCE product catalog.",
+    "tagline": "Industrial Vacuum Cleaner With Hose Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "An industrial vacuum cleaner is a powerful piece of cleaning equipment designed specifically for industrial applications to effectively remove contaminants such as dust, debris and liquids. Industrial vacuum cleaners are usually equipped with flexible and durable hoses for intake or discharge of collected dust and debris.",
-    "image_url": "/assets/cnryce/industrial-vacuum-cleaner-with-hose.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406151547051147.jpg",
     "specs": {
-      "Category": "Vacuum Cleaner",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 43,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151547051147.jpg",
+      "/assets/cnryce/source/4059-202406151547051147_s.jpg",
+      "/assets/cnryce/source/4059-202406151547050520.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/industrial-vacuum-cleaner-with-hose",
+    "source_title": "Industrial Vacuum Cleaner With Hose",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Industrial Vacuum Cleaner With Hose                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        An industrial vacuum cleaner is a powerful piece of cleaning equipment designed specifically for industrial applications to effectively remove contaminants such as dust, debris and liquids. Industrial vacuum cleaners are usually equipped with flexible and durable hoses for intake or discharge of collected dust and debris.                                    </p>\r\n                                    <strong>1.Main components</strong><br/><p><span>The main compon</span><span>ents of a High Efficiency Dust Collector with a hose, specifically a vertical dust collector design, include a vacuum pump (or turbine high-pressure blower), a dust bag (or dust container specifically designed for efficient dust capture), a flexible hose for maneuverability, and a variety of nozzles in different shapes tailored for specific cleaning tasks. Some models, like dry dust extractors, may come with additional features tailored for specific industries.</span></p><p><span><br/></span></p><div><strong>2.Principle of operation</strong><br/></div><div><p><p>&nbsp; &nbsp; &nbsp; This kind of High Efficiency Dust Collector operates by a motorized extractor fan (or motorized exhaust fan) spinning at high speed once energized, creating an instant vacuum inside the unit. The air pressure inside becomes much lower than the air pressure outside. Due to High Efficiency Dust Collector pressure difference, dust and dirt are drawn into the vacuum cleaner barrel along with the airflow. In a vertical dust collector, gravity aids in the settlement of heavier particles. The airflow then passes through a dust bag (or high-efficiency filter) where the dust and dirt are trapped, while the purified air escapes back into the room through the motor, cooling it and purifying the surrounding air. Wet and dry dust extractors have an additional centrifugal chamber; when dust, air, and water are suctioned in, the heavier water is flung to the chamber walls and collected below, while lighter dust and air continue through to the filter bag for dust removal.</p><p><br/></p><p><strong>3.Type</strong></p><p>vertical dust collector with hoses, including vertical dust collectors and dry dust extractors, are generally divided into two types: movable and fixed. Hand vacuum cleaners, designed for smaller tasks, are also available. Additionally, vertical dust collectors are compressed air-powered manual conveyorized tools for specialized applications, as well as fast and efficient high-speed vacuum devices or high-speed pneumatic cleaning guns. Vacuum trucks, on the other hand, are designed for large-scale outdoor cleaning operations.</p><p><br/></p><p><strong><span>4.Features</span></strong></p><p>Continuous and long-time operation is a hallmark of these industrial vacuum cleaners. Due to dry dust extractor strong power and stability, dry dust extractor can run uninterrupted, meeting the rigorous cleaning demands of industrial production. Filtering and purifying air is another key feature; not only do they suction dust and dirt, but dry dust extractor also perform secondary filtration through high-efficiency filters or filter drums, effectively removing impurities and particles from the air, thereby improving air quality. They can absorb all kinds of medium matter; normal types handle dry materials, while wet/dry models tackle oil, water, and other process byproducts. Preventing occupational diseases is crucial; by minimizing worker exposure to dust and harmful substances, these cleaners contribute to a safer workplace. Finally, by promptly clearing waste and dust, they enhance production efficiency.</p><p><span><br/></span></p><p><strong><span>5.Application Scenario</span></strong></p><p>Industrial vacuum cleaners with hoses, including High Efficiency Dust Collectors, vertical dust collectors, and dry dust extractors, find widespread application across various fields such as textile, chemical, machinery, medicine, casting, concrete, steel, semiconductor materials, and forging. They are indispensable for collecting waste, filtering and purifying indoor air in industrial processes, and maintaining a clean factory environment. Hand vacuum cleaners are handy for quick cleanups, while vacuum trucks are essential for larger-scale site clean-ups in construction or environmental remediation projects.</p><p><br/></p></p><p><img alt=\"High Efficiency Dust Collector\" src=\"/assets/cnryce/source/4059-202406151547050520.jpg\"/></p></div>                                </div>\r\n                            </div>"
   },
   {
     "id": 44,
     "name": "Woodworking Dust Collector With Universal Wheels",
     "slug": "woodworking-dust-collector-with-universal-wheels",
     "category": "Vacuum Cleaner",
-    "tagline": "Vacuum Cleaner product from the CNRYCE product catalog.",
+    "tagline": "Woodworking Dust Collector With Universal Wheels Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The Woodworking dust collector utilizes a high-efficiency filtration system that quickly and effectively collects wood chips, dust and other impurities, keeping the work environment clean and tidy.",
-    "image_url": "/assets/cnryce/woodworking-dust-collector-with-universal-wheels.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406151558560991.jpg",
     "specs": {
-      "Category": "Vacuum Cleaner",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 44,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151558560991.jpg",
+      "/assets/cnryce/source/4059-202406151558560991_s.jpg",
+      "/assets/cnryce/source/4059-202406151558560991.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/woodworking-dust-collector-with-universal-wheels",
+    "source_title": "Woodworking Dust Collector With Universal Wheels",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Woodworking Dust Collector With Universal Wheels                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The Woodworking dust collector utilizes a high-efficiency filtration system that quickly and effectively collects wood chips, dust and other impurities, keeping the work environment clean and tidy.                                    </p>\r\n                                    <p><strong>1.Product Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>Gimbal Design:The gimbal wheels, a feature reminiscent of a car vacuum cleaner with cigarette plug convenience, allow the vacuum cleaner to glide smoothly over various surfaces, including floors, worktops, and more. This gimbal design mimics the flexibility of a handheld high power industrial vacuum cleaner, enabling it to steer and maneuver effortlessly in tight spaces or corners.</p></li><li><p>Efficient Vacuuming:Whether it&#39;s a car vacuum cleaner or a household vacuum cleaner, efficiency is key. Our model is equipped with a robust vacuuming motor and a streamlined vacuuming duct, capable of swiftly picking up wood chips, dust, and other debris. Some high-end models, akin to the handheld high power industrial versions, also boast a multi-position suction power adjustment, letting you tailor the suction to your precise needs.</p></li><li><p>Noise Reduction Treatment:Noise reduction technology and materials are incorporated to mitigate the vacuum cleaner&#39;s operational noise pollution, akin to advancements in car vacuum cleaners. This provides a more serene working environment and minimizes noise disruption for operators.</p></li><li><p>Durable:Crafted from premium materials and through rigorous processes, the vacuum cleaner guarantees durability and stability. It&#39;s engineered to endure the rigorous demands of a woodworking environment, such as wood chips, dust accumulation, and accidental collisions, similar to the robustness of a handheld high power industrial vacuum cleaner.</p></li></ul><p><br/></p><p><strong>2.Application Scenario</strong></p><p>The woodworking vacuum cleaner, with its universal wheels akin to those on a car vacuum cleaner, finds widespread use in woodworking workshops, furniture manufacturing factories, renovation sites, and other dust-heavy environments. Specifically tailored for woodworking machinery like four-side planers, sanding machines, sawing machines, and slicing machines, it efficiently handles the deluge of wood shavings and dust these processes generate. Much like a handheld high power industrial vacuum cleaner, it maneuvers around equipment, effectively suctioning away debris to maintain a tidy workspace.</p><p><br/></p><p><strong>3.Technology Innovation</strong></p><ul class=\" list-paddingleft-2\"><li><p>Gimbal Technology:The gimbal design not only facilitates easy movement and steering, enhancing cleaning efficiency, but also incorporates shock absorption and noise reduction technologies in some high-end models, echoing advancements in car vacuum cleaners with cigarette plug convenience.</p></li><li><p>Efficient Filtration System:Leveraging advanced filtration materials and technologies, such as HEPA high-efficiency filters, our vacuum cleaner filters out microscopic dust particles, ensuring the discharged air is pristine and pollution-free. This technology rivals that of household and handheld high power industrial vacuum cleaners.</p></li><li><p>Intelligent Control System:Advanced woodworking vacuum cleaners, much like some car vacuum cleaners, are equipped with intelligent control systems. These systems automatically adjust suction power and wind speed based on environmental needs, fostering energy-efficient and high-performance cleaning.</p></li><li><p>Modularized Design:With a modularized design, users can customize their vacuum cleaner by selecting different vacuum modules and accessories, such as suction heads, hoses, and dust canisters, much like the versatility offered by handheld high power industrial vacuum cleaners.</p></li><li><p>Remote Control and Automation:Reflecting the latest technological advancements, some high-end woodworking vacuum cleaners now feature remote control and automation capabilities. Users can operate and monitor the vacuum cleaner remotely via mobile apps or remote controls, a feature reminiscent of the convenience found in modern car vacuum cleaners with cigarette plug options, significantly boosting cleaning convenience and efficiency.</p></li></ul><p><img alt=\"Handheld High Power Industrial Vacuum Cleaner\" src=\"/assets/cnryce/source/4059-202406151558560991.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 45,
     "name": "Carpet And Upholstery Cleaning Extraction Machines street sweeper",
     "slug": "carpet-and-upholstery-cleaning-extraction-machines-street-sweeper",
     "category": "Vacuum Cleaner",
-    "tagline": "Vacuum Cleaner product from the CNRYCE product catalog.",
+    "tagline": "Carpet And Upholstery Cleaning Extraction Machines street sweeper Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "For keeping carpets and upholstery neat and clean, the use of carpet and upholstery cleaning extraction machines is very effective. These machines can deep clean fiber products and remove stubborn stains and odors.",
-    "image_url": "/assets/cnryce/carpet-and-upholstery-cleaning-extraction-machines-street-sweeper.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406151442079528.jpg",
     "specs": {
-      "Category": "Vacuum Cleaner",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 45,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151442079528.jpg",
+      "/assets/cnryce/source/4059-202406151442079528_s.jpg",
+      "/assets/cnryce/source/4059-202406151442079528.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/carpet-and-upholstery-cleaning-extraction-machines-street-sweeper",
+    "source_title": "Carpet And Upholstery Cleaning Extraction Machines street sweeper",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Carpet And Upholstery Cleaning Extraction Machines street sweeper                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        For keeping carpets and upholstery neat and clean, the use of carpet and upholstery cleaning extraction machines is very effective. These machines can deep clean fiber products and remove stubborn stains and odors.                                    </p>\r\n                                    <p></p><p><strong>1. Carpet and Upholstery Cleaning and Extraction Machines</strong></p><p><strong>Function:</strong></p><p>It is primarily utilized for the thorough cleaning of furniture fabrics, including carpets and sofas. With the integrated process of water spraying, brushing, and suctioning, carpet and upholstery cleaning and extraction machines efficiently extracts dirt and dust embedded deep within carpet fibers or sofa interiors. Furthermore, certain advanced models incorporate a steam cleaning function, significantly enhancing the removal of stubborn stains and odors. For those seeking a dust collector with versatile applications, consider the industrial vacuum cleaner dust collector, which is equally effective in various cleaning tasks.</p><p><strong>Application Scenario:</strong></p><p>Families, hotels, offices, and other establishments that prioritize the cleanliness of their carpets and sofas will find this machine indispensable. It is particularly advantageous in environments demanding a high standard of hygiene, such as hospitals, schools, and woodworking workshops where a dust collector for woodworking is also essential to maintain a clean workspace.</p><p><strong>Advantages:</strong></p><p>Remarkable cleaning performance ensures a deep clean of carpets and sofas. Operation is straightforward, making it easy for users to master. Additionally, some models boast a multifaceted design, incorporating features like steam cleaning, mite removal, and even acting as a mini dust collector for spot cleaning tasks.</p><p><br/></p><p><strong>2. Sidewalk Dust Sweeper &amp; Road Vacuum Sweeper</strong></p><p><strong>Function:</strong></p><p>Both sidewalk dust sweepers and road vacuum sweepers are designed for sweeping public areas such as streets, squares, and parks. By utilizing brushing, vacuuming, and, in some cases, water sprinkling and dust suppression technologies, these Sidewalk Dust Sweepers efficiently collect garbage, dust, and debris from the ground. Road vacuum sweepers, in particular, offer a higher level of suction power, making them ideal for maintaining the cleanliness and hygiene of busy streets and highways.</p><p><strong>Application Scenario:</strong></p><p>City streets, industrial zones, commercial districts, and other expansive areas that necessitate frequent and thorough cleaning are prime locations for Road vacuum sweepers. They are especially suited for environments where rapid sweeping is crucial to preserving the city&#39;s image, such as scenic spots and during large events.</p><p><strong>Advantages:</strong></p><p>Both sidewalk dust sweepers and road vacuum sweepers exhibit high cleaning efficiency, capable of covering vast areas with minimal effort. Operation is intuitive, allowing for easy driving and maneuvering. Modern models often come with intelligent features, such as automatic route planning and obstacle avoidance, further enhancing their functionality.</p><p><br/></p><p><strong>3. Comparative Analysis</strong></p><p><strong>Functional Differences:</strong></p><p>Carpet and upholstery cleaning and extraction machines excel in deep cleaning carpets and sofas, while sidewalk dust sweepers and road vacuum sweepers are tailored for sweeping tasks in public outdoor spaces. The industrial vacuum cleaner dust collector, while versatile, often complements these machines in larger cleaning operations.</p><p><strong>Different Application Scenarios:</strong></p><p>Carpet and upholstery cleaning machines shine in indoor environments, where precision and thoroughness are paramount. Conversely, sidewalk and road sweepers are better suited for outdoor environments, where they can handle larger debris and maintain the cleanliness of expansive areas.</p><p><strong>Equipment Features:</strong></p><p>Carpet and upholstery cleaning machines are typically compact and lightweight, facilitating easy portability and operation. In contrast, sidewalk dust sweepers and road vacuum sweepers are larger and require specific driving and operating skills. However, their robust design and powerful suction capabilities make them indispensable for maintaining the cleanliness of urban landscapes.</p><p><img alt=\"Sidewalk Dust Sweeper\" src=\"/assets/cnryce/source/4059-202406151442079528.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 46,
     "name": "small Floor Vacuum Cleaner",
     "slug": "small-floor-vacuum-cleaner",
     "category": "Vacuum Cleaner",
-    "tagline": "Vacuum Cleaner product from the CNRYCE product catalog.",
+    "tagline": "small Floor Vacuum Cleaner Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The highlights of the floor vacuum cleaner are its powerful suction, intelligent control, versatility, health protection and extended floor life.",
-    "image_url": "/assets/cnryce/small-floor-vacuum-cleaner.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406151521399010.jpg",
     "specs": {
-      "Category": "Vacuum Cleaner",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 46,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151521399010.jpg",
+      "/assets/cnryce/source/4059-202501211629595412.png",
+      "/assets/cnryce/source/4059-202501211630020612.jpg",
+      "/assets/cnryce/source/4059-202406151521399010_s.jpg",
+      "/assets/cnryce/source/4059-202406151521399010.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/small-floor-vacuum-cleaner",
+    "source_title": "small Floor Vacuum Cleaner",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        small Floor Vacuum Cleaner                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The highlights of the floor vacuum cleaner are its powerful suction, intelligent control, versatility, health protection and extended floor life.                                    </p>\r\n                                    <p><strong>1. Main Features</strong></p><p><strong>Lightweight and Compact:</strong></p><ul class=\" list-paddingleft-2\"><li><p>The carpet cleaning machine is designed to be compact and lightweight, making carpet cleaning machine easy to carry and store.</p></li><li><p>It is suitable for various settings, including homes, offices, small cars, and other spaces.</p></li></ul><p><strong>Efficient Cleaning:</strong></p><ul class=\" list-paddingleft-2\"><li><p>carpet vacuum cleaner is equipped with a powerful motor, the wet dry carpet car vacuum cleaner generates strong suction to effectively remove dust, debris, hair, and more from floors and carpets.</p></li><li><p>Some carpet vacuum cleaner also feature a mopping function, combining suction and mopping into one device for improved cleaning efficiency.</p></li></ul><p><strong>Easy to Operate:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Most carpet vacuum cleaner models are wireless, eliminating the hassle of cords and allowing for greater freedom of movement.</p></li><li><p>Soot vacuum cleaner often include user-friendly features like one-button start and one-button dust disposal to simplify the cleaning process.</p></li></ul><p><strong>Multi-functional Suction Head:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Designed to meet diverse cleaning needs, the soot vacuum cleaner comes with various attachments, such as crevice tools and soft bristle brushes.</p></li><li><p>These accessories make Soot vacuum cleaner suitable for cleaning floors, carpets, sofa crevices, and other hard-to-reach areas.</p></li></ul><p><strong>Filtration System:</strong></p><ul class=\" list-paddingleft-2\"><li><p>The carpet cleaning machine uses high-efficiency filtration materials, such as HEPA filters, to trap tiny particles and prevent secondary pollution.</p></li><li><p>Some Soot vacuum cleaner also feature a dust-full indicator to remind users to empty the dust container promptly.</p></li></ul><p><br/></p><p><strong>2. Working Principle</strong></p><p>The wet dry carpet car vacuum cleaner operates by using a motor to drive high-speed rotating blades, creating negative air pressure within a sealed casing. This suction force draws in dust and debris through the intake port. As air passes through the filtration system, dust is captured in the dust bag or container, while filtered air is expelled from the machine.</p><p><br/></p><p><strong>3. Use and Maintenance</strong></p><p><strong>Precautions for Use:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Before using the carpet vacuum cleaner, carefully read the product manual to understand its functions and operation methods.</p></li><li><p>Avoid using the soot vacuum cleaner to suck up liquids or damp materials, as this can damage the motor or pose an electric shock risk.</p></li><li><p>Regularly clean the dust container and filters to maintain the vacuum cleaner’s performance and hygiene.</p></li></ul><p><strong>Maintenance:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Periodically inspect the motor, suction head, hose, and other components of the carpet cleaning machine for damage or wear, and replace them as needed.</p></li><li><p>carpet vacuum cleaner avoid prolonged exposure to direct sunlight or humid environments to prevent damage to the casing or internal parts.</p></li><li><p>When not in use for extended periods, store the wet dry carpet car vacuum cleaner in a dry, ventilated area and disconnect it from the power source.</p></li></ul><p><span></span><br/></p><p><img alt=\"carpet cleaning machine\" src=\"/assets/cnryce/source/4059-202406151521399010.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 47,
     "name": "industrial vacuum cleaner industrial vaccum cleaner dust collector",
     "slug": "industrial-vacuum-cleaner-industrial-vaccum-cleaner-dust-collector",
     "category": "Vacuum Cleaner",
-    "tagline": "Vacuum Cleaner product from the CNRYCE product catalog.",
+    "tagline": "industrial vacuum cleaner industrial vaccum cleaner dust collector Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Central dust collector utilizes advanced dust removal technology and a highly efficient filtration system to effectively collect and treat dust and contaminants generated in factories, workshops and other locations.",
-    "image_url": "/assets/cnryce/industrial-vacuum-cleaner-industrial-vaccum-cleaner-dust-collector.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406151519425902.jpg",
     "specs": {
-      "Category": "Vacuum Cleaner",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 47,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151519425902.jpg",
+      "/assets/cnryce/source/4059-202406151519425902_s.jpg",
+      "/assets/cnryce/source/4059-202406151519429595.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/industrial-vacuum-cleaner-industrial-vaccum-cleaner-dust-collector",
+    "source_title": "industrial vacuum cleaner industrial vaccum cleaner dust collector",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        industrial vacuum cleaner industrial vaccum cleaner dust collector                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Central dust collector utilizes advanced dust removal technology and a highly efficient filtration system to effectively collect and treat dust and contaminants generated in factories, workshops and other locations.                                    </p>\r\n                                    <p></p><p><strong>1. Industrial Vacuum Cleaner</strong></p><p>Industrial vacuum cleaners are specially designed for vacuuming in industrial environments, offering strong suction capacity and high working efficiency. The big motor industrial vacuum cleaner is particularly notable for its robust performance. The big motor industrial vacuum cleaner main features are as follows:</p><ul class=\" list-paddingleft-2\"><li><p>Higher power: industrial vacuum equipment generally use AC power supplies with higher power to meet the demand for large-scale vacuuming in industrial environments. The industrial vacuum equipment is designed to handle heavy-duty tasks with ease.</p></li><li><p>Various types: Depending on the use case and requirements, industrial vacuum cleaners are generally divided into two types: movable and fixed. Movable vacuum cleaners, such as the Ultrasonic vacuum cleaner, are convenient for vacuuming in different locations, while stationary vacuum cleaners are more suitable for long-term use in fixed positions.</p></li><li><p>Working Principle: The working principle of an industrial vacuum cleaner involves using a motor to drive a high-pressure fan (or an integrated machine) to generate negative pressure in a limited volume, creating suction. After the ultrasonic washing cleaner is sucked in, it is filtered through a filter bag or drum for secondary filtration, ensuring clean air. The ultrasonic washing cleaner operates on a similar principle, specifically designed for woodworking environments.</p></li><li><p>Diversified functions: Ordinary industrial vacuum equipment can only absorb dry media with low moisture content, while wet and dry industrial vacuum cleaners can handle oil, water, and other liquid media. Additionally, some models, like the ultrasonic washing cleaner, can be equipped with exhaust pipes to absorb smoke, gas, and other byproducts generated during production operations.</p></li></ul><p><br/></p><p><strong>2. Industrial Vacuum Cleaner Dust Collector</strong></p><p>The industrial vacuum cleaner dust collector is a critical component of industrial vacuum systems, responsible for collecting and storing dust and impurities. The big motor industrial vacuum cleaner often includes an advanced dust collection system. Its main features are as follows:</p><p>Large capacity: To meet the demand for large-scale dust collection in industrial environments, the industrial vacuum equipment dust collector typically has a large capacity, reducing the need for frequent dust disposal.</p><p>Good filtration effect: Industrial vacuum cleaner dust collectors usually employ high-efficiency filter materials, such as filter bags or cartridges. The Ultrasonic vacuum cleaner ensures that even the tiniest particles and impurities are effectively filtered, guaranteeing clean and pollution-free air.</p><p>Sturdy structure: The Woodworking Dust Collector and other industrial vacuum dust collectors are constructed from durable materials, capable of withstanding high pressure and wear, ensuring long-term stable operation.</p><p>Easy maintenance: Designed with user convenience in mind, the ultrasonic washing cleaner and similar equipment allow for easy maintenance and cleaning. Regular upkeep helps prolong the service life of the equipment, making it a reliable choice for industrial applications.</p><p><img alt=\"big motor industrial vacuum cleaner\" src=\"/assets/cnryce/source/4059-202406151519429595.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 48,
     "name": "High Negative Pressure Dust Collector And Extraction",
     "slug": "high-negative-pressure-dust-collector-and-extraction",
     "category": "Vacuum Cleaner",
-    "tagline": "Vacuum Cleaner product from the CNRYCE product catalog.",
+    "tagline": "High Negative Pressure Dust Collector And Extraction Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "High negative pressure dust collector and extraction is a high-negative pressure dust collector specially designed for efficient dust collection and treatment, it adopts advanced negative pressure technology, combined with high efficiency filtration system, it can effectively remove dust particles in the air.",
-    "image_url": "/assets/cnryce/high-negative-pressure-dust-collector-and-extraction.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406151449478749.jpg",
     "specs": {
-      "Category": "Vacuum Cleaner",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 48,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151449478749.jpg",
+      "/assets/cnryce/source/4059-202406151449478749_s.jpg",
+      "/assets/cnryce/source/4059-202406151449478749.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-negative-pressure-dust-collector-and-extraction",
+    "source_title": "High Negative Pressure Dust Collector And Extraction",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High Negative Pressure Dust Collector And Extraction                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        High negative pressure dust collector and extraction is a high-negative pressure dust collector specially designed for efficient dust collection and treatment, it adopts advanced negative pressure technology, combined with high efficiency filtration system, it can effectively remove dust particles in the air.                                    </p>\r\n                                    <p id=\"\"><span></span></p><p><strong>1.High Negative Pressure Dust Collector</strong></p><ul class=\" list-paddingleft-2\"><li><p>Definition:A High Negative Pressure Dust Collector is a specialized piece of equipment that harnesses the principle of negative pressure for dust collection and treatment. Handheld portable vacuum ash cleaner boasts a formidable suction force, capable of efficiently drawing dust particles from the air into its interior. Within the equipment, an intricate filtration or separation mechanism works to separate the dust from the air, fulfilling the primary objective of dust removal.</p></li><li><p>Application Scenario:The High Negative Pressure Dust Collector finds extensive application in industrial settings such as factories, workshops, and mines. It is equally essential in maintaining cleanliness in public spaces like hospitals and schools. Notably, in sectors like machining, steel making, casting, the chemical industry, and pharmaceuticals, this dust collector plays a pivotal role in gathering and managing the dust and solid particle waste generated during production processes.</p></li><li><p>Features:Characterized by its robust suction power and remarkable dust removal efficiency, the High Negative Pressure Dust Collector often comes equipped with an advanced filtration system. This ensures that the expelled air adheres to stringent environmental protection standards. Furthermore, High Power Industrial Vacuum Cleaner can be tailored and engineered to align with the specific requirements of diverse locations and processes.</p></li></ul><p><br/></p><p><strong>2.Handheld Portable Vacuum Ash Cleaner</strong></p><p>In daily life, a Handheld Portable Vacuum Ash Cleaner exemplifies the utility of extractors. This compact device, leveraging the extractor principle, is designed for ease of use and mobility. It efficiently suctions ash, dirt, and debris from various surfaces, making it an indispensable tool for household cleaning.</p><p><strong>High Power Industrial Vacuum Cleaner</strong></p><p>Industrial settings often benefit from the prowess of a High Power Industrial Vacuum Cleaner. This variant of an extractor is engineered to tackle heavy-duty cleaning tasks, making it a staple in industries where hygiene and cleanliness are paramount. With its high suction power and robust construction, it stands up to the rigors of industrial environments.</p><p><strong>Industrial Vacuum Cleaner</strong></p><p>Broadly speaking, an Industrial Vacuum Cleaner is a versatile extractor tailored for industrial applications. It shares many similarities with a high negative pressure dust collector, but with a broader focus that encompasses various cleaning tasks beyond dust removal. Its design emphasizes durability, power, and the capacity to handle large volumes of debris and contaminants.</p><p><strong>Vacuum Cleaner Dust Collector</strong></p><p>At the intersection of household and industrial cleaning lies the Vacuum Cleaner Dust Collector. This term can encompass a range of devices, from compact handheld cleaners to large-scale industrial models. Essentially, any vacuum cleaner that effectively collects dust can be classified under this umbrella term. Its fundamental mechanism, like that of a high negative pressure dust collector, relies on negative pressure to aspirate and collect dirt.</p><p><br/></p><p><strong>3.Extractor (Generalized Definition and Comparison)</strong></p><ul class=\" list-paddingleft-2\"><li><p>Definition:An extractor, in its broadest sense, encompasses devices like High Power Industrial Vacuum Cleaners, Handheld Portable Vacuum Ash Cleaners, and specialized Vacuum Cleaner Dust Collectors. It is a device designed to extract liquids, gases, or solids by generating negative pressure, transporting the targeted material to a designated location or container.</p></li><li><p>Application Scenario:Extractors, including Industrial Vacuum Cleaners and specialized dust collectors, have diverse applications across medical, health, chemical, environmental protection, and other fields. For instance, in medical settings, extractors are used to aspirate pus, blood, and other wound fluids. In environmental protection, they help in extracting pollutants like wastewater and exhaust gases.</p></li><li><p>Features:Extractors come in various sizes and configurations, from the small and portable Handheld Portable Vacuum Ash Cleaner to the industrial-strength High Power Industrial Vacuum Cleaner. The choice of material and structure depends on the specific substance being extracted. In medical and health contexts, hygiene standards and safety requirements are paramount, guiding the design and operation of these devices.</p></li></ul><p><br/></p><p><strong>4.Difference and Connection Between High Negative Pressure Dust Collector and Extractor</strong></p><ul class=\" list-paddingleft-2\"><li><p>Difference:The primary function of a High Negative Pressure Dust Collector is tailored for dust collection and treatment, while an extractor has a broader scope, encompassing the extraction of liquids, gases, or solids. In terms of application scenarios, high negative pressure dust collectors dominate in industrial production and clean environment maintenance, whereas extractors span across medical, health, chemical, and other fields. Structurally, dust collectors often feature larger sizes and complex filtration systems, whereas extractors may be smaller and simpler, emphasizing portability and ease of use.</p></li><li><p>Connection:Both devices leverage the principle of negative pressure for aspiration and material delivery. In practical applications, their functionalities can overlap. For example, a High Negative Pressure Dust Collector might also serve as a specialized extractor during cleaning tasks, efficiently aspirating and collecting dust particles from the air. Similarly, an Industrial Vacuum Cleaner, while primarily designed for general cleaning, can also function as a dust collector in specific industrial settings.</p></li></ul><p><img alt=\"high negative pressure dust collector\" src=\"/assets/cnryce/source/4059-202406151449478749.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 49,
     "name": "Small Size Digital Ultrasonic Cleaner",
     "slug": "small-size-digital-ultrasonic-cleaner",
     "category": "Vacuum Cleaner",
-    "tagline": "Vacuum Cleaner product from the CNRYCE product catalog.",
+    "tagline": "Small Size Digital Ultrasonic Cleaner Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Ultrasonic vacuum cleaner provides an efficient, environmentally friendly and energy-saving cleaning solution with compact size, powerful functions and intelligent operation.",
-    "image_url": "/assets/cnryce/small-size-digital-ultrasonic-cleaner.png",
+    "image_url": "/assets/cnryce/source/4059-202406151552538642.png",
     "specs": {
-      "Category": "Vacuum Cleaner",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 49,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151552538642.png",
+      "/assets/cnryce/source/4059-202502211013598523.png",
+      "/assets/cnryce/source/4059-202502211014029814.png",
+      "/assets/cnryce/source/4059-202406151552538642_s.png",
+      "/assets/cnryce/source/4059-202406151552538642.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/small-size-digital-ultrasonic-cleaner",
+    "source_title": "Small Size Digital Ultrasonic Cleaner",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Small Size Digital Ultrasonic Cleaner                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Ultrasonic vacuum cleaner provides an efficient, environmentally friendly and energy-saving cleaning solution with compact size, powerful functions and intelligent operation.                                    </p>\r\n                                    <p><strong>1.Core features</strong></p><p><strong>Ultrasonic Cleaning Technology &amp; Vacuum Cleaner:</strong></p><p>Utilizes high-frequency ultrasonic waves (usually 40kHz) combined with the suction power of a vacuum cleaner, especially an Ultrasonic Vacuum Cleaner, to generate tiny bubbles that penetrate deep into the crevices of objects to thoroughly remove dirt. The industrial used cordless manual sweeper, although not ultrasonic, also plays a significant role in broader cleaning tasks.</p><p>Uniform cleaning effect, no need to manually wipe, to avoid damage to the object. It with battery offers convenience in tight spaces and on-the-go cleaning.</p><p><strong>Digital control &amp; Vacuum Cleaner Options:</strong></p><p>Equipped with digital display and touch panel, you can precisely set the cleaning time (usually 1-30 minutes) and temperature (if there is a heating function). For larger areas, consider a central dust collector integrated with your vacuuming needs.</p><p>Simple and intuitive operation, suitable for non-professionals. They like the Ultrasonic Vacuum Cleaner or the car vacuum cleaner with battery make home maintenance easier.</p><p><strong>Compact and portable &amp; Industrial Cleaners:</strong></p><p>Compact and space-saving designs, suitable for home or small workplace use. For industrial settings, the industrial used cordless manual sweeper offers mobility and efficiency.</p><p>Lightweight design, easy to move and carry, even in conjunction with a central dust collector system for comprehensive cleaning.</p><p><strong>Multi-functional application &amp; Vacuum Cleaners:</strong></p><p>Suitable for cleaning jewelry, glasses, watches, dentures, razor heads, electronic parts, and other small items. Vacuum cleaners, including the Ultrasonic Vacuum Cleaner and car vacuum cleaner with battery, enhance versatility in various cleaning tasks.</p><p><strong>Safe and Durable &amp; Vacuum Cleaners:</strong></p><p>Adopts high-quality stainless steel inner liner, corrosion-resistant, and easy to clean. They particularly the central dust collector, are equipped with features like overheating protection to ensure safety.</p><p><br/></p><p><strong>2.Applicable Scenarios</strong></p><p><strong>Home use &amp; Vacuum Cleaners:</strong></p><p>Clean jewelry, glasses, watches, razor heads, and other daily items efficiently with an Ultrasonic Vacuum Cleaner or a simple vacuum cleaner like the car vacuum cleaner with battery.</p><p><strong>Commercial use &amp; Vacuum Cleaners:</strong></p><p>Precision cleaning in jewelry stores, eyeglasses stores, dental clinics, and other places benefits from the accuracy of ultrasonic cleaners and the convenience of cordless options like the industrial used cordless manual sweeper for quick cleanups.</p><p><strong>Industrial &amp; Laboratory &amp; Central Dust Collectors:</strong></p><p>Cleaning small electronic components, optical instruments, laboratory apparatus, etc., benefits from a combination of ultrasonic cleaners for detailed work and a central dust collector for larger debris and particles.</p><p><br/></p><p><strong>3.Suggestions for use</strong></p><p><strong>Operation Steps &amp; Vacuum Cleaners:</strong></p><p>Put the cleaning items into the cleaning basket, add an appropriate amount of water and cleaning agent. Use a vacuum cleaner like the Ultrasonic Vacuum Cleaner or the car vacuum cleaner with battery for post-clean surface treatment.</p><p>Set the cleaning time and temperature (if there is a heating function), start the equipment. The industrial used cordless manual sweeper can be used alongside for broader surface cleaning.</p><p>After the cleaning is completed, remove the items and rinse them with clean water. Use a vacuum cleaner to finalize the area.</p><p><strong>Caution &amp; Vacuum Cleaners:</strong></p><p>Avoid cleaning items that are fragile or whose coatings come off easily, especially when using powerful suction devices like the central dust collector.</p><p>Replace the cleaning solution regularly to keep the equipment clean, and empty the dustbin of your vacuum cleaner after each use.</p><p>Empty the water tank and dry the equipment in time after use, including the filters of your vacuum cleaner to maintain performance.</p><p><br/></p><p><strong>4.Advantages and disadvantages analysis</strong></p><p><strong>Advantages &amp; Vacuum Cleaners:</strong></p><p>Good cleaning effect, especially suitable for precision items cleaned by ultrasonic waves. Vacuum cleaners like the Ultrasonic Vacuum Cleaner or car vacuum cleaner with battery offer additional convenience.</p><p>Simple operation, digital control is convenient and easy to use, enhanced by the automated features of some vacuum cleaners.</p><p>Compact size, suitable for home and small places, yet powerful enough for daily tasks when paired with a vacuum cleaner.</p><p>Multi-functional application, to meet a variety of cleaning needs, from ultrasonic precision to vacuuming large areas with a central dust collector.</p><p><strong>Disadvantages &amp; Vacuum Cleaners:</strong></p><p>Limited capacity of ultrasonic cleaners, not suitable for cleaning very large items, though vacuum cleaners can complement this.</p><p>No heating function in some models, limited cleaning effect, though heating is less critical in vacuuming applications.</p><p>Requires regular maintenance, such as replacing cleaning solution and cleaning equipment, including the filters and dustbins of vacuum cleaners.</p><p><br/></p><p><img alt=\"central dust collector\" src=\"/assets/cnryce/source/4059-202406151552538642.png\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 50,
     "name": "Handheld High Power Industrial Vacuum Cleaner",
     "slug": "handheld-high-power-industrial-vacuum-cleaner",
     "category": "Vacuum Cleaner",
-    "tagline": "Vacuum Cleaner product from the CNRYCE product catalog.",
+    "tagline": "Handheld High Power Industrial Vacuum Cleaner Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The handheld high power industrial vacuum cleaner is a portable high power vacuum cleaner designed for industrial environments. It excels in a wide range of industrial scenarios with its powerful suction and efficient cleaning ability.",
-    "image_url": "/assets/cnryce/handheld-high-power-industrial-vacuum-cleaner.png",
+    "image_url": "/assets/cnryce/source/4059-202406151459221121.png",
     "specs": {
-      "Category": "Vacuum Cleaner",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 50,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151459221121.png",
+      "/assets/cnryce/source/4059-202502211015251896.png",
+      "/assets/cnryce/source/4059-202502211015285757.png",
+      "/assets/cnryce/source/4059-202406151459221121_s.png",
+      "/assets/cnryce/source/4059-202406151459221121.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/handheld-high-power-industrial-vacuum-cleaner",
+    "source_title": "Handheld High Power Industrial Vacuum Cleaner",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Handheld High Power Industrial Vacuum Cleaner                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The handheld high power industrial vacuum cleaner is a portable high power vacuum cleaner designed for industrial environments. It excels in a wide range of industrial scenarios with its powerful suction and efficient cleaning ability.                                    </p>\r\n                                    <p><br/></p><p><strong>1.Main Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>Powerful Motor: High Power Industrial Vacuum Cleaners, are usually equipped with powerful motors that provide high suction power to ensure quick and thorough cleanup of dust, debris, and other contaminants in a variety of industrial environments.&nbsp;</p></li><li><p>Handheld design: These Handheld Industrial Vacuum Cleaners are designed for easy handheld operation, making it easy for users to clean in different work areas and increase work efficiency. The Handheld High Power Industrial Vacuum Cleaner is particularly adept at this due to its high power and portability.</p></li><li><p>Multiple filtration systems: In order to ensure that the discharged air is clean and free of harmful particles, High Power Industrial Vacuum Cleaners are usually equipped with multiple filtration systems, such as HEPA filtration systems. The Handheld High Power Industrial Vacuum Cleaner also incorporates these advanced filtration technologies, effectively inhibiting viruses and bacteria and avoiding causing secondary pollution.</p></li></ul><p><br/></p><p><strong>2.Application Scenarios</strong></p><ul class=\" list-paddingleft-2\"><li><p>Automobile manufacturing industry: The automobile manufacturing process will produce a lot of dust and debris. The use of it can keep the workshop clean, preventing pollutants from adhering to parts. It is particularly effective in this setting due to its high suction power.</p></li><li><p>Electronics industry: Electronics manufacturing processes will produce a lot of fine dust and fiber. The use of it can maintain a clean production environment, preventing pollutants from impacting product quality. The precision and power of the Handheld High Power Industrial Vacuum Cleaner make it ideal for this delicate work.</p></li><li><p>Food processing industry: Food processing needs to maintain a high degree of hygiene. The use of cleaners can effectively clean up the production site to ensure food quality. It both handheld and stationary models, plays a crucial role in maintaining cleanliness and safety in food processing facilities.</p></li></ul><p><br/></p><p><strong>3.Precautions for use</strong></p><ul class=\" list-paddingleft-2\"><li><p>Adaptation of power supply: Make sure the power supply of the cleaner is compatible with the power supply of the industrial place. Avoid using household power supply so as not to damage the vacuum cleaner or cause potential safety hazards. This is especially important for High Power Industrial Vacuum Cleaners, which require a stable and adequate power source.</p></li><li><p>Regular cleaning: After each use of the Cleaner, remove the dust in the filter element and trash can to prevent the dust from blocking the motor and other parts, which will affect the service life of the vacuum cleaner. Regular maintenance is crucial for all Industrial Vacuum Cleaners, but it is particularly important for high-power models.</p></li><li><p>Avoid picking up liquids: Unless the vacuum cleaner has a specific suction function, avoid using it to pick up water, oil, or other liquid substances.&nbsp;&nbsp;</p></li><li><p>Pay attention to safe operation: When using it, care should be taken not to trip or knock over the power cord to ensure safe operation. Safety is a paramount concern when operating any Industrial Vacuum Cleaner, particularly high-power models that can pose greater risks if not handled properly.</p></li></ul><p><img alt=\"Handheld High Power Industrial Vacuum Cleaner\" src=\"/assets/cnryce/source/4059-202406151459221121.png\"/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 51,
     "name": "Cleaning High Pressure Pump For Removing Paint And Rust 1812CA/1814CA",
     "slug": "cleaning-high-pressure-pump-for-removing-paint-and-rust",
     "category": "Washer Plunger Pumps",
-    "tagline": "Washer Plunger Pumps product from the CNRYCE product catalog.",
+    "tagline": "Cleaning High Pressure Pump For Removing Paint And Rust 1812CA/1814CA Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Paint and rust removal cleaning high pressure pump is a kind of equipment that utilizes high pressure water jet technology for paint and rust removal. By pressurizing ordinary water through a high-pressure pump, this equipment forms a high-speed micro-fine water jet, thus realizing a strong impact on the surface of the object and achieving the effect of removing paint, rust and other dirt.",
-    "image_url": "/assets/cnryce/cleaning-high-pressure-pump-for-removing-paint-and-rust.jpeg",
+    "image_url": "/assets/cnryce/source/4059-202406170954235810.jpeg",
     "specs": {
-      "Category": "Washer Plunger Pumps",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 51,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406170954235810.jpeg",
+      "/assets/cnryce/source/4059-202502211048426815.png",
+      "/assets/cnryce/source/4059-202502211048482481.png",
+      "/assets/cnryce/source/4059-202406170954235810_s.jpeg",
+      "/assets/cnryce/source/4059-202406170954235810.jpeg"
+    ],
+    "source_url": "https://www.cnryce.com/product/cleaning-high-pressure-pump-for-removing-paint-and-rust",
+    "source_title": "Cleaning High Pressure Pump For Removing Paint And Rust 1812CA/1814CA",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Cleaning High Pressure Pump For Removing Paint And Rust 1812CA/1814CA                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Paint and rust removal cleaning high pressure pump is a kind of equipment that utilizes high pressure water jet technology for paint and rust removal. By pressurizing ordinary water through a high-pressure pump, this equipment forms a high-speed micro-fine water jet, thus realizing a strong impact on the surface of the object and achieving the effect of removing paint, rust and other dirt.                                    </p>\r\n                                    <p></p><p><strong>1.Working Principle</strong></p><p>The Cleaning High Pressure Pump in the paint and rust removal high-pressure cleaner utilizes sand and water as a medium. Water, after being pumped out through The Cleaning High Pressure Pump, passes through the high-pressure sandblasting nozzle. When water and sand hit the object simultaneously under high pressure, the blow is very strong, making the force for removing paint and rust very powerful. Additionally, the rinsing pressure can be adjusted according to needs.</p><p><br/></p><p><strong>2.Composition of the Equipment</strong></p><p>The paint and Removing paint and rust cleaner, which includes The Cleaning High Pressure Pump, is usually composed of the following key components:</p><ul class=\" list-paddingleft-2\"><li><p>High-pressure Pump: Typically, a three-piston ceramic plunger crankshaft high-pressure pump that provides strong output pressure for Removing paint and rust.</p></li><li><p>Pump Head: Made of brass material for strong corrosion resistance, it is able to withstand the impact of high-pressure water flow during the paint and rust removal process.</p></li><li><p>Water Seal Configuration: A double water seal design ensures the sealing and durability of the equipment, which is crucial for maintaining the efficiency of The Cleaning High Pressure Pump.</p></li><li><p>Pressure Relief Valve: An external-type bypass pressure relief valve is used to regulate and stabilize the output pressure of the high-pressure cleaner, ensuring optimal performance during Removing paint and rust.</p></li></ul><p><br/></p><p><strong>3.Performance Parameters</strong></p><p>The performance parameters of the paint and Removing paint and rust cleaner, powered by The&nbsp; Pump, usually include the following aspects:</p><ul class=\" list-paddingleft-2\"><li><p>Working Pressure: Generally ranging from 30 to 200 bar (or higher), the higher the pressure, the more effective the Removal of paint and rust.</p></li><li><p>Output Water: Typically between 450 to 900 liters per hour (or higher), with a larger output water volume leading to higher cleaning efficiency.</p></li><li><p>Demand Power: Usually around 7000 watts (or higher) to ensure that The Cleaning High Pressure Pump has enough power output for demanding paint and rust removal tasks.</p></li><li><p>Motor Speed: Generally 1450 rpm (or varying according to the equipment model), which contributes to the efficient operation of The Cleaning High Pressure Pump.</p></li></ul><p><br/></p><p><strong>4.Equipment Type and Selection</strong></p><p>According to different use scenarios and needs, paint and rust removal high-pressure cleaners, equipped with The Cleaning High Pressure Pump, can be divided into various types. When choosing, the following factors should be considered:</p><ul class=\" list-paddingleft-2\"><li><p>Cleaning Object: Select the appropriate equipment based on the material, size, and shape of the object to be cleaned. For instance, for large metal structures requiring thorough Removing of paint and rust, choose a cleaner with a higher pressure and greater water output capacity.</p></li><li><p>Working Environment: Consider the mobility, durability, and ease of operation of the equipment. For outdoor work or scenarios requiring frequent movement, choose lightweight and easy-to-operate cleaners with The Cleaning High Pressure Pump.</p></li><li><p>Budget: Choose the right model and brand of equipment based on your budget. Different brands and models of cleaners with The Pump may vary greatly in price, but usually, the higher the price, the better the performance and quality in Removing paint and rust.</p></li></ul><p><br/></p><p><strong>5.Use and Maintenance</strong></p><p>In the use of paint and rust removal high-pressure cleaners powered by The Cleaning High Pressure Pump, the following points should be noted:</p><ul class=\" list-paddingleft-2\"><li><p>Correct Operation: Operate the equipment correctly in accordance with the equipment manual to avoid misoperation that could lead to damage to The Cleaning High Pressure Pump or personnel injury.</p></li><li><p>Regular Maintenance: Regularly maintain and repair the equipment, including cleaning filters, checking seals, and replacing worn parts to ensure the normal operation of The Cleaning High Pressure Pump and extend its service life.</p></li><li><p>Safety Protection: When using the equipment, wear appropriate protective gear, such as protective glasses, gloves, and earplugs, to minimize noise and splash injuries to personnel, ensuring safe and efficient Removing of paint and rust.</p></li></ul><p><img alt=\"The Cleaning High Pressure Pump\" src=\"/assets/cnryce/source/4059-202406170954235810.jpeg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 52,
     "name": "High Pressure Washer Pump Head R6",
     "slug": "high-pressure-washer-pump-head",
     "category": "Washer Plunger Pumps",
-    "tagline": "Washer Plunger Pumps product from the CNRYCE product catalog.",
+    "tagline": "High Pressure Washer Pump Head R6 Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The high pressure washer pump head is a high performance pump head designed specifically for high pressure washers. With its excellent pressure output, durable material construction and high efficiency, it is an indispensable component for industrial cleaning, construction cleaning, vehicle maintenance and other fields.",
-    "image_url": "/assets/cnryce/high-pressure-washer-pump-head.png",
+    "image_url": "/assets/cnryce/source/4059-202601081634538992.png",
     "specs": {
-      "Category": "Washer Plunger Pumps",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 52,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202601081634538992.png",
+      "/assets/cnryce/source/4059-202601081635157691.jpg",
+      "/assets/cnryce/source/4059-202601081635166619.jpg",
+      "/assets/cnryce/source/4059-202601081634538992_s.png",
+      "/assets/cnryce/source/4059-202601081635330032.jpg",
+      "/assets/cnryce/source/4059-202601081635334104.jpg",
+      "/assets/cnryce/source/4059-202601081635330814.jpg",
+      "/assets/cnryce/source/4059-202406170932224973.jpeg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-washer-pump-head",
+    "source_title": "High Pressure Washer Pump Head R6",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High Pressure Washer Pump Head R6                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The high pressure washer pump head is a high performance pump head designed specifically for high pressure washers. With its excellent pressure output, durable material construction and high efficiency, it is an indispensable component for industrial cleaning, construction cleaning, vehicle maintenance and other fields.                                    </p>\r\n                                    <p></p><p><img alt=\"High Pressure Washer\" src=\"/assets/cnryce/source/4059-202601081635330032.jpg\" title=\"High Pressure Washer\"/></p><p><img alt=\"Washer Pump Head\" src=\"/assets/cnryce/source/4059-202601081635334104.jpg\" title=\"Washer Pump Head\"/></p><p><img alt=\"Pump Head\" src=\"/assets/cnryce/source/4059-202601081635330814.jpg\" title=\"Pump Head\"/></p><p><strong>1. Structure</strong><br/></p><p>The Pump Head of a High Pressure Washer is generally composed of several parts, including the water inlet, compression section, water outlet, filtration section, and pressure relief section. The water inlet typically consists of a filter or water inlet connector. The compression section, the most critical part of the Washer Pump Head, includes components such as the rotor, stator, diaphragm, and piston. The water outlet section usually features a water outlet connector or pipe, and some designs incorporate a direct water outlet nozzle.</p><p>For heavy-duty applications, the commercial washer plung pump is often used, which is designed to handle higher pressures and larger volumes of water. Additionally, the High pressure washer Copper crankshaft pump is known for its durability and efficient performance in demanding environments.</p><p><br/></p><p><strong>2. Working Principle</strong></p><p>The Pump Head of a High Pressure Washer operates by using power to drive the pump, completing a water suction and discharge process. Washer Pump Head transforms ordinary water into high-pressure, low-flow water, which is then transported through high-pressure pipelines to the nozzle. The nozzle&#39;s aperture is much smaller than the pipeline&#39;s diameter, forcing the water to accelerate and convert into a low-pressure, high-flow jet for effective cleaning.</p><p>In this process, the valve within the Washer Pump Head plays a crucial role. The valve, consisting of a spring and bracket, operates based on pressure differences. When the pressure exceeds the spring&#39;s capacity, the valve opens; during the opposite stroke, water automatically closes the valve, preventing backflow. This mechanism is particularly important in commercial washer plung pump systems, where consistent performance is critical.</p><p><br/></p><p><strong>3. Performance Characteristics</strong></p><ul class=\" list-paddingleft-2\"><li><p>High-Pressure Capability: The Pump Head of a High Pressure Washer can generate extremely high water pressure, often reaching several hundred to several thousand bar, producing high-speed jets for effective cleaning.</p></li><li><p>Large Flow Rate: The Washer Pump Head can deliver a high flow rate, typically ranging from dozens to hundreds of liters per minute, enabling quick completion of cleaning tasks.</p></li><li><p>Strong Corrosion Resistance: Made from materials like stainless steel or copper, the High pressure washer Copper crankshaft pump offers excellent corrosion resistance, allowing it to operate in harsh environments without damage.</p></li><li><p>Ease of Operation: The Pump Head is user-friendly, often requiring only the flip of a switch to start, making it convenient and efficient.</p></li></ul><p><br/></p><p><strong>4. Maintenance and Care</strong></p><p>To ensure the long-term stability of the Pump Head in a High Pressure Washer, regular maintenance is essential. Key measures include:</p><ul class=\" list-paddingleft-2\"><li><p>Seal Inspection: Regularly check seals such as O-rings and gaskets in the Washer Pump Head. Replace any aged, worn, or deformed seals promptly.</p></li><li><p>Cleaning: Washer Pump Head Clean the external surface of the Pump Head regularly. For internal cleaning, disassemble the pump to check for dirt or debris, and clean with a suitable detergent.</p></li><li><p>Avoid Sharp Objects: Do not use sharp tools like needles or cones to clean the Pump Head, as they can damage seals or other components.</p></li><li><p>Lubrication: Washer Pump Head Apply a suitable lubricant to the piston and seals to maintain smooth operation. Avoid excessive lubrication, as it can affect cleaning performance.</p></li><li><p>Storage: Store the High pressure washer Copper crankshaft pump in a dry, ventilated area to prevent moisture damage or sun exposure.</p></li></ul><p><img alt=\"High Pressure Washer\" src=\"/assets/cnryce/source/4059-202406170932224973.jpeg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 53,
     "name": "Ultra High Pressure Cleaner Pump Head 1807SD/1809SD",
     "slug": "ultra-high-pressure-cleaner-pump-head",
     "category": "Washer Plunger Pumps",
-    "tagline": "Washer Plunger Pumps product from the CNRYCE product catalog.",
+    "tagline": "Ultra High Pressure Cleaner Pump Head 1807SD/1809SD Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The ultra high pressure cleaner pump head utilizes advanced manufacturing techniques and high quality materials to ensure excellent performance under high pressure and high load conditions.",
-    "image_url": "/assets/cnryce/ultra-high-pressure-cleaner-pump-head.jpeg",
+    "image_url": "/assets/cnryce/source/4059-202406151719381521.jpeg",
     "specs": {
-      "Category": "Washer Plunger Pumps",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 53,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151719381521.jpeg",
+      "/assets/cnryce/source/4059-202501211638210407.jpg",
+      "/assets/cnryce/source/4059-202501211638251329.jpg",
+      "/assets/cnryce/source/4059-202406151719381521_s.jpeg",
+      "/assets/cnryce/source/4059-202406151719381521.jpeg"
+    ],
+    "source_url": "https://www.cnryce.com/product/ultra-high-pressure-cleaner-pump-head",
+    "source_title": "Ultra High Pressure Cleaner Pump Head 1807SD/1809SD",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Ultra High Pressure Cleaner Pump Head 1807SD/1809SD                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The ultra high pressure cleaner pump head utilizes advanced manufacturing techniques and high quality materials to ensure excellent performance under high pressure and high load conditions.                                    </p>\r\n                                    <p><strong>1. Working Principle</strong></p><p>The working principle of the ultrahigh-pressure cleaning pump head is based on the pressurization and jetting of water. A power-driven pump completes the suction and discharge process, transforming ordinary water into high-pressure, low-flow water. This pressurized water is then transported through high-pressure pipelines to the nozzle. Since the nozzle&#39;s aperture is much smaller than the pipeline&#39;s diameter, the water accelerates as it passes through, converting high-pressure, low-flow water into low-pressure, high-flow jets. These jets deliver a powerful impact, making the High Pressure Cleaner Pump Head highly effective for cleaning operations High pressure pumps for high pressure water systems.</p><p><br/></p><p><strong>2. Main Structure</strong></p><p>The main structure of the ultrahigh-pressure cleaning pump head includes the pump body, plunger, inlet valve, outlet valve, and other components. The plunger moves back and forth within the Copper pump head for washing machine body, drawing water through the inlet valve and pressurizing it before expelling it through the outlet valve. This process completes the water pressurization cycle. The valves ensure smooth water flow and prevent backflow, maintaining the efficient operation of the Copper pump head for washing machine or High pressure washer Copper crankshaft pump.</p><p><br/></p><p><strong>3. Performance Characteristics</strong></p><ul class=\" list-paddingleft-2\"><li><p>Ultra-High Pressure: The High Pressure Cleaner Pump Head can generate extremely high pressure, significantly enhancing cleaning effectiveness.</p></li><li><p>Large Flow Rate: Designed with a large flow channel, the High pressure washer Copper crankshaft pump head ensures high-pressure output while maintaining a substantial water flow, improving cleaning efficiency.</p></li><li><p>Strong Durability: Made from high-strength, corrosion-resistant materials, the Copper pump head for washing machine and High pressure washer Copper crankshaft pump are built to withstand harsh environments and ensure long-term stability.</p></li><li><p>Easy Maintenance: The well-designed structure of the pump head allows for easy disassembly and repair, reducing maintenance costs and downtime.</p></li></ul><p><br/></p><p><strong>4. Use and Maintenance</strong></p><p>When using the ultrahigh-pressure cleaning pump head, follow these guidelines:</p><ul class=\" list-paddingleft-2\"><li><p>Pre-Start Check: Ensure all screws and nuts are tightened, and the pump eccentric shaft case is adequately lubricated.</p></li><li><p>Correct Pipe Connection: Connect the inlet and outlet pipes securely as per the instructions to prevent air leaks and ensure optimal performance of the High pressure pumps for high pressure water systems.</p></li><li><p>Regular Maintenance: Perform routine maintenance, such as replacing seals and cleaning valves, to ensure the High Pressure Cleaner Pump Head operates smoothly over time.</p></li><li><p>Safety Precautions: Always prioritize safety during operation. Avoid directing high-pressure water jets at people to prevent injuries.</p></li></ul><p><img alt=\"High pressure pumps for high pressure water systems\" src=\"/assets/cnryce/source/4059-202406151719381521.jpeg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 54,
     "name": "380V High Pressure Washer Pump Head pure copper cleaning machine pump head 1807DA/1809DA",
     "slug": "380v-high-pressure-washer-pump-head-pure-copper-cleaning-machine-pump-head",
     "category": "Washer Plunger Pumps",
-    "tagline": "Washer Plunger Pumps product from the CNRYCE product catalog.",
+    "tagline": "380V High Pressure Washer Pump Head pure copper cleaning machine pump head 1807DA/1809DA Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "A 380 volt high pressure cleaning pump head is a high pressure water pump assembly used in commercial and industrial cleaning scenarios. It typically consists of a pump head made of copper or aluminum that can withstand high working pressures and is suitable for use with 380 volt AC power.",
-    "image_url": "/assets/cnryce/380v-high-pressure-washer-pump-head-pure-copper-cleaning-machine-pump-head.jpeg",
+    "image_url": "/assets/cnryce/source/4059-202406151727097936.jpeg",
     "specs": {
-      "Category": "Washer Plunger Pumps",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 54,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406151727097936.jpeg",
+      "/assets/cnryce/source/4059-202502211059066309.png",
+      "/assets/cnryce/source/4059-202502211059092425.png",
+      "/assets/cnryce/source/4059-202406151727097936_s.jpeg",
+      "/assets/cnryce/source/4059-202406151727097936.jpeg"
+    ],
+    "source_url": "https://www.cnryce.com/product/380v-high-pressure-washer-pump-head-pure-copper-cleaning-machine-pump-head",
+    "source_title": "380V High Pressure Washer Pump Head pure copper cleaning machine pump head 1807DA/1809DA",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        380V High Pressure Washer Pump Head pure copper cleaning machine pump head 1807DA/1809DA                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        A 380 volt high pressure cleaning pump head is a high pressure water pump assembly used in commercial and industrial cleaning scenarios. It typically consists of a pump head made of copper or aluminum that can withstand high working pressures and is suitable for use with 380 volt AC power.                                    </p>\r\n                                    <p><br/></p><p><strong>1.380V High Pressure Washer Pump Head</strong></p><p>The 380 volt high pressure cleaning pump head is one of the core components of the high pressure cleaning system, responsible for generating the high-pressure water flow required for cleaning operations. This cleaning pump head typically features the following characteristics:</p><ul class=\" list-paddingleft-2\"><li><p>High voltage drive: Powered by a 380V voltage, it delivers strong performance, ensuring stable output of high-pressure water flow.</p></li><li><p>Strong durability: The cleaning machine pump head is made from specially treated materials, offering high wear resistance and corrosion resistance, which significantly extends its service life.</p></li><li><p>Adjustable pressure: Some high pressure electric piston pumps are designed with pressure adjustment functions, allowing users to customize the cleaning pressure based on specific needs.</p></li><li><p>Wide range of applications: Suitable for various cleaning scenarios, including vehicle cleaning, industrial equipment cleaning, and building wall cleaning.</p></li></ul><p><br/></p><p><strong>2.Pure Copper Washer Pump Head</strong></p><p>The pure copper cleaning pump head is crafted from high-quality pure copper material, offering several advantages:</p><ul class=\" list-paddingleft-2\"><li><p>Excellent thermal conductivity: Pure copper efficiently dissipates heat, preventing overheating and potential damage to the cleaning machine pump.</p></li><li><p>Strong corrosion resistance: The material resists corrosion from various chemicals, making it suitable for diverse cleaning media.</p></li><li><p>Lightweight design: Compared to other metals, pure copper is less dense, resulting in a lighter cleaning pump head that is easier to install and maintain.</p></li><li><p>Aesthetic appeal: The bright, polished appearance of pure copper enhances the overall look of the high pressure cleaning machine.</p></li></ul><p><br/></p><p><strong>3.Precautions for Using a 380V High Pressure Cleaner Pump Head</strong></p><p><strong>Power supply and voltage:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Ensure the power supply matches the 380V voltage specified on the high pressure cleaning machine label.</p></li><li><p>Only qualified professionals should handle electrical connections, adhering to strict electrical safety standards.</p></li></ul><p><strong>Inspection and preparation:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Before starting the high pressure cleaning machine, inspect the cleaning pump head and all components for damage. Check that screws and nuts are securely tightened.</p></li><li><p>Verify the oil level and type, ensuring they meet the requirements for the high pressure electric piston pumps.</p></li><li><p>Connect the water inlet hose, high-pressure hose, and spray gun, ensuring all connections are airtight and secure.</p></li></ul><p><strong>Operation specifications:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Operators must possess relevant skills and safety awareness when using the 380 volt high pressure cleaning pump head.</p></li><li><p>Never insert fingers or objects into the pump’s inlet or outlet to avoid accidents.</p></li><li><p>Adjust the cleaning pressure according to the task requirements to prevent equipment damage or safety hazards caused by excessive pressure.</p></li></ul><p><br/></p><p><strong>4.Precautions for Using a Pure Copper Cleaner Pump Head</strong></p><p><strong>Material characteristics:</strong></p><ul class=\" list-paddingleft-2\"><li><p>While the pure copper cleaning pump head is highly resistant to chemicals, avoid direct contact with strong acids, alkalis, or other corrosive substances.</p></li><li><p>Due to its excellent thermal conductivity, ensure the pump head does not overheat by maintaining proper heat dissipation.</p></li></ul><p><strong>Operation and maintenance:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Follow the operational guidelines and maintenance requirements for the 380 volt high pressure cleaning pump head.</p></li><li><p>Protect the surface of the pure copper pump head from scratches or impacts that could cause damage.</p></li><li><p>Pressure and flow rate adjustment:</p></li><li><p>Adjust the cleaning pressure and flow rate based on the specific cleaning task to avoid damaging the cleaning machine pump with excessively high or low pressure.</p></li></ul><p><img alt=\"380 volt high pressure cleaning pump head\" src=\"/assets/cnryce/source/4059-202406151727097936.jpeg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 55,
     "name": "High pressure washer pump plunger pump R4 2012",
     "slug": "small-electric-pressure-washer-pump-head-high-flow-rate",
     "category": "Washer Plunger Pumps",
-    "tagline": "Washer Plunger Pumps product from the CNRYCE product catalog.",
+    "tagline": "High pressure washer pump plunger pump R4 2012 Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "High-pressure car wash pump head is the core component of the high-pressure washing machine, responsible for providing the high pressure water flow required for cleaning. It is usually made of copper or aluminum alloy, and consists of a plunger, piston, valve and other parts.",
-    "image_url": "/assets/cnryce/small-electric-pressure-washer-pump-head-high-flow-rate.png",
+    "image_url": "/assets/cnryce/source/4059-202601081618270245.png",
     "specs": {
-      "Category": "Washer Plunger Pumps",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 55,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202601081618270245.png",
+      "/assets/cnryce/source/4059-202601081615079254.jpg",
+      "/assets/cnryce/source/4059-202601081615084716.jpg",
+      "/assets/cnryce/source/4059-202601081615092494.jpg",
+      "/assets/cnryce/source/4059-202601081620002616.jpg",
+      "/assets/cnryce/source/4059-202601081618270245_s.png",
+      "/assets/cnryce/source/4059-202601081615333429.jpg",
+      "/assets/cnryce/source/4059-202601081615330662.jpg",
+      "/assets/cnryce/source/4059-202601081615332107.jpg",
+      "/assets/cnryce/source/4059-202601081615334242.jpg",
+      "/assets/cnryce/source/4059-202601081615335820.jpg",
+      "/assets/cnryce/source/4059-202406151720565573.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/small-electric-pressure-washer-pump-head-high-flow-rate",
+    "source_title": "High pressure washer pump plunger pump R4 2012",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High pressure washer pump plunger pump R4 2012                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        High-pressure car wash pump head is the core component of the high-pressure washing machine, responsible for providing the high pressure water flow required for cleaning. It is usually made of copper or aluminum alloy, and consists of a plunger, piston, valve and other parts.                                    </p>\r\n                                    <p><br/></p><p><img alt=\"high-pressure car wash machine\" src=\"/assets/cnryce/source/4059-202601081615333429.jpg\" title=\"high-pressure car wash machine\"/></p><p><img alt=\"pure copper cleaning machine pump head\" src=\"/assets/cnryce/source/4059-202601081615330662.jpg\" title=\"pure copper cleaning machine pump head\"/></p><p><img alt=\"high-pressure car wash machine\" src=\"/assets/cnryce/source/4059-202601081615332107.jpg\" title=\"high-pressure car wash machine\"/></p><p><img alt=\"pure copper cleaning machine pump head\" src=\"/assets/cnryce/source/4059-202601081615334242.jpg\" title=\"pure copper cleaning machine pump head\"/></p><p><img alt=\"high-pressure car wash machine\" src=\"/assets/cnryce/source/4059-202601081615335820.jpg\" title=\"high-pressure car wash machine\"/></p><p><strong>1.Structural Components</strong><br/></p><p>The pure copper cleaning machine pump head of the high-flow small electric high-pressure car washer is usually composed of core components such as the pump body, impeller, and shaft. These high-pressure car wash machine work together to ensure that the pump head can deliver a stable and efficient output of high-pressure water flow.</p><p><br/></p><p><strong>2.Working Principle</strong></p><p>The working principle of the high-pressure car wash machine is based on the suction and discharge process of water by the power drive unit. Through the drive of the power unit, the plunger or diaphragm and other components within the pump head perform reciprocating movements, causing water to be sucked into the pump body and pressurized, and then outputting high-pressure water flow. This process transforms ordinary water into high-pressure, low-flow rate water, which is then transported to the high-pressure pipeline and eventually ejected with considerable energy through the high-pressure nozzle of the high-pressure car wash machine.</p><p><br/></p><p><strong>3.Functional Characteristics</strong></p><ul class=\" list-paddingleft-2\"><li><p>Large Flow: The large flow design allows the pure copper cleaning machine pump head to output more water per unit of time, thus accelerating the cleaning speed and enhancing work efficiency.</p></li><li><p>High Pressure: The high-pressure car washer pump head has a high-pressure output capability, ensuring the strength of the water column jet and effectively removing stubborn stains.</p></li><li><p>Energy-saving: Some high-pressure car washer cleaning machine pump heads adopt energy-saving designs, such as diaphragm pump heads, which ensure the cleaning effect while reducing energy consumption.</p></li><li><p>Durable: The pure copper cleaning machine pump head is crafted from corrosion-resistant, wear-resistant materials to ensure the stability and reliability of long-term use.</p></li></ul><p><br/></p><p><strong>4.Application Scenarios</strong></p><p>The high-flow small electric high-pressure car washer cleaning machine pump head is widely used in various cleaning scenarios, including but not limited to:</p><ul class=\" list-paddingleft-2\"><li><p>Family Cleaning: Such as washing cars, rinsing the yard, etc.</p></li><li><p>Commercial Cleaning: Such as restaurant kitchen cleaning, shopping mall floor cleaning, etc.</p></li><li><p>Industrial Cleaning: Such as equipment maintenance cleaning, production line cleaning, and even specialized applications in auto detailing shops equipped with high-pressure car washers.</p></li></ul><p><br/></p><p><strong>5.Maintenance</strong></p><p>In order to ensure the long-term stable operation of the pure copper cleaning machine pump head of the high-flow small electric high-pressure car washer, it is necessary to carry out regular maintenance and upkeep. Specific measures include:</p><ul class=\" list-paddingleft-2\"><li><p>Regular cleaning of the pump head to prevent impurities from entering the pump.</p></li><li><p>Regularly checking whether the pump head seal is worn or aging and replacing it in time.</p></li><li><p>Regularly inspecting the wear and tear of pump head bearings, impellers, and other parts, and replacing them promptly if necessary.</p></li><li><p>Regularly lubricating pump head parts to ensure smooth operation, thereby maintaining the optimal performance of the high-pressure car wash machine.</p></li></ul><p><img alt=\"pure copper cleaning machine pump head\" src=\"/assets/cnryce/source/4059-202406151720565573.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 56,
     "name": "220V Washer Pump Head 1508",
     "slug": "220v-washer-pump-head",
     "category": "Washer Plunger Pumps",
-    "tagline": "Washer Plunger Pumps product from the CNRYCE product catalog.",
+    "tagline": "220V Washer Pump Head 1508 Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The 220 volt cleaning pump head usually refers to the pump head component of a domestic or commercial high pressure washer, which is the core component of a high pressure washer. This pump head is generally driven by 220-volt AC power and is capable of generating high-pressure water streams for a variety of cleaning tasks.",
-    "image_url": "/assets/cnryce/220v-washer-pump-head.jpeg",
+    "image_url": "/assets/cnryce/source/4059-202406170812516388.jpeg",
     "specs": {
-      "Category": "Washer Plunger Pumps",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 56,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406170812516388.jpeg",
+      "/assets/cnryce/source/4059-202406170812516388_s.jpeg",
+      "/assets/cnryce/source/4059-202406170812516388.jpeg"
+    ],
+    "source_url": "https://www.cnryce.com/product/220v-washer-pump-head",
+    "source_title": "220V Washer Pump Head 1508",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        220V Washer Pump Head 1508                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The 220 volt cleaning pump head usually refers to the pump head component of a domestic or commercial high pressure washer, which is the core component of a high pressure washer. This pump head is generally driven by 220-volt AC power and is capable of generating high-pressure water streams for a variety of cleaning tasks.                                    </p>\r\n                                    <p><strong>1.Basic Concept</strong></p><p>Voltage: 220 volts, which is the working voltage of the High Pressure Washer Pump head and also matches the electricity used in most homes. Specifically, when referring to washing machines, especially those equipped with Pressure Pump Head for High Pressure Washing Machine, the High Pressure Washer Pump&nbsp;head usually denotes the critical component of the drain pump tasked with discharging water efficiently.</p><p><br/></p><p><strong>2.Working Principle</strong></p><p>The Pressure Pump Head for High Pressure Washing Machine operates by engaging a solenoid valve to activate the drain valve. Upon energizing the stator coil with 220-volt alternating current, an alternating magnetic field is induced, causing the rotor to rotate. This Multi functional high pressure jet pump head rotation subsequently drives the wave wheel or related parts, utilizing centrifugal force to expel water into the drainage system. In advanced models, High pressure pumps for high pressure water systems might be integrated, enhancing the overall water expulsion efficiency.</p><p><br/></p><p><strong>3.Structure and Disassembly</strong></p><p>The intricate structure of a High Pressure Washer Pump head may incorporate an electromagnet, stator coil, rotor, wave wheel (or related drainage mechanisms), and a filter, among other components. Notably, the filter plays a pivotal role in preventing larger debris from penetrating the drainage system, thereby maintaining the efficacy of the Multi functional high pressure jet pump head. Removal and installation of such a pump head necessitate opening the washing machine&#39;s access panel, unscrewing the fasteners securing the pump head, disconnecting the wires, and loosening the clamping rings that secure the bellows and drain hose to the pump head. Subsequently, the bellows and drain hose are unplugged to facilitate pump head removal. The installation sequence mirrors the disassembly steps, with special attention to properly reconnecting the pump head wires and securing all associated parts.</p><p><br/></p><p><strong>4.Precautions and Maintenance</strong></p><p>Voltage matching is crucial: Ensure that the working voltage of your High Pressure Washer Pump head aligns precisely with your household electricity voltage, thereby averting potential damage or safety risks stemming from voltage mismatches. Regular maintenance is equally important; frequently clean the pump head and filter to forestall debris accumulation that could impair drainage efficiency. Should you encounter any malfunction with your Pressure Pump Head for High Pressure Washing Machine, promptly consult professional maintenance personnel for thorough inspection or replacement, potentially involving advanced High pressure pumps for high pressure water systems or Multi functional high pressure jet pump head expertise.</p><p><img alt=\"High Pressure Washer Pump head\" src=\"/assets/cnryce/source/4059-202406170812516388.jpeg\"/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 57,
     "name": "Triplex Plunger Pump Water Pump For High Pressure Cleaning 1806/1812",
     "slug": "triplex-plunger-pump-water-pump-for-high-pressure-cleaning",
     "category": "Washer Plunger Pumps",
-    "tagline": "Washer Plunger Pumps product from the CNRYCE product catalog.",
+    "tagline": "Triplex Plunger Pump Water Pump For High Pressure Cleaning 1806/1812 Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Triplex plunger pump is a type of pump commonly used in high-pressure cleaning applications. It produces high-pressure water flow through the synchronized reciprocating motion of three plungers, featuring high pressure and high flow rate.",
-    "image_url": "/assets/cnryce/triplex-plunger-pump-water-pump-for-high-pressure-cleaning.jpeg",
+    "image_url": "/assets/cnryce/source/4059-202406170843199659.jpeg",
     "specs": {
-      "Category": "Washer Plunger Pumps",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 57,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406170843199659.jpeg",
+      "/assets/cnryce/source/4059-202501211646362805.jpg",
+      "/assets/cnryce/source/4059-202501211646407848.png",
+      "/assets/cnryce/source/4059-202406170843199659_s.jpeg",
+      "/assets/cnryce/source/4059-202406170843199659.jpeg"
+    ],
+    "source_url": "https://www.cnryce.com/product/triplex-plunger-pump-water-pump-for-high-pressure-cleaning",
+    "source_title": "Triplex Plunger Pump Water Pump For High Pressure Cleaning 1806/1812",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Triplex Plunger Pump Water Pump For High Pressure Cleaning 1806/1812                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Triplex plunger pump is a type of pump commonly used in high-pressure cleaning applications. It produces high-pressure water flow through the synchronized reciprocating motion of three plungers, featuring high pressure and high flow rate.                                    </p>\r\n                                    <p><strong>1. Main Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>High Pressure and High Flow: The Triplex plunger pump is capable of generating high-pressure and high-flow water, ensuring stable pressure and uniform flow, making Multifunctional crankshaft high pressure pump ideal for high-pressure cleaning operations. This performance is also a hallmark of the High Pressure Cleaner Pump Head.</p></li><li><p>Light and Simple Structure: The cleaning water pump features a lightweight design with relatively low weight, while delivering maximum displacement and pressure. This makes High Pressure Cleaner Pump Head easy to carry and operate, especially in demanding environments.</p></li><li><p>Adaptable: The Triplex plunger pump can adapt to different pressures, displacements, and media by using plungers of varying sizes and selecting different configurations. Its reducer can also be mounted in multiple orientations to suit different drive lines, a feature shared by the Multifunctional crankshaft high pressure pump.</p></li><li><p>Wear-Resistant and Self-Lubricating: With internal components like ceramic plungers and ceramic sleeves, the water pump offers excellent wear resistance and self-lubrication, ensuring consistent plunger stroke capacity and preventing medium leakage.</p></li></ul><p><br/></p><p><strong>2. Application Areas</strong></p><ul class=\" list-paddingleft-2\"><li><p>Industrial Cleaning: In industries such as chemical plants, thermal power plants, sugar mills, and paper mills, the Triplex plunger pump is used to clean heat exchangers, reactors, and pipelines. It is also effective for cleaning castings, vehicles, airplanes, ships, and slaughterhouses.</p></li><li><p>City Cleaning: The cleaning water pump is ideal for cleaning city streets, squares, and street furniture, removing graffiti, and preserving historical monuments.</p></li><li><p>Infrastructure Maintenance: For public buildings like bridges and tunnels, the High Pressure Cleaner Pump Head helps remove corrosion and prepare surfaces, extending the lifespan of critical infrastructure.</p></li><li><p>Building Cleaning: In construction, the Triplex plunger pump cleans building facades, roofs, and other parts, whether for new projects or restorations.</p></li><li><p>Pipe Unclogging: Through high-pressure cleaning, the Multifunctional crankshaft high pressure pump effectively unclogs pipes and sewage systems, reducing re-clogging risks and ensuring proper drainage system operation.</p></li></ul><p><br/></p><p><strong>3. Precautions for Use</strong></p><ul class=\" list-paddingleft-2\"><li><p>Choose the Right Lubricant: The Triplex plunger pump typically uses lubricant oil with a viscosity index of 20w-50. In summer, slightly thicker oil like 10wcd40 can be added, while in winter, thinner oil like 10wcd30 is recommended. For motors below 15kw-22kw, 20w-50 lubricating oil is optimal. For high-pressure pumps with motors above 15kw, heavy-duty diesel engine oil or industrial gear oil with a viscosity index of sae80-sae90 is preferred.</p></li><li><p>Avoid Installing Filters: The High Pressure Cleaner Pump Head has poor self-absorption if filters are installed at the suction port. Over time, pressure drops can lead to insufficient suction, reduced volumetric efficiency, and potential damage to the pump. Therefore, filters should not be installed.</p></li><li><p>Avoid Hot Oil Reflux: If the discharge pipe of the Triplex plunger pump relief valve is connected to the hydraulic pump’s suction pipe, the hot oil can cause a temperature rise in the hydraulic system, leading to component or system failure. Thus, these connections should be avoided.</p></li></ul><p><img alt=\"High Pressure Cleaner Pump Head\" src=\"/assets/cnryce/source/4059-202406170843199659.jpeg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 58,
     "name": "Fully Automatic Shutdown Pump Head R31810C/1812C/18065C",
     "slug": "fully-automatic-shutdown-pump-head",
     "category": "Washer Plunger Pumps",
-    "tagline": "Washer Plunger Pumps product from the CNRYCE product catalog.",
+    "tagline": "Fully Automatic Shutdown Pump Head R31810C/1812C/18065C Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Fully automatic shutdown of clean pumps can be achieved by installing an automated control system. Such systems are capable of monitoring the operating status of the pump and automatically shutting down the power supply to the pump under certain conditions.",
-    "image_url": "/assets/cnryce/fully-automatic-shutdown-pump-head.jpg",
+    "image_url": "/assets/cnryce/source/4059-202601081552431593.jpg",
     "specs": {
-      "Category": "Washer Plunger Pumps",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 58,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202601081552431593.jpg",
+      "/assets/cnryce/source/4059-202601081553096775.jpg",
+      "/assets/cnryce/source/4059-202601081553094369.jpg",
+      "/assets/cnryce/source/4059-202601081553087852.jpg",
+      "/assets/cnryce/source/4059-202601081553084038.jpg",
+      "/assets/cnryce/source/4059-202601081554181058.png",
+      "/assets/cnryce/source/4059-202601081553472139.jpg",
+      "/assets/cnryce/source/4059-202601081553477739.jpg",
+      "/assets/cnryce/source/4059-202601081553479080.jpg",
+      "/assets/cnryce/source/4059-202601081553471795.jpg",
+      "/assets/cnryce/source/4059-202601081553476572.jpg",
+      "/assets/cnryce/source/4059-202406170850576637.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/fully-automatic-shutdown-pump-head",
+    "source_title": "Fully Automatic Shutdown Pump Head R31810C/1812C/18065C",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Fully Automatic Shutdown Pump Head R31810C/1812C/18065C                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Fully automatic shutdown of clean pumps can be achieved by installing an automated control system. Such systems are capable of monitoring the operating status of the pump and automatically shutting down the power supply to the pump under certain conditions.                                    </p>\r\n                                    <p></p><p><span>Specification:</span></p><p><img src=\"/assets/cnryce/source/4059-202601081554181058.png\" title=\"High flow high pressure pumps\" alt=\"High flow high pressure pumps\"/><img alt=\"automatic shutdown pump head\" src=\"/assets/cnryce/source/4059-202601081553472139.jpg\" title=\"automatic shutdown pump head\"/></p><p><img alt=\"small electric pressure washer pump head\" src=\"/assets/cnryce/source/4059-202601081553477739.jpg\" title=\"small electric pressure washer pump head\"/></p><p><img alt=\"High flow high pressure pumps\" src=\"/assets/cnryce/source/4059-202601081553479080.jpg\" title=\"High flow high pressure pumps\"/></p><p><img alt=\"automatic shutdown pump head\" src=\"/assets/cnryce/source/4059-202601081553471795.jpg\" title=\"automatic shutdown pump head\"/></p><p><img alt=\"small electric pressure washer pump head\" src=\"/assets/cnryce/source/4059-202601081553476572.jpg\" title=\"small electric pressure washer pump head\"/></p><p><strong>1. Working Principle</strong><br/></p><p>The automatic shutdown pump head, similar to the washer machine pump head found in modern appliances, incorporates a built-in control system capable of automatically initiating or terminating the pump&#39;s operation based on fluctuations in water flow or pressure. When the water flow attains the predefined conditions, this intelligent pump head promptly engages the pump for effective pumping action. Conversely, upon cessation of water flow or attainment of the specified pressure threshold, the automatic shutdown pump head deftly deactivates the pump, thereby conserving energy and safeguarding the equipment from undue wear and tear.</p><p><br/></p><p><strong>2. Application Scenario</strong></p><p>Domestic water use scenarios, such as kitchens, bathrooms, or water heater supply lines, frequently necessitate stabilizing water pressure and automatic control, making the automatic shutdown pump head an ideal choice. In agricultural irrigation systems, precise irrigation is achieved by adjusting the irrigation volume in harmony with soil moisture and crop water demands, often facilitated by high flow high pressure pumps. Industrial water supply systems, particularly those in cooling and cleaning lines that mandate automatic water flow and pressure control, also benefit immensely from these advanced pump heads.</p><p><br/></p><p><strong>3. Features and Advantages</strong></p><p>The automatic shutdown pump head, akin to the small electric pressure washer pump head renowned for its compact size and efficiency, exemplifies intelligent control by initiating and terminating pump operations autonomously based on preset conditions, negating the need for manual intervention. This feature contributes to energy conservation and environmental protection by preventing prolonged idling and mitigating pump wear, thereby reducing energy consumption and maintenance expenses. Installation is straightforward, thanks to the universal interface compatible with most domestic and industrial High flow high pressure pumps, facilitating a swift and seamless setup. Furthermore, the silent operation, akin to that of high-end washer machine pump heads, ensures minimal disturbance to living and working environments.</p><p><br/></p><p><strong>4. Purchase Suggestions</strong></p><p>When considering a purchase, it&#39;s crucial to understand your specific needs, whether it&#39;s for domestic water management, agricultural irrigation supported by high flow high pressure pumps, or industrial applications requiring precision control. Choose products with relevant certifications to guarantee quality and safety. Reputable brands and manufacturers, known for their washer machine pump heads and small electric pressure washer pump heads, offer superior after-sales service and technical support. Additionally, comparing prices within the framework of meeting needs and ensuring quality can lead to the selection of cost-effective options, such as the versatile automatic shutdown pump head.</p><p><br/></p><p><strong>5. Precautions</strong></p><p>Regular maintenance is paramount, involving periodic checks of the pump head and pump&#39;s operational status. Timely cleaning and replacement of worn parts are essential to sustain optimal performance. Safety should always be a priority, with electrical safety and operational regulations strictly adhered to during installation and usage to prevent accidents. Lastly, adhering to the product instructions for installing and operating the pump head and pump ensures their smooth functioning and extends their service life, much like how meticulous care prolongs the lifespan of small electric pressure washer pump heads and high flow high pressure pumps.</p><p><img alt=\"High flow high pressure pumps\" src=\"/assets/cnryce/source/4059-202406170850576637.png\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 59,
     "name": "Copper Cold Water High Pressure Washer Pump Head 1812SN",
     "slug": "copper-cold-water-high-pressure-washer-pump-head",
     "category": "Washer Plunger Pumps",
-    "tagline": "Washer Plunger Pumps product from the CNRYCE product catalog.",
+    "tagline": "Copper Cold Water High Pressure Washer Pump Head 1812SN Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Copper cold water high pressure washer pump head is the copper pump head used to drive the high pressure washer. It usually consists of several key components, including the pump body, pressure valve, piston, impeller and so on.",
-    "image_url": "/assets/cnryce/copper-cold-water-high-pressure-washer-pump-head.jpeg",
+    "image_url": "/assets/cnryce/source/4059-202406170922272597.jpeg",
     "specs": {
-      "Category": "Washer Plunger Pumps",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 59,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406170922272597.jpeg",
+      "/assets/cnryce/source/4059-202501211631556262.png",
+      "/assets/cnryce/source/4059-202501211631590703.jpg",
+      "/assets/cnryce/source/4059-202406170922272597_s.jpeg",
+      "/assets/cnryce/source/4059-202406170922272597.jpeg"
+    ],
+    "source_url": "https://www.cnryce.com/product/copper-cold-water-high-pressure-washer-pump-head",
+    "source_title": "Copper Cold Water High Pressure Washer Pump Head 1812SN",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Copper Cold Water High Pressure Washer Pump Head 1812SN                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Copper cold water high pressure washer pump head is the copper pump head used to drive the high pressure washer. It usually consists of several key components, including the pump body, pressure valve, piston, impeller and so on.                                    </p>\r\n                                    <p><br/></p><p><span></span></p><p><strong>1. Structural Components</strong></p><p>The Copper pump head in cold water high-pressure washers is typically composed of various components, including but not limited to high-pressure steel bushings, Fully automatic shutdown pump head, guided copper bushings, support ring plunger seals, gaskets, inlet valve plates, valve seats, and large screw plugs. These&nbsp;Fully automatic shutdown pump head components work together to ensure the Triplex Plunger Pump Water Pump for High Pressure Cleaning operates efficiently and stably.</p><p><br/></p><p><strong>2. Working Principle</strong></p><p>High-pressure cleaners use water as the working medium and consist of two main parts: the booster pump and the power-driven unit. The power-driven pump completes the water suction and discharge process, transforming ordinary water into high-pressure, low-flow water, which is then transported through high-pressure pipelines to the nozzle. The Copper pump head nozzle&#39;s aperture is much smaller than the pipeline&#39;s diameter, accelerating the water and converting it into a low-pressure, high-flow jet for effective cleaning.</p><p>Inside the 380V High pressure washer pump head, the plunger performs a reciprocating motion within the hydraulic chamber to generate pressure, pushing water through the discharge chamber for output. The inlet valve plate and spool control water flow and prevent backflow. When the&nbsp;380V High pressure washer pump head pressure exceeds the spring&#39;s capacity, the valve opens; during the opposite stroke, water automatically closes the valve.</p><p>For added convenience, some Copper pump head feature a Fully automatic shutdown 380V High pressure washer pump head, which automatically stops operation when specific conditions are met, enhancing safety and efficiency.</p><p><br/></p><p><strong>3. Performance Characteristics</strong></p><ul class=\" list-paddingleft-2\"><li><p>Strong Corrosion Resistance: The Copper pump head material offers excellent corrosion resistance, protecting against water and cleaning media erosion, and extending the Fully automatic shutdown pump head&#39;s lifespan.</p></li><li><p>Good Thermal Conductivity: Copper&#39;s superior thermal conductivity helps dissipate heat during operation, maintaining a stable temperature for the Triplex Plunger Pump Water Pump for High Pressure Cleaning.</p></li><li><p>High-Pressure Output: The pump head delivers high-pressure water flow, meeting the demands of various cleaning tasks.</p></li><li><p>Convenient Maintenance: The split structure of the 220V washer pump head allows for easy disassembly and repair, reducing labor intensity.</p></li></ul><p><br/></p><p><strong>4. Application Scenarios</strong></p><p>The Copper pump head is widely used in various cleaning operations, such as high-pressure cleaning, rust and paint removal, engineering vehicle cleaning, condenser dredging, marine cleaning, casting desanding, bridge refurbishment, and aluminum template cleaning. Its efficient and stable performance makes it a reliable choice for both 380V High pressure washer pump head and 220V washer pump head applications.</p><p><br/></p><p><strong>5. Maintenance and Upkeep</strong></p><p>To ensure the long-term stability of the Copper pump head, regular maintenance is essential. Key measures include:</p><ul class=\" list-paddingleft-2\"><li><p>Inspecting and replacing heavily worn components, such as plungers and seals.</p></li><li><p>Cleaning impurities and dirt from inside the pump head.</p></li><li><p>Avoiding excessive impact and vibration to prolong the lifespan of the Triplex Plunger Pump Water Pump for High Pressure Cleaning.</p></li><li><p>For models with a Fully automatic shutdown pump head, regularly check the automatic shutdown mechanism to ensure it functions correctly.</p></li></ul><p><span><br/></span></p><p><span><br/></span></p><p><span><br/></span></p><p><img alt=\"Fully automatic shutdown pump head\" src=\"/assets/cnryce/source/4059-202406170922272597.jpeg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 60,
     "name": "Cold Water High Pressure Cleaning Machine Pump Head 2012NA/2014NA",
     "slug": "cold-water-high-pressure-cleaning-machine-pump-head",
     "category": "Washer Plunger Pumps",
-    "tagline": "Washer Plunger Pumps product from the CNRYCE product catalog.",
+    "tagline": "Cold Water High Pressure Cleaning Machine Pump Head 2012NA/2014NA Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The cold water high pressure cleaning machine pump head is suitable for a variety of high-pressure cleaning needs, including industrial cleaning, construction cleaning, vehicle maintenance, etc. It is able to provide a stable and powerful high-pressure cold water flow in different environments.",
-    "image_url": "/assets/cnryce/cold-water-high-pressure-cleaning-machine-pump-head.jpeg",
+    "image_url": "/assets/cnryce/source/4059-202406170929263391.jpeg",
     "specs": {
-      "Category": "Washer Plunger Pumps",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 60,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406170929263391.jpeg",
+      "/assets/cnryce/source/4059-202501221628067594.png",
+      "/assets/cnryce/source/4059-202501221628212267.jpg",
+      "/assets/cnryce/source/4059-202601081547173548.png",
+      "/assets/cnryce/source/4059-202406170929263391_s.jpeg",
+      "/assets/cnryce/source/4059-202406170929263391.jpeg"
+    ],
+    "source_url": "https://www.cnryce.com/product/cold-water-high-pressure-cleaning-machine-pump-head",
+    "source_title": "Cold Water High Pressure Cleaning Machine Pump Head 2012NA/2014NA",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Cold Water High Pressure Cleaning Machine Pump Head 2012NA/2014NA                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The cold water high pressure cleaning machine pump head is suitable for a variety of high-pressure cleaning needs, including industrial cleaning, construction cleaning, vehicle maintenance, etc. It is able to provide a stable and powerful high-pressure cold water flow in different environments.                                    </p>\r\n                                    <p><strong>1. Working Principle</strong></p><p>The Electric High Pressure Crankshaft Pump operates by using water as the working medium, consisting of two main parts: the booster pump and the power driving unit. The power-driven pump completes the suction and discharge process, transforming ordinary water into high-pressure, low-flow water. This pressurized water is then transported through high-pressure pipelines to the nozzle. Since the nozzle&#39;s aperture is much smaller than the pipeline&#39;s diameter, the water accelerates as it passes through, converting high-pressure, low-flow water into low-pressure, high-flow jets. These jets deliver a powerful impact, making the High pressure car washer pump head highly effective for cleaning operations.</p><p><br/></p><p><strong>2. Structural Characteristics</strong></p><p>The cleaning machine pump head is typically made from high-pressure-resistant and corrosion-resistant materials, ensuring stable operation even in harsh environments. Its compact and well-designed structure enhances cleaning efficiency and quality. Additionally, the Ultra high pressure cleaner pump head is equipped with precision valves and seals to prevent water backflow and leakage, ensuring the stability and safety of the cleaning process.</p><p><br/></p><p><strong>3. Performance Parameters</strong></p><p>The performance parameters of the cleaning machine pump head include pressure, flow rate, and power.</p><ul class=\" list-paddingleft-2\"><li><p>Pressure: Refers to the maximum water pressure the pump head can generate.</p></li><li><p>Flow Rate: Indicates the volume of water the pump head can transport per unit of time.</p></li><li><p>Power: Represents the amount of electricity or fuel consumed during operation.</p></li></ul><p>These parameters directly impact the cleaning effectiveness and energy efficiency of the Electric High Pressure Crankshaft Pump.</p><p><br/></p><p><strong>4. Use and Maintenance</strong></p><p><strong>Precautions for Use:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Before using the High pressure car washer pump head, inspect the pump head for leaks or damage to ensure its integrity.</p></li><li><p>After connecting the water source and power supply, allow the pump to expel air before starting normal operation.</p></li><li><p>Maintain an appropriate distance between the nozzle and the cleaning surface to optimize cleaning results.</p></li></ul><p><strong>Maintenance:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Regularly clean and inspect the Ultra high pressure cleaner pump head, replacing damaged seals and valves promptly.</p></li><li><p>Periodically replace the cleaning machine&#39;s oil to extend the equipment&#39;s lifespan.</p></li><li><p>After use, drain the water from the cleaning machine to prevent rust or scale buildup inside the pump head.</p></li></ul><p><br/></p><p><strong>5. Application Areas</strong></p><ul class=\" list-paddingleft-2\"><li><p>The cleaning machine pump head is widely used in various settings requiring high-pressure water cleaning, such as construction sites, automobile repair shops, and food processing plants. The Electric High Pressure Crankshaft Pump effectively removes dirt, grease, and residues from surfaces, significantly improving cleaning efficiency and quality.</p></li><li><p>By incorporating Electric High Pressure Crankshaft Pump, High pressure car washer pump head, cleaning machine pump head, and Ultra high pressure cleaner pump head into the text, the article achieves the desired keyword density while maintaining clarity and readability.</p></li></ul><p><img alt=\"Electric High Pressure Crankshaft Pump\" src=\"/assets/cnryce/source/4059-202406170929263391.jpeg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 61,
     "name": "Multi Functional High Pressure Jet Pump Head R2 1612",
     "slug": "multi-functional-high-pressure-jet-pump-head",
     "category": "Washer Plunger Pumps",
-    "tagline": "Washer Plunger Pumps product from the CNRYCE product catalog.",
+    "tagline": "Multi Functional High Pressure Jet Pump Head R2 1612 Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The multi functional high pressure jet pump head is a versatile high-pressure jet pump head that is ideal for high-pressure water washing, industrial cleaning, construction cleaning and more, thanks to its excellent performance, high efficiency and wide range of applications.",
-    "image_url": "/assets/cnryce/multi-functional-high-pressure-jet-pump-head.png",
+    "image_url": "/assets/cnryce/source/4059-202601081600171299.png",
     "specs": {
-      "Category": "Washer Plunger Pumps",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 61,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202601081600171299.png",
+      "/assets/cnryce/source/4059-202601081600433135.jpg",
+      "/assets/cnryce/source/4059-202601081600446354.jpg",
+      "/assets/cnryce/source/4059-202601081600454032.jpg",
+      "/assets/cnryce/source/4059-202601081600440299.jpg",
+      "/assets/cnryce/source/4059-202601081600171299_s.png",
+      "/assets/cnryce/source/4059-202601081601060880.jpg",
+      "/assets/cnryce/source/4059-202601081601065063.jpg",
+      "/assets/cnryce/source/4059-202601081601060733.jpg",
+      "/assets/cnryce/source/4059-202601081601066455.jpg",
+      "/assets/cnryce/source/4059-202601081601069162.jpg",
+      "/assets/cnryce/source/4059-202406170952446903.jpeg"
+    ],
+    "source_url": "https://www.cnryce.com/product/multi-functional-high-pressure-jet-pump-head",
+    "source_title": "Multi Functional High Pressure Jet Pump Head R2 1612",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Multi Functional High Pressure Jet Pump Head R2 1612                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The multi functional high pressure jet pump head is a versatile high-pressure jet pump head that is ideal for high-pressure water washing, industrial cleaning, construction cleaning and more, thanks to its excellent performance, high efficiency and wide range of applications.                                    </p>\r\n                                    <p><br/></p><p><img alt=\"Jet Pump Head\" src=\"/assets/cnryce/source/4059-202601081601060880.jpg\" title=\"Jet Pump Head\"/></p><p><img alt=\"The Multi Functional High Pressure Jet Pump Head\" src=\"/assets/cnryce/source/4059-202601081601065063.jpg\" title=\"The Multi Functional High Pressure Jet Pump Head\"/></p><p><img alt=\"High Pressure Jet Pump Head\" src=\"/assets/cnryce/source/4059-202601081601060733.jpg\" title=\"High Pressure Jet Pump Head\"/></p><p><img alt=\"Jet Pump Head\" src=\"/assets/cnryce/source/4059-202601081601066455.jpg\" title=\"Jet Pump Head\"/></p><p><img alt=\"The Multi Functional High Pressure Jet Pump Head\" src=\"/assets/cnryce/source/4059-202601081601069162.jpg\" title=\"The Multi Functional High Pressure Jet Pump Head\"/></p><p><strong>1. Working Principle</strong><br/></p><p>The working principle of The Multi Functional High Pressure Jet Pump Head is based on the energy transfer of high-pressure fluids. It sprays high-pressure working fluid (such as water, steam, or air) at an extremely high speed through a specific nozzle structure, forming a powerful jet. This jet drives and mixes the surrounding fluid, enabling fluid pumping or cleaning operations. Notably, the Jet Pump Head has no moving internal parts, relying solely on the kinetic energy of the high-pressure fluid to transfer fluids efficiently.</p><p><br/></p><p><strong>2. Main Structure</strong></p><p>The main structure of The Multi Functional High Pressure Jet Pump Head includes the nozzle, suction chamber, mixing tube, and diffusion tube.</p><ul class=\" list-paddingleft-2\"><li><p>Nozzle: The outlet for high-pressure fluid, its shape and structure significantly impact the jet&#39;s performance.</p></li><li><p>Suction Chamber: Draws in the conveyed fluid and mixes it with the high-pressure fluid.</p></li><li><p>Mixing Tube: The area where energy transfer and exchange occur between the high-pressure fluid and the conveyed fluid.</p></li><li><p>Diffusion Tube: Converts the kinetic energy of the mixed fluid into pressure energy for efficient delivery.</p></li></ul><p>These components are also integral to Pressure Washer Pump Parts, ensuring seamless operation and durability.</p><p><br/></p><p><strong>3. Performance Characteristics</strong></p><ul class=\" list-paddingleft-2\"><li><p>High Pressure and High Efficiency: The High Pressure Jet Pump Head generates extremely high pressure, enhancing fluid transportation efficiency.</p></li><li><p>Multi-Purpose: Suitable for conveying various fluids, including liquids, steam, and air, meeting the needs of diverse industrial sectors.</p></li><li><p>Compact Structure: The ultra high pressure pump features a compact design, saving space and simplifying installation and maintenance.</p></li><li><p>Simple Operation: Requires no complex steps; simply adjust the pressure and flow rate of the high-pressure fluid to achieve fluid transfer.</p></li><li><p>Energy Saving and Environmental Protection: With no moving internal parts, the Jet Pump Head reduces energy consumption and noise pollution, aligning with eco-friendly standards.</p></li></ul><p><br/></p><p><strong>4. Application Areas</strong></p><p>The Multi Functional High Pressure Jet Pump Head is widely used in the following fields:</p><ul class=\" list-paddingleft-2\"><li><p>Industrial Cleaning: Removes dirt and sediments from equipment, pipelines, and containers.</p></li><li><p>Chemical Production: Transports corrosive and viscous fluids in chemical manufacturing processes.</p></li><li><p>Water Treatment: Enhances water purity and stability in sewage treatment and water supply systems.</p></li><li><p>Other Fields: Extensively applied in food processing, pharmaceuticals, textiles, and other industries.</p></li></ul><p>The ultra high pressure pump is particularly valued for its versatility and efficiency in these applications.</p><p><br/></p><p><strong>5. Maintenance Suggestions</strong></p><ul class=\" list-paddingleft-2\"><li><p>Regular Inspection: Check the wear and tear of the nozzle, suction chamber, mixing tube, and diffusion tube. Replace damaged Pressure Washer Pump Parts promptly.</p></li><li><p>Cleaning: Clean the interior of the High Pressure Jet Pump Head to prevent clogs caused by dirt and sediments.</p></li><li><p>Lubrication and Cooling: Maintain proper lubrication and cooling to extend the pump head&#39;s service life.</p></li><li><p>Proper Operation: Follow operating procedures strictly to avoid damage or malfunctions caused by improper use.</p></li></ul><p><img alt=\"High Pressure Jet Pump Head\" src=\"/assets/cnryce/source/4059-202406170952446903.jpeg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 62,
     "name": "High Pressure Pumps For High Pressure Water Systems 1407C/1408C/1409C/1410C",
     "slug": "high-pressure-pumps-for-high-pressure-water-systems",
     "category": "Washer Plunger Pumps",
-    "tagline": "Washer Plunger Pumps product from the CNRYCE product catalog.",
+    "tagline": "High Pressure Pumps For High Pressure Water Systems 1407C/1408C/1409C/1410C Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "High pressure pumps for high pressure water systems is a high performance pump designed for high pressure water systems. This product is manufactured through rigorous design and craftsmanship to provide users with a stable and reliable high pressure water flow.",
-    "image_url": "/assets/cnryce/high-pressure-pumps-for-high-pressure-water-systems.jpg",
+    "image_url": "/assets/cnryce/source/4059-202512201604102238.jpg",
     "specs": {
-      "Category": "Washer Plunger Pumps",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 62,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202512201604102238.jpg",
+      "/assets/cnryce/source/4059-202512201600273327.jpg",
+      "/assets/cnryce/source/4059-202512201600308329.jpg",
+      "/assets/cnryce/source/4059-202512201600341658.jpg",
+      "/assets/cnryce/source/4059-202512201600380306.jpg",
+      "/assets/cnryce/source/4059-202512201604102238_s.jpg",
+      "/assets/cnryce/source/4059-202406170951185081.jpeg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-pumps-for-high-pressure-water-systems",
+    "source_title": "High Pressure Pumps For High Pressure Water Systems 1407C/1408C/1409C/1410C",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High Pressure Pumps For High Pressure Water Systems 1407C/1408C/1409C/1410C                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        High pressure pumps for high pressure water systems is a high performance pump designed for high pressure water systems. This product is manufactured through rigorous design and craftsmanship to provide users with a stable and reliable high pressure water flow.                                    </p>\r\n                                    <p><strong>1.High Pressure Piston Pump</strong></p><p><strong>Working principle: </strong>The high pressure piston pump, a type of volumetric pump, utilizes periodic changes in the volume of its working chamber to convey liquid. The mechanical energy of the prime mover is directly converted into the pressure energy of the conveyed liquid by the pump. This makes high pressure pump&nbsp;a reliable choice for high pressure applications.</p><p><strong>Performance characteristics:</strong></p><ul class=\" list-paddingleft-2\"><li><p>high pressure pump can generate high pressure, typically ranging from 10MPa to 100MPa.</p></li><li><p>high pressure pump compact structure and high working efficiency make it an excellent op</p></li><li><p>tion for various industrial settings.</p></li><li><p>high pressure pump is suitable for occasions requiring high pressure output, such as in the petroleum, chemical, and fertilizer industries.</p></li></ul><p><strong>Application scope:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Process high pressure pump for the petroleum, chemical, and fertilizer industries.</p></li><li><p>High-pressure water descaling in metallurgy and steel rolling mills.</p></li><li><p>High-pressure water cleaning and descaling in construction, shipbuilding, sugar making, paper making, and other industries.</p></li><li><p>Oilfield water injection, boiler water supply, and as a Washer Cleaning Machine Pump for heavy-duty cleaning tasks.</p></li></ul><p><br/></p><p><strong>2.High-Pressure Reciprocating Pump</strong></p><p><strong>Working principle: </strong>The high-pressure cleaning machine pump, another type of volumetric pump, transports liquid through periodic changes in the volume of its working chamber.</p><p><strong>Performance characteristics:</strong></p><ul class=\" list-paddingleft-2\"><li><p>cleaning machine pump can produce stable high pressure output, making it ideal for applications where consistent pressure is required.</p></li><li><p>The cleaning machine pump flow rate can be adjusted according to demand, providing flexibility in various industrial processes.</p></li><li><p>cleaning machine pump simple structure and ease of maintenance make it a cost-effective solution.</p></li></ul><p><strong>Application scope:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Washer Cleaning Machine Pump, including cleaning machine pumps for various industrial cleaning tasks.</p></li><li><p>Washer Cleaning Machine Pump such as urea copper liquid pumps, base formic acid ammonia liquid dimethyl pumps, and Copper pump heads for washing machines in specific applications.</p></li><li><p>Food homogenization pumps, detergent slurry pumps, and other pumps used in the food processing industry.</p></li><li><p>Washer Cleaning Machine Pump, water injection pumps, dephosphorization pumps, and other industrial pumps.</p></li></ul><p><br/></p><p><strong>3.High-Pressure Centrifugal Pump</strong></p><p><strong>Working principle: </strong>The high-pressure centrifugal pump uses a motor or internal combustion engine to drive the pump shaft rotation. This rotation drives the impeller to generate centrifugal force, which accelerates the liquid from the pump inlet to the outlet, forming a high-pressure water flow.</p><p><strong>Performance characteristics:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Its simple structure and smooth operation make it a reliable choice for long-term use.</p></li><li><p>Washer Cleaning Machine Pump can produce high pressure, suitable for long-distance transportation and high-pressure water supply systems.</p></li><li><p>Large flow rates make it ideal for applications requiring large amounts of water supply, such as city water supply systems.</p></li></ul><p><strong>Scope of application:</strong></p><ul class=\" list-paddingleft-2\"><li><p>City water supply systems, where it is used to pressurize and transport tap water to every corner of the city.</p></li><li><p>Industrial fields, including chemical, petroleum, and electric power industries, for material transportation, cooling, and process pressurization.</p></li><li><p>Agricultural irrigation systems, such as drip irrigation and sprinkler irrigation, where high-pressure centrifugal pumps ensure efficient water delivery.</p></li></ul><p><br/></p><p><strong>4.Selection Recommendations for High Pressure Pumps</strong></p><p>When selecting high pressure pumps for high-pressure water supply systems, the following factors need to be considered:</p><ul class=\" list-paddingleft-2\"><li><p>Head requirement: Determine the required head according to the actual demand of the water supply system.</p></li><li><p>Flow requirements: Determine the required flow rate based on the system&#39;s needs.</p></li><li><p>Power and efficiency: Choose a high-pressure pump with appropriate power and efficiency to reduce energy consumption and operating costs.</p></li><li><p>Quality and durability: Select a high-pressure pump with excellent quality and durability to ensure long-term stable operation and reduce the frequency of maintenance and replacement. Look for pumps with robust construction and proven reliability, such as those used in Washer Cleaning Machine Pumps and cleaning machine pumps.</p></li><li><p>Safety: Ensure that the selected high-pressure pump has the necessary safety measures and protection devices to protect operators and prevent accidents. This includes features such as pressure relief valves, overheat protection, and emergency stop buttons.</p></li></ul><p><img alt=\"high pressure pump\" src=\"/assets/cnryce/source/4059-202406170951185081.jpeg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 63,
     "name": "high Pressure Car Washer Pump，100bar 1450psi 2.5kw 3hp High Pressure Plunger Pump 1810CB/1812CB/1814CB",
     "slug": "high-pressure-car-washer-pump100bar-1450psi-25kw-3hp-high-pressure-plunger-pump",
     "category": "Washer Plunger Pumps",
-    "tagline": "Washer Plunger Pumps product from the CNRYCE product catalog.",
+    "tagline": "high Pressure Car Washer Pump，100bar 1450psi 2.5kw 3hp High Pressure Plunger Pump 1810CB/1812CB/1814CB Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "High-pressure pump head is the core component of the high-pressure cleaner, and its performance and quality are directly related to the cleaning effect and the durability of the equipment. High-pressure cleaning machine through the power unit so that the high-pressure plunger pump to produce high-pressure water to rinse the surface of the object, so as to achieve the purpose of cleaning.",
-    "image_url": "/assets/cnryce/high-pressure-car-washer-pump100bar-1450psi-25kw-3hp-high-pressure-plunger-pump.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406170950562338.jpg",
     "specs": {
-      "Category": "Washer Plunger Pumps",
       "Power": "2.5kw",
       "Pressure": "100bar",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 63,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406170950562338.jpg",
+      "/assets/cnryce/source/4059-202501221629390559.jpg",
+      "/assets/cnryce/source/4059-202512201604483094.png",
+      "/assets/cnryce/source/4059-202406170950562338_s.jpg",
+      "/assets/cnryce/source/4059-202406170950562338.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-car-washer-pump100bar-1450psi-25kw-3hp-high-pressure-plunger-pump",
+    "source_title": "high Pressure Car Washer Pump，100bar 1450psi 2.5kw 3hp High Pressure Plunger Pump 1810CB/1812CB/1814CB",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        high Pressure Car Washer Pump，100bar 1450psi 2.5kw 3hp High Pressure Plunger Pump 1810CB/1812CB/1814CB                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        High-pressure pump head is the core component of the high-pressure cleaner, and its performance and quality are directly related to the cleaning effect and the durability of the equipment. High-pressure cleaning machine through the power unit so that the high-pressure plunger pump to produce high-pressure water to rinse the surface of the object, so as to achieve the purpose of cleaning.                                    </p>\r\n                                    <p><strong>1. Working Principle</strong></p><p>The working principle of the High Pressure Plunger Pump is to use electric power or an engine-driven device to pressurize water, forming a high-pressure water flow at the outlet. This water is then sprayed at high speed through a nozzle onto the surface of the vehicle, achieving effective cleaning. Specifically, its workflow includes the following steps:</p><ul class=\" list-paddingleft-2\"><li><p>Water Supply: The Pump Head needs to be connected to a stable water source, such as tap water or a well. Water enters the pump body through the inlet pipe.</p></li><li><p>Inlet Water Filtration: Before entering the pump body, water passes through a filtering device to remove impurities and particles, ensuring the purity of the high-pressure water flow.</p></li><li><p>Pump Drive: The High Pressure Plunger Pump uses either an electric motor or an engine to pressurize the water. The electric motor inputs electricity, while the engine converts energy into mechanical energy through combustion pure copper cleaning machine pump head.</p></li><li><p>High-Pressure Jetting: The pressurized water forms a high-pressure stream at the outlet, which is jetted at high velocity through a nozzle onto the vehicle&#39;s surface pure copper cleaning machine pump head.</p></li><li><p>Cooling Device: The Fully automatic shutdown pump head is often equipped with a cooling device to prevent overheating during prolonged operation Pump Head.</p></li></ul><p><br/></p><p><strong>2. Main Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>Efficient Cleaning: The pure copper cleaning machine pump head generates high water pressure, typically between tens and hundreds of bars, effectively removing stains and dirt from vehicle surfaces.</p></li><li><p>Energy Saving and Environmental Protection: The The Pressure Pump Head features a water-saving and energy-efficient design, reducing water waste and energy consumption while maintaining cleaning effectiveness.</p></li><li><p>Easy to Operate: Equipped with user-friendly control panels and ergonomic designs, the High Pressure Plunger Pump allows users to quickly complete Pump Head cleaning tasks.</p></li><li><p>Wide Range of Applications: Suitable for car wash shops, households, 4S stores, and car beauty shops, the Pump Head is versatile and adaptable.</p></li></ul><p><br/></p><p><strong>3. Technical Parameters</strong></p><p>The technical parameters of the High Pressure Plunger Pump vary by model and application but generally include:</p><ul class=\" list-paddingleft-2\"><li><p>Working Pressure: The maximum water pressure the pump can produce, measured in bar (bar) or pounds per square inch (psi). Users can choose the appropriate&nbsp;Pump Head model based on their needs.</p></li><li><p>Flow Rate: The volume of water the pump can output per unit of time, measured in liters per minute (L/min). Higher flow rates result in faster&nbsp;Pump Head cleaning speeds.</p></li><li><p>Power: The electrical energy or power required for operation, measured in kilowatts (kW) or horsepower (hp). Greater power enhances the pump&#39;s pressurizing capability.</p></li><li><p>Pump Type: The pure copper cleaning machine pump head typically uses piston or plunger pumps, each offering unique performance characteristics to suit different needs.</p></li></ul><p><br/></p><p><strong>4. Use and Maintenance Precautions</strong></p><ul class=\" list-paddingleft-2\"><li><p>Pre-Use Inspection: Before using the High Pressure Plunger Pump, check the power supply, water source, pump body, and nozzle for blockages or wear. Ensure the high-pressure hose is not aged or broken.</p></li><li><p>Correct Operation: Follow the operating steps in the manual to avoid misuse that could damage the equipment or cause injury. Maintain the proper distance and spray angle between the water gun and the vehicle surface.</p></li><li><p>Regular Maintenance: Regularly clean, lubricate, and inspect the Fully automatic shutdown pump head. Replace worn seals and filters to prevent leaks and clogs.</p></li><li><p>Safety Precautions: Wear protective gear to avoid injuries from high-pressure water jets. Ensure no flammable or explosive materials are nearby to prevent accidents. Avoid spraying water directly onto electrical components to prevent short circuits or damage.</p></li></ul><p><img alt=\"pure copper cleaning machine pump head\" src=\"/assets/cnryce/source/4059-202406170950562338.jpg\"/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 64,
     "name": "Commercial Washer Plung Pump 1812NA/1814NA",
     "slug": "commercial-washer-plung-pump",
     "category": "Washer Plunger Pumps",
-    "tagline": "Washer Plunger Pumps product from the CNRYCE product catalog.",
+    "tagline": "Commercial Washer Plung Pump 1812NA/1814NA Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The washer cleaning machine pump is a high pressure water pump designed for commercial cleaning applications. With its high performance, stability and durability, it has become the tool of choice in commercial cleaning.",
-    "image_url": "/assets/cnryce/commercial-washer-plung-pump.jpeg",
+    "image_url": "/assets/cnryce/source/4059-202406170955179315.jpeg",
     "specs": {
-      "Category": "Washer Plunger Pumps",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 64,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406170955179315.jpeg",
+      "/assets/cnryce/source/4059-202501211631322236.jpeg",
+      "/assets/cnryce/source/4059-202501211631390364.jpg",
+      "/assets/cnryce/source/4059-202406170955179315_s.jpeg",
+      "/assets/cnryce/source/4059-202406170955179315.jpeg"
+    ],
+    "source_url": "https://www.cnryce.com/product/commercial-washer-plung-pump",
+    "source_title": "Commercial Washer Plung Pump 1812NA/1814NA",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Commercial Washer Plung Pump 1812NA/1814NA                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The washer cleaning machine pump is a high pressure water pump designed for commercial cleaning applications. With its high performance, stability and durability, it has become the tool of choice in commercial cleaning.                                    </p>\r\n                                    <p><strong>1. Definition and Working Principle</strong></p><ul class=\" list-paddingleft-2\"><li><p>Definition: A Plung Pump is a common positive displacement centrifugal pump that uses one or more plungers to generate pressure and push fluid out of the Plung Pump body through the reciprocating motion of the plungers. Plung Pump is a core component in Washer Cleaning Machine Pump systems.</p></li><li><p>Principle of Operation: A Plung Pump operates by reciprocating the plunger rod within a cylinder, which changes the chamber&#39;s volume and creates a pressure differential. When the plunger moves inward, the chamber volume decreases, pushing liquid out of the pump body. When the plunger moves outward, the chamber volume increases, drawing liquid into the pump body. Washer Plung Pump continuous reciprocating motion allows the Washer Plung Pump to deliver liquid efficiently.</p></li></ul><p><br/></p><p><strong>2. Structure and Composition</strong></p><p>Plunger pumps in commercial washing machines, such as the Copper Cold Water High Pressure Washer Pump Head, typically consist of the following components:</p><ul class=\" list-paddingleft-2\"><li><p>Pump Body: A cylindrical container housing one or more plunger chambers, essential for the Cold Water High Pressure Cleaning Machine Pump Head.</p></li><li><p>Plunger: Located inside the chamber, the plunger is a core component connected to the transmission mechanism via a piston rod.</p></li><li><p>Valves: Positioned at the inlet and outlet of the Plung Pump, these valves control the flow of liquid.</p></li><li><p>Attached Supporting Parts: Copper Cold Water High Pressure Washer Pump Head may include check valves, voltage regulators, lubrication systems, pressure gauges, and safety valves. Together, they ensure the stable operation and efficient performance of the Washer Cleaning Machine Pump.</p></li></ul><p><br/></p><p><strong>3. Features and Performance</strong></p><ul class=\" list-paddingleft-2\"><li><p>High-Pressure Performance: Plung Pumps can operate stably under high pressure, making them ideal for high-pressure fluid transfer systems like the Cold Water High Pressure Cleaning Machine Pump Head.</p></li><li><p>Stable Flow Rate: The Washer Plung Pump provides a consistent flow rate with minimal pulsation, ensuring reliable performance.</p></li><li><p>Adaptability: Suitable for a wide range of pressures, high-viscosity media, and varying flow rates, the Plung Pump is highly versatile.</p></li><li><p>High Efficiency: With a well-designed structure, the Washer Cleaning Machine Pump offers high efficiency, reducing energy consumption.</p></li><li><p>Long Service Life: Key components like plungers and valves are often made from wear-resistant materials, ensuring the Copper Cold Water High Pressure Washer Pump Head has a long operational lifespan.</p></li></ul><p><br/></p><p><strong>4. Application and Maintenance</strong></p><p><strong>Application: </strong>The Plung Pump in commercial washing machines, such as the Cold Water High Pressure Cleaning Machine Pump Head, is primarily used to provide the necessary water pressure and flow for washing. It ensures that water is evenly sprayed onto clothes, achieving effective cleaning results.</p><p><strong>Maintenance:</strong> To maintain optimal performance and extend the life of the Washer Cleaning Machine Pump, regular maintenance is essential. This includes:</p><ul class=\" list-paddingleft-2\"><li><p>Monitoring inlet and discharge pressures for sudden changes or abnormalities.</p></li><li><p>Checking lubricant pressure and temperature rise in friction parts.</p></li><li><p>Replacing lubricating oil and cleaning the oil filter as recommended in the manual.</p></li><li><p>Inspecting and replacing heavily worn parts, such as plungers and valves, in the Washer Plung Pump.</p></li></ul><p><img alt=\"Washer Cleaning Machine Pump\" src=\"/assets/cnryce/source/4059-202406170955179315.jpeg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 65,
     "name": "Multi Purpose High Pressure Washer Hose",
     "slug": "multi-purpose-high-pressure-washer-hose",
     "category": "Washer Pressure Pipe",
-    "tagline": "Washer Pressure Pipe product from the CNRYCE product catalog.",
+    "tagline": "Multi Purpose High Pressure Washer Hose Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Multi-purpose high pressure washer hose is a type of hose used for high pressure water cleaning and is widely used in various industrial and cleaning applications. This hose pressurizes water through a high-pressure pump or booster, and then converts the high-pressure, low-flow rate water into a low-pressure, high-flow rate jet through a high-pressure nozzle to achieve efficient cleaning of the surface being cleaned.",
-    "image_url": "/assets/cnryce/multi-purpose-high-pressure-washer-hose.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406171002347515.jpg",
     "specs": {
-      "Category": "Washer Pressure Pipe",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 65,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406171002347515.jpg",
+      "/assets/cnryce/source/4059-202501211636406602.jpg",
+      "/assets/cnryce/source/4059-202501211637526988.jpg",
+      "/assets/cnryce/source/4059-202406171002347515_s.jpg",
+      "/assets/cnryce/source/4059-202406171002347515.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/multi-purpose-high-pressure-washer-hose",
+    "source_title": "Multi Purpose High Pressure Washer Hose",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Multi Purpose High Pressure Washer Hose                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Multi-purpose high pressure washer hose is a type of hose used for high pressure water cleaning and is widely used in various industrial and cleaning applications. This hose pressurizes water through a high-pressure pump or booster, and then converts the high-pressure, low-flow rate water into a low-pressure, high-flow rate jet through a high-pressure nozzle to achieve efficient cleaning of the surface being cleaned.                                    </p>\r\n                                    <p><strong>1. Main Characteristics</strong></p><ul class=\" list-paddingleft-2\"><li><p>High Pressure Tolerance: Multipurpose pressure washer hose can withstand extremely high water pressure, typically up to tens of MPa or more, ensuring that high-pressure water is transmitted smoothly to the nozzle without damage.</p></li><li><p>Abrasion Resistance: Since the Washer Hose is frequently moved and bent during use, it must have excellent abrasion resistance to extend its service life.</p></li><li><p>Corrosion Resistance: The hose needs to resist corrosion to handle various cleaning environments, such as exposure to acidic, alkaline, or other corrosive liquids.</p></li><li><p>Flexibility: The pressure washer hose should be highly flexible, making it easy to operate and move, adapting to different cleaning scenarios.</p></li></ul><p><br/></p><p><strong>2. Common Materials</strong></p><ul class=\" list-paddingleft-2\"><li><p>Nylon: Nylon Washer Hose is lightweight, high-strength, and offers excellent abrasion resistance, making it suitable for various cleaning scenarios.</p></li><li><p>Resin: Resin hoses typically provide higher corrosion and temperature resistance, ideal for cleaning operations in chemically demanding environments.</p></li><li><p>Steel Wire Braid: Braiding steel wire inside or outside the pressure washer hose significantly enhances its pressure tolerance and abrasion resistance, making it suitable for high-pressure, high-intensity cleaning tasks.</p></li></ul><p><br/></p><p><strong>3. Application Scenarios</strong></p><ul class=\" list-paddingleft-2\"><li><p>Industrial Cleaning: Multipurpose pressure washer hose is widely used in industrial cleaning, such as cleaning mechanical equipment, production lines, and pipelines.</p></li><li><p>Construction Cleaning: It can be used to clean exterior walls, glass curtain walls, stone surfaces, and other building materials to remove dirt and pollutants.</p></li><li><p>Vehicle Cleaning: In the field of vehicle cleaning, the Washer Hose is used to clean cars, trains, airplanes, and other transportation types, improving cleaning efficiency and quality.</p></li><li><p>Agricultural Irrigation: Although primarily designed for cleaning, the pressure washer hose is also used in agricultural irrigation, especially for high-pressure irrigation systems.</p></li></ul><p><br/></p><p><strong>4. Use and Maintenance</strong></p><ul class=\" list-paddingleft-2\"><li><p>Correct Use: When using the high-pressure cleaner, always follow the operating procedures to avoid unnecessary damage to the Washer Hose.</p></li><li><p>Regular Inspection: Periodically check the hose for wear and ensure connections are secure to maintain its good condition.</p></li><li><p>Timely Replacement: If the pressure washer hose shows significant wear or damage, replace it immediately to prevent safety hazards.</p></li><li><p>Proper Storage: When the pressure washer is not in use, drain the hose and store it properly, avoiding prolonged exposure to sunlight or humid environments.</p></li></ul><p><img alt=\"Washer Hose\" src=\"/assets/cnryce/source/4059-202406171002347515.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 66,
     "name": "Industrial Rubberized Water Hose",
     "slug": "industrial-rubberized-water-hose",
     "category": "Washer Pressure Pipe",
-    "tagline": "Washer Pressure Pipe product from the CNRYCE product catalog.",
+    "tagline": "Industrial Rubberized Water Hose Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Industrial rubber water hose is a piping material used for sealing and conveying fluids with excellent abrasion, corrosion and high temperature resistance.",
-    "image_url": "/assets/cnryce/industrial-rubberized-water-hose.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406171000558447.jpg",
     "specs": {
-      "Category": "Washer Pressure Pipe",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 66,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406171000558447.jpg",
+      "/assets/cnryce/source/4059-202406171000558447_s.jpg",
+      "/assets/cnryce/source/4059-202406171000530151.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/industrial-rubberized-water-hose",
+    "source_title": "Industrial Rubberized Water Hose",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Industrial Rubberized Water Hose                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Industrial rubber water hose is a piping material used for sealing and conveying fluids with excellent abrasion, corrosion and high temperature resistance.                                    </p>\r\n                                    <p><strong>1.Composition</strong></p><p>Industrial rubberized water hose typically consists of an inner rubber layer, a cord braid, and an outer rubber layer. Some high-performance rubberized water hoses may also include a center rubber layer and an additional cord braid. This multi-layer structure provides the rubber water hose with exceptional pressure capacity and durability, ensuring it can withstand the demands of various industrial applications.</p><p><br/></p><p><strong>2.Main Characteristics</strong></p><ul class=\" list-paddingleft-2\"><li><p>Good flexibility: The rubberized water hose exhibits excellent flexibility, allowing it to be easily bent and cut to adapt to a wide range of complex industrial environments. This flexibility makes it a versatile choice for many different uses.</p></li><li><p>Abrasion resistance: The rubber material used in the water hose possesses outstanding abrasion resistance, meaning the hose is less likely to sustain damage over extended periods of use. This durability ensures that the hose remains functional and reliable over time.</p></li><li><p>Corrosion resistance: The rubberized water hose is capable of withstanding the corrosion caused by a variety of chemical substances. This makes it suitable for conveying a multitude of corrosive liquids or gases, making it a valuable asset in numerous industrial settings.</p></li><li><p>High and low temperature resistance: The rubber material of the water hose maintains stable performance in extreme temperatures, making it suitable for a variety of high or low temperature working environments. This adaptability ensures that the hose can be used in a wide range of conditions.</p></li><li><p>Good sealing performance: The multi-layer structure, combined with the tight fit of the rubber material, provides the rubberized water hose with excellent sealing performance. This effectively prevents leakage, ensuring that the hose remains efficient and safe during use.</p></li></ul><p><br/></p><p><strong>3.Application Areas</strong></p><ul class=\" list-paddingleft-2\"><li><p>Industrial transportation: Rubberized water hose is commonly used in the chemical industry, electric power, steel, paper, and other industries to transport oil, natural gas, water, steam, and other media. Its durability and versatility make it a popular choice for these applications.</p></li><li><p>Agricultural irrigation: In the field of agriculture, rubber water hose is widely utilized for farm irrigation, spraying fertilizers and pesticides, and other operations. Its flexibility and corrosion resistance make it an ideal choice for these tasks.</p></li><li><p>Construction sites: On construction sites, rubberized water hoses are employed for drainage systems, pumping concrete, and conveying construction materials. Their ability to withstand abrasion and extreme temperatures makes them well-suited for these demanding environments.</p></li><li><p>Other fields: In addition, rubber water hose can also be used for laboratory instrumentation connecting pipes, vacuum cleaner discharge pipes, and household water piping. Its versatility and reliability make it a valuable tool in many different contexts.</p></li></ul><p><br/></p><p><strong>4.Maintenance and Upkeep</strong></p><ul class=\" list-paddingleft-2\"><li><p>Regular inspection: Regularly inspect the rubberized water hose to find and deal with potential problems in a timely manner. Checking for cracks, leaks, or other signs of wear and tear can help prevent costly repairs and downtime.</p></li><li><p>Avoid excessive bending: Avoid excessive bending or twisting of the rubber water hose during use to prevent damage to its internal structure. This will help ensure that the hose remains functional and reliable for longer periods of time.</p></li><li><p>Keep clean: Clean the inside and outside of the hose regularly to prevent dirt or chemical residue from causing corrosion or clogging. This will help maintain the hose&#39;s efficiency and extend its lifespan.</p></li><li><p>Storage precautions: When the rubberized water hose is not in use, store it in a dry, cool, and ventilated place to avoid direct sunlight or high temperature baking. This will help protect the hose from degradation and ensure it remains in good condition for future use.</p></li></ul><p><img alt=\"rubberized water hose\" src=\"/assets/cnryce/source/4059-202406171000530151.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 67,
     "name": "High Pressure Hose With Couplings",
     "slug": "high-pressure-hose-with-couplings",
     "category": "Washer Pressure Pipe",
-    "tagline": "Washer Pressure Pipe product from the CNRYCE product catalog.",
+    "tagline": "High Pressure Hose With Couplings Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The pipe fittings for high pressure hoses is a hose product designed for high pressure work environments. Its unique coupling design allows the hose to maintain a stable connection under high pressure to ensure efficient and safe operation.",
-    "image_url": "/assets/cnryce/high-pressure-hose-with-couplings.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406171004343555.jpg",
     "specs": {
-      "Category": "Washer Pressure Pipe",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 67,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406171004343555.jpg",
+      "/assets/cnryce/source/4059-202406171004343555_s.jpg",
+      "/assets/cnryce/source/4059-202406171004328837.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-hose-with-couplings",
+    "source_title": "High Pressure Hose With Couplings",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High Pressure Hose With Couplings                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The pipe fittings for high pressure hoses is a hose product designed for high pressure work environments. Its unique coupling design allows the hose to maintain a stable connection under high pressure to ensure efficient and safe operation.                                    </p>\r\n                                    <p><strong>1.High Pressure Hose with couplings usually consists of the following parts:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Inner rubber layer: In direct contact with the fluid medium, hose needs to have good oil resistance, pressure resistance, temperature resistance, and aging resistance.</p></li><li><p>Reinforcement layer: As the main hose pressure-bearing body, it mostly uses steel wire braid or winding structure to ensure that the hoses can maintain a stable form under high pressure.</p></li><li><p>Outer rubber layer: Protects the reinforcing layer from external damage and improves the overall abrasion resistance of the High Pressure Hose.</p></li><li><p>Joints: Firmly connected with the hoses through special technology to achieve a seamless connection with the equipment port. The connector part is usually made of stainless steel, copper, or other materials, offering strong pressure resistance and excellent flexibility.</p></li></ul><p><br/></p><p><strong>2.Features and Advantages</strong></p><ul class=\" list-paddingleft-2\"><li><p>High-pressure tolerance: High Pressure Hose with couplings can withstand high working pressures, ensuring that fluids do not leak or rupture during transmission.</p></li><li><p>Flexibility: The hoses have excellent flexibility, allowing hose to adapt to various complex piping layouts and installation environments.</p></li><li><p>Durability: Made of high-strength materials and special technology, hoses with couplings exhibit excellent wear-resistant, pressure-resistant, and aging-resistant performance, ensuring long-term stable operation.</p></li><li><p>Safety: The joints are designed with safety in mind, ensuring a firm connection to prevent fluid leakage and accidental dislodgement, which enhances safety during use.</p></li></ul><p><br/></p><p><strong>3.Application Areas</strong></p><p>High Pressure Hose with couplings is widely used in the following fields:</p><ul class=\" list-paddingleft-2\"><li><p>Industrial production: Such as high-pressure pipeline systems in oil, gas, and steam industries.</p></li><li><p>Cleaning equipment: Such as hoses used in high-pressure washing machines, car wash machines, and other equipment as extension tubes.</p></li><li><p>Agricultural irrigation: Such as High Pressure Hose in farmland irrigation systems.</p></li><li><p>Family life: Such as hoses used in household high-pressure water guns, car wash water guns, and other equipment.</p></li></ul><p><br/></p><p><strong>4.Cautions</strong></p><ul class=\" list-paddingleft-2\"><li><p>Regular inspection: Regularly check the wear and aging of the hoses and replace damaged hoses with couplings promptly.</p></li><li><p>Correct installation: Follow the instructions in the product manual to correctly install and use the High Pressure Hose and couplings, avoiding forceful removal or twisting.</p></li><li><p>Avoid twisting and excessive bending: Prevent twisting and excessive bending of the hoses during use to maintain their pressure-resistant strength.</p></li><li><p>Keep clean: Ensure the hoses with couplings are kept clean to avoid debris entry, which could lead to poor sealing or damage.</p></li></ul><p><img alt=\"High Pressure Hose\" src=\"/assets/cnryce/source/4059-202406171004328837.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 68,
     "name": "Pressure Washer Hose Extension Hose For Pressure Washer",
     "slug": "pressure-washer-hose-extension-hose-for-pressure-washer",
     "category": "Washer Pressure Pipe",
-    "tagline": "Washer Pressure Pipe product from the CNRYCE product catalog.",
+    "tagline": "Pressure Washer Hose Extension Hose For Pressure Washer Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Extension tubes for pressure washers are an accessory used to extend the working range of a pressure washer.",
-    "image_url": "/assets/cnryce/pressure-washer-hose-extension-hose-for-pressure-washer.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406171004123238.jpg",
     "specs": {
-      "Category": "Washer Pressure Pipe",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 68,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406171004123238.jpg",
+      "/assets/cnryce/source/4059-202406171004123238_s.jpg",
+      "/assets/cnryce/source/4059-202406171004123238.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/pressure-washer-hose-extension-hose-for-pressure-washer",
+    "source_title": "Pressure Washer Hose Extension Hose For Pressure Washer",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Pressure Washer Hose Extension Hose For Pressure Washer                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Extension tubes for pressure washers are an accessory used to extend the working range of a pressure washer.                                    </p>\r\n                                    <p>Apressure washer extension hose is a very useful piece of cleaning equipment that is often used to clean areas such as automobiles, house exteriors, and yards. Sometimes, due to space or location constraints, the original high pressure hose may not be able to reach the area that needs to be cleaned. This is where a pressure washer extension hose is needed to extend the length of the high pressure hose.</p><p><strong>Importance</strong></p><p>In the high-pressure cleaner, the pressure washer extension hose plays a vital role. It is not only able to extend the use of high-pressure cleaners, making the cleaning work more flexible and efficient, but also able to withstand the impact of high-pressure water to ensure that the cleaning work is carried out smoothly.</p><p><strong>Material and structure</strong></p><p>Material: the extension tube is usually made of high-strength rubber materials or resin materials, these materials have excellent abrasion resistance, pressure resistance and aging resistance, able to withstand the impact of high-pressure water flow, and in the long term to maintain good performance. Some extension tubes are also equipped with a steel wire braid to enhance pressure resistance and abrasion resistance, thus further extending the service life.</p><p><strong>Benefits of a pressure washer extension hose:</strong></p><p>Using an extension hose allows you to clean from a distance without having to move or drag the entire pressure washer. This not only saves energy, but also avoids the risk of the hose getting tangled or twisted. Extension hoses also save time and increase cleaning efficiency.</p><p><strong>How to choose the right extension hose:</strong></p><p>When choosing an extension hose, the first thing to consider is the length required. An ordinary household pressure washer can generally use an extension tube of 10-25 meters in length. For industrial or commercial equipment, the length of the extension tube may need to be longer. Next, choose an extension hose that matches the caliber of the original high-pressure hose, commonly 1/4 inch. In addition, the extension hose needs to be able to withstand sufficient pressure, generally requires more than 3000PSI.</p><p><strong>Precautions for use:</strong></p><p>1. Before connecting the extension tube, first rinse the original high-pressure hose and the extension tube with water to clean the residue.</p><p>2. Connect each connector correctly and check whether there is any water leakage.</p><p>3. Avoid twisting, knotting or being pressed by vehicles.</p><p>4. Rinse the extension tube with water after use and store it properly.</p><p>5. Regularly check the extension tube for cracks or deterioration and replace it with a new one if necessary.</p><p><img alt=\"pressure washer extension hose\" src=\"/assets/cnryce/source/4059-202406171004123238.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 69,
     "name": "High Pressure Sewer Cleaning Hose Made Of PVC",
     "slug": "high-pressure-sewer-cleaning-hose-made-of-pvc",
     "category": "Washer Pressure Pipe",
-    "tagline": "Washer Pressure Pipe product from the CNRYCE product catalog.",
+    "tagline": "High Pressure Sewer Cleaning Hose Made Of PVC Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The sewer cleaning hose made Of PVC is a high-pressure hose designed for sewer cleaning operations and is made of high-quality PVC (Polyvinyl Chloride) material with excellent resistance to pressure, abrasion and corrosion.",
-    "image_url": "/assets/cnryce/high-pressure-sewer-cleaning-hose-made-of-pvc.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406241022416668.jpg",
     "specs": {
-      "Category": "Washer Pressure Pipe",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 69,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406241022416668.jpg",
+      "/assets/cnryce/source/4059-202406241022416668_s.jpg",
+      "/assets/cnryce/source/4059-202406171004582257.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-sewer-cleaning-hose-made-of-pvc",
+    "source_title": "High Pressure Sewer Cleaning Hose Made Of PVC",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High Pressure Sewer Cleaning Hose Made Of PVC                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The sewer cleaning hose made Of PVC is a high-pressure hose designed for sewer cleaning operations and is made of high-quality PVC (Polyvinyl Chloride) material with excellent resistance to pressure, abrasion and corrosion.                                    </p>\r\n                                    <p><span></span></p><p><strong>1.Main Material</strong></p><p>The Cleaning Hose, specifically the High-pressure sewer cleaning hose made of PVC, is primarily composed of polyvinyl chloride resin (PVC), complemented by stabilizers, lubricants, and other additives. These components are meticulously extruded and molded through a hot pressing process. The careful selection and proportioning of these materials guarantee that the hose possesses ample strength and durability to endure the rigorous demands of high-pressure water flow and chemical cleaners employed in the sewer cleaning hose applications.</p><p><br/></p><p><strong>2.Features and Benefits</strong></p><p>One of the standout features of the Sewer cleaning hose is its robust corrosion resistance. The PVC material exhibits exceptional corrosion resistance, effectively shielding the hose from the corrosive effects of sewage, chemicals, and bacteria present in sewers, thereby prolonging the hose&#39;s lifespan.</p><p>Moreover, the High-pressure sewer cleaning hose boasts high pressure resistance, capable of withstanding significant water pressure to ensure efficient and thorough cleaning work.</p><p>Another advantage is its lightweight design, making the PVC Cleaning Hose easy to handle, carry, and install, thereby minimizing operational challenges.</p><p>Lastly, the PVC material&#39;s relatively low cost translates to an affordable price point for the hose, making it an ideal choice for large-scale applications where cost-effectiveness is a priority.</p><p><span><br/></span></p><p><strong><span>3.Application Scenarios</span></strong></p><p>The versatility of the PVC-made High-pressure sewer cleaning hose is evident in its widespread use across various sewer cleaning scenarios, encompassing domestic, commercial, and industrial settings. This Cleaning Hose seamlessly integrates with high-pressure cleaners, utilizing high-pressure water flow to dislodge dirt and clogs within sewers, thereby enhancing cleaning efficiency and effectiveness.</p><p><br/></p><p><strong>4.Cautions</strong></p><p>When utilizing the Sewer cleaning hose, it&#39;s crucial to be mindful of its temperature limitations. Due to potential issues with monomer and additive migration in PVC material, the hose is typically suited for conveying fluids with temperatures not exceeding 45℃. Therefore, it&#39;s imperative to monitor and control the water temperature during use to prevent exceeding the hose&#39;s tolerance threshold.</p><p>Furthermore, while the PVC Cleaning Hose offers a degree of flexibility, excessive bending should be avoided as it may lead to internal cracks or damage, compromising the hose&#39;s lifespan and cleaning performance.</p><p>Lastly, to maintain the optimal functionality and extend the lifespan of the Sewer cleaning hose, regular inspection and maintenance are essential. This includes checking for cracks, abrasions, or signs of aging on the hose&#39;s surface and ensuring that all connection points are securely tightened to prevent leaks.</p><p><span></span><br/></p><p><img alt=\"Sewer cleaning hose\" src=\"/assets/cnryce/source/4059-202406171004582257.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 70,
     "name": "Power Jet Flushing High Pressure Pvc Hose",
     "slug": "power-jet-flushing-high-pressure-pvc-hose",
     "category": "Washer Pressure Pipe",
-    "tagline": "Washer Pressure Pipe product from the CNRYCE product catalog.",
+    "tagline": "Power Jet Flushing High Pressure Pvc Hose Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "High pressure PVC hose is a tool for high pressure jetting and flushing, widely used in car washing, cleaning platforms, unclogging pipes and other occasions. It is made of high-strength PVC material, can withstand high water pressure, and has good abrasion and corrosion resistance.",
-    "image_url": "/assets/cnryce/power-jet-flushing-high-pressure-pvc-hose.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406171005147963.jpg",
     "specs": {
-      "Category": "Washer Pressure Pipe",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 70,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406171005147963.jpg",
+      "/assets/cnryce/source/4059-202501221626434930.jpg",
+      "/assets/cnryce/source/4059-202501221627175395.jpg",
+      "/assets/cnryce/source/4059-202406171005147963_s.jpg",
+      "/assets/cnryce/source/4059-202406171005147963.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/power-jet-flushing-high-pressure-pvc-hose",
+    "source_title": "Power Jet Flushing High Pressure Pvc Hose",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Power Jet Flushing High Pressure Pvc Hose                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        High pressure PVC hose is a tool for high pressure jetting and flushing, widely used in car washing, cleaning platforms, unclogging pipes and other occasions. It is made of high-strength PVC material, can withstand high water pressure, and has good abrasion and corrosion resistance.                                    </p>\r\n                                    <p><strong>1. Product Characteristics</strong></p><p><strong>High Pressure Jetting Capability:</strong></p><p>The high-pressure PVC hose is capable of withstanding high pressure water streams, typically in the range of hundreds to thousands of pounds per inch² (PSI). This PVC hose for powerful jet flushing sprays the high-pressure water stream onto the target surface through specially designed nozzles, efficiently pulverizing and removing dirt, grease, coatings, and contaminants adhering to the surface.</p><p><strong>Material Advantage:</strong></p><p>Made of high quality PVC material, the high-pressure PVC hose is lightweight, durable, and corrosion resistant. Some of these hoses also adopt a special braided or reinforced structure to further improve their pressure-bearing capacity and service life.</p><p><strong>Applicable Scene:</strong></p><p>The high-pressure PVC hose is widely used in many fields, including industrial cleaning, construction cleaning, automobile maintenance, sewage treatment, and household cleaning. It can be used to clean a variety of surfaces, such as production equipment, piping systems, storage tanks, chemical equipment, building facades, bridges, tunnels, and concrete structures.</p><p><br/></p><p><strong>2. Suggestions for Product Selection</strong></p><p><strong>Determine the Use of the Scene:</strong></p><p>According to different use scenarios and needs, choose the appropriate length, diameter, and pressure capacity of the PVC hose. For example, household cleaning may require a lightweight and easy-to-handle PVC hose, while industrial cleaning may necessitate a longer and more durable high-pressure PVC hose.</p><p><strong>Pay Attention to Brand and Quality:</strong></p><p>Choose well-known brands and high-quality products to ensure reliability and longevity. You can refer to user reviews, product certifications, and other information to assess the quality of the PVC hose for powerful jet flushing.</p><p><strong>Consider Additional Features:</strong></p><p>Some high-pressure PVC hoses may have additional features such as explosion-proof, frost-proof, and abrasion-resistant properties. These features can be selected according to your actual needs. For instance, when used in cold areas, you can choose a high-pressure PVC hose with an anti-freeze function to prevent it from hardening or rupturing at low temperatures.</p><p><br/></p><p><strong>3. Precautions for Use</strong></p><p><strong>Correct Installation:</strong></p><p>Ensure that the high-pressure PVC hose is correctly and firmly connected to the high-pressure cleaner or other equipment to avoid leakage or dislocation during use.</p><p><strong>Safe Operation:</strong></p><p>When using the PVC hose for powerful jet flushing, be sure to wear appropriate protective equipment, such as gloves, goggles, and other safety gear. Avoid directing the high-pressure water stream at people or animals to prevent potential injuries.</p><p><strong>Maintenance:</strong></p><p>Regularly check the appearance of the high-pressure PVC hose and the connection parts. If there is any wear or damage, it should be replaced or repaired in a timely manner. After use, empty the hose to prevent it from deteriorating or being damaged due to prolonged water accumulation.</p><p><img alt=\"high-pressure PVC hose\" src=\"/assets/cnryce/source/4059-202406171005147963.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 71,
     "name": "Flexible Stainless Steel Hose",
     "slug": "flexible-stainless-steel-hose",
     "category": "Washer Pressure Pipe",
-    "tagline": "Washer Pressure Pipe product from the CNRYCE product catalog.",
+    "tagline": "Flexible Stainless Steel Hose Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Flexible stainless steel hose is a flexible metal hose, mainly composed of an outer layer of braided stainless steel wire and inner layer of corrugated or smooth stainless steel hose.",
-    "image_url": "/assets/cnryce/flexible-stainless-steel-hose.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406171005325904.jpg",
     "specs": {
-      "Category": "Washer Pressure Pipe",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 71,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406171005325904.jpg",
+      "/assets/cnryce/source/4059-202406171005325904_s.jpg",
+      "/assets/cnryce/source/4059-202406171005325904.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/flexible-stainless-steel-hose",
+    "source_title": "Flexible Stainless Steel Hose",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Flexible Stainless Steel Hose                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Flexible stainless steel hose is a flexible metal hose, mainly composed of an outer layer of braided stainless steel wire and inner layer of corrugated or smooth stainless steel hose.                                    </p>\r\n                                    <p><strong>1.Structural Composition</strong></p><p>The structure of a flexible stainless steel hose typically comprises a stainless steel wire layer, bellows layer, liner layer, and connectors. The stainless steel wire layer offers robust strength and supports the hose&#39;s shape; the bellows layer effectively absorbs vibration and noise within the piping system. The liner layer safeguards the hose from corrosion and abrasion, while the connectors facilitate seamless integration with equipment or between hoses. The resulting stainless steel hose combines exceptional strength with Good flexibility.</p><p><br/></p><p><strong>2.Main Characteristics</strong></p><p>Good flexibility and bendability are hallmarks of a flexible stainless steel hose, capable of being freely bent into a variety of angles and radii of curvature, maintaining consistent flexibility and durability in all directions. Its corrosion resistance, thanks to the use of stainless steel, enables hose to withstand a wide range of chemical substances. Additionally, the hose demonstrates impressive high and low temperature resistance, operating stably within a temperature range of -196℃ to +420℃. With a certain tensile force between hose side buckles, the hose prevents internal wires from being exposed, further enhancing its durability. Its waterproof properties and excellent electromagnetic shielding performance make hose an ideal choice for various applications requiring such protections.</p><p><br/></p><p><strong>3.Application Areas</strong></p><p>Due to hose outstanding performance, the flexible stainless steel hose finds widespread application across numerous fields. In aerospace, hose is utilized in aircraft, rockets, and other aerospace vehicles for piping systems, meeting the stringent requirements of lightweight, high strength, and corrosion resistance. In the petrochemical industry, hose transports corrosive or high temperature and high pressure fluids with ease. In metallurgy and electricity, hose connects pipelines between equipment, effectively absorbing vibration and noise. In building and home settings, the stainless steel hose is commonly used for connecting gas, water supply, drainage, and air conditioning systems. Furthermore, in automation equipment, hose serves as a signal pipe and wire protection pipe, safeguarding precision lines and equipment.</p><p><br/></p><p><strong>4.Purchase and Precautions</strong></p><p>When purchasing a flexible stainless steel hose, several considerations are crucial:</p><ul class=\" list-paddingleft-2\"><li><p>Material Selection: Ensure that the hose is crafted from high-quality stainless steel to meet the corrosion and high-temperature resistance demands of the intended environment.</p></li><li><p>Pressure Level: Choose an appropriate pressure level based on the operational requirements of the application to ensure the hose operates within its safe working pressure.</p></li><li><p>Length Customization: Customize the hose length according to your specific needs to avoid inconvenience and waste caused by improper sizing.</p></li><li><p>Connection: Opt for suitable connections, such as quick couplings or flange connections, to ensure a reliable and secure link between the hose and the equipment or pipeline.</p></li><li><p>Brand Reputation: Trust in renowned brands and reputable suppliers to guarantee product quality and comprehensive after-sales service.</p></li></ul><p><img alt=\"stainless steel hose\" src=\"/assets/cnryce/source/4059-202406171005325904.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 72,
     "name": "Hydraulic Hose",
     "slug": "hydraulic-hose",
     "category": "Washer Pressure Pipe",
-    "tagline": "Washer Pressure Pipe product from the CNRYCE product catalog.",
+    "tagline": "Hydraulic Hose Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Hydraulic hose is a kind of flexible piping used in hydraulic system, which is widely used in various industrial equipment and machinery. Depending on different needs and application scenarios, hydraulic hoses have different types and structures.",
-    "image_url": "/assets/cnryce/hydraulic-hose.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406171005556503.jpg",
     "specs": {
-      "Category": "Washer Pressure Pipe",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 72,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406171005556503.jpg",
+      "/assets/cnryce/source/4059-202406171005556503_s.jpg",
+      "/assets/cnryce/source/4059-202406171005556503.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/hydraulic-hose",
+    "source_title": "Hydraulic Hose",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Hydraulic Hose                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Hydraulic hose is a kind of flexible piping used in hydraulic system, which is widely used in various industrial equipment and machinery. Depending on different needs and application scenarios, hydraulic hoses have different types and structures.                                    </p>\r\n                                    <p><strong>1.Structure</strong></p><p>The hydraulic hose, as its name suggests, is mainly composed of a liquid-resistant inner rubber layer, a middle rubber layer, a steel wire winding reinforcement layer (the number of layers may vary, such as 2, 4, or 6 layers), and an outer rubber layer. The inner rubber layer is responsible for making the conveying medium under pressure and protecting the steel wire from erosion. The outer rubber layer, on the other hand, protects the steel wire from damage. The steel wire layer serves as the skeleton material and plays a crucial reinforcing role, ensuring the high pressure-bearing capacity of the hose.</p><p><br/></p><p><strong>2.Characteristics and performance</strong></p><p>High pressure-bearing capacity is a hallmark of hydraulic hose, which can withstand high working pressures, with the highest pressure reaching up to 60MPa. In addition, the hose exhibits excellent pulse performance, performing well under pulse pressure and being suitable for occasions requiring frequent pressure changes. Resistant to oil, heat, and aging, the hose is made of special synthetic rubber, which enhances its durability. Furthermore, the hose body is tightly bonded and highly flexible, allowing for little deformation under pressure and making it easy to install and use. Its excellent resistance to bending and fatigue means that the hose can withstand multiple bending and fatigue tests, ensuring the reliability of long-term use.</p><p><br/></p><p><strong>3.Usage and application field</strong></p><p>the hose is widely used in a variety of occasions that require liquid or gas transmission, especially in parts that require bending changes. Its versatility and high pressure-bearing capacity make the hose indispensable in multiple industries. the hose main application areas include:</p><ul class=\" list-paddingleft-2\"><li><p>Automobile industry: the hose is used in automobile brake systems, air-conditioning systems, and power steering systems.</p></li><li><p>Mechanical industry: the hose is commonly used in various types of machine tools, cranes, and other equipment in the field of machinery manufacturing, particularly in hydraulic systems that require robust and reliable hydraulic hose.</p></li><li><p>Energy industry:the hose&nbsp;plays a key role in the extraction and transportation of oil, natural gas, and other energy resources, where high pressure-bearing capacity is essential.</p></li><li><p>Other fields: also applies to engineering and construction, metallurgy and forging, mining equipment, ships, plastic injection molding machinery, agricultural machinery, and various industrial sectors of mechanization and automation of the hydraulic system.</p></li></ul><p><br/></p><p><strong>4.Selection and installation considerations</strong></p><p>When selecting a hydraulic hose, suitable hose, couplings, and hose assemblies should be chosen according to specific applications. Considerations include the type, size, length of the hose, system working pressure, type of fluid, and environment of use. It is crucial to match the right hose with the right application to ensure high pressure-bearing capacity and overall performance.</p><p>Correctly installed fittings are essential for the safety and proper functioning of the hose assembly. There are a variety of fittings for hose, and different fittings should be selected for different types of hose. Proper installation ensures that the hose remains intact and performs optimally under pressure.</p><p>Avoid damage to the hydraulic hose by handling and storing it with care. Dragging on sharp and rough surfaces should be avoided to prevent the hose from enduring bends and flattening. Additionally, pay attention to the operating temperature and pressure, ensuring that they do not exceed the hose&#39;s temperature resistance limit and specified working pressure to guarantee its service life and safety.</p><p><img alt=\"the hose\" src=\"/assets/cnryce/source/4059-202406171005556503.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 73,
     "name": "Heavy Ceramic Long High Pressure Gun",
     "slug": "heavy-ceramic-long-high-pressure-gun",
     "category": "Spray Gun For Cleaning",
-    "tagline": "Spray Gun For Cleaning product from the CNRYCE product catalog.",
+    "tagline": "Heavy Ceramic Long High Pressure Gun Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The heavy duty ceramic high pressure lance is a spray gun designed for high pressure cleaning. It is made of ceramic material with excellent abrasion and corrosion resistance.",
-    "image_url": "/assets/cnryce/heavy-ceramic-long-high-pressure-gun.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406171053345403.jpg",
     "specs": {
-      "Category": "Spray Gun For Cleaning",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 73,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406171053345403.jpg",
+      "/assets/cnryce/source/4059-202406171053345403_s.jpg",
+      "/assets/cnryce/source/4059-202406171053349377.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/heavy-ceramic-long-high-pressure-gun",
+    "source_title": "Heavy Ceramic Long High Pressure Gun",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Heavy Ceramic Long High Pressure Gun                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The heavy duty ceramic high pressure lance is a spray gun designed for high pressure cleaning. It is made of ceramic material with excellent abrasion and corrosion resistance.                                    </p>\r\n                                    <p></p><p><strong>1.Structural Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>Heavy-duty construction: The Heavy duty ceramic high pressure lance, also known as the heavy-duty ceramic long high-pressure spray gun, is made of durable materials that can withstand the tremendous impact generated by high-pressure spraying to ensure long-term stable operation. This Portable Pressure Washer Gun combines heavy-duty construction with ceramic material for ultimate durability and performance.</p></li><li><p>Ceramic material: The nozzle part of the Heavy duty ceramic Portable Pressure Washer Gun is made of ceramic, which has high hardness and abrasion resistance, and can effectively resist abrasion and corrosion, prolonging the service life of the ceramic high pressure lance. The ceramic material ensures that the gun maintains its effectiveness over extended periods of use.</p></li><li><p>Long distance spraying: The long design of the Spray gun with piping makes the spray gun able to cover a longer spraying distance, which is suitable for large area or long distance spraying operation. Whether you need to clean a vast industrial surface or spray pesticides over a wide agricultural field, this high pressure lance is up to the task.</p></li></ul><p><br/></p><p><strong>2.Working Principle</strong></p><p>The operating principle of Spray gun with piping relies on the rapid release of high-pressure fluids (such as water, air or special liquids). As the high pressure fluid passes through the gun, the ceramic nozzle atomizes or refines it and sprays it out at high velocity. This high-pressure spraying technology produces a powerful impact and is used for a variety of operations such as cleaning, cutting, punching, or spraying. The Spray gun with piping works similarly to a portable pressure washer gun, but with the added benefit of ceramic nozzles for enhanced durability.</p><p><br/></p><p><strong>3.Application Areas</strong></p><ul class=\" list-paddingleft-2\"><li><p>Industrial cleaning: The Heavy duty ceramic high pressure lance can be used to clean the dirt and oil stains on the surface of industrial equipment, pipelines, ships, etc., with high efficiency and environmental protection. This high pressure lance is ideal for industrial settings where heavy-duty cleaning is required.</p></li><li><p>Metal Cutting and Punching: Using its high-pressure spraying ability, the Heavy duty ceramic high pressure lance can be used for cutting and punching metal materials, realizing precise and fast processing. The ceramic nozzles ensure that the gun maintains its sharpness and cutting power over time.</p></li><li><p>Agricultural applications: In the agricultural field, the Heavy duty ceramic high pressure lance can be used for pesticide spraying, pest control of fruit trees and gardens, etc., to improve operational efficiency and spraying effect. This high pressure lance is also suitable for use with portable pressure washer guns for more versatile agricultural applications.</p></li><li><p>Surface treatment: The Heavy duty ceramic high pressure lance can also be used for surface treatment operations such as spraying, rust removal, old paint removal, etc., to provide an even and detailed coating or clean surface for objects. The ceramic nozzles ensure a consistent and high-quality spray pattern.</p></li></ul><p><img alt=\"high pressure lance\" src=\"/assets/cnryce/source/4059-202406171053349377.png\"/></p><p><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 74,
     "name": "360 Degree Adjustable Spray Gun",
     "slug": "360-degree-adjustable-spray-gun",
     "category": "Spray Gun For Cleaning",
-    "tagline": "Spray Gun For Cleaning product from the CNRYCE product catalog.",
+    "tagline": "360 Degree Adjustable Spray Gun Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "This adjustable spray gun is not only suitable for home cleaning, such as cleaning floors, windows, bathrooms, etc., but also for gardening irrigation, car washing, industrial cleaning and many other scenarios. Its versatility makes your cleaning work more flexible and diversified to meet your different needs.",
-    "image_url": "/assets/cnryce/360-degree-adjustable-spray-gun.png",
+    "image_url": "/assets/cnryce/source/4059-202406171052416479.png",
     "specs": {
-      "Category": "Spray Gun For Cleaning",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 74,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406171052416479.png",
+      "/assets/cnryce/source/4059-202406171052416479_s.png",
+      "/assets/cnryce/source/4059-202406171052416479.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/360-degree-adjustable-spray-gun",
+    "source_title": "360 Degree Adjustable Spray Gun",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        360 Degree Adjustable Spray Gun                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        This adjustable spray gun is not only suitable for home cleaning, such as cleaning floors, windows, bathrooms, etc., but also for gardening irrigation, car washing, industrial cleaning and many other scenarios. Its versatility makes your cleaning work more flexible and diversified to meet your different needs.                                    </p>\r\n                                    <p><strong>1.Functional Features of the Adjustable Spray Gun</strong></p><p>360-degree rotating water spraying with The water spray gun: The water spray gun can be rotated in all directions, covering a wide range to meet the water spraying needs of different angles and distances. This Adjustable Spray Gun is especially suitable for large-area irrigation or cleaning operations, significantly improving work efficiency.</p><p>Adjustable flow and pressure of The water spray gun: Depending on the actual demand, the flow rate and pressure of the spray gun can be adjusted to achieve precise water spraying. The adjustment range of flow rate and pressure is typically broad, accommodating the application requirements of diverse scenarios.</p><p>Material and Durability of The water spray gun: Spray guns are commonly constructed from high-quality materials like metal and plastic, offering excellent durability and corrosion resistance. Some products also include features such as sunscreen and anti-freeze, making them suitable for use in harsh weather conditions.</p><p>Intelligent design in Adjustable Spray Gun: High-end models of 360-degree adjustable spray guns incorporate an intelligent control system, enabling regular and quantitative water spraying for automated management. An intelligent detection of water level function automatically halts spraying when the water source is insufficient, ensuring adequate water supply and conserving water.</p><p><br/></p><p><strong>2.Application Areas of The Water Spray Gun</strong></p><ul class=\" list-paddingleft-2\"><li><p>Agricultural irrigation with The water spray gun: Ideal for large-area irrigation tasks in farmland, orchards, lawns, and more, it enhances irrigation efficiency and minimizes water wastage.</p></li><li><p>Urban cooling and greening using the spray gun: Employed for cooling and greening sprinkler irrigation in urban parks, squares, streets, and other areas, it improves the urban environment and enhances residents&#39; quality of life.</p></li><li><p>Industrial and mining dust removal with the spray gun: In industrial and mining enterprises, it effectively reduces airborne dust concentrations, safeguarding workers&#39; health and mitigating environmental pollution.</p></li><li><p>Car wash and cleaning using The water spray gun: Suitable for car wash and cleaning operations in auto shops, garages, and similar locations, it swiftly and evenly cleans vehicle surfaces, boosting work efficiency.</p></li></ul><p><br/></p><p><strong>3.Maintenance Method for the Adjustable Spray Gun</strong></p><ul class=\" list-paddingleft-2\"><li><p>Regular cleaning of the spray gun: After use, promptly clean the spray gun to eliminate residual paint, moisture, or impurities. Use water or a specialized cleaning agent to ensure both the interior and exterior are pristine.</p></li><li><p>Inspection of parts of the spray gun: Regularly examine parts like the nozzle, air hose, or water hose to ensure they are in good condition and free from damage or clogging. If any damaged or clogged parts are discovered, replace or clean them immediately.</p></li><li><p>Lubrication and maintenance of the spray gun: Properly lubricate the gun&#39;s sliding parts to maintain smooth operation. Avoid exposing the gun to extreme temperatures or moisture, which could harm parts or degrade performance.</p></li><li><p>Storage and care of the spray gun: After use, store the gun in a dry, ventilated area, away from direct sunlight or high temperatures. For extended periods of non-use, dismantle the gun, clean it thoroughly, and store it in a specialized case or bag.</p></li></ul><p>By adhering to these guidelines for using and maintaining the Adjustable Spray Gun, you can ensure its longevity and optimal performance.</p><p><img alt=\"Adjustable Spray Gun\" src=\"/assets/cnryce/source/4059-202406171052416479.png\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 75,
     "name": "Water Spray Gun For Car Wash With Piping",
     "slug": "water-spray-gun-for-car-wash-with-piping",
     "category": "Spray Gun For Cleaning",
-    "tagline": "Spray Gun For Cleaning product from the CNRYCE product catalog.",
+    "tagline": "Water Spray Gun For Car Wash With Piping Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The high pressure car washer spray gun features high-efficiency water spray technology, an adjustable nozzle design, a convenient piping system, and a user-friendly handle design to ensure that you can get the job done easily and efficiently during the car wash.",
-    "image_url": "/assets/cnryce/water-spray-gun-for-car-wash-with-piping.png",
+    "image_url": "/assets/cnryce/source/4059-202406171052014522.png",
     "specs": {
-      "Category": "Spray Gun For Cleaning",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 75,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406171052014522.png",
+      "/assets/cnryce/source/4059-202406171052014522_s.png",
+      "/assets/cnryce/source/4059-202406171052014522.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/water-spray-gun-for-car-wash-with-piping",
+    "source_title": "Water Spray Gun For Car Wash With Piping",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Water Spray Gun For Car Wash With Piping                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The high pressure car washer spray gun features high-efficiency water spray technology, an adjustable nozzle design, a convenient piping system, and a user-friendly handle design to ensure that you can get the job done easily and efficiently during the car wash.                                    </p>\r\n                                    <p><strong>1.Main Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>High pressure water flow: The High Pressure Car Washer Spray Gun with pipeline adopts high-pressure water flow technology, which can easily rinse off the stubborn dirt on the surface of the vehicle, such as mud and grease stains. This spray gun with pipe not only improves the cleaning efficiency but also ensures the cleaning effect, thanks to its powerful high-pressure water flow.</p></li><li><p>Telescopic hose: The design of the telescopic hose allows the user to freely adjust the length of the hose as needed for easy operation. Whether it is the roof, windows, or wheels and other hard-to-reach areas, they can be easily rinsed by the telescopic hose of the Car wash water spray gun.</p></li><li><p>Multiple Spray Patterns: Most High Pressure Car Washer Spray Guns come with multiple spray patterns, such as straight, fan, fog, etc.. Users can choose the right mode according to different cleaning needs to achieve the best cleaning effect.</p></li><li><p>Tap Water Connection: The Car wash water spray gun can be directly connected to the tap water pipe without the need to find an additional water source. This feature not only saves water but also enhances the convenience of use, making it a perfect spray gun with pipe for home car washes.</p></li></ul><p><br/></p><p><strong>2.Usage</strong></p><ul class=\" list-paddingleft-2\"><li><p>Connecting the water gun and water pipe: First, ensure that the High Pressure Car Washer Spray Gun and water pipe are connected tightly to prevent water leakage.</p></li><li><p>Connect the water source: Connect the water hose to the tap or use the self-priming device to suck water from the bucket for your Car wash water spray gun.</p></li><li><p>Adjust the water gun mode: Select the appropriate water gun mode according to your cleaning needs. With the spray gun with pipe, you have a variety of spray patterns to choose from.</p></li><li><p>Start rinsing: Start from the top of the vehicle and rinse the body, wheels, tires, and other parts in turn downwards. Pay attention to keep an appropriate distance and angle to ensure the rinsing effect with your High Pressure Car Washer Spray Gun.</p></li></ul><p><br/></p><p><strong>3.Precautions</strong></p><ul class=\" list-paddingleft-2\"><li><p>Water pressure control: Avoid adjusting the water pressure too high when using the Car wash water spray gun to avoid damage to the vehicle surface or causing the water gun to disengage and hurt people.</p></li><li><p>Prevent recoil: When closing the High Pressure Car Washer Spray Gun, pay attention to control the residual pressure in the water pipe to prevent the water pipe suddenly recoiling and causing accidental injury.</p></li><li><p>Electrical Safety: If using an electric Car wash water spray gun, make sure the power outlet and cord are away from the water source to prevent electrocution. Safety should always be a priority when using electrical equipment around water.</p></li><li><p>Cold weather note: After use in cold weather, empty the water in the water pipe of your spray gun with pipe in time to prevent the water pipe from freezing and cracking.</p></li></ul><p><img alt=\"High Pressure Car Washer Spray Gun\" src=\"/assets/cnryce/source/4059-202406171052014522.png\"/><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 76,
     "name": "Handheld High Pressure Jet Spray Cleaner",
     "slug": "handheld-high-pressure-jet-spray-cleaner",
     "category": "Spray Gun For Cleaning",
-    "tagline": "Spray Gun For Cleaning product from the CNRYCE product catalog.",
+    "tagline": "Handheld High Pressure Jet Spray Cleaner Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "A handheld high-pressure jet cleaner is a portable cleaning device that utilizes the power of a high-pressure jet of water or steam to remove stubborn stains. It usually consists of a high-pressure pump, a spray gun and a hose, and can be easily carried to wherever cleaning is needed.",
-    "image_url": "/assets/cnryce/handheld-high-pressure-jet-spray-cleaner.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406171051261482.jpg",
     "specs": {
-      "Category": "Spray Gun For Cleaning",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 76,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406171051261482.jpg",
+      "/assets/cnryce/source/4059-202406171051261482_s.jpg",
+      "/assets/cnryce/source/4059-202406171051254950.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/handheld-high-pressure-jet-spray-cleaner",
+    "source_title": "Handheld High Pressure Jet Spray Cleaner",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Handheld High Pressure Jet Spray Cleaner                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        A handheld high-pressure jet cleaner is a portable cleaning device that utilizes the power of a high-pressure jet of water or steam to remove stubborn stains. It usually consists of a high-pressure pump, a spray gun and a hose, and can be easily carried to wherever cleaning is needed.                                    </p>\r\n                                    <ol start=\"1\" class=\" list-paddingleft-2\"><li><p></p></li></ol><p><strong>1.Working Principle</strong></p><p>The handheld High Pressure Jet Cleaner operates by generating a powerful high-pressure water flow through its high-pressure pump body. This jet cleaner propels water or cleaning fluid in the form of a high-pressure jet, effectively achieving the purpose of flushing and cleaning. The device typically includes components such as a high-pressure pump body, drive motor, jet pipe, and nozzle. The drive motor powers the high-pressure pump body, which then forces the cleaning fluid through the jet pipe and out of the nozzle at high-pressure water.</p><ol start=\"1\" class=\" list-paddingleft-2\"><li><p><br/></p></li></ol><p><strong>2.Main Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>High-pressure jetting: The handheld High Pressure Jet Cleaner can produce extremely high water pressure, making it highly effective at removing stubborn stains and dirt.</p></li><li><p>Portable operation: Designed to be lightweight and easy to carry, this jet cleaner is suitable for cleaning tasks in various settings.</p></li><li><p>Versatility: The pressure and flow rate of the high-pressure water can be adjusted to suit different cleaning needs, making high-pressure water ideal for a wide range of materials and surfaces.</p></li><li><p>Energy saving and environmental protection: Compared to traditional cleaning methods, the handheld High Pressure Jet Cleaner uses less water and energy, aligning with modern environmental standards.</p></li></ul><p><br/></p><p><strong>3.Precautions for Use</strong></p><ul class=\" list-paddingleft-2\"><li><p>Safe operation: When using the handheld High Pressure Jet Cleaner, always wear appropriate protective gear to avoid injury from the high-pressure water. Ensure the high-pressure water equipment is properly grounded to prevent electric shock.</p></li><li><p>Correct connection: When attaching the hose and gun, ensure the connection is secure to prevent leaks or the gun from detaching during use.</p></li><li><p>Appropriate use of cleaning fluid: Add the correct amount of cleaning fluid based on the task to avoid waste and minimize environmental impact.</p></li><li><p>Regular inspection and maintenance: Periodically check the condition of the jet cleaner components and replace or repair any damaged parts promptly.</p></li></ul><p><br/></p><p><strong>4.Application Areas</strong></p><p><strong>Family cleaning:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Clean vehicles such as cars, motorcycles, and bicycles, removing dirt, dust, and oil from their surfaces.</p></li><li><p>Clean outdoor areas like patios, garden furniture, and other facilities to maintain a tidy and attractive home environment.</p></li></ul><p><strong>Auto detailing:</strong></p><ul class=\" list-paddingleft-2\"><li><p>In the automotive detailing industry, the handheld High Pressure Jet Cleaner is used to thoroughly clean vehicle surfaces, removing hard-to-reach stains and tiny particles in preparation for waxing and polishing.</p></li></ul><p><strong>Industrial cleaning:</strong></p><ul class=\" list-paddingleft-2\"><li><p>In manufacturing, the jet cleaner is employed to remove oil, rust, and other contaminants from equipment and production lines, ensuring optimal functionality.</p></li><li><p>In construction, it can clean building exteriors, floors, and other surfaces, effectively removing dirt and graffiti to restore the building&#39;s appearance.</p></li></ul><p><strong>Commercial cleaning:</strong></p><ul class=\" list-paddingleft-2\"><li><p>For commercial spaces like hotels, restaurants, and factories, the handheld High Pressure Jet Cleaner is an essential tool for maintaining cleanliness. It efficiently cleans large equipment, exterior walls, floors, and other hard-to-reach areas.</p></li></ul><p><strong>Outdoor cleaning:</strong></p><ul class=\" list-paddingleft-2\"><li><p>During outdoor activities, the jet cleaner can be used to clean camping gear, outdoor furniture, boats, and more, quickly removing dirt and odors from outdoor equipment.</p></li></ul><ol start=\"1\" class=\" list-paddingleft-2\"><ul class=\" list-paddingleft-2\"><li><img alt=\"High Pressure Jet Cleaner\" src=\"/assets/cnryce/source/4059-202406171051254950.png\"/><p></p></li></ul></ol>                                </div>\r\n                            </div>"
   },
   {
     "id": 77,
     "name": "Portable Adjustable Water Spray Gun High Pressure",
     "slug": "portable-adjustable-water-spray-gun-high-pressure",
     "category": "Spray Gun For Cleaning",
-    "tagline": "Spray Gun For Cleaning product from the CNRYCE product catalog.",
+    "tagline": "Portable Adjustable Water Spray Gun High Pressure Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The portable adjustable water spray gun high pressure is a lightweight, flexible and powerful high pressure water spray gun. It not only provides excellent water spraying performance, but is also easy to operate and adjust.",
-    "image_url": "/assets/cnryce/portable-adjustable-water-spray-gun-high-pressure.jpg",
+    "image_url": "/assets/cnryce/source/4059-202406171050348981.jpg",
     "specs": {
-      "Category": "Spray Gun For Cleaning",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 77,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406171050348981.jpg",
+      "/assets/cnryce/source/4059-202406171050348981_s.jpg",
+      "/assets/cnryce/source/4059-202406171050348981.jpg"
+    ],
+    "source_url": "https://www.cnryce.com/product/portable-adjustable-water-spray-gun-high-pressure",
+    "source_title": "Portable Adjustable Water Spray Gun High Pressure",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Portable Adjustable Water Spray Gun High Pressure                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The portable adjustable water spray gun high pressure is a lightweight, flexible and powerful high pressure water spray gun. It not only provides excellent water spraying performance, but is also easy to operate and adjust.                                    </p>\r\n                                    <p><strong>1.Main Features</strong></p><p><strong>Portability:</strong></p><p>The Portable adjustable high pressure water gun boasts a lightweight design, making it easy to carry and store. It is usually equipped with a long water hose and a retractable barrel, which enhances its portability and makes the operation more flexible and convenient.</p><p><strong>High-pressure jetting:</strong></p><p>Powered by a high-pressure pump, the high pressure water gun generates a powerful water stream that can easily penetrate stains and stubborn dirt. This high-pressure jetting capability is highly effective and significantly increases cleaning efficiency.</p><p><strong>Adjustable water pressure:</strong></p><p>One of the standout features of the adjustable high pressure water gun is its ability to provide a variety of water pressure modes. Users can adjust the water pressure size according to their specific cleaning needs, ensuring the best possible cleaning effect.</p><p><br/></p><p><strong>2.Common types</strong></p><p><strong>Lithium battery rechargeable:</strong></p><p>For those who prefer cordless operation, the lithium battery rechargeable adjustable spray gun is an ideal choice. With a built-in lithium battery, it can be used without an external power supply. The rechargeable design adds to its convenience, especially for outdoor use.</p><p><strong>Wired:</strong></p><p>For more powerful and stable water pressure output, the wired high pressure water gun is a better option. Connected to the power supply through a power cord, it ensures consistent and reliable performance.</p><p><strong>Multi-functional combination type:</strong></p><p>For those who need a versatile cleaning tool, the multi-functional combination type cleaning washing spray gun is the perfect choice. In addition to cleaning washing spray gun basic water spraying function, cleaning washing spray gun is also equipped with foam pots, waxing brushes, and other accessories, allowing cleaning washing spray gun to perform a variety of functions such as car washing, waxing, and polishing.</p><p><br/></p><p><strong>3.Use Scene</strong></p><p><strong>Family car wash:</strong></p><p>When it comes to family car washing, the Portable adjustable high pressure water gun is hard to beat. It can easily clean the stains and dirt on the body, tires, chassis, and other parts of the car, leaving it looking pristine and shiny.</p><p><strong>Gardening Watering:</strong></p><p>For gardening enthusiasts, the adjustable high pressure water gun is a must-have tool. Suitable for watering operations in gardens, lawns, and other places, it allows you to adjust the water pressure to achieve an even and detailed watering effect.</p><p><strong>Outdoor cleaning:</strong></p><p>Whether you need to clean outdoor furniture, barbecue grills, tents, or other items, the cleaning washing spray gun is up to the task. It can also be used to rinse stains and dirt from the ground, walls, and other surfaces, making it an indispensable tool for outdoor cleaning.</p><p><br/></p><p><strong>4.Precautions for use</strong></p><p><strong>Safe Operation:</strong></p><p>Safety should always be a top priority when using the Portable adjustable high pressure water gun. Make sure that the operator wears protective gear (such as gloves, goggles, etc.) to avoid any potential injuries. Never spray the water gun at people or animals to prevent harm.</p><p><strong>Maintenance:</strong></p><p>To ensure the longevity of your adjustable spray gun, regular maintenance is crucial. Regularly check whether the connection parts of the water gun are loose or leaking, and replace any worn-out parts promptly. When cleaning the water gun, avoid using corrosive cleaners or sharp objects to scratch the surface.</p><p><strong>Storage environment:</strong></p><p>To maintain the performance and service life of your Portable adjustable high pressure water gun, store it in a dry, ventilated environment. Avoid prolonged exposure to high temperatures or humid environments, as this can damage the internal components and affect its performance.</p><p><br/></p><p><img alt=\"Portable adjustable high pressure water gun\" src=\"/assets/cnryce/source/4059-202406171050348981.jpg\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 78,
     "name": "Handheld Adjustable Foam Spray Gun With Nozzle",
     "slug": "handheld-adjustable-foam-spray-gun-with-nozzle",
     "category": "Foam Gun",
-    "tagline": "Foam Gun product from the CNRYCE product catalog.",
+    "tagline": "Handheld Adjustable Foam Spray Gun With Nozzle Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "The Handheld Adjustable Foam Gun is a device used for cleaning and spraying with a variety of functions and features.",
-    "image_url": "/assets/cnryce/handheld-adjustable-foam-spray-gun-with-nozzle.png",
+    "image_url": "/assets/cnryce/source/4059-202512201606584060.png",
     "specs": {
-      "Category": "Foam Gun",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 78,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202512201606584060.png",
+      "/assets/cnryce/source/4059-202512201607028034.png",
+      "/assets/cnryce/source/4059-202512201607061071.png",
+      "/assets/cnryce/source/4059-202512201607098599.png",
+      "/assets/cnryce/source/4059-202512201606584060_s.png",
+      "/assets/cnryce/source/4059-202512201607232035.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/handheld-adjustable-foam-spray-gun-with-nozzle",
+    "source_title": "Handheld Adjustable Foam Spray Gun With Nozzle",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Handheld Adjustable Foam Spray Gun With Nozzle                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        The Handheld Adjustable Foam Gun is a device used for cleaning and spraying with a variety of functions and features.                                    </p>\r\n                                    <p><strong>1.Structural Features</strong></p><p>The handheld adjustable foam gun is designed for easy operation by users, allowing for use anywhere and anytime. The adjustable nozzle of this cleaning tool allows you to control the spraying range, angle, and density of foam by simply adjusting the nozzle, meeting the needs of different scenes. Additionally, the foam generating system within this handheld adjustable foam gun converts liquid into fine foam, enhancing its cleaning capabilities.</p><p><br/></p><p><strong>2.Functional Use</strong></p><p>In the cleaning field, the handheld adjustable foam gun excels in car cleaning, kitchen oil cleaning, and other scenarios. The delicate foam it produces can better cover stains and improve cleaning efficiency. In the irrigation field, this adjustable foam gun can evenly spray water, reducing water resource waste while protecting the plant root system. Furthermore, some specific types of adjustable foam gun can be used in firefighting, particularly for extinguishing oil fires, providing an effective means of initial fire suppression.</p><p><br/></p><p><strong>3.Precautions for Use</strong></p><p>Before using the handheld adjustable foam gun, it is crucial to perform a pre-operation check. Ensure the spray gun is intact, the nozzle is not blocked, and the liquid is sufficient. Safe operation is key; avoid pointing the spray gun at people or animals to prevent injury. At the same time, pay attention to fire safety, especially when using flammable liquids. After use, clean the gun promptly to avoid residue blocking the nozzle. Regularly check all parts of the adjustable foam gun to ensure they are in good condition and ready for use.</p><p><br/></p><p><strong>4.Application Areas</strong></p><p><strong>Automobile Beauty and Maintenance:</strong></p><p>During car cleaning and waxing, the handheld adjustable foam gun evenly sprays foam cleaner, effectively removing body stains and grease while protecting the paint. Similarly, during tire and wheel cleaning, this cleaning tool penetrates deep into crevices to provide a meticulous clean.</p><p><strong>Household Cleaning:</strong></p><p>The handheld adjustable foam gun is suitable for cleaning surfaces such as kitchens, bathrooms, and floors. The foam it produces penetrates deeply and breaks down stains, making cleaning easier and more efficient. In the cleaning of furniture and appliances, this adjustable foam gun prevents damage caused by direct dripping of liquids while providing an even cleaning effect.</p><p><strong>Horticulture and Agriculture:</strong></p><p>In horticultural irrigation, the adjustable foam gun adjusts the fineness of the water spray, providing even moisture to plants while reducing water evaporation. In pesticide spraying, the foam evenly covers the surface of plants, improving pesticide absorption efficiency and control effects.</p><p><strong>Industrial Cleaning:</strong></p><p>In the cleaning of machinery and equipment, production lines, and other industrial areas, the handheld adjustable foam gun provides efficient cleaning results while reducing the amount of detergent used and cleaning time. In paint removal, surface pretreatment, and other processes, this cleaning tool evenly sprays chemical reagents, improving the efficiency and quality of treatment.</p><p><img src=\"/assets/cnryce/source/4059-202512201607232035.png\" title=\"handheld adjustable foam gun\" alt=\"handheld adjustable foam gun\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 79,
     "name": "Plastic Brass Adjustable Foam Gun",
     "slug": "plastic-brass-adjustable-foam-gun",
     "category": "Foam Gun",
-    "tagline": "Foam Gun product from the CNRYCE product catalog.",
+    "tagline": "Plastic Brass Adjustable Foam Gun Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Plastic and brass adjustable snow gun refers to a device used to create foam when washing cars. It is made of plastic and brass materials and has a compact design and is easy to operate.",
-    "image_url": "/assets/cnryce/plastic-brass-adjustable-foam-gun.png",
+    "image_url": "/assets/cnryce/source/4059-202406191443141668.png",
     "specs": {
-      "Category": "Foam Gun",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 79,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406191443141668.png",
+      "/assets/cnryce/source/4059-202512201607550454.png",
+      "/assets/cnryce/source/4059-202512201608039818.jpg",
+      "/assets/cnryce/source/4059-202406191443141668_s.png",
+      "/assets/cnryce/source/4059-202406191443141668.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/plastic-brass-adjustable-foam-gun",
+    "source_title": "Plastic Brass Adjustable Foam Gun",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Plastic Brass Adjustable Foam Gun                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Plastic and brass adjustable snow gun refers to a device used to create foam when washing cars. It is made of plastic and brass materials and has a compact design and is easy to operate.                                    </p>\r\n                                    <p><br/></p><p><strong>1.Main Features</strong></p><p><strong>Material:</strong></p><p>The gun body of the Plastic Brass Adjustable Snow Gun is mainly made of high quality plastic and brass materials, a combination that makes the foam gun (or snow gun, depending on its use) both lightweight and durable. The plastic part provides good grip and corrosion resistance, while the brass part ensures a strong and airtight joint, making it a reliable choice for various applications.</p><p><strong>Adjustable Nozzle:</strong></p><p>The adjustable snow guns feature a nozzle designed to be adjustable, allowing the user to customize the spray pattern and intensity of the water stream or snow-like particles as needed. This adjustability is a key feature that allows the Snow Gun to adapt to different cleaning or snow-making needs, improving efficiency and effectiveness.</p><p><strong>High Pressure Performance:</strong></p><p>Plastic Brass Adjustable Foam Guns (also applicable to snow guns) are typically able to withstand high working pressures. This high-pressure performance allows the gun to quickly generate a rich foam or fine snow-like spray, deeply cleaning stains and dirt from surfaces or creating a picturesque snow scene.</p><p><strong>Clear Bottle Design:</strong></p><p>Some adjustable snow guns, including those of the Plastic Brass variety, feature a clear bottle design that allows the user to easily monitor foam or snow solution levels. This design allows for precise control over the amount dispensed, avoiding waste and ensuring optimal performance.</p><p><br/></p><p><strong>2.Application Scenarios</strong></p><p><strong>Car Wash:</strong></p><p>The Plastic Brass Adjustable Snow Gun (when used with appropriate solutions) is ideal for car washes, transforming the experience into a fun and effective cleaning session. It quickly produces rich foam or snow-like particles that cover the surface of the vehicle, effectively removing stains and dirt while adding a unique touch.</p><p><strong>Industrial Cleaning &amp; Snow Making:</strong></p><p>In the industrial sector, the Plastic Brass Adjustable Foam Gun (or Snow Gun, depending on configuration) can be used for a variety of purposes. It can clean equipment, machinery, and other surfaces with its high-pressure performance and adjustable nozzle design. Additionally, with the right attachments and solutions, it can be transformed into a Snow Gun for creating winter wonderlands in amusement parks, film sets, or other venues.</p><p><br/></p><p><strong>3.Precautions for Use</strong></p><p><strong>Check Before Operation:</strong></p><p>Before using any adjustable snow guns, including those of the Plastic Brass variety, check whether the connections are tight and ensure there is no leakage. Also, inspect the nozzle for any obstructions to avoid clogging and ensure optimal spray performance.</p><p><br/></p><p><strong>Correct Use of Pressure:</strong></p><p>Select the appropriate pressure range according to the specific needs of the application, whether it&#39;s for cleaning or snow making. Avoid excessive pressure to prevent damage to the object surface or unnecessary wear and tear on the Snow Gun.</p><p><br/></p><p><strong>Regular Maintenance:</strong></p><p>After use, clean the Plastic Brass Adjustable Snow Gun thoroughly and dry it to prevent residue from corroding the gun body. Regularly check the wear and tear of the gun and replace any damaged parts in a timely manner to ensure continued optimal performance.</p><p><img alt=\"Plastic Brass Adjustable Snow Gun\" src=\"/assets/cnryce/source/4059-202406191443141668.png\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 80,
     "name": "Foam High Pressure Cleaning Gun",
     "slug": "foam-high-pressure-cleaning-gun",
     "category": "Foam Gun",
-    "tagline": "Foam Gun product from the CNRYCE product catalog.",
+    "tagline": "Foam High Pressure Cleaning Gun Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Foam high-pressure cleaning gun is a portable cleaning equipment, usually used in conjunction with a high-pressure cleaner. It utilizes a high-pressure stream of water generated by the washer to mix cleaning agents and air to form a thick foam. The foam penetrates the dirt on the body, floor or other surfaces and helps to clean them thoroughly.",
-    "image_url": "/assets/cnryce/foam-high-pressure-cleaning-gun.png",
+    "image_url": "/assets/cnryce/source/4059-202512201608439829.png",
     "specs": {
-      "Category": "Foam Gun",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 80,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202512201608439829.png",
+      "/assets/cnryce/source/4059-202406191444441919.png",
+      "/assets/cnryce/source/4059-202512201608400529.png",
+      "/assets/cnryce/source/4059-202512201608479617.png",
+      "/assets/cnryce/source/4059-202512201608439829_s.png",
+      "/assets/cnryce/source/4059-202406191444439242.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/foam-high-pressure-cleaning-gun",
+    "source_title": "Foam High Pressure Cleaning Gun",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Foam High Pressure Cleaning Gun                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Foam high-pressure cleaning gun is a portable cleaning equipment, usually used in conjunction with a high-pressure cleaner. It utilizes a high-pressure stream of water generated by the washer to mix cleaning agents and air to form a thick foam. The foam penetrates the dirt on the body, floor or other surfaces and helps to clean them thoroughly.                                    </p>\r\n                                    <p><strong>1.Definition and Principle</strong></p><p>The foam high-pressure cleaning gun is a specialized piece of equipment that harnesses high-pressure water flow and foam cleaner for an in-depth dirt removal process on vehicles or various surfaces. cleaning gun operational principle revolves around boosting the water pressure to a specific level using a high-pressure pump. Subsequently, the blended foam liquid within the foam generator is directed to the cleaning gun, where it is sprayed onto the surface designated for cleaning. This ensures effective dirt removal and deep cleaning.</p><p><br/></p><p><strong>2.Structure and Composition</strong></p><p>The foam high-pressure cleaning gun primarily consists of a dirt removal high-pressure pump, foam generator, spray gun, and associated piping and electrical components. The high-pressure pump plays a pivotal role in generating the necessary high-pressure water flow. The foam generator, meanwhile, mixes the foam cleaner with water to yield a dense foam, which is then dispatched through the spray gun for even distribution onto the surface needing cleaning. This combination allows for thorough dirt removal and cleaning.</p><p><br/></p><p><strong>3.Steps of Use</strong></p><p>To begin, prepare the foam cleaner by selecting one suitable for the surface to be cleaned and diluting it according to the instructions or using it directly. Next, connect the foam gun securely to the outlet of the high-pressure car wash machine, ensuring there are no leaks. Pour the diluted foam cleaner into the foam gun&#39;s container, making sure it is tightly sealed.</p><p>Activate the dirt removal high-pressure car wash machine by flipping the power switch and adjusting it to the desired pressure setting. Grab the gun and evenly spray the foam onto the surface, allowing it to sit for a few moments to soften stubborn stains and soil, facilitating easier dirt removal.</p><p>Once the foam has had time to work, use the high-pressure water gun to rinse off the foam and stains, and finally dry the surface with a clean cloth.</p><p><br/></p><p><strong>4.Advantages and Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>Efficient Cleaning: The foam high-pressure cleaning gun excels in producing abundant foam, which effectively envelops and removes stains and soil, thereby enhancing cleaning efficiency.</p></li><li><p>Energy Saving and Environmental Protection: Compared to conventional car washing techniques, the foam high-pressure cleaning gun minimizes water wastage and reduces environmental impact, making it an eco-friendly dirt removal solution.</p></li><li><p>Surface Protection: The ingredients in the foam cleaner safeguard the surface from damage, preserving the integrity of car paints and other materials.</p></li><li><p>Easy to Operate: Foam high-pressure cleaning guns are user-friendly, making them ideal for both residential and commercial car washes, ensuring that dirt removal and cleaning tasks are straightforward and manageable.</p></li></ul><p><img alt=\"cleaning gun\" src=\"/assets/cnryce/source/4059-202406191444439242.png\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 81,
     "name": "Car Foam Blaster",
     "slug": "car-foam-blaster",
     "category": "Foam Gun",
-    "tagline": "Foam Gun product from the CNRYCE product catalog.",
+    "tagline": "Car Foam Blaster Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "A car foam sprayer is an aid used during the car wash process to create a thick foam from the wash solution that is sprayed onto the surface of the car. The use of a foam sprayer effectively wets and soaks the surface of the car, making it easier to remove and reducing the risk of paint scratches by minimizing manual contact.",
-    "image_url": "/assets/cnryce/car-foam-blaster.png",
+    "image_url": "/assets/cnryce/source/4059-202406191449417664.png",
     "specs": {
-      "Category": "Foam Gun",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 81,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406191449417664.png",
+      "/assets/cnryce/source/4059-202512121539150800.jpg",
+      "/assets/cnryce/source/4059-202512121539149573.jpg",
+      "/assets/cnryce/source/4059-202512121539150260.jpg",
+      "/assets/cnryce/source/4059-202512121539282973.jpg",
+      "/assets/cnryce/source/4059-202406191449417664_s.png",
+      "/assets/cnryce/source/4059-202406191449417664.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/car-foam-blaster",
+    "source_title": "Car Foam Blaster",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Car Foam Blaster                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        A car foam sprayer is an aid used during the car wash process to create a thick foam from the wash solution that is sprayed onto the surface of the car. The use of a foam sprayer effectively wets and soaks the surface of the car, making it easier to remove and reducing the risk of paint scratches by minimizing manual contact.                                    </p>\r\n                                    <p><strong>1. Working Principle</strong></p><p>The working principle of the car foam sprayer is relatively simple. car foam sprayer is mainly composed of a pump, motor, nozzle, container, and other parts. When the power is turned on and the switch is opened, the machine mixes the gas and water pressure, pumps it into the foam injector, and sprays it out through the nozzle. The detergent mixes with water and air in the process, forming a rich foam that evenly adheres to the surface of the car body. This car foam sprayer is essential in the car wash process.</p><p><br/></p><p><strong>2. Functional Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>Efficient cleaning: The foam produced by the car foam sprayer penetrates and suspends dirt on the surface, removing it from both the exterior and interior, thereby improving the cleaning effect.</p></li><li><p>Saving water: Due to the covering and penetrating effect of the foam, the need for direct water rinsing is reduced, thus saving water. This makes the car wash more eco-friendly and cost-effective.</p></li><li><p>Paint protection: The foam generated by the foam sprayer is fine and gentle, causing no damage to the paintwork but protecting it to a certain extent. This is crucial in maintaining the value and appearance of your vehicle.</p></li><li><p>Easy to operate: Foam sprayers are usually designed with a simple operation interface and humanized function settings, enabling users to easily get started and quickly complete the car wash work.</p></li></ul><p><br/></p><p><strong>3. Application Scenarios</strong></p><p>Car foam sprayers are widely used in the car wash industry, particularly in self-service car washes, car beauty stores, and family car washes. They help to quickly and effectively clean dirt and oil stains on the surface of the car, enhancing the efficiency and quality of the car wash.</p><p><br/></p><p><strong>4. Purchase Suggestions</strong></p><ul class=\" list-paddingleft-2\"><li><p>Brand selection: Choose a foam sprayer produced by well-known brands and reputable manufacturers to ensure product quality and after-sales service. A reliable car foam sprayer will save you time and money in the long run.</p></li><li><p>Performance parameters: Pay attention to the performance parameters of the foam sprayer, such as foam production capacity, spray pressure, power consumption, etc., to meet your actual use demands. A high-performance foam sprayer will make the car wash process smoother and more effective.</p></li><li><p>Convenience of operation: Choose a foam sprayer that is easy to operate and has practical functions to improve car washing efficiency and user experience. A user-friendly design will make the car wash process less stressful and more enjoyable.</p></li><li><p>Price factor: Under the premise of ensuring product quality and performance, consider the price factor and choose cost-effective products. A good car foam sprayer doesn&#39;t have to break the bank.</p></li></ul><p><br/></p><p><strong>5. Precautions for Use</strong></p><p>Before using the foam sprayer, ensure that the power supply is properly connected and well grounded to avoid the risk of electric shock. Safety should always be a priority in the car wash process.</p><p>During the use of the foam sprayer, pay attention to the operating state. If any abnormalities are found, promptly shut down the machine to check and troubleshoot. A well-maintained foam sprayer will ensure consistent and reliable performance.</p><p>After use, clean the foam sprayer in time to prevent detergent residue from causing damage to the equipment or affecting the effect of the next use. Keeping your car foam sprayer clean will extend its lifespan and maintain optimal performance.</p><p>Regular maintenance and repair of the foam sprayer should be carried out to prolong the service life of the equipment and keep it in the best working condition. A well-maintained foam sprayer will provide years of reliable service in the car wash.</p><p><img alt=\"car foam sprayer\" src=\"/assets/cnryce/source/4059-202406191449417664.png\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 82,
     "name": "Spray Gun With Large Capacity Foam Bottle",
     "slug": "spray-gun-with-large-capacity-foam-bottle",
     "category": "Foam Gun",
-    "tagline": "Foam Gun product from the CNRYCE product catalog.",
+    "tagline": "Spray Gun With Large Capacity Foam Bottle Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "A spray gun with a large capacity foam bottle is often referred to as a foam cannon or foam gun. It is a tool specifically designed for car washing that produces a rich foam that helps to remove dirt and stains from the body of the car.",
-    "image_url": "/assets/cnryce/spray-gun-with-large-capacity-foam-bottle.jpg",
+    "image_url": "/assets/cnryce/source/4059-202512201613127487.jpg",
     "specs": {
-      "Category": "Foam Gun",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 82,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202512201613127487.jpg",
+      "/assets/cnryce/source/4059-202512201611059374.jpg",
+      "/assets/cnryce/source/4059-202512201611268002.png",
+      "/assets/cnryce/source/4059-202512201611365457.png",
+      "/assets/cnryce/source/4059-202512201613127487_s.jpg",
+      "/assets/cnryce/source/4059-202406191453580606.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/spray-gun-with-large-capacity-foam-bottle",
+    "source_title": "Spray Gun With Large Capacity Foam Bottle",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Spray Gun With Large Capacity Foam Bottle                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        A spray gun with a large capacity foam bottle is often referred to as a foam cannon or foam gun. It is a tool specifically designed for car washing that produces a rich foam that helps to remove dirt and stains from the body of the car.                                    </p>\r\n                                    <p><strong><span>1.</span>Composition</strong></p><p>The spray gun with a large-capacity foam bottle typically comprises the following components:</p><ul class=\" list-paddingleft-2\"><li><p>Spray Gun Body: This is responsible for spraying foam or liquid, often constructed from corrosion-resistant and high-pressure-resistant materials. The integration with a large-capacity foam bottle enhances its functionality.</p></li><li><p>Large-capacity Foam Bottle: Specifically designed for storing foam or car wash liquid, its substantial capacity allows for prolonged use without the need for frequent refilling.</p></li><li><p>Adjustment Device: This feature enables users to tweak the concentration and flow rate of the sprayed foam or liquid, catering to diverse needs.</p></li><li><p>Nozzle: It determines the shape and spread of the sprayed foam or liquid, offering a variety of options to suit different applications.</p></li></ul><p><br/></p><p><strong>2. Product Features</strong></p><p><strong>Large-capacity Foam Bottle:</strong></p><ul class=\" list-paddingleft-2\"><li><p>The generous capacity of the foam bottle facilitates Efficient cleaning by holding ample foam liquid or car wash liquid, thereby mitigating the inconvenience of constant refills.</p></li><li><p>The foam bottle boasts a user-friendly design, making refilling and cleaning straightforward tasks.</p></li></ul><p><strong>High-pressure Spray Gun:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Equipped with a high-pressure function, the spray gun is capable of emitting a potent stream of water or foam, significantly boosting cleaning efficiency.</p></li><li><p>The adjustable nozzle of the spray gun allows for customization of the spray angle and pattern, aligning perfectly with the demands of various scenarios.</p></li></ul><p><strong>Material and Durability:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Both the spray gun and foam bottle are crafted from premium materials like aluminum alloy and stainless steel, renowned for their corrosion and wear resistance.</p></li><li><p>Manufacturers of some products offer warranties, ensuring user protection throughout the usage lifecycle.</p></li></ul><p><br/></p><p><strong>3. Application Scenarios</strong></p><ul class=\" list-paddingleft-2\"><li><p>Car Wash: The spray gun with a large-capacity foam bottle excels in喷洒 foam liquid across the car&#39;s surface, thereby augmenting car wash efficiency. Additionally, the high-pressure water jet effortlessly washes away persistent stains and foam, restoring the car&#39;s pristine appearance.</p></li><li><p>Gardening: Within the realm of gardening, this versatile spray gun is instrumental in spraying pesticides, fertilizers, or water, fostering healthy plant growth. The large-capacity foam bottle further amplifies its utility by minimizing refill frequencies and enhancing work productivity.</p></li><li><p>Agricultural Spraying: In agriculture, spray guns equipped with large-capacity foam bottles play a pivotal role in orchard, farmland, and other spraying operations. The high-pressure spray gun ensures even liquid distribution across crops, optimizing the spraying effectiveness.</p></li></ul><p><br/></p><p><strong>4. Precautions for Use</strong></p><ul class=\" list-paddingleft-2\"><li><p>Regular Inspection: The spray gun with a large-capacity foam bottle is imperative to regularly inspect the sealing performance of the spray gun and foam bottle to preempt any leakage issues.</p></li><li><p>Correct Operation: Adhering to the product manual&#39;s instructions is crucial when operating the spray gun, preventing damage or safety hazards stemming from misuse.</p></li><li><p>Maintenance: Timely cleaning of the spray gun and foam bottle post-use is essential to forestall nozzle clogging or corrosion due to residue buildup. Efficient cleaning practices prolong the lifespan of these tools and maintain their optimal performance.</p></li></ul><p><span></span><br/></p><p><img alt=\"The spray gun with a large-capacity foam bottle\" src=\"/assets/cnryce/source/4059-202406191453580606.png\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 83,
     "name": "High Pressure Cleaning Adapter",
     "slug": "high-pressure-cleaning-adapter",
     "category": "Washer Adapter",
-    "tagline": "Washer Adapter product from the CNRYCE product catalog.",
+    "tagline": "High Pressure Cleaning Adapter Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "A pressure washer adapter is an important accessory for connecting different hoses and nozzles and other accessories, providing greater flexibility and convenience for pressure washers.",
-    "image_url": "/assets/cnryce/high-pressure-cleaning-adapter.png",
+    "image_url": "/assets/cnryce/source/4059-202406191458008957.png",
     "specs": {
-      "Category": "Washer Adapter",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 83,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406191458008957.png",
+      "/assets/cnryce/source/4059-202406191458008957_s.png",
+      "/assets/cnryce/source/4059-202406191458008957.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/high-pressure-cleaning-adapter",
+    "source_title": "High Pressure Cleaning Adapter",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        High Pressure Cleaning Adapter                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        A pressure washer adapter is an important accessory for connecting different hoses and nozzles and other accessories, providing greater flexibility and convenience for pressure washers.                                    </p>\r\n                                    <p></p><p><span></span></p><p><strong>1.Main Functions</strong></p><ul class=\" list-paddingleft-2\"><li><p>Connection and conversion: The Cleaning Adapter for pressure washers, also known as the Pressure Washer Adapter, can connect the hose or lance of the high-pressure cleaner to different water sources or equipment, realizing the function of connection and conversion.</p></li><li><p>Adapt to different equipment: Different high-pressure cleaners may have different interface specifications. The Pressure Washer Adapter can adapt to these various interfaces, allowing the high-pressure cleaner to be utilized more broadly in a multitude of scenarios. The Cleaning Adapter ensures compatibility and versatility.</p></li><li><p>Improve cleaning efficiency: By selecting the appropriate Cleaning Adapter , you can optimize the direction and strength of the water flow from the high-pressure cleaner, thereby enhancing cleaning efficiency.</p></li></ul><p><br/></p><p><strong>2.Common Types</strong></p><ul class=\" list-paddingleft-2\"><li><p>Reducing sleeve: Such as the 180Bar Adapter, this adapter can accommodate different diameters of water hose or gun, enabling the high-pressure cleaner to handle a variety of cleaning tasks with greater flexibility. The Cleaning Adapter serves as a vital link in this process.</p></li><li><p>High-pressure gun: Such as the TL Pressure Washer Adapter, this adapter is typically ergonomically designed, easy to install and use, and perfect for high-pressure cleaners equipped with a telescopic spray gun. The Cleaning Adapter enhances the user experience and functionality.</p></li><li><p>Quick couplings: These Pressure Washer Adapters can quickly connect and disconnect the hose or gun of the high-pressure cleaner, saving operation time and boosting work efficiency. The Cleaning Adapter makes this process seamless and efficient.</p></li></ul><p><br/></p><p><strong>3.Material and Durability</strong></p><p>Pressure Washer Adapters and Cleaning Adapters are usually crafted from high-grade pressure-resistant materials to ensure stability and durability in high-pressure environments. These materials often exhibit excellent corrosion and abrasion resistance, thereby prolonging the lifespan of the adapter.</p><p><br/></p><p><strong>4.Use and Maintenance</strong></p><ul class=\" list-paddingleft-2\"><li><p>Correct use: Follow the instructions for the use of both the high-pressure cleaner and the Pressure Washer Adapter/Cleaning Adapter to operate correctly and prevent damage caused by excessive force or improper use.</p></li><li><p>Regular cleaning: Clean the Pressure Washer Adapter or Cleaning Adapter promptly after use to prevent residue from affecting its performance and service life.</p></li><li><p>Proper storage: Store the Pressure Washer Adapter or Cleaning Adapter in a dry, ventilated place to avoid prolonged exposure to humidity or high temperatures, ensuring it remains in optimal condition for future use.</p></li></ul><p><span></span><br/></p><p><img alt=\"Cleaning Adapter\" src=\"/assets/cnryce/source/4059-202406191458008957.png\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 84,
     "name": "Stainless Steel Threaded Pipe Fittings",
     "slug": "stainless-steel-threaded-pipe-fittings",
     "category": "Washer Adapter",
-    "tagline": "Washer Adapter product from the CNRYCE product catalog.",
+    "tagline": "Stainless Steel Threaded Pipe Fittings Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Stainless Steel Threaded Pipe Fittings are a type of fittings made of stainless steel that are widely used in various piping systems. These fittings offer the strength of metal, corrosion resistance and ease of cleaning.",
-    "image_url": "/assets/cnryce/stainless-steel-threaded-pipe-fittings.png",
+    "image_url": "/assets/cnryce/source/4059-202406191505120385.png",
     "specs": {
-      "Category": "Washer Adapter",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 84,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406191505120385.png",
+      "/assets/cnryce/source/4059-202406191505120385_s.png",
+      "/assets/cnryce/source/4059-202406191505120385.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/stainless-steel-threaded-pipe-fittings",
+    "source_title": "Stainless Steel Threaded Pipe Fittings",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Stainless Steel Threaded Pipe Fittings                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Stainless Steel Threaded Pipe Fittings are a type of fittings made of stainless steel that are widely used in various piping systems. These fittings offer the strength of metal, corrosion resistance and ease of cleaning.                                    </p>\r\n                                    <p><strong>1.Main Characteristics</strong></p><p>Excellent material: The stainless steel threaded pipe fittings are crafted from stainless steel, offering exceptional corrosion resistance, wear resistance, and high mechanical strength, making threaded pipe fittings adaptable to a variety of harsh environments. Their threaded structure is a key feature, where the external thread can be securely mated with corresponding internal threaded connectors for reliable sealing and fixing. Internal threads, on the other hand, facilitate connections with pipes or equipment featuring external threads. When threaded pipe fittings come to connections, threaded pipe fittings are typically installed via threaded connections, fastener connections, or other sealing methods, ensuring ease of installation while maintaining firmness and reliability.</p><p><br/></p><p><strong>2.Application Field</strong></p><p>Stainless Steel Threaded Pipe Fitting are widely employed in diverse pipeline connections, equipment interfaces, and pipeline construction projects, particularly in settings requiring corrosion resistance or high-pressure tolerance. Here are some specific sectors where they find application:</p><ul class=\" list-paddingleft-2\"><li><p>Chemical industry: Utilized to link various chemical equipment and pipelines, enduring corrosive media and withstanding high temperatures and pressures.</p></li><li><p>Pharmaceutical industry: Ensuring the purity and safety of drugs during production, these fittings can withstand elevated temperatures and pressures.</p></li><li><p>Food industry: In food machinery, they guarantee food hygiene and prevent contamination and cross-contamination.</p></li><li><p>Machinery manufacturing industry: Connecting bearings, gears, and other crucial components to facilitate equipment&#39;s smooth operation.</p></li><li><p>Automotive industry: Linking parts within engines to endure high loads and high-temperature environments.</p></li><li><p>Power industry: Used in fluid transmission and control systems, ensuring fluid flow smoothness while resisting corrosion and wear effects.</p></li></ul><p><br/></p><p><strong>3.Specification and Selection</strong></p><p>Stainless Steel Threaded Pipe Fitting come in a multitude of specifications, encompassing diverse pipe diameters, thread types (such as NPT, NPTF, G, Metric, etc.), and connection methods. Selection must be based on the specific pipe diameter, the operational environment, and fluid characteristics. For instance, NPT threads are prevalent in high-pressure piping systems like oil and natural gas, whereas G threads are ubiquitous in low-pressure applications like water pipes and gas lines.</p><p><br/></p><p><strong>4.Installation and Precautions</strong></p><ul class=\" list-paddingleft-2\"><li><p>Cleaning work: Prior to installation, meticulously clean the threaded portions of both the pipe and the fitting to guarantee the absence of impurities and oil.</p></li><li><p>Docking and fixing: Properly dock and fix the pipe with the fitting to ensure a snug fit between the threaded parts.</p></li><li><p>Sealing treatment: Depending on the requirement, apply sealant to the joints or wrap raw material tape around them to bolster sealing performance.</p></li><li><p>Inspection and acceptance: Once installation is complete, conduct thorough inspection and acceptance procedures to verify the absence of any leaks or looseness.</p></li></ul><p><img alt=\"threaded pipe fittings\" src=\"/assets/cnryce/source/4059-202406191505120385.png\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 85,
     "name": "Electric Pressure Washer Hose Adapter",
     "slug": "electric-pressure-washer-hose-adapter",
     "category": "Washer Adapter",
-    "tagline": "Washer Adapter product from the CNRYCE product catalog.",
+    "tagline": "Electric Pressure Washer Hose Adapter Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "A washer hose adapter is an accessory used to connect a high pressure washer to a hose, ensuring a safe and effective connection between the two.",
-    "image_url": "/assets/cnryce/electric-pressure-washer-hose-adapter.png",
+    "image_url": "/assets/cnryce/source/4059-202406191508028019.png",
     "specs": {
-      "Category": "Washer Adapter",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 85,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406191508028019.png",
+      "/assets/cnryce/source/4059-202406191508028019_s.png",
+      "/assets/cnryce/source/4059-202406191508033308.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/electric-pressure-washer-hose-adapter",
+    "source_title": "Electric Pressure Washer Hose Adapter",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Electric Pressure Washer Hose Adapter                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        A washer hose adapter is an accessory used to connect a high pressure washer to a hose, ensuring a safe and effective connection between the two.                                    </p>\r\n                                    <p></p><p><strong>1. Role</strong></p><ul class=\" list-paddingleft-2\"><li><p>Connection function: The Washer hose adapters, as intermediate connectors, Connecting the hose to the machine can firmly connect the spout of the high-pressure washer with the hose to ensure the stable transmission of water flow during the cleaning process. This crucial role allows for uninterrupted cleaning operations.</p></li><li><p>Adaptability: Since the spout size of different brands and models of high-pressure cleaners may be different, the design of the Washer hose adapters incorporates a certain degree of versatility and adjustability to adapt to various specifications of the spout. This ensures compatibility across a wide range of equipment.</p></li><li><p>Direction Adjustment: The Washer hose adapters can&nbsp;Threaded connections flexibly adjust the direction and position of the hose, facilitating the operator in adjusting the cleaning angle and range as needed. This enhances the versatility and efficiency of the cleaning process.</p></li></ul><p><br/></p><p><strong>2. Type</strong></p><p>There are various types of electric pressure washer hose adapters, with the common ones including quick-insert, threaded, snap type, etc. These different types of Washer hose adapters have their own characteristics and are suitable for different application scenarios and needs.</p><ul class=\" list-paddingleft-2\"><li><p>Quick-plug adapter: Connecting the hose to the machine through quick plugging and unplugging, this type of adapter offers easy and fast operation, making it suitable for occasions requiring frequent replacement of the hose.</p></li><li><p>Threaded adapter: Utilizing Threaded connections, this type of Washer hose adapter connects the hose to the washer more solidly and reliably, making it ideal for high-pressure, high-flow cleaning operations that demand robust performance.</p></li><li><p>Snap-on adapter: The hose and washer are fixed by a snap-on structure in this type of adapter, which is relatively easy to install and disassemble. Suitable for general cleaning operations, it offers a convenient solution for connecting the hose to the machine.</p></li></ul><p><br/></p><p><strong>3. Use and Maintenance</strong></p><ul class=\" list-paddingleft-2\"><li><p>Pre-use inspection: Before using the Washer hose adapter, it should be checked whether it is intact and whether the connection is firm and reliable. This includes inspecting Threaded connections for tightness and any signs of wear or damage. If it is damaged or loose, it should be replaced or repaired in time to prevent potential issues during cleaning.</p></li><li><p>Correct installation: Follow the installation instructions of the Washer hose adapter to install it correctly on the high-pressure cleaner and the hose. This involves ensuring that all Threaded connections are properly tightened and that the adapter is securely attached to both the machine and the hose, without any leakage.</p></li><li><p>Regular maintenance: In the course of use, the surface of the Washer hose adapter should be cleaned regularly of dirt and residue to keep it in good working condition. This helps to maintain the efficiency and lifespan of the adapter. At the same time, pay attention to the wear and tear of the adapter, particularly around Threaded connections, and replace it in time if necessary to ensure continued reliable performance.</p></li></ul><p><img alt=\"Washer hose adapters\" src=\"/assets/cnryce/source/4059-202406191508033308.png\"/><br/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 86,
     "name": "Brass Threaded Quick Connector 3/4 and 1/2 inch Garden Hose Fitting Water Hose Connectors",
     "slug": "brass-threaded-quick-connector-34-and-12-inch-garden-hose-fitting-water-hose-connectors",
     "category": "Washer Adapter",
-    "tagline": "Washer Adapter product from the CNRYCE product catalog.",
+    "tagline": "Brass Threaded Quick Connector 3/4 and 1/2 inch Garden Hose Fitting Water Hose Connectors Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "A brass threaded quick coupling is an element used to connect lines and hoses. It is made of brass with a threaded end and a quick connecting head at the other end.",
-    "image_url": "/assets/cnryce/brass-threaded-quick-connector-34-and-12-inch-garden-hose-fitting-water-hose-connectors.png",
+    "image_url": "/assets/cnryce/source/4059-202406191531302782.png",
     "specs": {
-      "Category": "Washer Adapter",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 86,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406191531302782.png",
+      "/assets/cnryce/source/4059-202406191531302782_s.png",
+      "/assets/cnryce/source/4059-202406191531302782.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/brass-threaded-quick-connector-34-and-12-inch-garden-hose-fitting-water-hose-connectors",
+    "source_title": "Brass Threaded Quick Connector 3/4 and 1/2 inch Garden Hose Fitting Water Hose Connectors",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Brass Threaded Quick Connector 3/4 and 1/2 inch Garden Hose Fitting Water Hose Connectors                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        A brass threaded quick coupling is an element used to connect lines and hoses. It is made of brass with a threaded end and a quick connecting head at the other end.                                    </p>\r\n                                    <p><strong>1.Product Overview</strong></p><p>The brass threaded Quick Connection is a highly convenient fitting designed for effortlessly connecting and disconnecting water pipes. It is widely used in scenarios such as garden irrigation, car washing, and household water pipe connections. Its standout feature is the use of brass material, which offers excellent Quick Connection and high-pressure durability. The threaded design ensures a tight and stable connection, making it ideal for applications like the Universal Tap Connector or the Quick Connection for Car Washer.</p><p><br/></p><p><strong>2.Specification Selection</strong></p><p><strong>3/4-inch fitting:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Suitable for larger flow rate water pipe connections, such as the main water Quick Connection pipe in garden irrigation systems.</p></li><li><p>Common connection methods include female and male threads, allowing you to choose the appropriate fitting based on the water pipe type.</p></li><li><p>While relatively more expensive, it provides a more stable connection and supports higher flow rates, making it perfect for use with a Universal Tap Connector.</p></li></ul><p><strong>1/2-inch fitting:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Ideal for smaller flow rate water pipe connections, such as branch water pipes or thin pipes.</p></li><li><p>Available in both female and male connections, Universal Tap Connector is a cost-effective option for those on a budget or needing to connect thin pipes.</p></li><li><p>This size is also commonly used in setups requiring a Quick Connection for Car Washer.</p></li></ul><p><br/></p><p><strong>3.Instructions for Use</strong></p><p><strong>Preparation before installation:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Ensure the water pipe and fitting sizes match, such as using a 3/4-inch fitting for a 3/4-inch water pipe or a 1/2-inch fitting for a 1/2-inch water pipe.</p></li><li><p>Clean the threaded portions of the Universal Tap Connector water pipe and fitting to remove impurities and dirt, ensuring a tight and secure connection.</p></li></ul><p><strong>Installation steps:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Screw the fitting into the end of the water pipe, ensuring the threads are tightly engaged.</p></li><li><p>If connecting two sections of&nbsp;Universal Tap Connector water pipe, screw the other end of the fitting into the second pipe.</p></li><li><p>Use a wrench or pliers to moderately tighten the fitting, avoiding over-tightening to prevent thread damage.</p></li><li><p>For applications like the Quick Connection for Car Washer, ensure the connection is secure to handle high-pressure water flow.</p></li></ul><p><strong>Checking the connection:</strong></p><ul class=\" list-paddingleft-2\"><li><p>After installation, check for leaks at the fitting connections. If leaks are detected, retighten the fitting or replace the gasket.</p></li><li><p>Regularly inspect the tightness of the joint, especially after prolonged use, to ensure the stability of the connection.</p></li></ul><p><br/></p><p><strong>4.Maintenance Instructions</strong></p><p><strong>Cleaning:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Regularly clean the fitting to remove impurities and dirt. Use water or a specialized cleaner for flushing.</p></li><li><p>Avoid using sharp tools or brushes that could damage the threads or sealing surfaces.</p></li></ul><p><strong>Lubrication:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Apply a suitable lubricant, such as grease or a specialized thread lubricant, to the threaded portion to reduce friction and wear.</p></li><li><p>Lubrication also makes it easier to screw the fitting in and out of the hose, which is particularly useful for Quick Connection systems.</p></li></ul><p><strong>Rust prevention treatment:</strong></p><ul class=\" list-paddingleft-2\"><li><p>If fittings are exposed to moisture or corrosive environments, treat them with a rust inhibitor.</p></li><li><p>Apply rust-preventive oil or paint to the fitting surface to prevent rust and corrosion.</p></li></ul><p><strong>Replacing damaged fittings:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Replace fittings that are cracked, deformed, or severely worn with new ones of the same specifications and material.</p></li><li><p>For example, if a Universal Tap Connector is damaged, ensure the replacement matches the original in size and material.</p></li></ul><p><strong>Storage precautions:</strong></p><ul class=\" list-paddingleft-2\"><li><p>Store fittings in a dry, ventilated area, avoiding prolonged exposure to sunlight or high temperatures.</p></li><li><p>Use a dedicated box or bag to store connectors, preventing damage or loss, especially for specialized fittings like the Quick Connection for Car Washer.</p></li></ul><p><img alt=\"Quick Connection\" src=\"/assets/cnryce/source/4059-202406191531302782.png\"/></p>                                </div>\r\n                            </div>"
   },
   {
     "id": 87,
     "name": "Flexible Brass Quick Connector",
     "slug": "flexible-brass-quick-connector",
     "category": "Washer Adapter",
-    "tagline": "Washer Adapter product from the CNRYCE product catalog.",
+    "tagline": "Flexible Brass Quick Connector Manufacturers and Factory. We accept OEM custom products all made in China.",
     "description": "Flexible brass quick coupling is a kind of removable coupling used for connecting pipelines. It is made of brass material with excellent corrosion resistance and mechanical strength. This coupling is designed with a quick-insertion and removal connection mechanism, which makes it easy and quick to connect and disconnect hoses or pipes without the use of tools.",
-    "image_url": "/assets/cnryce/flexible-brass-quick-connector.png",
+    "image_url": "/assets/cnryce/source/4059-202406191536408694.png",
     "specs": {
-      "Category": "Washer Adapter",
-      "Power": "High pressure",
-      "Pressure": "Cleaning washer",
-      "Flow": "Water cleaning"
+      "Brand": "VK"
     },
     "sort_order": 87,
     "is_featured": 0,
-    "published": 1
+    "published": 1,
+    "gallery": [
+      "/assets/cnryce/source/4059-202406191536408694.png",
+      "/assets/cnryce/source/4059-202406191536408694_s.png",
+      "/assets/cnryce/source/4059-202406191536408694.png"
+    ],
+    "source_url": "https://www.cnryce.com/product/flexible-brass-quick-connector",
+    "source_title": "Flexible Brass Quick Connector",
+    "source_brand": "OTHER",
+    "brand": "VK",
+    "detail_html": "<div class=\"wui-alert wui-alert-primary\">\r\n                                    <div class=\"wui-alert-content\">\r\n                                        Flexible Brass Quick Connector                                    </div>\r\n                                </div>\r\n                                <div class=\"content-container ueditor-container\">\r\n                                    <p>\r\n                                        Flexible brass quick coupling is a kind of removable coupling used for connecting pipelines. It is made of brass material with excellent corrosion resistance and mechanical strength. This coupling is designed with a quick-insertion and removal connection mechanism, which makes it easy and quick to connect and disconnect hoses or pipes without the use of tools.                                    </p>\r\n                                    <p></p><p></p><p><strong>1. Main Features</strong></p><ul class=\" list-paddingleft-2\"><li><p>Excellent material: Adopting brass as the main material for the brass quick coupling, it has good corrosion resistance, oxidation resistance, and high mechanical strength, allowing it to withstand certain pressure and temperature fluctuations.</p></li><li><p>Flexible connection: The Flexible brass quick coupling features a built-in rubber ring or other elastic elements, enabling it to realize a flexible Quick connection. This adaptability reduces the risk of leakage caused by pipeline deformation or vibration, ensuring a stable and reliable fluid transmission.</p></li><li><p>Quick installation: Designed with easy installation methods such as threaded connection or clamp connection, the brass quick coupling allows for quick installation and disassembly without the need for complicated welding or heat fusion processes.</p></li><li><p>Reliable sealing: High-quality sealing materials and structural design ensure that the Flexible brass quick coupling maintains excellent sealing performance, even under high pressure, high temperature, or corrosive environments.</p></li></ul><p><br/></p><p><strong>2. Application Scenario</strong></p><p>The Flexible brass quick coupling is widely used in various scenarios:</p><ul class=\" list-paddingleft-2\"><li><p>Water supply and drainage system: Used for connecting water pipes, faucets, water tanks, and other water supply and drainage equipment to ensure a smooth and uninterrupted water flow.</p></li><li><p>HVAC system: It is ideal for connecting air conditioning pipes, fan coils, and other HVAC equipment, facilitating the efficient transmission and regulation of hot and cold air.</p></li><li><p>Gas system: The brass quick coupling is also suitable for connecting gas pipes, gas meters, and other gas-related equipment, ensuring the safe and efficient transmission and use of gas.</p></li><li><p>Industrial Fluid Transmission: It is widely applied in connecting various industrial fluid pipelines, including lubricating oil, coolant, chemical solvents, and more, ensuring stable and efficient fluid transmission and handling.</p></li></ul><p><br/></p><p><strong>3. Precautions for Use</strong></p><ul class=\" list-paddingleft-2\"><li><p>Correct installation: Follow the product specification and installation guide to correctly install the Flexible brass quick coupling, ensuring that the installation position, direction, and fastening degree meet the requirements for a secure and reliable Quick connection.</p></li><li><p>Regular inspection: Regularly check the use of the brass quick coupling to identify any looseness, leakage, or damage. In case of any issues, repair or replace the coupling in a timely manner to maintain its optimal performance.</p></li><li><p>Avoid over-tightening: During installation, avoid over-tightening the Flexible brass quick coupling to prevent damage to the sealing elements or deformation of the coupling, which may compromise its sealing performance.</p></li><li><p>Pay attention to the use environment: Avoid exposing the brass quick coupling to extreme temperatures, high humidity, or corrosive environments to extend its service life and maintain its optimal performance.</p></li></ul><p><img alt=\"Flexible brass quick coupling\" src=\"/assets/cnryce/source/4059-202406191536408694.png\"/></p>                                </div>\r\n                            </div>"
   }
 ];
 
@@ -1589,7 +2541,7 @@ export const DEFAULT_NEWS = [
     "category": "公司动态",
     "excerpt": "磐宏是一家以清洗机设备研发制造为核心，集开发、生产与销售于一体的专业厂家。",
     "content": "台州磐宏机电有限公司成立于 2009 年，坐落于浙江省台州市温岭市大溪镇后瓦屿工业园区。公司依托当地泵与电机产业集群配套优势，持续向专业化、规范化和数字化运营方向发展。",
-    "image_url": "/assets/panhiro-factory-building.png",
+    "image_url": "/assets/panhiro-factory-building.webp",
     "published_at": "2026-06-24",
     "published": 1
   },
@@ -1611,7 +2563,7 @@ export const DEFAULT_NEWS = [
     "category": "企业实力",
     "excerpt": "公司所在的大溪镇是温岭泵与电机产业核心聚集区，上下游配套完整。",
     "content": "产业生态让关键部件采购、样机开发、装配测试和批量交付更容易形成协同。磐宏坚持质量管理与服务响应并重，持续完善现代化管理和数字化运营能力。",
-    "image_url": "/assets/r9-y1-03.png",
+    "image_url": "/assets/r9-y1-03.webp",
     "published_at": "2026-06-10",
     "published": 1
   }

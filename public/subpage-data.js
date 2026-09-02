@@ -6,7 +6,7 @@ export const SUBPAGES = {
     title: "公司简介",
     summary: "台州磐宏机电有限公司成立于 2009 年，是一家以清洗机设备研发制造为核心，集开发、生产与销售于一体的专业厂家。",
     code: "ABOUT",
-    image: "/assets/panhiro-factory-building.png",
+    image: "/assets/panhiro-factory-building.webp",
     imageAlt: "磐宏工厂厂区实拍",
     sectionTitle: "立足温岭泵与电机产业带，深耕清洗设备制造",
     description:
@@ -64,7 +64,7 @@ export const SUBPAGES = {
     title: "企业实力",
     summary: "依托温岭泵与电机产业集群，磐宏围绕清洗设备研发制造、质量管理、产品交付和数字化运营持续建设企业能力。",
     code: "POWER",
-    image: "/assets/r9-y1-03.png",
+    image: "/assets/r9-y1-03.webp",
     imageAlt: "磐宏高压清洗设备",
     sectionTitle: "产业配套、产品矩阵与长期交付能力",
     description:
@@ -105,13 +105,13 @@ export const SUBPAGES = {
     title: "产品总览",
     summary: "磐宏直接沿用 cnryce 的分类结构，把整机、泵、管路和配件按产品线展开，方便客户按场景快速找货。",
     code: "PRODUCTS",
-    image: "/assets/r9-y1-01.png",
+    image: "/assets/r9-y1-01.webp",
     imageAlt: "磐宏产品总览",
     sectionTitle: "按参考站分类展示整机与配件",
     description:
-      "客户选择清洗设备时，真正关心的是使用场景、产品线和采购效率。磐宏不再用自定义梯队，而是直接按参考站分类整理产品，覆盖 Washing Machine、car washing series、Car Washing T Series、Industrial Series、Permanent Magnet Series、Vacuum Cleaner、Washer Plunger Pumps、Washer Pressure Pipe、Spray Gun For Cleaning、Foam Gun 和 Washer Adapter。",
+      "客户选择清洗设备时，真正关心的是使用场景、产品线和采购效率。磐宏不再用自定义梯队，而是直接按参考站分类整理产品，覆盖 Washing Machine、car washing series、Car Washing T Series、PH Series、VK Series、Vacuum Cleaner、Washer Plunger Pumps、Washer Pressure Pipe、Spray Gun For Cleaning、Foam Gun 和 Washer Adapter。",
     points: [
-      "整机系列：Washing Machine、car washing series、Car Washing T Series、Industrial Series、Permanent Magnet Series",
+      "整机系列：Washing Machine、car washing series、Car Washing T Series、PH Series、VK Series",
       "配件系列：Vacuum Cleaner、Washer Plunger Pumps、Washer Pressure Pipe、Spray Gun For Cleaning、Foam Gun、Washer Adapter",
       "采购入口：按分类页直接筛选产品，适合渠道选品、补货和定制沟通"
     ],
@@ -126,7 +126,7 @@ export const SUBPAGES = {
     title: "VK-Y1",
     summary: "VK-Y1 是磐宏外放电永磁变频主推款，适合移动清洗、高频使用、商用门店和清洗机爱好者。",
     code: "VK-Y1",
-    image: "/assets/r9-y1-03.png",
+    image: "/assets/r9-y1-03.webp",
     imageAlt: "VK-Y1 永磁变频高压清洗机",
     sectionTitle: "外放电 + 永磁变频主推款",
     description:
@@ -143,7 +143,7 @@ export const SUBPAGES = {
     title: "VK-1010-P4",
     summary: "VK-1010-P4 面向商用级清洗，适合需要专业外观、稳定输出和更高使用强度的客户。",
     code: "1010-P4",
-    image: "/assets/vk-1011-02.png",
+    image: "/assets/vk-1011-02.webp",
     imageAlt: "VK-1010-P4 专业清洗机型",
     sectionTitle: "商用级 VK 平台机型",
     description:
@@ -160,7 +160,7 @@ export const SUBPAGES = {
     title: "VK-1011",
     summary: "VK-1011 是 VK 商用级系列的视频展示款，适合专业渠道、商用清洗和清洗机用户选型。",
     code: "VK-1011",
-    image: "/assets/vk-1011-01.png",
+    image: "/assets/vk-1011-01.webp",
     imageAlt: "VK-1011 高压清洗机",
     sectionTitle: "商用级视频展示机型",
     description:
@@ -177,7 +177,7 @@ export const SUBPAGES = {
     title: "PH-0885",
     summary: "PH-0885 与 PH-0995 采用同一模具，配置 1407 泵头，适合中等频率清洁需求。",
     code: "PH-0885",
-    image: "/assets/ph-0995-02.png",
+    image: "/assets/ph-0995-02.webp",
     imageAlt: "PH-0885 高级家用半商用高压清洗机",
     sectionTitle: "高级家用 / 半商用基础款",
     description:
@@ -194,7 +194,7 @@ export const SUBPAGES = {
     title: "PH-0995",
     summary: "PH-0995 与 PH-0885 采用同一模具，升级 1408 泵头，适合更高强度清洁需求。",
     code: "PH-0995",
-    image: "/assets/ph-0995-03.png",
+    image: "/assets/ph-0995-03.webp",
     imageAlt: "PH-0995 高级家用半商用升级款高压清洗机",
     sectionTitle: "高级家用 / 半商用升级款",
     description:
@@ -211,7 +211,7 @@ export const SUBPAGES = {
     title: "P4 / P5",
     summary: "P4 与 P5 是入门家用手提款，适合轻量清洗、移动使用、零售展示和紧凑收纳需求。",
     code: "P4/P5",
-    image: "/assets/p5-01-transparent.png",
+    image: "/assets/p5-01-transparent.webp",
     imageAlt: "P4 P5 入门家用手提清洗设备",
     sectionTitle: "入门家用手提款",
     description:
@@ -228,7 +228,7 @@ export const SUBPAGES = {
     title: "服务总览",
     summary: "磐宏提供产品资料、安装指导、售后视频、下载资料和咨询响应等配套支持。",
     code: "SERVICE",
-    image: "/assets/r9-y1-03.png",
+    image: "/assets/r9-y1-03.webp",
     imageAlt: "磐宏服务支持",
     sectionTitle: "让客户买得清楚，用得安心",
     description:
@@ -262,7 +262,7 @@ export const SUBPAGES = {
     title: "下载专区",
     summary: "下载专区集中提供产品手册、规格书、目录图册、安装说明和宣传资料。",
     code: "DOWNLOAD",
-    image: "/assets/panhiro-logo-2k-transparent.png",
+    image: "/assets/panhiro-logo-2k-transparent.webp",
     imageAlt: "磐宏资料下载",
     sectionTitle: "资料集中获取，采购沟通更高效",
     description:
@@ -279,7 +279,7 @@ export const SUBPAGES = {
     title: "联系我们",
     summary: "欢迎通过 sales@panhiro.net 或 panchen@panhiro.net 咨询产品选型、批量采购、渠道代理、定制合作和售后支持。",
     code: "CONTACT",
-    image: "/assets/r9-y1-03.png",
+    image: "/assets/r9-y1-03.webp",
     imageAlt: "磐宏产品咨询",
     sectionTitle: "告诉我们需求，获取合适方案",
     description:
@@ -304,50 +304,50 @@ export const SUBPAGES = {
 export const PRODUCT_DETAILS = {
   products: {
     badge: "产品中心",
-    heroImage: "/assets/r9-y1-01.png",
-    gallery: ["/assets/r9-y1-01.png", "/assets/vk-1011-01.png", "/assets/ph-0995-card.png", "/assets/p5-01-transparent.png"],
+    heroImage: "/assets/r9-y1-01.webp",
+    gallery: ["/assets/r9-y1-01.webp", "/assets/vk-1011-01.webp", "/assets/ph-0995-card.png", "/assets/p5-01-transparent.webp"],
     specs: ["Washing Machine", "car washing series", "配件专区", "分类筛选"],
     scene: "按参考站分类直接浏览整机与配件，适合渠道选品、批量采购和组合询价。"
   },
   "vk-y1": {
     badge: "主推产品",
-    heroImage: "/assets/r9-y1-01.png",
-    gallery: ["/assets/r9-y1-01.png", "/assets/r9-y1-02.png", "/assets/r9-y1-03.png", "/assets/r9-y1-04.png"],
+    heroImage: "/assets/r9-y1-01.webp",
+    gallery: ["/assets/r9-y1-01.webp", "/assets/r9-y1-02.webp", "/assets/r9-y1-03.webp", "/assets/r9-y1-04.webp"],
     specs: ["1800W", "110Bar", "8L/min", "16 档智能调速"],
     scene: "移动洗车、户外清洗、门店高频使用和对节能低噪有要求的场景。"
   },
   "vk-1010-p4": {
     badge: "商用平台",
-    heroImage: "/assets/vk-1011-02.png",
-    gallery: ["/assets/vk-1011-02.png", "/assets/vk-1011-03.png", "/assets/vk-1011-04.png", "/assets/vk-1010-p4-detail-04.png"],
+    heroImage: "/assets/vk-1011-02.webp",
+    gallery: ["/assets/vk-1011-02.webp", "/assets/vk-1011-03.png", "/assets/vk-1011-04.png", "/assets/vk-1010-p4-detail-04.webp"],
     specs: ["2500W", "100Bar", "10L/min", "商用级平台"],
     scene: "洗车门店、物业保洁、庭院深度清洗和渠道展示。"
   },
   "vk-1011": {
     badge: "视频展示款",
-    heroImage: "/assets/vk-1011-01.png",
-    gallery: ["/assets/vk-1011-01.png", "/assets/vk-1011-02.png", "/assets/vk-1011-03.png", "/assets/vk-1011-04.png"],
+    heroImage: "/assets/vk-1011-01.webp",
+    gallery: ["/assets/vk-1011-01.webp", "/assets/vk-1011-02.webp", "/assets/vk-1011-03.png", "/assets/vk-1011-04.png"],
     specs: ["2800W", "110Bar", "9.5-10L/min", "商用级 VK 系列"],
     scene: "线上展示、门店屏幕、销售资料和专业清洗渠道选型。"
   },
   "ph-0885": {
     badge: "高级家用",
-    heroImage: "/assets/ph-0995-02.png",
-    gallery: ["/assets/ph-0995-02.png", "/assets/ph-0995-01.png", "/assets/ph-0995-card.png", "/assets/ph-0885-detail-04.png"],
+    heroImage: "/assets/ph-0995-02.webp",
+    gallery: ["/assets/ph-0995-02.webp", "/assets/ph-0995-01.webp", "/assets/ph-0995-card.png", "/assets/ph-0885-detail-04.webp"],
     specs: ["1800W", "85Bar", "8-8.5L/min", "1407 泵头"],
     scene: "家庭进阶清洗、小型门店、物业备用和中等频率清洁。"
   },
   "ph-0995": {
     badge: "半商用升级",
-    heroImage: "/assets/ph-0995-03.png",
-    gallery: ["/assets/ph-0995-03.png", "/assets/ph-0995-01.png", "/assets/ph-0995-card.png", "/assets/ph-0995-detail-04.png"],
+    heroImage: "/assets/ph-0995-03.webp",
+    gallery: ["/assets/ph-0995-03.webp", "/assets/ph-0995-01.webp", "/assets/ph-0995-card.png", "/assets/ph-0995-detail-04.webp"],
     specs: ["2200W", "95Bar", "8.5-9L/min", "1408 泵头"],
     scene: "更高强度的家庭、门店和物业清洁需求。"
   },
   "p4-p5": {
     badge: "入门家用",
-    heroImage: "/assets/p5-01-transparent.png",
-    gallery: ["/assets/p5-01-transparent.png", "/assets/p5-02-transparent.png", "/assets/p5-03-transparent.png", "/assets/p5-04-transparent.png"],
+    heroImage: "/assets/p5-01-transparent.webp",
+    gallery: ["/assets/p5-01-transparent.webp", "/assets/p5-02-transparent.webp", "/assets/p5-03-transparent.webp", "/assets/p5-04-transparent.webp"],
     specs: ["手提款", "轻量收纳", "家用洗车", "视频素材支持"],
     scene: "家庭洗车、庭院小面积冲洗、户外用品清洁和首次购买用户。"
   }

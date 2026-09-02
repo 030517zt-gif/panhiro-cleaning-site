@@ -1,5 +1,6 @@
 ﻿import { DEFAULT_PRODUCTS, DEFAULT_NEWS, PRODUCT_CATEGORIES } from "./content-seed.js";
 import CONTACT from "./contact-config.js";
+import { enrichProductRecords } from "./product-content.js";
 
 const storeKeys = {
   products: "panhiro.cnryce.products.v2",
@@ -17,12 +18,16 @@ const state = {
 const isStaticPreview = location.protocol === "file:" || ["5173", "5174"].includes(location.port);
 let motionScrollReady = false;
 const CATEGORY_LABELS = {
-  "RY Series": "Industrial Series",
-  "PW Series": "Permanent Magnet Series"
+  "RY Series": "PH Series",
+  "PW Series": "VK Series",
+  "PH Series": "PH Series",
+  "VK Series": "VK Series"
 };
 const CATEGORY_ALIASES = {
-  "RY Series": "Industrial Series",
-  "PW Series": "Permanent Magnet Series"
+  "RY Series": "PH Series",
+  "PW Series": "VK Series",
+  "PH Series": "PH Series",
+  "VK Series": "VK Series"
 };
 const PRODUCT_CATEGORY_ZH = {
   "Washing Machine": "清洗机",
@@ -30,8 +35,10 @@ const PRODUCT_CATEGORY_ZH = {
   "Car Washing T Series": "T 系列洗车机",
   "Industrial Series": "工业系列",
   "Permanent Magnet Series": "永磁系列",
-  "RY Series": "工业系列",
-  "PW Series": "永磁系列",
+  "RY Series": "PH 系列",
+  "PW Series": "VK 系列",
+  "PH Series": "PH 系列",
+  "VK Series": "VK 系列",
   "Vacuum Cleaner": "吸尘器",
   "Washer Plunger Pumps": "清洗机柱塞泵",
   "Washer Pressure Pipe": "清洗机高压管",
@@ -228,6 +235,8 @@ function categoryTagline(category) {
       "Permanent Magnet Series": "Permanent Magnet Series for commercial cleaning and heavier-duty washing tasks.",
       "RY Series": "Industrial Series built for frequent use with balanced pressure output and operating convenience.",
       "PW Series": "Permanent Magnet Series for commercial cleaning and heavier-duty washing tasks.",
+      "PH Series": "PH Series built for frequent use with balanced pressure output and operating convenience.",
+      "VK Series": "VK Series for commercial cleaning and heavier-duty washing tasks.",
       "Vacuum Cleaner": "Suitable for workshops, stores, woodworking dust and floor cleaning needs.",
       "Washer Plunger Pumps": "Core plunger pump components for maintenance, assembly and bulk supporting supply.",
       "Washer Pressure Pipe": "High pressure hose and extension pipe accessories for washing, unclogging and connection tasks.",
@@ -242,6 +251,8 @@ function categoryTagline(category) {
       "Permanent Magnet Series": "Permanent Magnet Series 面向商用清洗与重污冲洗场景，适合更高强度的清洁任务。",
       "RY Series": "Industrial Series 面向高频使用的清洗机系列，兼顾压力表现与操作便利性。",
       "PW Series": "Permanent Magnet Series 面向商用清洗与重污冲洗场景，适合更高强度的清洁任务。",
+      "PH Series": "PH 系列面向高频使用的清洗机系列，兼顾压力表现与操作便利性。",
+      "VK Series": "VK 系列面向商用清洗与重污冲洗场景，适合更高强度的清洁任务。",
       "Vacuum Cleaner": "适用于车间、门店、木工粉尘和地面清洁等吸尘需求。",
       "Washer Plunger Pumps": "清洗机核心泵类配件，适合维修、装配与批量配套。",
       "Washer Pressure Pipe": "高压管路与延长管配件，覆盖冲洗、疏通和连接场景。",
@@ -407,15 +418,15 @@ function setupLanguage() {
   document.documentElement.lang = state.lang === "en" ? "en" : "zh-CN";
   document.body.classList.toggle("lang-en", state.lang === "en");
   document.body.classList.toggle("lang-zh", state.lang !== "en");
-  const toggle = $("[data-lang-toggle]");
-  if (toggle) {
+  // 绑定全部语言切换入口（header 的 lang-link + 移动端抽屉菜单里的 nav-lang-toggle）
+  $$("[data-lang-toggle]").forEach((toggle) => {
     toggle.textContent = state.lang === "en" ? "中文" : "EN";
     toggle.addEventListener("click", () => {
       const next = state.lang === "en" ? "zh" : "en";
       localStorage.setItem(languageStoreKey, next);
       location.reload();
     });
-  }
+  });
   applyStaticLanguage();
 }
 
@@ -560,7 +571,7 @@ function applyStaticLanguage() {
       : "查看磐宏按参考分类整理的 87 个产品，覆盖清洗机、洗车机系列、吸尘器、清洗机柱塞泵、泡沫枪和转接头等目录。");
     setText(".page-hero .eyebrow", lang === "en" ? "PRODUCT CENTER" : "产品中心");
     setText(".page-hero h1", lang === "en" ? "Product Center" : "产品中心");
-    setText(".page-hero p:not(.eyebrow)", lang === "en" ? "Browse 87 products organized by the reference site categories, covering Washing Machine, car washing series, Vacuum Cleaner, Washer Plunger Pumps, Foam Gun and more." : "按参考分类展示 87 个产品，覆盖清洗机、洗车机系列、吸尘器、清洗机柱塞泵、泡沫枪和清洗机转接头等目录。");
+    setText(".page-hero p:not(.eyebrow)", lang === "en" ? "Browse 87 products organized by the reference site categories, covering Washing Machine, car washing series, PH Series, VK Series, Vacuum Cleaner, pumps, hoses and accessories." : "按参考分类展示 87 个产品，覆盖清洗机、洗车机系列、PH 系列、VK 系列、吸尘器、泵、管路和清洁配件等目录。");
     setPlaceholder("[data-search-input]", lang === "en" ? "Enter product model or category..." : "输入产品型号或分类...");
     setText(".search-dialog label span", lang === "en" ? "Search Products or News" : "搜索产品或动态");
   }
@@ -586,6 +597,11 @@ function applyStaticLanguage() {
     setPlaceholder("[data-search-input]", lang === "en" ? "Enter product models or company news..." : "输入产品型号、公司动态...");
     setText(".search-dialog label span", lang === "en" ? "Search Products or News" : "搜索产品或动态");
   }
+
+  // OG 分享标签随语言同步，避免切到中文后社交卡片仍是英文
+  setMeta("meta[property='og:title']", document.title);
+  setMeta("meta[property='og:description']", $("meta[name='description']")?.getAttribute("content") || "");
+  setMeta("meta[property='og:locale']", lang === "en" ? "en_US" : "zh_CN");
 }
 
 function normalizeProduct(product) {
@@ -635,7 +651,7 @@ async function loadContent() {
         readJson("/api/news")
       ]);
 
-  state.products = (productsResult.status === "fulfilled"
+  state.products = enrichProductRecords(productsResult.status === "fulfilled"
     ? productsResult.value.products
     : readLocal(storeKeys.products, DEFAULT_PRODUCTS))
     .map(normalizeProduct)
@@ -664,7 +680,7 @@ function productCard(product) {
         <img src="${escapeHTML(product.image_url)}" alt="${escapeHTML(localized.name)}" loading="lazy" />
       </div>
       <div class="product-body">
-        <span class="tag">${escapeHTML(localized.category)}</span>
+        <span class="tag">${escapeHTML(localized.brand ? `${localized.brand} · ` : "")}${escapeHTML(localized.category)}</span>
         <h3>${escapeHTML(localized.name)}</h3>
         <p>${escapeHTML(localized.tagline)}</p>
         <div class="spec-list">${specs}</div>
@@ -677,7 +693,7 @@ function newsCard(post) {
   const localized = localizeNews(post);
   const href = newsDestination(post);
   return `
-    <a class="news-card news-card-link" href="${escapeHTML(href)}">
+    <a class="news-card news-card-link" href="${escapeHTML(href)}" data-news-id="${escapeHTML(post.id)}">
       <div class="news-media">
         <img src="${escapeHTML(localized.image_url)}" alt="${escapeHTML(localized.title)}" loading="lazy" />
       </div>
@@ -698,7 +714,7 @@ function newsRow(post) {
   const localized = localizeNews(post);
   const href = newsDestination(post);
   return `
-    <a class="news-row news-card-link" href="${escapeHTML(href)}">
+    <a class="news-row news-card-link" href="${escapeHTML(href)}" data-news-id="${escapeHTML(post.id)}">
       <img src="${escapeHTML(localized.image_url)}" alt="${escapeHTML(localized.title)}" loading="lazy" />
       <div class="news-body">
         <div class="news-meta">
@@ -728,7 +744,7 @@ function productMatchesCategory(product, category) {
   if (category === "全部") return true;
   const normalizedCategory = canonicalCategory(category);
   if (normalizedCategory === "Washing Machine") {
-    return ["car washing series", "Car Washing T Series", "Industrial Series", "Permanent Magnet Series", "Washing Machine"].includes(canonicalCategory(product.category));
+    return ["car washing series", "Car Washing T Series", "PH Series", "VK Series", "Washing Machine"].includes(canonicalCategory(product.category));
   }
   return canonicalCategory(product.category) === normalizedCategory;
 }
@@ -758,10 +774,17 @@ function attachProductEvents(root = document) {
 
 function attachNewsEvents(root = document) {
   $$(".news-card, .news-row", root).forEach((card) => {
-    const open = () => openNews(card.dataset.newsId);
+    const open = (event) => {
+      // 阻止 <a> 默认跳转，让弹窗按设计打开；无弹窗的页面由 openNews 自行 fallback 跳转
+      event.preventDefault();
+      openNews(card.dataset.newsId);
+    };
     card.addEventListener("click", open);
     card.addEventListener("keydown", (event) => {
-      if (event.key === "Enter") open();
+      if (event.key === "Enter") {
+        event.preventDefault();
+        openNews(card.dataset.newsId);
+      }
     });
   });
 }
@@ -863,6 +886,13 @@ function renderNewsPage() {
   });
 
   render();
+
+  // 支持从首页跳转过来的 #slug 定位：渲染后自动打开对应新闻（首页新闻卡无弹窗时跳到 news.html#slug）
+  const hash = decodeURIComponent(location.hash.slice(1));
+  if (hash) {
+    const target = state.news.find((item) => String(item.slug) === hash || String(item.id) === hash);
+    if (target) openNews(target.id);
+  }
 }
 
 function openProduct(id) {
@@ -904,12 +934,13 @@ function openNews(id) {
     return;
   }
 
+  const localized = localizeNews(post);
   detail.innerHTML = `
-    <img src="${escapeHTML(post.image_url)}" alt="${escapeHTML(post.title)}" />
-    <span class="tag">${escapeHTML(post.category)}</span>
+    <img src="${escapeHTML(localized.image_url)}" alt="${escapeHTML(localized.title)}" />
+    <span class="tag">${escapeHTML(localized.category)}</span>
     <time datetime="${escapeHTML(post.published_at)}">${escapeHTML(post.published_at)}</time>
-    <h2>${escapeHTML(post.title)}</h2>
-    <p>${escapeHTML(post.content)}</p>
+    <h2>${escapeHTML(localized.title)}</h2>
+    <p>${escapeHTML(localized.content)}</p>
   `;
   dialog.showModal();
 }
@@ -925,8 +956,9 @@ function setupHeader() {
   }
   if (toggle && nav) {
     toggle.addEventListener("click", () => {
-      nav.classList.toggle("is-open");
-      toggle.classList.toggle("is-active");
+      const isOpen = nav.classList.toggle("is-open");
+      toggle.classList.toggle("is-active", isOpen);
+      toggle.setAttribute("aria-expanded", String(isOpen));
     });
     const groups = $$(".nav-group", nav);
     const desktopQuery = window.matchMedia("(min-width: 901px)");
@@ -980,7 +1012,13 @@ function setupSearch() {
     }
 
     const products = state.products
-      .filter((item) => `${item.name} ${item.category} ${item.tagline}`.toLowerCase().includes(query))
+      .filter((item) =>
+        [item.name, item.name_zh, item.category, item.category_zh, item.tagline, item.tagline_zh, item.description, item.description_zh]
+          .filter(Boolean)
+          .join(" ")
+          .toLowerCase()
+          .includes(query)
+      )
       .map((item) => `<a href="/subpage.html?page=${encodeURIComponent(item.slug || item.id)}">${state.lang === "en" ? "Product:" : "产品："} ${escapeHTML(item.name)}</a>`);
 
     const news = state.news
@@ -1111,8 +1149,14 @@ function setupMotion() {
     );
     elements.forEach((element) => observer.observe(element));
     window.setTimeout(() => {
+      // 兜底：只强制显示仍在视口内的元素（防 observer 漏检导致永远不可见）；
+      // 屏幕外的元素等滚动进入视口时再由 observer 逐个触发，
+      // 避免 900ms 后整页一次性全量播放动画（表现为"动画乱"）
       elements.forEach((element) => {
-        if (!element.classList.contains("is-visible")) {
+        if (element.classList.contains("is-visible")) return;
+        const rect = element.getBoundingClientRect();
+        const inViewport = rect.top < window.innerHeight && rect.bottom > 0;
+        if (inViewport) {
           element.classList.add("is-visible");
           observer.unobserve(element);
         }
@@ -1159,6 +1203,13 @@ async function init() {
   renderNewsPage();
   setupSearch();
   setupMotion();
+
+  // subpage 页面由 subpage.js 异步渲染 DOM，渲染完成后补做计数器/FAQ 绑定，
+  // 避免 app.js 先跑完 setupMotion 时子页元素尚未生成导致动画/交互缺失
+  window.addEventListener("panhiro:subpage-rendered", () => {
+    setupCounters();
+    setupFaqOpen();
+  });
 }
 
 init().catch((error) => {
