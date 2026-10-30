@@ -812,7 +812,7 @@ function renderProfile(root) {
         ["Company", "Taizhou Panhiro Electromechanical Co., Ltd."],
         ["Location", "Houwayu Industrial Zone, Daxi Town, Wenling, Taizhou, Zhejiang"],
         ["Industrial Base", "Core zone of the Wenling pump and motor cluster with strong upstream and downstream support"],
-        ["Contact", "+86 13197228342 / Contact: Pan Chen"]
+        ["Contact", "+86-18069330964 / Contact: Pan Chen"]
       ]
     : data.profile.facts;
   const sections = lang === "en"
